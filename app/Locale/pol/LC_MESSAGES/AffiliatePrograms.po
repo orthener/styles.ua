@@ -1,0 +1,28 @@
+//Model Affiliate Programs 
+
+msgid "Minimum"
+msgstr "Minimum"
+msgid "Discount"
+msgstr "Discount"
+
+msgid "Affiliate Programs"
+msgstr "Affiliate Programs"
+
+msgid "New Affiliate Program"
+msgstr "Dodaj Affiliate Program"
+
+msgid "List Affiliate Programs"
+msgstr "Lista Affiliate Programs"
+
+msgid "Edit Affiliate Programs"
+msgstr "Edycja Affiliate Programs"
+
+msgid "Delete Affiliate Programs"
+msgstr "Usuń Affiliate Programs"
+
+msgid "Admin Add Affiliate Program"
+msgstr "Dodawanie Affiliate Program"
+
+msgid "Admin Edit Affiliate Program"
+msgstr "Edycja Affiliate Program"
+

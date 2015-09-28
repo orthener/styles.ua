@@ -1,0 +1,13 @@
+
+Plugin do wstawienia informacji o ciasteczkach
+
+Wstawiamy w layout:
+
+echo $this->element('Eurocookie.cookie');
+
+lub
+
+echo $this->Html->requestAction(array('plugin' => 'eurocookie', 'controller' => 'eurocookies', 'action' => 'cookie', 'admin' => false));
+
+
+A do AppController, do helperów dodajemy: 'Fancybox.Fancybox'

@@ -1,0 +1,2793 @@
+#confView{
+    background: #fff;
+    padding-bottom: 50px;
+}
+#configuratorMain{
+    margin: 0px;
+    background: #fff;
+    display: block;
+    clear: both;
+    border: 1px solid #ced1db;
+    border-radius: 5px;
+}
+#configuratorMain ul{
+    margin: 0;
+    padding: 0px 0px 0px 60px;
+    color: #000;
+}
+#configuratorMain ul ul{
+    background: none;
+    margin: 0;
+    padding: 0px 0px 0px 10px;
+}
+#configuratorMain li:last-of-type .belkaTitle a{
+    border-bottom:0;
+}
+#configuratorMain li .belkaTitle{
+    border-bottom: 1px solid #ced1db;
+
+}
+#configuratorMain li .belkaTitle a{
+    color: #464a57;
+    display: inline-block;
+    width: 180px;
+    line-height: 47px;
+}
+#configuratorMain li .belkaTitle a.active{
+    color: #464a57;
+}
+#configuratorMain li{
+    list-style-type: none;
+    color: #464a57;
+    padding: 0;
+    margin: 0px;
+}
+#configuratorMain li:first-of-type{
+}
+#configuratorMain li .belkaTitle{
+    display: block;
+    overflow: hidden;
+    color: #9b9b9b;
+    padding: 0px  0  0 10px;
+    height: 47px;
+    font: bold 12px/54px arial, sans-serif;
+    white-space: nowrap;
+    text-decoration: none;
+}
+#configuratorMain li .belkaTitle:hover{
+    overflow: visible!important;
+}
+#configuratorMain > li > a {
+    font-size: 16px;
+}
+#configuratorMain li a span{
+    display: block;
+    float: left;
+    width: 22px;
+    padding-right: 10px;
+}
+#configuratorMain li a.unactive2{
+    color: #242424;
+    margin-left: 10px;
+    cursor: default;
+}
+#configuratorMain li .active.a2{
+    color: #6b6b6b;
+}
+#configuratorMain li a.unactive:hover{
+    text-decoration: none;
+}
+#configuratorMain li a.active{
+    color: #fff;
+}
+span.strzalka{
+    display: none;
+}
+span.strzalkaO {
+    /*background: url("../img/layouts/default/arrows.png") no-repeat scroll 0 0 transparent;*/
+    clear: right;
+    font-size: 0;
+    height: 11px;
+    left: 172px;
+    position: relative;
+    top: -31px;
+    width: 10px !important;
+}
+.dispNone{
+    display: none!important;
+}
+
+
+#conf {
+    /*float: left;*/
+    min-height: 550px;
+    /*padding: 20px 0 30px;*/
+    /*margin: 0 5px;*/
+    /*width: 724px;*/
+    position: relative;
+    /*right: 8px;*/
+}
+
+.table{
+    width: 100%;
+    margin-top: 20px;
+}
+.table th{
+    color: #000;
+    font: bold 14px/30px arial, sans-serif;
+    border-bottom: 1px solid #b8b8b8;
+}
+.table tr{
+    border: 1px solid #b8b8b8;
+    border-top: none 0px;
+    background: #fff;
+}
+.table tr th,
+.table tr td{
+    padding: 5px 10px
+}
+.table tr.dark {
+    background: #f4f4f4;
+}
+.table .label{
+    width: 190px;
+    text-align: right;
+    font: bold 12px/14px arial, sans-serif;
+    padding-right: 10px;
+}
+#conf .four{
+    float: left;
+    width: 33%;
+    /*height: 100px;*/
+    padding: 20px 0;
+}
+#conf .vertical .four{
+    float: left;
+    width: 33%;
+    height: 170px;
+    padding: 20px 0;
+}
+
+#conf .step3form {
+    padding-bottom: 10px;
+}
+
+#conf .four span{
+    display: block;
+    padding: 5px 33px 0 0;
+    text-align: center;
+}
+
+#conf input{
+    float: left;
+    /*margin: 20px 5px 0 0;*/
+}
+#conf .radio{
+    padding: 3px 0;
+}
+#conf .inputCrank, #conf .inputMotor {
+    padding: 0 0 13px 0;
+}
+#conf .inputCrank legend, #conf .inputMotor legend {
+    padding-bottom: 10px;
+}
+#conf .radio .inputMotor input, #conf .inputMotor label {
+    display: block;
+    float: left;
+}
+#conf .radio .inputMotor input {
+    margin-top: 3px;
+}
+#conf .inputMotor label {
+    width: 205px;
+}
+
+
+#conf .radio input{
+    float: none;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+}
+#conf .nextButton{
+    background: url('../img/layouts/default/nextButtonSprites.png') no-repeat 0 0;
+    width: 73px;
+    height: 32px;
+    font-size: 0;
+}
+#conf .nextButton:hover{
+    background-position: 0 -32px;
+}
+#conf .nextButton{
+    float: right;
+    margin: 0 20px 10px 0;
+
+}
+
+#conf h2.info{
+    color: #3a3a3a;
+    font: bold 14px/15px arial, sans-serif;
+    padding: 5px 0;
+    background: url('../img/layouts/default/conf_h2.png') repeat-x 0 -1px;
+    border: 1px solid #d8d8db;
+    border-bottom: none!important;
+    padding: 18px;
+    margin: 0px;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    border: 1px solid #dbdbde;
+    z-index: 5;
+}
+#conf h2.info span{
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -12px;
+    bottom: -10px;
+    width: 23px;
+    height: 13px;
+    background: url('../img/layouts/default/info_arrow.png') no-repeat;
+}
+#conf h3.info{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 1px solid #dcdcdc;
+    box-shadow: 0 1px 0 #fff;
+    padding-bottom: 5px;
+}
+#conf .box13{
+    width: 245px;
+    float: left;
+}
+#conf .box23{
+    width: 490px;
+    float: left;
+    border-left: 1px dotted #b8b8b8;
+}
+#conf .topWidth{
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 190px;
+}
+#conf .topWidth input{
+    float: none;
+    margin: 0px 0 0 10px;
+}
+#conf .rightImg{
+    float: right;
+    padding: 0 40px 40px 0;
+}
+#conf .rightImg.imgRoleta{
+    padding: 0 20px 40px 0;
+}
+#conf .leftInput{
+    padding-top: 50px;
+    float: left;
+    width: 130px;
+    text-align: center;
+}
+#conf > div.step1{
+    background: none;
+    border: none;
+}
+#conf .leftInput input{
+    float: none;
+    margin: 10px 0px 0 0;
+}
+#conf .error-message{
+    font: 11px/12px arial,sans-serif;
+}
+#conf .textContent {
+    /*    background: none repeat scroll 0 0 #FBFBFB;
+        border: 1px solid #f5f5f5;
+        border-top: none;
+        float: left;
+        margin: 0 10px;
+        padding: 0 20px;
+        width: 335px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-radius: 10px 10px 5px 5px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;*/
+}
+#conf .textContent.bez_foto{
+    width: 710px!important;
+}
+.textContent h1, #tinymce h1{
+    padding-top: 11px;
+    padding-bottom: 10px;
+    color: #464a57;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 18px;
+}
+.textContent > h1:first-of-type {
+    display: block;
+    width: 352px;
+}
+.nanoContent{
+    width: 560px!important;
+    height: 347px!important;
+    border: 1px solid #c1c5d1;
+    border-radius: 3px;
+}
+#conf .textGalleryBg {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    margin: 0 20px 20px 0;
+    /*padding: 0 0 20px 0;*/
+    position: relative;
+    width: 290px;
+}
+#conf .textGallery {
+    float: right;
+    overflow: hidden;
+    width: 280px;
+    /*padding: 10px;*/
+}
+#conf .inputBarContent .textContent{
+    /*width: 270px;*/
+}
+#conf .inputBarContent .textGallery{
+    width: 252px;
+    /*height: 100px;*/
+    overflow: hidden;
+}
+#conf .textGallery .textGalleryImg{
+    padding-bottom: 10px;
+    height: 220px!important;
+    width: 250px!important;
+    overflow: hidden;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    margin: auto;
+}
+#conf .textGallery .textGalleryPager{
+    padding-top: 10px;
+}
+#conf .textGallery .textGalleryImg img{
+    /*width: 250px;*/
+    /*height: 220px;*/
+    margin: auto;
+    display: block;
+}
+#conf .inputBarContent .textGallery .textGalleryImg{
+    width: 240px;
+}
+/*#conf .inputBarContent .textGallery .textGalleryImg img,*/
+#conf .inputBarContent .textGallery .textGalleryImg{
+    width: 240px;
+    height: 160px;
+}
+#conf .inputBarContent .textGallery .textGalleryImg img + img{
+
+}
+#conf .textGallery .textGalleryImg a img{
+    border: 1px solid #b8b8b8;
+    border-radius: 5px;
+}
+#conf .textGallery .textGalleryImg > a:nth-of-type(1){
+    float: left!important;
+}
+#conf .textGallery .textGalleryImg > a:nth-of-type(2){
+    float: right!important;
+}
+#conf .textGallery .textGalleryImg > a:nth-of-type(2n){
+    float: left;
+}
+#conf .textGallery .textGalleryImg > a + a{
+    float: right;
+}
+#conf .textGallery .textGalleryImg a{
+    float: left;
+    padding-top:10px;
+    margin-bottom: 10px;
+}
+#conf .textGallery .textGalleryImg a.activeSlide{
+    /*background: url('../img/layouts/default/arrow.png') no-repeat 51% top;*/
+    /*padding-top: 10px;*/
+    position: relative;
+    display: block-inline;
+}
+#conf .textGallery .textGalleryImg a.activeSlide img{
+    border: 1px solid #007ad5;
+    position: relative;
+    border-radius: 3px;
+    /*background: url('../img/layouts/default/arrow.png') no-repeat top;*/
+}
+#conf .smallText{
+    background: url('../img/configurator/input.png') no-repeat;
+    width: 85px;
+    padding: 0 5px;
+    height: 32px;
+    border: 0px;
+    line-height: 32px;
+}
+#conf .radioMin{
+    margin-top: 10px;
+}
+#conf .radioMin input{
+    display: none;
+}
+#conf .radioMin img{
+    cursor: pointer;
+}
+#conf .radioMin .radio{
+    float: left;
+    width: 25%;
+}
+#conf .radioMin .radio{
+    text-align: center;
+}
+#conf .radioMin .radio .fl{
+    padding-right: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+#conf .radioMin .radio .hidden{
+    display: none;
+}
+#conf .radioMin .radio .disabled > label > img{
+    opacity: 0.3;
+}
+#conf .radioMin .radio .legend{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+#conf .radioMin .radio img{
+    /*border: 1px solid #F5F5F5;*/
+}
+#conf .radioMin .radio label{
+    border: 1px solid #F5F5F5;
+    display: block;
+    position: relative;
+
+}
+#conf .radioMin .radio label img{
+    /*    float: left;*/
+    display: inline;
+    border-radius: 3px;
+}
+#conf .radioMin .radio .active label{
+    box-shadow: 0 0 2px #e60005;
+    border-radius: 5px;
+    display: block;
+    position: relative;
+}
+#conf .radioMin .active img{
+    /*border-color: #25FDFB;*/
+    border-radius: 5px;
+}
+#conf .step4form.vertical{
+    position: relative;
+}
+#conf .vertical .radioMin{
+    display: block;
+    float: left;
+    /*height: 500px;*/
+    left: 0;
+    margin: 20px auto;
+    position: relative;
+    width: 280px;
+    /*width: 610px;*/
+}
+#conf .vertical .radioMin .radio{
+    display: block;
+    /*float: left;*/
+    height: 25%;
+    width: 200px;
+}
+#conf .vertical .radioMin .radio .legend{
+    font-weight: bold;
+    margin-top: 50px;
+}
+#conf .vertical > .radioMin + div {
+    float: left;
+    margin: auto;
+    padding: 0 100px;
+    width: auto;
+}
+#conf > .clearfix.step6form.vertical div > .clearfix.drawSash {
+    float: left;
+    width: 400px;
+}
+#conf .WindowConfigurationWindowFitting{
+    float: left;
+    width: 350px;
+    padding-right: 35px;
+}
+#conf .WindowConfigurationWindowFitting label{
+    font-weight: bold;
+}
+
+#conf .WindowConfigurationWindowFitting span{
+    display: block;
+    font: italic 12px/14px arial, sans-serif;
+    padding-left: 20px;
+}
+#WindowConfigurationWindowFitting .more{
+    text-align: right;
+    color: #E70D12;
+    cursor: pointer;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    right: 20px;
+    top: -16px;
+}
+#conf #colorsBlock2{
+    /*float: left;*/
+    width: 350px;
+}
+#conf #colorsBlock2 .inputBarContent{
+    width: auto;
+}
+#conf .radio3column legend{
+    display: block;
+}
+#conf .radio3column .input{
+    float: left;
+    width: 230px;
+}
+/*#conf .inputColor{
+    width: 250px;
+    float: left;
+}
+*/
+#conf .inputColor input{
+    display: none;
+}
+/*
+#conf .inputColor label{
+    cursor: pointer;
+    display: block;
+    line-height: 55px;
+    padding: 5px;
+}*/
+#conf.awningConfigurator .inputColor label{
+    line-height: 1.1;
+    padding-bottom: 15px;
+}
+#conf .inputColor label span{
+    display: block;
+    height: 29px;
+    border-radius: 5px;
+    background-position: center center!important;
+    background-size: 150px!important;
+}
+.step2form #colorsBlock245 .inputColor label span {
+    background-size: auto auto !important;
+}
+/*#conf .inputColor label{
+    border-radius: 5px;
+    padding: 1px;
+}
+#conf .inputColor.active label{
+    box-shadow: 0 0 10px #ed7a7d;
+        padding: 2px;
+        margin: 0 6px;
+}*/
+#conf .inputColorThree{
+    width: 33%;
+    float: left;
+    height: 20px;
+    height: 150px;
+}
+#conf .inputColorThree input{
+    display: none;
+}
+#conf .inputColorThree label{
+    width: 100px;
+    padding: 3px;
+    display: block;
+}
+#conf .inputColorThree label span{
+    float: none;
+    display: block;
+    border: 2px solid #f5f5f5;
+    margin: auto;
+    width: 95px;
+    height: 90px;
+    margin: 0px auto 5px;
+    border-radius: 5px;
+    background-repeat: no-repeat!important;
+    background-position: 0 50%!important;
+    background-color: #fff!important;
+}
+#conf .inputColorThree.active label span{
+    box-shadow: 0 0 5px #007ad5;
+    border-radius: 5px;
+    border: 2px solid #007ad5;
+}
+
+#conf .inputBar{
+    /*float: left;*/
+    /*width: 150px;*/
+    /*position: relative;*/
+    /*z-index: 10;*/
+}
+#conf .inputBarContent{
+    /*    float: left;
+        background: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 1px 1px 3px #666666;
+        width: 557px;*/
+}
+#conf .inputBar{
+    padding: 0 0 20px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #c1c5d1;
+}
+#conf .inputBar.radioSprites{
+    background: none;
+}
+#conf .inputBar.radioSprites label{
+    background: url('../img/layouts/default/radioSprites.png') no-repeat 0 -1px;
+}
+#conf .inputBar label{
+    /*display: block;*/
+    /*padding: 5px 10px 5px 20px;*/
+    /*width: 124px;*/
+    background: url('../img/layouts/default/tickSprites.png') no-repeat 0 -1px;
+    padding-left: 24px;  
+    padding-bottom: 3px;
+    font-size: 13px;
+    font-weight: bold;
+}
+#conf .inputBar .radio{
+    float: left;
+}
+#conf .inputBar .radio:nth-of-type(1){
+    margin-right: 20px;
+}
+#conf .inputBar .radio ~ .radio{
+    margin: 0 20px;
+}
+#conf .inputBar .active label{
+    background-position: 0 -20px;
+    /*background: #fff;*/ 
+    /*border-radius: 5px 0 0 5px;*/
+    /*box-shadow: -3px 1px 3px #aaa;*/
+    /*padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
+
+}
+#conf .inputBar input{
+    display: none;
+}
+
+.width100{
+    width: 105px;
+}
+body .ui-tooltip-red .ui-tooltip-content{
+    color: #fff;
+    background: #da0005;
+    border-radius: 3px;
+    border: 1px solid #7f0000;
+    font: bold 14px/16px arial, sans-serif;
+    text-shadow: 1px 1px 1px #ac0002;
+}
+#conf .borderWhiteContent{
+    /*padding: 20px 40px;*/
+    /*margin-bottom: 20px;*/  
+}
+#conf .borderWhiteContent .inputColor{
+    width: 47px;
+}
+#conf.awningConfigurator .borderWhiteContent .inputColor{
+    width: 280px;
+}
+#conf  .inputBarContetntOut{
+    width: 365px;
+    float: left;
+}
+#conf .inputBarContetntMinOut{
+    width: 350px;
+    float: left;
+}
+#conf .inputBarContetntMinOutImg{
+    clear: both;
+    margin-top: 10px;
+    border-top: 1px solid #dcdcdc;
+}
+#conf .inputBarContetntMinOutImg img{
+    display: block !important;
+    margin: auto;
+    padding: 10px 0;
+    /*    max-width: 250px;*/
+    max-height: 180px;
+}
+#conf .inputBarContetntMin{
+    /*    background: #fff;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 1px 1px 3px #676767;
+        min-height: 122px;    */
+}
+#conf .inputBarContetntMin .glassTypeIdRadio{
+    padding: 3px 0;
+}
+#conf .inputBarContetntMin .glassTypeIdRadio input{
+    display: none;
+}
+#conf .inputBarContetntMin .glassTypeIdRadio input + label{
+    width: 310px;
+    padding: 10px 10px;
+    background: #fff;
+    position: relative;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #d8d8db;    
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+#conf .inputBarContetntMin .glassTypeIdRadio input + label > .little {
+    font-size: 13px;
+    display: block;
+    margin-top: 5px;
+    font-weight: normal;
+}
+#conf .inputBarContetntMin .glassTypeIdRadio input:checked + label{
+    border: 1px solid #007ad5;
+    box-shadow: 0 0 5px #007ad5;
+    border-radius: 3px;
+}
+
+#conf .whiteContentShadowOut{
+    float: left;
+    width: 415px;
+
+}
+#conf .whiteContentShadowOut .whiteContentShadow{
+    padding: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 1px 1px 3px #666666;
+    background: #fff;
+}
+#conf .whiteContentShadowOut .inputColor{
+    width: 197px;
+}
+#conf #mainDraw{
+    margin-top: 20px;
+}
+#conf .bar_style{
+    border: 1px solid #c5c5c5;
+    cursor: pointer;
+}
+#conf .active .bar_style{
+    border: 1px solid #007ad5;
+    box-shadow: 0 0 10px #007ad5;    
+}
+
+.crankMotortab {
+    background-color: white;
+    border: 1px solid #aaaaaa;
+    padding: 5px 20px;
+}
+
+
+#motor .motor_options input {
+    margin: 2px 6px 5px 0;
+    float: none;
+    vertical-align: middle;
+}
+
+#step8Div input {
+    margin: 2px 6px 5px 0;
+    float: none;
+    vertical-align: middle;
+}
+
+
+
+
+
+/* MARKIZY*/
+.awningConfigurator #sliderWidth{
+    width: 260px;
+    margin: auto;
+    height: 4px;
+    border-top: 1px solid #bdbdbd;
+    background: #cccccc;
+}
+.awningConfigurator #sliderWidth .ui-slider-handle{
+    width: 11px;
+    height: 24px;
+    background: url(../img/configurator/handle-horizontal.png) no-repeat center transparent;
+    border-radius: 0px;
+    border: 0px none;
+    top: -12px;
+    cursor: move;
+    cursor: col-resize;
+}
+.awningConfigurator #slider{
+    float: right;
+    height: 260px;
+    width: 5px;
+    background: #cccccc;
+    right: 100px;
+    top: 25px;
+}
+.awningConfigurator #slider .ui-slider-handle{
+    width: 24px;
+    height: 11px;
+    background: url(../img/configurator/handle-vertical.png) no-repeat center transparent;
+    border-radius: 0px;
+    border: 0px none;
+    left: -10px;
+    cursor: move;
+    cursor: row-resize;
+}
+#conf.awningConfigurator .step2form div img {
+    margin: 0 0 0 100px;
+    padding: 20px 0px;
+    float: none;
+}
+#conf.awningConfigurator .step2form .select{
+    text-align: right;
+}
+#conf.awningConfigurator .step2form .select label{
+    padding-right: 5px;
+}
+#conf.awningConfigurator  .step4style{
+    float: right;
+    width: 355px;
+}
+#conf.awningConfigurator .step4form h2{
+    font: bold 14px/16px arial, sans-serif;
+    color: #4e4e4e;
+}
+#conf.awningConfigurator .fabricStyleSelect{
+    position: relative;
+    border: 1px solid #d0d0d0;
+    background: #fff;
+    padding: 80px 0;
+    min-height: 110px;
+    border-radius: 10px;
+}
+#conf.awningConfigurator .fabricStyleSelect img{
+    margin: auto;
+    width: 315px;
+
+}
+#conf.awningConfigurator .fabricStyleSelect a{
+    position: absolute;
+    width: 133px;
+    height: 77px;
+    border-radius: 10px;
+    top: 90px;
+    left: 110px;
+    color: #fff;
+    text-align: center;
+    font: bold 16px/77px arial, sans-serif;
+
+    background-image: linear-gradient(top, rgb(179,179,179) 25%, rgb(155,155,155) 63%, rgb(129,129,129) 82%);
+    background-image: -o-linear-gradient(top, rgb(179,179,179) 25%, rgb(155,155,155) 63%, rgb(129,129,129) 82%);
+    background-image: -moz-linear-gradient(top, rgb(179,179,179) 25%, rgb(155,155,155) 63%, rgb(129,129,129) 82%);
+    background-image: -webkit-linear-gradient(top, rgb(179,179,179) 25%, rgb(155,155,155) 63%, rgb(129,129,129) 82%);
+    background-image: -ms-linear-gradient(top, rgb(179,179,179) 25%, rgb(155,155,155) 63%, rgb(129,129,129) 82%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0.25, rgb(179,179,179)),
+        color-stop(0.63, rgb(155,155,155)),
+        color-stop(0.82, rgb(129,129,129))
+        );
+
+    display: none;
+
+}
+#conf.awningConfigurator .fabricStyleSelect:hover a{
+    text-decoration: none;
+    display: block;
+}
+#conf.awningConfigurator .fabricStyleSelect a:active{
+
+    background-image: linear-gradient(bottom, rgb(179,179,179) 25%, rgb(155,155,155) 63%, rgb(129,129,129) 82%);
+    background-image: -o-linear-gradient(bottom, rgb(179,179,179) 25%, rgb(155,155,155) 63%, rgb(129,129,129) 82%);
+    background-image: -moz-linear-gradient(bottom, rgb(179,179,179) 25%, rgb(155,155,155) 63%, rgb(129,129,129) 82%);
+    background-image: -webkit-linear-gradient(bottom, rgb(179,179,179) 25%, rgb(155,155,155) 63%, rgb(129,129,129) 82%);
+    background-image: -ms-linear-gradient(bottom, rgb(179,179,179) 25%, rgb(155,155,155) 63%, rgb(129,129,129) 82%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.25, rgb(179,179,179)),
+        color-stop(0.63, rgb(155,155,155)),
+        color-stop(0.82, rgb(129,129,129))
+        );
+}
+#step4styles{
+    width: 500px; 
+    height: 500px; 
+    overflow-y:scroll;
+}
+#step4styles a{
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+#step4styles h2{
+    text-align: center;
+    font: bold 16px/18px arial, sans-serif;
+}
+#conf.awningConfigurator .step5form{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px #d0d0d0;
+    padding: 10px;
+}
+#conf.awningConfigurator #valanceDiv input{
+    display: none;
+}
+#conf.awningConfigurator #valanceDiv  .inputValance{
+    float: left;
+    width: 175px;
+    padding: 10px 0;
+    border: 3px solid #fff;
+    border-radius: 2px;
+}
+#conf.awningConfigurator #valanceDiv .inputValance label{
+    cursor: pointer;
+    height: 43px;
+    display: block;
+    margin: auto;
+    line-height: 50px;
+    padding-bottom: 15px;
+    width: 150px;
+}
+#conf.awningConfigurator #valanceDiv .inputValance label span{
+    display: block;
+    width: 150px;
+    height: 43px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 2px solid #f5f5f5;
+    float: left;
+}
+
+#conf.awningConfigurator #valanceDiv .inputValance.active{
+    border-color: #de0e16;
+}
+#conf.awningConfigurator .motor_motor{
+    float: left;
+    width: 230px;
+    padding-right: 40px;
+}
+#conf.awningConfigurator .bedienseite{
+    padding-bottom: 20px;
+}
+#conf.awningConfigurator .bedienseite legend{
+    float: left;
+    font: bold 14px/16px arial,sans-serif;
+    padding-right: 10px;
+}
+#conf.awningConfigurator .bedienseite input{
+    margin-right: 5px;
+    margin-left: 10px;
+}
+#conf.awningConfigurator .motor_options .select > label,
+#conf.awningConfigurator .motor_motor legend{
+    font: bold 14px/16px arial, sans-serif;
+    color: #3a3a3a;
+    display: block;
+    margin-bottom: 4px;
+}
+#conf.awningConfigurator .motor_options{
+    float: left;
+    width: 275px;
+}
+#conf.awningConfigurator #step8Div .select > label,
+#conf.awningConfigurator #step7Div legend{
+    font: bold 14px/20px arial, sans-serif;
+    color: #3a3a3a;
+    display: block;
+    padding-bottom: 10px;
+}
+#conf.awningConfigurator #step7Div .radio label{
+    margin-right: 10px;
+}
+
+.orderItemDetails div.details {
+    float: left; 
+    widht: 60%;
+}
+
+.orderItemDetails div.thumb > img { 
+    display: inline;
+    vertical-align: bottom;
+}
+.orderItemDetails div.thumb {
+    float: left; 
+    width: 140px;
+    padding: 10px;
+    text-align: center;
+}
+
+.orderItemDetails div.thumb > div.rama {
+    margin: 0 auto;
+}
+
+td.photo > .rama {
+    margin: 0 auto;
+}
+
+table.summaryTable tr,
+table.configurationTable tr{
+    border: none!important;
+}
+table.summaryTable tr.tableSum,
+table.configurationTable tr.tableSum{
+    border-top: 1px solid #242424!important;
+}
+table.summaryTable td.priceCol,
+table.configurationTable td.priceCol {
+    width: 85px;
+    text-align: right;
+}
+
+.awningConfigurator #step8Div .checkbox {
+    padding: 10px;
+    min-height: 58px;
+}
+
+.awningConfigurator #step8Div .checkbox img {
+    display: block;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.awningConfigurator #step8Div .checkbox input {
+    display: block;
+    float: left;
+    margin-top: 20px;
+}
+
+.awningConfigurator #step8Div .even{
+    background-color: white;
+}
+
+#motorOptions div.checkbox {
+    padding-bottom: 9px;
+}
+
+div #conf.awningConfigurator #motorOptions label {
+    padding-bottom: 10px;
+}
+
+div.step8color {
+    padding: 30px 0 0 0;
+}
+
+.step8colorLink {
+    width: 44%;
+    float: left;
+    padding: 3px 3%;
+}
+#step3styles .step8colorLink {
+    width: auto;
+    float: left;
+    padding: 3px 3%;
+    text-align: center;
+}
+
+.step8colorDiv {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 5px;
+    border: 2px solid #f5f5f5;
+}
+.glassPattern span + div, .step8colorDiv + div {
+    background: url("../img/layouts/default/hint_top.png") no-repeat scroll 0 0 transparent;
+    height: 58px;
+    margin-left: 30px;
+    margin-top: -30px;
+    padding-left: 8px;
+    padding-right: 10px;
+    position: absolute;
+    text-align: center;
+    width: 91px!important;
+    text-align: center;
+    display: none;
+}
+/*.glassPattern span.active + div, .glassPattern span:hover + div, .step8colorDiv.active + div, .step8colorDiv:hover + div{*/
+.glassPattern span:hover + div, .step8colorDiv:hover + div{
+    display: table;
+}
+input:checked + label > .step8colorDiv{
+    box-shadow: 0 0 5px #007ad5;
+}
+/*input:checked + label > .step8colorDiv + div{
+    display: table;
+}*/
+#conf .inputColor label > div > span, .step8colorDiv + div > span {
+    color: #FFFFFF;
+    display: table-cell;
+    font-size: 12px;
+    font-weight: bold;
+    height: 55px;
+    margin: auto;
+    position: relative;
+    vertical-align: middle;
+    width: 100px;
+    padding-top: 3px;
+}
+.fr .step8colorDiv + div{
+    margin-top: -60px;
+}
+.fr input + label:hover > .step8colorDiv + div, .fr input:checked + label > .step8colorDiv + div {
+    display: block;
+}
+.fr input + label > .step8colorDiv + div {
+    display: none;
+}
+#windowBarTypeWidths {
+    clear: both; 
+    /*padding-top: 30px;*/
+}
+#windowBarTypeWidths .input.select{
+    font-size: 14px;
+}
+#windowBarTypeWidths .input label{
+    margin-right: 50px;
+}
+#windowBarTypeWidths .input select {
+    font-size: 14px;
+    padding: 10px 3px 10px 5px;
+    text-align: center;
+    width: 60px;
+}
+
+.borderWhiteBg .fl .input.radio fieldset label{
+    display: block;
+    padding-top: 0!important;
+    line-height: 20px!important;
+}
+.mosquitoRadio h2{
+    font: bold 14px/20px arial, sans-serif;
+    color: #3a3a3a;
+}
+.mosquitoRadio .radio input{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.mosquitoRadio .radio label{
+    font: normal 12px/14px arial, sans-serif;
+    color: #3a3a3a;
+    padding-right: 10px;
+}
+#guideChannelRadio h2{
+    font: bold 14px/16px arial, sans-serif;
+}
+#guideChannelRadio .radio{
+    float: left;
+}
+#guideChannelRadio .radio input{
+    display: none;
+}
+#guideChannelRadio .radio label{
+    display: inline-block;
+    margin: 10px;
+    font: normal 12px/25px arial, sans-serif;
+    color: #3a3a3a;
+    text-align: center;
+}
+#guideChannelRadio .radio label img {
+    border: 4px solid #fff;
+}
+#guideChannelRadio .radio label.active img{
+    border-color: #de0e16;
+}
+
+
+.step1submenu.stepSubmenu.a2 > li a.active {
+    background: none repeat scroll 0 0 transparent !important;
+}
+
+
+.step11form .accessory-content {
+    display: none;
+}
+.step11form .selected-accessory .accessory-content {
+    display: block;
+}
+
+#conf > div {
+    background: #f5f5f5;
+    border: 1px solid #d8d8db;
+    border-radius: 10px;
+}
+#conf .step5form .four{
+    padding: 40px 0;
+    text-align: center;
+    width: auto;
+    margin: 0 20px;
+    cursor: pointer;
+}
+#conf .step5form .four input{
+    display: none;
+}
+#conf .step5form .four input + label img{
+    cursor: pointer;
+    padding: 2px;
+    margin: 0 auto;
+}
+#conf .step5form .four input + label img:hover{
+    box-shadow: 0 0 5px #005AC9;
+}
+#conf .step5form .four input:checked + label img{
+    box-shadow: 0 0 5px #005AC9;
+}
+
+#configuratorMain li#step13 > a {
+    height: 58px;
+}
+
+/*.step3form input[type="radio"] + label {
+    font-size: 15px;
+    font-weight: bold;
+    color: #4d4a4a;
+    line-height: 30px;
+    margin: 15px 20px 15px 10px;
+    padding-top: 20px;
+    cursor: pointer;
+
+}*/
+/*
+.step3form input[type="radio"] {
+    position: relative;
+    top: -2px;
+    display: none;
+}*/
+/*.step3form input[type="radio"]:checked + label{
+    text-decoration: underline;
+}*/
+
+.borderWhiteBg{
+    background: #fff;
+    /*padding: 20px;*/
+    /*border: 1px solid #d8d8db;*/
+    /*border-radius: 10px;*/
+    margin: 20px 80px 20px 0;
+    float: left;
+}
+.borderWhiteBg:last-of-type{
+    margin-right: 0;
+}
+.borderWhiteBg legend{
+    display: none;
+}
+#rollerShutterContent div.napedy{
+    /*position: relative;*/
+    /*top: 20px;*/
+}
+#rollerShutterContent{
+    font-size: 15px;
+    font-weight: bold;
+    color: #4d4a4a;
+}
+#rollerShutterContentOverlay{
+    position: absolute;
+    width: 900px;
+    height: 250px;
+    background: #fff;
+    z-index: 500;
+    opacity: 0.85;
+    border-radius: 10px;
+}
+#rollerShutterContent h2{
+    font-size: 15px;
+    color: #4d4a4a;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#rollerShutterContent .borderWhiteBg > .input.radio{
+    float: left;
+    clear: both;
+}
+#rollerShutterContent .borderWhiteBg > div > div.clearfix{
+    float: left;
+}
+#rollerShutterContent .checkbox input {
+    margin: 0 2px 2px 0;
+    float: none;
+    vertical-align: middle;
+}
+#rollerShutterContent .checkbox {
+    padding: 0 0 5px 0;
+}
+.h200{
+    height: 200px;
+}
+#conf > div.step8form{
+    background: #fff!important;
+    border: none;
+}
+#conf > div.step8form .inputBarContetntMin{
+    background: #f5f5f5;
+    border: 1px solid #d8d8db;
+    border-radius: 10px;
+    box-shadow: none!important;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    position: relative;
+    z-index: 0;
+    top: -4px;
+}
+#WindowConfigurationRecordGlassTypeId {
+    margin: 0 auto;
+    width: 330px;
+}
+.glassPattern .inputColor{
+    width: 120px!important;
+    height: 108px;
+    float: left;
+    margin: 20px;
+}
+.glassPattern .inputColor label{
+    line-height: 20px!important;
+}
+
+.glassPattern span + div{
+    text-align: center;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 30px;
+    width: 107px;
+    height: 58px;
+    display: none;
+    background: url('../img/layouts/default/hint_top.png') no-repeat 0 0;
+    /*padding-top: 10px;*/
+}
+.glassPattern span + div > span {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px !important;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    /*top: 5px;*/
+}
+#barStyles{
+    margin-top: 10px;
+}
+/*#colorsBlock245{
+    position: relative;
+    padding-top: 20px;
+    float: left;
+}*/
+.step9form #colorPlaceRadios > .input.radio{
+    width: 610px;
+}
+/*.step9form #colorsBlock245 {
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+    width: 520px;
+    float: none!important;
+}*/
+
+
+.step9colorDiv {
+    display: block;
+    width: 106px;
+    height: 120px;
+    border-radius: 5px;
+    border: 2px solid #f5f5f5;
+}
+.step9colorDiv + div{
+    text-align: center;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 30px;
+    width: 107px;
+    height: 55px;
+    background: url('../img/layouts/default/hint_top.png') no-repeat 0 0;
+    padding-top: 10px;
+}
+.step9colorDiv + div > span{
+    position: relative;
+    top: 7px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+}
+#step3styles, #step9styles {
+    overflow: auto;
+    padding: 20px 30px 60px;
+    width: 900px;
+}
+#step9styles > div{
+    float: left;
+}
+
+#step3styles > div > a:hover > span + div, #step9styles > div > a:hover > span + div{
+    display: table-cell!important;
+}
+.step9color{
+    margin: 20px 0;
+}
+.step9color .fabricStyleSelect {
+    width: 150px;
+}
+
+
+
+/*dodatki */
+
+#conf .accessory {
+    height: 45px;
+}
+#conf .accessory td{
+    padding: 10px 0;
+}
+#conf .accessory:nth-of-type(2n-1){
+    background-color: #f6f6f6;
+}
+#conf .accessory .accessoryName{
+    cursor: pointer;
+}
+#conf .accessory input{
+    margin: 0;
+    position: relative;
+    top: 1px;
+}
+#conf .accessory input + label{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    /*float: left;*/
+}
+#conf .accessory input.accessory-checkbox{
+    display: none;
+}
+#conf .accessory input.quantityInput{
+    width: 52px;
+    height: 34px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; /* border radius */
+    /*-moz-background-clip: padding;*/
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #fff; /* layer fill content */
+    -moz-box-shadow: inset 0 1px 3px rgba(0,1,1,.45); /* inner shadow */
+    -webkit-box-shadow: inset 0 1px 3px rgba(0,1,1,.45); /* inner shadow */
+    box-shadow: inset 0 1px 3px rgba(0,1,1,.45); /* inner shadow */
+    border:none;
+    text-align: center;
+}
+#conf .accessory input.quantityInput.disabled{
+    background-color: #f6f6f6;
+}
+#conf .accessory .accessoryInput label{
+    position: relative;
+    line-height: 34px;
+}
+#conf .accessory.selected-accessory input + label{
+    background-position: 0 -20px;
+}
+.accessory-content .colorRadioDiv{
+    float: right;
+}
+.WindowVentilatorDiv{
+    display: block;
+    float: right;
+    margin-right: 15px;
+}
+.WindowVentilatorDiv input {
+    clear: left;
+    float: left !important;
+    position: relative;
+    top: 6px!important;
+    left: 2px;
+}
+.WindowVentilatorDiv input + label{
+    float: left;
+    margin: 4px 0;
+}
+.WindowVentilatorDiv input:checked + label{
+    background-position: 0 -20px!important;
+}
+.WindowVentilatorDiv input + label{
+    background: url('../img/layouts/default/radioSprites.png') 0 -1px no-repeat!important;
+    padding-left: 24px;
+}
+.selected-accessory .accessory-content{
+    margin-top: 10px;
+    padding: 10px;
+    /*position: absolute;*/
+    position: relative;
+    /*    right: 70px;
+        top: 40px;
+        width: 630px;*/
+}
+.selected-accessory .accessory-content h3{
+    font-size: 15px;
+    font-weight: bold;
+}
+.roller_shutter_drive_color_id{
+    float: left;
+    margin-left: 85px;
+}
+.roller_shutter_drive_color_id input{
+    display: none;
+}
+.roller_shutter_drive_color_id input:checked + label > .step8colorDiv {
+    box-shadow: 0 0 5px #005AC9;
+}
+.roller_shutter_drive_color_id .step8colorDiv{
+    float: left;
+}
+.roller_shutter_drive_color_id .step8colorDiv + div{
+    margin-top: 90px;
+}
+.roller_shutter_drive_color_id label{
+    float: left;
+    padding-top: 0!important;
+}
+.roller_shutter_drive_color_id .step8colorDiv + div > span{
+    position: relative;
+    top: 5px;
+}
+input.napedy{
+    float: left!important;
+    margin: 0!important;
+    margin-right: 10px!important;
+    position: relative!important;
+    top: 4px!important;
+}
+.napedy input{
+    float: left;
+    display:block;
+    clear: both;
+}
+.napedy input + label{
+    width: auto;
+}
+input.napedy + label {
+    margin: 0 !important;
+    /*width: 200px;*/
+    margin-bottom: 20px!important;
+    text-decoration: none!important;
+    float: left;
+    /*clear: both*/
+}
+.napedy span.napedMore{
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 2px;
+    margin-left: 15px;
+    color: #E70D12;
+    cursor: pointer;
+}
+input.pilot, input.napedy{
+    float: left!important;
+    margin: 0!important;
+    margin-right: 10px!important;
+    position: relative!important;
+    top: 4px!important;
+}
+input.pilot{
+    display: none;
+}
+
+input.napedy + label {
+    margin: 0 !important;
+    /*width: 200px;*/
+    margin-bottom: 20px!important;
+    text-decoration: none!important;
+}
+.accessory-content .colorRadioDiv input[type="radio"]{
+    display: none;
+}
+.accessory-content .colorRadioDiv input + label{
+    float: left;
+}
+.inputRAL {
+    left: 20px;
+    position: relative;
+    top: 40px;
+}
+.inputRAL label{
+    clear: both; 
+    float: left;
+    position: relative;
+    top: 10px;
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.inputRAL input.smallText{
+
+    float: left;
+    width: 100px;
+}
+
+.rotate180, .rotate90{
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg) ;
+    transform: rotate(90deg);
+    display: block;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: -60px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 105px;
+}
+.rotate90{
+    display: block;
+    position: absolute;
+    margin-left: 420px;
+    margin-top: 180px;
+}
+
+
+/*.step8colorDiv + div{
+    background: url("../img/layouts/default/hint_top2.png") no-repeat 0 0;
+    clear:both;
+    float: right;
+    position: relative;
+    right: 30px;
+    height: 55px;
+    padding-left: 16px;
+    cursor: pointer;
+}
+.step8colorDiv + div span{
+    cursor: pointer;
+    background: url("../img/layouts/default/hint_top2.png") no-repeat 100% 0;
+    height: 55px;
+    border: 0;    
+    margin-right: -135px;
+    padding-bottom: 46px;
+    padding-right: 15px;
+    top: -11px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: lowercase;
+}*/
+
+table.accessories *{
+    border: none!important;
+    background: transparent;
+}
+table.accessories tr{
+    border-bottom: 1px solid #ddd!important;
+}
+table.accessories td{
+    /*display: block;*/
+    padding: 5px 0!important;
+    width: 410px;
+}
+.step10form{
+    background: none!important;
+    border: none!important;
+}
+.step10form .borderWhiteContent{
+    position: relative;
+}
+#WindowConfigurationWindowFitting > div > label > span{    
+    margin: 10px 0 10px 0;
+}
+#WindowConfigurationWindowFitting > div > input{
+    display: none!important;
+}
+#WindowConfigurationWindowFitting > div > label h3 {
+    /*background: url("../img/layouts/default/conf_h2.png") repeat-x scroll 0 center transparent;*/
+    border: 1px solid #d8d8db;
+    /*border-radius: 10px 10px 10px 10px;*/
+    display: block;
+    margin: auto;
+    padding: 0 0 0 20px;
+    height: 45px;
+    line-height: 44px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#WindowConfigurationWindowFitting > div > input:checked + label h3{
+    box-shadow: 0 0 5px #007ad5;
+    border: 1px solid #007ad5;
+}
+#WindowConfigurationWindowFitting > div > input:checked + label h3 + span{
+    display: block!important;
+}
+.blockUI.blockMsg.blockPage{
+    padding: 20px!important;
+    border: 3px solid #007AD5!important;
+    font-size: 16px!important;
+    background: #fafafa!important;
+    font-weight: bold!important;
+    color: #4B4B4B!important;
+    opacity: 0.8!important;
+    box-shadow: 1px 1px 5px #007AD5!important;
+}
+
+.buttonsSprites{
+
+    background-image: linear-gradient(bottom, rgb(229,229,229) 50%, rgb(242,242,242) 0%);
+    background-image: -o-linear-gradient(bottom, rgb(229,229,229) 50%, rgb(242,242,242) 0%);
+    background-image: -moz-linear-gradient(bottom, rgb(229,229,229) 50%, rgb(242,242,242) 0%);
+    background-image: -webkit-linear-gradient(bottom, rgb(229,229,229) 50%, rgb(242,242,242) 0%);
+    background-image: -ms-linear-gradient(bottom, rgb(229,229,229) 50%, rgb(242,242,242) 0%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.5, rgb(229,229,229)),
+        color-stop(0, rgb(242,242,242))
+        );
+    background-color: #e5e5e5;
+    border: 1px solid #c6c6c6;
+    border-radius: 5px;
+    /*height: 43px;*/
+    padding: 15px;
+    /*border: 0;*/
+    cursor: pointer;
+    font-size: 16px;
+    color: #4d4a4a;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #ffffff;
+    display: block;
+    text-align: center;
+}
+.buttonsSprites:active{
+    background-image: linear-gradient(bottom, rgb(218,0,4) 50%, rgb(231,13,16) 0%);
+    background-image: -o-linear-gradient(bottom, rgb(218,0,4) 50%, rgb(231,13,16) 0%);
+    background-image: -moz-linear-gradient(bottom, rgb(218,0,4) 50%, rgb(231,13,16) 0%);
+    background-image: -webkit-linear-gradient(bottom, rgb(218,0,4) 50%, rgb(231,13,16) 0%);
+    background-image: -ms-linear-gradient(bottom, rgb(218,0,4) 50%, rgb(231,13,16) 0%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.5, rgb(218,0,4)),
+        color-stop(0, rgb(231,13,16))
+        );
+    background-color: #e70d10;
+    color: #ffffff;
+    text-shadow: 0 1px 0 #7e0000;
+    border: 1px solid #ab0000;
+    border-radius: 5px;
+}
+.boxOkno{
+    /*background: #f5f5f5;*/
+    /*border: 1px solid #d8d8db;*/
+    cursor: pointer;
+    border-radius: 10px;
+    width: 260px;
+    height: 310px;
+    float: left;
+    margin: 0 15px;
+    padding-top: 5px;
+}
+.boxOkno.disabled{
+    opacity: 0.5;
+    cursor: auto;
+}
+.boxOknoMore .tickSprites,
+.boxOkno .tickSprites{
+    margin: 20px auto 15px 100px;
+    display: block;
+    position: relative;
+    font-size: 13px;
+    font-weight: bold;
+    color: #464a57;
+
+}
+.tickSprites{
+    background: url('../img/layouts/default/tickSprites.png') no-repeat 0 -1px;
+    padding-left: 24px;
+}
+.radioSprites{
+    background: url('../img/layouts/default/radioSprites.png') no-repeat 0 -1px;
+}
+.boxOkno.active .tickSprites{
+    background-position: 0 -20px;
+}
+.boxOknoMore .boxOknoFoto,
+.boxOkno .boxOknoFoto{
+    width: 254px;
+    height: 237px;
+    /*background: url('../img/configurator/boxOknoFoto.png') no-repeat 0 0;*/    
+    border: 1px solid #c1c5d1;
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    padding: 1px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.boxOkno.disabled .boxOknoFoto{
+    cursor: auto;
+}
+.boxOkno.active .boxOknoFoto{
+    border: 2px solid #007ad5;
+    padding: 0;
+}
+.boxOknoMore .boxOknoFoto img,
+.boxOkno .boxOknoFoto img{
+    margin: auto auto;
+    display: block;
+    position: relative;
+    padding-top: 15px;
+    /*max-width: 144px;*/
+    /*max-height: 192px;*/
+    overflow: hidden;
+}
+.boxOkno .tresc {
+    color: #4D4A4A;
+    display: block;
+    font-size: 13px;
+    height: 105px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 250px;
+}
+.boxOkno .tresc p{
+    line-height: 16px;
+}
+.boxOkno .tresc h1,
+.boxOkno .tresc h2,
+.boxOkno .tresc h3,
+.boxOkno .tresc h4,
+.boxOkno .tresc h5,
+.boxOkno .tresc h6{
+    font-size: 18px;
+}
+.boxOkno .tresc *{
+    font-size: 13px;
+}
+#conf .step1, div#id{
+    border: none!important;
+
+}
+#boxyOkna {
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+td.priceCol {
+    visibility: hidden;
+}
+#conf .topNavi {
+    background: none repeat scroll 0 0 transparent !important;
+    border: medium none !important;
+    display: block;
+    height: 55px;
+    margin-bottom: 0;
+    padding: 0 10px;
+}
+table.summaryTable,
+table.configurationTable{
+    max-width: 100%;
+
+}
+.step8form #colorPlaceRadios{
+    width: auto;
+}
+.disabled > label > .sashesPopup.popup,
+.sashesPopup{
+    display: none;
+}
+.sashesPopup.popup {
+    background: url('../img/layouts/default/arrow.png') no-repeat 52% top transparent;
+    padding-top: 10px;
+    display: inline;
+    margin-top: 60px;
+    position: absolute;
+    z-index: 100;
+}
+.sashesPopup.popup > div > h1{
+    font-size: 14px;
+}
+.sashesPopup.popup > div{
+    box-shadow: 1px 1px 5px #0078D4;
+    border: 1px solid #0078D4;
+    padding: 10px;
+    background: #fff;
+}
+.sashesPopup.popup img{
+
+    position: relative;
+    padding: 10px;
+    /*border-radius: 5px;*/
+}
+.boxOkno .more {
+    color: #E70D12;
+    cursor: pointer;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    right: 20px;
+    top: -16px;
+}
+.boxOknoMore {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #d8d8db;
+    border-radius: 10px 10px 10px 10px;
+    color: #4D4A4A;
+    display: none;
+    margin: 10px 15px;
+    padding: 35px;
+    position: absolute;
+    width: 586px;
+    z-index: 10000;
+    top: 0;
+}
+.boxOknoMore .closeBox {
+    cursor: pointer;
+    display: block;
+    font-size: 30px;
+    margin-bottom: 20px;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    height: 30px;
+    width: 30px;
+    background: url('../img/layouts/default/close.png') no-repeat 0 0;
+}
+.boxOkno > .tresc > .tresc{
+    height: 85px;
+    overflow: hidden;
+    width: 250px;
+}
+
+.boxOkucieMore {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #d8d8db;
+    border-radius: 10px 10px 10px 10px;
+    color: #4D4A4A;
+    display: none;
+    /*margin: 10px 15px;*/
+    padding: 35px;
+    position: absolute;
+    width: 880px;
+    z-index: 10000;
+    top: 0;
+    left: 10px;
+
+}
+.boxOkucieMore .closeBox {
+    cursor: pointer;
+    display: block;
+    font-size: 30px;
+    margin-bottom: 20px;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    height: 30px;
+    width: 30px;
+    background: url('../img/layouts/default/close.png') no-repeat 0 0;
+}
+#overlayMe{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    display: none;
+    z-index: 5000;    
+}
+.boxOknoMore h2{
+    color: #e60005;
+    font-size: 18px;
+    font-weight: bold;
+}
+.accesoryMoreBox {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D8D8DB;
+    border-radius: 10px 10px 10px 10px;
+    color: #4D4A4A;
+    display: none;
+    left: 0;
+    margin: 10px 15px;
+    padding: 35px;
+    position: absolute;
+    top: 0;
+    width: 870px;
+    z-index: 10000;
+}
+.accesoryMoreBox .closeBox {
+    cursor: pointer;
+    display: block;
+    font-size: 30px;
+    margin-bottom: 20px;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    height: 30px;
+    width: 30px;
+    background: url('../img/layouts/default/close.png') no-repeat 0 0;
+}
+.accessoryMore{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 13px;
+    cursor: pointer;
+    color: #E70D12;
+    font-weight: bold;
+}
+
+
+.napedMoreBox {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #d8d8db;
+    border-radius: 10px 10px 10px 10px;
+    color: #4D4A4A;
+    display: none;
+    margin: 10px 15px;
+    padding: 35px;
+    position: absolute;
+    width: 870px;
+    z-index: 10000;
+    left: 0;
+}
+.napedMoreBox .closeBox {
+    cursor: pointer;
+    display: block;
+    font-size: 30px;
+    margin-bottom: 20px;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    height: 30px;
+    width: 30px;
+    background: url('../img/layouts/default/close.png') no-repeat 0 0;
+}
+.napedMoreBox h2{
+    color: #e60005!important;
+    font-size: 18px!important;
+    font-weight: bold!important;
+}
+.kolorRolet .input.checkbox {
+    position: relative;
+    margin-left: 20px;
+}
+.kolorRolet .input.checkbox label{
+    position: relative;
+    margin-left: 15px;
+    top: 1px;    
+    cursor: pointer;
+}
+/*.kolorRolet #rollerShutterColor{
+    margin: 20px 0 20px 20px;
+}*/
+.stepSubmenu{
+    display: none!important;
+}
+.stepContent{
+    position: relative;
+    padding: 20px 50px;
+    border-bottom: 1px solid #CED1DB;
+}
+#configuratorMain li:last-of-type .stepContent{
+    border-bottom: 0;
+    border-top: 1px solid #CED1DB;
+}
+.twojWybor{
+    display: inline-block;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #CED1DB;
+    height: 40px;
+    color: #464a57;
+    line-height: 40px;
+}
+.twojWybor .wybor{
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 28px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 5px;
+    text-shadow: 0 -1px 0 #003ec1;
+    border-radius: 4px;
+    background-color: #006bd0;
+    background-image: linear-gradient(bottom, rgb(0,78,167) 0%, rgb(0,90,201) 1%, rgb(0,107,208) 50%, rgb(0,120,212) 51%, rgb(0,134,218) 99%, rgb(90,177,231) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(0,78,167) 0%, rgb(0,90,201) 1%, rgb(0,107,208) 50%, rgb(0,120,212) 51%, rgb(0,134,218) 99%, rgb(90,177,231) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(0,78,167) 0%, rgb(0,90,201) 1%, rgb(0,107,208) 50%, rgb(0,120,212) 51%, rgb(0,134,218) 99%, rgb(90,177,231) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(0,78,167) 0%, rgb(0,90,201) 1%, rgb(0,107,208) 50%, rgb(0,120,212) 51%, rgb(0,134,218) 99%, rgb(90,177,231) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(0,78,167) 0%, rgb(0,90,201) 1%, rgb(0,107,208) 50%, rgb(0,120,212) 51%, rgb(0,134,218) 99%, rgb(90,177,231) 100%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(0,78,167)),
+        color-stop(0.01, rgb(0,90,201)),
+        color-stop(0.5, rgb(0,107,208)),
+        color-stop(0.51, rgb(0,120,212)),
+        color-stop(0.99, rgb(0,134,218)),
+        color-stop(1, rgb(90,177,231))
+        );
+}
+
+.naviBottom{
+    border-top: 1px solid #c1c5d1;
+    padding-top: 20px;
+}
+h1.subTitle{
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 2px solid #464a57;
+    margin-bottom: 10px;
+}
+#colorPlaceRadios{
+    margin-right: 35px;
+}
+#colorChooiser,
+#colorPlaceRadios{
+    float: left;
+    width: 275px;
+}
+#colorChooiser{
+    float: left;
+}
+
+#colorsBlock245 > .colorGroup{
+    margin-right: 30px;
+}
+#colorsBlock245 .colorGroup + .colorGroup{
+    margin-right: 0;
+}
+#colorsBlock245{
+    padding: 0!important;
+}
+.input.radio.colorSelect{
+    padding: 0!important;
+    width: 69px;
+    height: 29px;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #fff;
+}
+.colorSelect label{
+    cursor: pointer;
+
+}
+.input.radio.colorSelect:hover,
+.input.radio.colorSelect.open{
+    height: auto!important;
+}
+.colorSelect > span#colorSelectSelect{
+    background: url('../img/layouts/default/selectArrow.png') no-repeat 100% 0;
+    display: block;
+    width: 22px;
+    height: 29px;
+    float: left;
+    position: absolute;
+    right: 0;
+}
+.colorGroup{
+    display: block;
+    position: relative;
+    float: left;
+    height: 100px;
+}
+.colorSelect .inputColor:nth-of-type(1){
+    margin: 0!important;
+}
+.colorSelect .inputColor{
+    margin: 3px 0;
+}
+.colorSelect .inputColor span{
+    border: 1px solid #ddd;
+}
+.colorSelect .inputColor:first-of-type span{
+    border: none;
+}
+.colorSelect .inputColor.active{
+    display: none;
+}
+.hasActive .inputColor .blankOption{
+    display: none!important;
+}
+.inputColor .blankOption{
+    background: url('../img/layouts/default/transparentMask.png') repeat 0 0;
+
+}
+
+.opacity100{
+    opacity: 1.0;
+}
+.opacity50{
+    opacity: 0.5;
+    display: none;
+}
+.kolorRolet{
+    width: 280px;    
+}
+#colorsBlock245 .step3style{
+    width: 73px!important;
+}
+#colorsBlock245 .step3style .step8colorDiv{
+    width: 40px;
+}
+#colorsBlock245 .step3style .step8colorDiv,
+.kolorRolet .step8colorDiv {
+    border: 1px solid #DDDDDD;
+    border-radius: 5px 0 0 5px;
+    display: inline-block;
+    float: left;
+    height: 27px;
+    margin: auto;
+}
+#colorsBlock245 .step3style .step8colorDiv + div,
+.kolorRolet .step8colorDiv + div {
+    background: url("../img/layouts/default/hint_top.png") no-repeat scroll 0 0 transparent;
+    height: 58px;
+    margin-left: 30px;
+    margin-top: -30px;
+    padding-left: 8px;
+    padding-right: 10px;
+    position: absolute;
+    text-align: center;
+    width: 91px!important;
+    text-align: center;
+    display: none;
+}
+.kolorRolet > .clearfix h2{
+    display: inline-block;
+    float: left;
+    width: 180px;
+}
+#colorsBlock245 > .step3style,
+.kolorRolet > .clearfix .step3style {
+    background: url("../img/layouts/default/selectArrow.png") no-repeat scroll 100% 0 transparent;
+    display: inline-block;
+    float: left;
+    height: 29px;
+    position: relative;
+    width: 56px;
+}
+#colorsBlock245 > .step3style a.colorsWindow{
+    width: 73px!important;
+}
+#colorsBlock245 > .step3style a.colorsWindow,
+.kolorRolet > .clearfix a.colorsWindow {
+    display: block;
+    height: 29px;
+    width: 55px;
+}
+.opcjeDodatkowe{
+    width: 500px;
+    margin-right: 40px;
+}
+.roller_shutter_accessory_id{
+    clear: both;
+    width: 220px;
+    margin-left: 20px;
+}
+.roller_shutter_accessory_id .input label{
+    float: left;
+    clear: both;
+    padding-top: 0!important;
+    line-height: 20px!important;
+    margin: 0!important;
+    font-size: 13px;
+    /*margin-bottom: 20px!important;*/
+}
+
+#rollerShutterColor > .clearfix{
+    padding: 10px 20px;
+    height: 28px;
+    border-bottom: 1px solid #c1c5d1;
+    width: 240px;
+}
+
+
+.addRollerShutter{
+    /*height: 40px;*/
+    font-size: 16px;
+    font-weight: bold;   
+    margin-bottom: 20px;
+}
+.addRollerShutter > .input.radio > input + label + input + label{
+    margin-left: 20px;
+}
+.addRollerShutter input{
+    display: none;
+}
+.addRollerShutter input:checked + label{
+    background-position: 0 -19px;
+}
+.addRollerShutter label{
+    background: url('../img/layouts/default/tickSprites.png') no-repeat 0 -1px;
+    padding-left: 24px;
+    position: relative;
+    background-position: 0 0px;
+    top: 16px;
+    cursor: pointer;
+}
+
+.borderWhiteContent .widthHeight{
+    width: 200px;
+    float: left;
+}
+/*.borderWhiteContent .widthHeight .input > *{
+    clear: both;
+    float: left;
+    display: block;
+}*/
+.borderWhiteContent .widthHeight .input .mm {
+    display: inline-block;
+    float: left;
+    position: relative;
+    line-height: 40px;
+    font-weight: bold;
+}
+.borderWhiteContent .widthHeight .input{
+    clear: both;
+    float: left;
+    margin: 20px 0;
+}
+.borderWhiteContent .widthHeight .input input{
+    /*float: left;*/
+    margin:0;
+}
+.borderWhiteContent .widthHeight .input label{
+    clear: both;
+    display: block;
+    float: left;
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
+.windowDraw{
+    margin-left: 60px;
+}
+
+.sashesTypesInGroup{
+    height: 200px!important;
+    width: 280px!important;
+}
+.sashesTypesInGroup.cztery{
+    height: 200px!important;
+    width: 215px!important;
+}
+.sashesTypesInGroup.cztery .legend{
+    width: 185px!important;
+}
+.sashesTypesInGroup .legend{
+    text-align: left!important;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 2px solid #464a57;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    width: 240px!important;
+}
+.sashesTypesInGroup > div.fl{
+
+}
+.sashesTypesInGroup > div.fl label > img{
+    border-radius: 0!important;
+    padding: 5px;
+    border: 1px solid #c1c5d1;
+}
+.sashesTypesInGroup > div.fl.active label{
+    box-shadow: none!important;
+}
+.sashesTypesInGroup > div.fl.active label > img{
+    border: 1px solid #0078D4;
+}
+.windowSealColors .inputColor > label > span{
+    width: 100px!important;
+    height: 100px!important;
+    float: left;
+    border: 2px solid #E5E5E5
+}
+.windowSealColors{
+    margin: 20px 0;
+}
+.windowSealColors .inputColor{
+    width: 100px;
+}
+.windowSealColors .inputColor ~ .inputColor{
+    margin-left: 20px;
+    float: left;
+}
+.windowSealColors .inputColor.active > label > span{
+    border: 2px solid #007ad5;
+    box-shadow: 0 0 5px #007ad5;
+}
+.btnBlue{    
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 28px;
+    color: #fff;
+    margin-left: 5px;
+    text-shadow: 0 -1px 0 #003ec1;
+    border-radius: 4px;
+    background-color: #006bd0;
+    background-image: linear-gradient(bottom, rgb(0,78,167) 0%, rgb(0,90,201) 1%, rgb(0,107,208) 50%, rgb(0,120,212) 51%, rgb(0,134,218) 99%, rgb(90,177,231) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(0,78,167) 0%, rgb(0,90,201) 1%, rgb(0,107,208) 50%, rgb(0,120,212) 51%, rgb(0,134,218) 99%, rgb(90,177,231) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(0,78,167) 0%, rgb(0,90,201) 1%, rgb(0,107,208) 50%, rgb(0,120,212) 51%, rgb(0,134,218) 99%, rgb(90,177,231) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(0,78,167) 0%, rgb(0,90,201) 1%, rgb(0,107,208) 50%, rgb(0,120,212) 51%, rgb(0,134,218) 99%, rgb(90,177,231) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(0,78,167) 0%, rgb(0,90,201) 1%, rgb(0,107,208) 50%, rgb(0,120,212) 51%, rgb(0,134,218) 99%, rgb(90,177,231) 100%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(0,78,167)),
+        color-stop(0.01, rgb(0,90,201)),
+        color-stop(0.5, rgb(0,107,208)),
+        color-stop(0.51, rgb(0,120,212)),
+        color-stop(0.99, rgb(0,134,218)),
+        color-stop(1, rgb(90,177,231))
+        );
+}
+.btnGray{
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 35px;
+    color: #fff;
+    margin-left: 5px;
+    text-shadow: 0 -1px 0 #515872;
+    border-radius: 4px;
+    background-color: #006bd0;
+    background-image: linear-gradient(bottom, rgb(0,78,167) 0%, rgb(0,90,201) 1%, rgb(0,107,208) 50%, rgb(0,120,212) 51%, rgb(0,134,218) 99%, rgb(90,177,231) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(0,78,167) 0%, rgb(0,90,201) 1%, rgb(0,107,208) 50%, rgb(0,120,212) 51%, rgb(0,134,218) 99%, rgb(90,177,231) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(135,140,155) 0%, rgb(130,135,152) 1%, rgb(139,144,161) 50%, rgb(139,144,161) 51%, rgb(159,163,177) 99%, rgb(159,163,177) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(0,78,167) 0%, rgb(0,90,201) 1%, rgb(0,107,208) 50%, rgb(0,120,212) 51%, rgb(0,134,218) 99%, rgb(90,177,231) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(0,78,167) 0%, rgb(0,90,201) 1%, rgb(0,107,208) 50%, rgb(0,120,212) 51%, rgb(0,134,218) 99%, rgb(90,177,231) 100%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(0,78,167)),
+        color-stop(0.01, rgb(0,90,201)),
+        color-stop(0.5, rgb(0,107,208)),
+        color-stop(0.51, rgb(0,120,212)),
+        color-stop(0.99, rgb(0,134,218)),
+        color-stop(1, rgb(90,177,231))
+        );
+}
+#colorPlaceRadios{
+    margin-bottom: 25px;
+}
+#toMenuStep9 .radio.input,
+#WindowConfigurationRecordGlassTypesCategoryId .radio.input{
+    float: left;
+}
+#toMenuStep9 .radio.input ~ .radio.input,
+#WindowConfigurationRecordGlassTypesCategoryId .radio.input ~ .radio.input{
+    float: left;
+    /*margin-left: 30px;*/
+}
+#toMenuStep9 .radio.input:hover > input + label,
+#toMenuStep9 .radio.input > input + label,
+#WindowConfigurationRecordGlassTypesCategoryId .radio.input:hover > input + label,
+#WindowConfigurationRecordGlassTypesCategoryId .radio.input > input + label{
+    cursor: pointer!important;
+}
+#toMenuStep9 .radio.input:hover > input + label,
+#toMenuStep9 .radio.input.active > input + label,
+#WindowConfigurationRecordGlassTypesCategoryId .radio.input:hover > label,
+#WindowConfigurationRecordGlassTypesCategoryId .radio.input > input.active + label,
+#WindowConfigurationRecordGlassTypesCategoryId .radio.input.active > label{
+    cursor: default!important;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 35px;
+    color: #fff;
+    margin-left: 5px;
+    text-shadow: 0 -1px 0 #003ec1;
+    border-radius: 4px;
+    background-color: #006bd0!important;
+    background-image: linear-gradient(bottom, rgb(0,78,167) 0%, rgb(0,90,201) 1%, rgb(0,107,208) 50%, rgb(0,120,212) 51%, rgb(0,134,218) 99%, rgb(90,177,231) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(0,78,167) 0%, rgb(0,90,201) 1%, rgb(0,107,208) 50%, rgb(0,120,212) 51%, rgb(0,134,218) 99%, rgb(90,177,231) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(0,78,167) 0%, rgb(0,90,201) 1%, rgb(0,107,208) 50%, rgb(0,120,212) 51%, rgb(0,134,218) 99%, rgb(90,177,231) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(0,78,167) 0%, rgb(0,90,201) 1%, rgb(0,107,208) 50%, rgb(0,120,212) 51%, rgb(0,134,218) 99%, rgb(90,177,231) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(0,78,167) 0%, rgb(0,90,201) 1%, rgb(0,107,208) 50%, rgb(0,120,212) 51%, rgb(0,134,218) 99%, rgb(90,177,231) 100%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(0,78,167)),
+        color-stop(0.01, rgb(0,90,201)),
+        color-stop(0.5, rgb(0,107,208)),
+        color-stop(0.51, rgb(0,120,212)),
+        color-stop(0.99, rgb(0,134,218)),
+        color-stop(1, rgb(90,177,231))
+        );
+}
+#toMenuStep9 .radio.input > input + label,
+#WindowConfigurationRecordGlassTypesCategoryId .radio.input > label{
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 35px;
+    color: #fff;
+    margin-left: 5px;
+    text-shadow: 0 -1px 0 #515872;
+    border-radius: 4px;
+    background-color: rgb(130,135,152)!important;
+    background-image: linear-gradient(bottom, rgb(135,140,155) 0%, rgb(130,135,152) 1%, rgb(139,144,161) 50%, rgb(139,144,161) 51%, rgb(159,163,177) 99%, rgb(159,163,177) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(135,140,155) 0%, rgb(130,135,152) 1%, rgb(139,144,161) 50%, rgb(139,144,161) 51%, rgb(159,163,177) 99%, rgb(159,163,177) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(135,140,155) 0%, rgb(130,135,152) 1%, rgb(139,144,161) 50%, rgb(139,144,161) 51%, rgb(159,163,177) 99%, rgb(159,163,177) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(135,140,155) 0%, rgb(130,135,152) 1%, rgb(139,144,161) 50%, rgb(139,144,161) 51%, rgb(159,163,177) 99%, rgb(159,163,177) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(135,140,155) 0%, rgb(130,135,152) 1%, rgb(139,144,161) 50%, rgb(139,144,161) 51%, rgb(159,163,177) 99%, rgb(159,163,177) 100%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(135,140,155)),
+        color-stop(0.01, rgb(130,135,152)),
+        color-stop(0.5, rgb(139,144,161)),
+        color-stop(0.51, rgb(139,144,161)),
+        color-stop(0.99, rgb(159,163,177)),
+        color-stop(1, rgb(159,163,177))
+        );
+}
+#toMenuStep9 input,
+#WindowConfigurationRecordGlassTypesCategoryId .radio.input > input{
+    display: none;
+}
+.glassPattern .inputColor label > span{
+    height: 100px!important;
+    border: 2px solid #E5E5E5;
+}
+.glassPattern .inputColor.active label > span{
+    border: 2px solid #007ad5;
+    box-shadow: 0 0 5px #007ad5;
+}
+.step8form .inputBarContetntMinOut{
+    float: right!important;
+}
+.step9form > #colorsBlock245 > .input.radio{
+    /*display: none;*/
+}
+.step9form > #colorsBlock245 > .input.radio > .inputBar{
+    float: left;
+    border: none;
+}
+.step9form > #colorsBlock245 > .input.radio > .inputBar > label{
+    background: none!important;
+}
+.step9form > #colorsBlock245 > .input.radio > .inputBar ~ .inputBar{
+    margin-right: 50px;
+}
+.step9form #colorPlaceRadios{
+    width: auto!important;
+}
+.step9form .step9colorDiv{
+    float: none!important;
+    width: 100px!important;
+    height: 100px!important;
+}
+.step9form .step9colorDiv + div > span{
+    float: none!important;
+    width: 100%!important;
+    top: 10px;
+}
+
+#step9 > .stepContent{
+    /*height: 352px;*/
+}
+.clearfix.step9form{
+    /*height: 310px;*/
+}
+.WindowConfigurationWindowFitting .borderWhiteContetn{
+    height: 315px;
+    padding-bottom: 5px;
+}
+.WindowConfigurationWindowFittingType{
+    float: none;
+    width: 350px;
+    padding-right: 35px;
+    clear: both;
+}
+
+#colorsBlock2 .borderWhiteContent .inputColorThree{
+    width: 33%!important;
+}
+
+
+li.stepMenu{
+    background: url('../img/configurator/belkaTitle.png') repeat-x;
+}
+.btnSend{
+    font-weight: bold;
+    font-size: 14px;
+}
+.summaryTable td{
+    font-weight: bold;
+    font-size: 14px;
+}
+.summaryInfo{
+    font-size: 13px;
+    color: #888c94;
+}
+#boxyOkna #boxOkno2,
+#boxyOkna #boxOkno21{
+    /*display: none;*/
+}
+#boxyOkna{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.opcjeDodatkoweContent .pilot{
+    margin-bottom: 10px;
+}
+.opcjeDodatkoweContent .pilot > label {
+    display: inline-block;
+    margin-left: 5px;
+    width: 195px;
+    line-height: 18px;
+}
+#WindowConfigurationRecordGlassTypesCategoryId {
+    position: relative;
+    width: 860px;
+}
+#sashDivisionPosition{
+    padding: 5px 10px;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 150px;
+    bottom: 50%;
+}
+#sashDivisionPosition > div > input {
+    padding: 10px;
+    text-align: center;
+    width: 50px;
+}
+img#sashDivisionPositionInfo {
+    margin-bottom: 3px;
+    margin-top: 3px;
+    left: 5px;
+    position: relative;
+    cursor: pointer
+}
+#sashDivisionPositionInfoPopup {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D8D8DB;
+    border-radius: 10px 10px 10px 10px;
+    color: #4D4A4A;
+    display: none;
+    left: 0;
+    margin: 10px 15px;
+    padding: 35px;
+    position: absolute;
+    top: 380px;
+    width: 400px;
+    z-index: 10000;
+}
+#sashDivisionPositionInfoPopup .closeBox {
+    cursor: pointer;
+    display: block;
+    font-size: 30px;
+    margin-bottom: 20px;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    height: 30px;
+    width: 30px;
+    background: url('../img/layouts/default/close.png') no-repeat 0 0;
+}
+.confPopup {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D8D8DB;
+    border-radius: 10px 10px 10px 10px;
+    color: #4D4A4A;
+    display: none;
+    left: 0;
+    margin: 10px 15px;
+    padding: 35px;
+    position: absolute;
+    top: 20px;
+    width: 860px;
+    z-index: 1;
+}
+.confPopup .closeBox {
+    cursor: pointer;
+    display: block;
+    font-size: 30px;
+    margin-bottom: 20px;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    height: 30px;
+    width: 30px;
+    background: url('../img/layouts/default/close.png') no-repeat 0 0;
+}
+.sashLayoutVariantInPopup {
+    margin: 15px 0; 
+    display: inline-block;
+    margin-right: 10px;
+}
+.sashLayoutVariantInPopup.active{
+    box-shadow: 0 0 5px #007ad5;
+    border-radius: 5px;
+    border: 2px solid #007ad5;   
+}
+
+
+
+.configWindowPrice td{
+    font-size: 14px!important;
+}
+.infoPopup{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.ajaxStepContent{
+    max-width: 900px;
+}
+
+.ajaxStepContent table td{
+    padding: 3px;
+}
+
+#WindowConfigurationWarmEdgesDiv {
+    display: block;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+#WindowConfigurationWarmEdgesDiv label{
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+
+.accessory p{
+    margin: 0;
+}
+
+.accessoryTable thead tr th{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.accessoryTable .sum,
+.accessoryTable .unitPrice{
+    font-weight: bold;
+}
+.accessoryTable .unitPrice{
+    padding-left: 30px!important;
+}
+#step12 .stepContent{
+    padding: 40px 20px 20px;
+}

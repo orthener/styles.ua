@@ -1,0 +1,23 @@
+1. Install:
+
+copy to plugins, and execute schema sql file(s)
+
+2. Add new elements to table (/admin/dynamic_elements/dynamic_elements/add)
+
+3. Insert elements into layouts:
+
+Use example:
+
+<?php
+    echo $this->element('dynamic_element', array(
+        'plugin' => 'dynamic_elements',
+//        'cache' => array('key' => 'element-id', 'time' => '+2 days'),
+        'element_id' => 'element-id'
+    ));
+?>
+
+
+TODO:
+
+Do something with style param. (Use somewhere or delete)
+

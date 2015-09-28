@@ -1,0 +1,50 @@
+ a.flag{
+    display: block;
+    float: left;
+    text-indent: -200px;
+    text-indent: 200px;
+    overflow: hidden;
+    height: 19px;
+    width: 24px;
+    margin-left: 5px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+a.flag:hover,
+a.flag.active {
+    background-position: left bottom;
+}
+
+td.actions a.flag {
+    background-color: transparent;
+    border: 0px none;
+    border-radius: 0;
+    padding: 0;
+}
+
+td.actions a.flag:hover {
+    background-color: transparent;
+}
+
+ a.flag.pl{
+    background-image: url(../img/flag/ua.png);
+}
+ a.flag.en{
+    background-image: url(../img/flag/uk.png);
+}
+ a.flag.de{
+    background-image: url(../img/flag/de.png);
+}
+ a.flag.es{
+    background-image: url(../img/flag/es.png);
+}
+ a.flag.fr{
+    background-image: url(../img/flag/fr.png);
+}
+a.flag.ua{
+    background-image: url(../img/flag/ua.png);
+}
+a.flag.sk{
+    background-image: url(../img/flag/sk.png);
+}

@@ -1,0 +1,1 @@
+<?php echo json_encode(array('promo_code_value' => $value, 'code_id' => $code_id)); ?>

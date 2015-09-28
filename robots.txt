@@ -1,0 +1,3 @@
+User-Agent: Yandex
+Disallow:
+Host: http://www.styles.ua

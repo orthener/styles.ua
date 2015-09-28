@@ -1,0 +1,1807 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sławomir Jach <s.jach@feb.net.pl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Bookmarks: 5,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
+msgid "Addresses"
+msgstr "Adresy"
+
+msgid "Edit"
+msgstr "Edytuj"
+
+msgid "Delete"
+msgstr "Usuń"
+
+msgid "New Address"
+msgstr "Dodaj adres"
+
+msgid "List Addresses"
+msgstr "Lista adresów"
+
+msgid "Edit Addresses"
+msgstr "Edycja adresu"
+
+msgid "Delete Addresses"
+msgstr "Usuń adres"
+
+msgid "Admin Add Address"
+msgstr "Dodawanie adresu"
+
+msgid "Admin Edit Address"
+msgstr "Edycja adresu"
+
+msgid "Minimum"
+msgstr "Minimum"
+
+msgid "Discount"
+msgstr "Rabat"
+
+msgid "Affiliate Programs"
+msgstr "Program partnerski"
+
+msgid "New Affiliate Program"
+msgstr "Dodaj próg prog. part."
+
+msgid "List Affiliate Programs"
+msgstr "Progi porg. part."
+
+msgid "Edit Affiliate Programs"
+msgstr "Edycja porg. part."
+
+msgid "Delete Affiliate Programs"
+msgstr "Usuń próg prog. part."
+
+msgid "Admin Add Affiliate Program"
+msgstr "Dodaj próg prog. part"
+
+msgid "Admin Edit Affiliate Program"
+msgstr "Edycja progu prog. part."
+
+msgid "Customer Id"
+msgstr "Klient"
+
+msgid "Iscompany"
+msgstr "Firma?"
+
+msgid "Nip"
+msgstr "Nip"
+
+msgid "Address"
+msgstr "Adres"
+
+msgid "City"
+msgstr "Miasto"
+
+msgid "Post Code"
+msgstr "Kod pocztowy"
+
+msgid "Region Id"
+msgstr "Woj."
+
+msgid "Country Id"
+msgstr "Kraj"
+
+msgid "Invoice Identities"
+msgstr "Faktura"
+
+msgid "New Invoice Identity"
+msgstr "Dodaj fakturę"
+
+msgid "List Invoice Identities"
+msgstr "Lista faktur"
+
+msgid "Edit Invoice Identities"
+msgstr "Edycja faktury"
+
+msgid "Delete Invoice Identities"
+msgstr "Usuń fakturę"
+
+msgid "Admin Add Invoice Identity"
+msgstr "Dodawanie faktury"
+
+msgid "Admin Edit Invoice Identity"
+msgstr "Edycja faktury"
+
+msgid "User Id"
+msgstr "Użytkownik"
+
+msgid "Contact Person"
+msgstr "Osoba kontaktowa"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Phone"
+msgstr "Tel."
+
+msgid "Address Id"
+msgstr "Adres"
+
+msgid "Invoice Identity Id"
+msgstr "Faktura"
+
+msgid "Customers"
+msgstr "Klient"
+
+msgid "New Customer"
+msgstr "Dodaj klienta"
+
+msgid "List Customers"
+msgstr "Lista klientów"
+
+msgid "Edit Customers"
+msgstr "Edycja klienta"
+
+msgid "Delete Customers"
+msgstr "Usuń klienta"
+
+msgid "Admin Add Customer"
+msgstr "Dodawanie klienta"
+
+msgid "Admin Edit Customer"
+msgstr "Edycja klienta"
+
+msgid "Order Item Id"
+msgstr "Zamówienie"
+
+msgid "Accepted"
+msgstr "Zaakceptowany"
+
+msgid "Desc"
+msgstr "Opis"
+
+msgid "Order Item Files"
+msgstr "Plik zamówienia"
+
+msgid "New Order Item File"
+msgstr "Dodaj plik do zamówienia"
+
+msgid "List Order Item Files"
+msgstr "Lista plików w zamówieniach"
+
+msgid "Edit Order Item Files"
+msgstr "Edycja pliku w zamówieniu"
+
+msgid "Delete Order Item Files"
+msgstr "Usuń plik z zamówienia"
+
+msgid "Admin Add Order Item File"
+msgstr "Dodawanie pliku do zamówienia"
+
+msgid "Admin Edit Order Item File"
+msgstr "Edycja pliku zamówienia"
+
+msgid "Order Id"
+msgstr "Zamówienie"
+
+msgid "Product Id"
+msgstr "Produkt"
+
+msgid "Product"
+msgstr "Produkt"
+
+msgid "Price"
+msgstr "Cena"
+
+msgid "Tax Rate"
+msgstr "VAT"
+
+msgid "Tax Value"
+msgstr "Wartość vat"
+
+msgid "Quantity"
+msgstr "Ilość"
+
+msgid "Weight"
+msgstr "Waga"
+
+msgid "Order Items"
+msgstr "Przedmiot zamówienia"
+
+msgid "New Order Item"
+msgstr "Dodaj przedmiot zamówienia"
+
+msgid "List Order Items"
+msgstr "Lista przedmiotów w zamówieniu"
+
+msgid "Edit Order Items"
+msgstr "Edycja przedmiotów zamówienia"
+
+msgid "Delete Order Items"
+msgstr "Usuń produkt zamówienia"
+
+msgid "Admin Add Order Item"
+msgstr "Dodawanie przedmiotu zamówienia"
+
+msgid "Admin Edit Order Item"
+msgstr "Edycja przedmiotu zamówienia"
+
+msgid "Order Statuses"
+msgstr "Status zamówienia"
+
+msgid "New Order Status"
+msgstr "Dodaj status zamówienia"
+
+msgid "List Order Statuses"
+msgstr "Lista statusów zamówień"
+
+msgid "Edit Order Statuses"
+msgstr "Edycja statusu zamówienia"
+
+msgid "Delete Order Statuses"
+msgstr "Usuń status zamówienia"
+
+msgid "Admin Add Order Status"
+msgstr "Dodawanie statusu zamówienia"
+
+msgid "Admin Edit Order Status"
+msgstr "Edycja statusu zamówienia"
+
+msgid "Hash"
+msgstr "Kod"
+
+msgid "Order Status Id"
+msgstr "Status zamówienia"
+
+msgid "Invoice Identity"
+msgstr "Faktura"
+
+msgid "Shipment Method Id"
+msgstr "Województwo dostawy"
+
+msgid "Shipment Price"
+msgstr "Cena dostawy"
+
+msgid "Shipment Tax Rate"
+msgstr "VAT"
+
+msgid "Shipment Tax Value"
+msgstr "Wartość vat"
+
+msgid "Shipment Discount"
+msgstr "Rabat"
+
+msgid "Total"
+msgstr "Razem"
+
+msgid "Total Tax Value"
+msgstr "Razem vat"
+
+msgid "Track Number"
+msgstr "Numer list. przew."
+
+msgid "Payment Type"
+msgstr "Typ płatności"
+
+msgid "Vat"
+msgstr "VAT"
+
+msgid "Orders"
+msgstr "Zamówienie"
+
+msgid "New Order"
+msgstr "Dodaj zamówienie"
+
+msgid "List Orders"
+msgstr "Lista zamówień"
+
+msgid "Edit Orders"
+msgstr "Edycja zamówienia"
+
+msgid "Delete Orders"
+msgstr "Usuń zamówienie"
+
+msgid "Admin Add Order"
+msgstr "Dodawanie zamówienia"
+
+msgid "Admin Edit Order"
+msgstr "Edycja zamówienia"
+
+msgid "Shipment Method Configs"
+msgstr "Przedziały wagowe przesyłek"
+
+msgid "New Shipment Method Config"
+msgstr "Nowy przed. wagowy przesyłek"
+
+msgid "List Shipment Method Configs"
+msgstr "Lista przed. wagowych przesyłek"
+
+msgid "Edit Shipment Method Configs"
+msgstr "Edycja przed. wagowcyh przesyłek"
+
+msgid "Delete Shipment Method Configs"
+msgstr "Usuń przed. wagowy"
+
+msgid "Admin Add Shipment Method Config"
+msgstr "Dodawanie przedziału wagowego przesyłki"
+
+msgid "Admin Edit Shipment Method Config"
+msgstr "Edycja przedziału wagowego przesyłki"
+
+msgid "Cash On Delivery Price"
+msgstr "Płatność przy odbiorze"
+
+msgid "Track Link"
+msgstr "Link do śledzenia przesyłki"
+
+msgid "Shipment Methods"
+msgstr "Metoda dostawy"
+
+msgid "New Shipment Method"
+msgstr "Nowa metoda dostawy"
+
+msgid "List Shipment Methods"
+msgstr "Lista metod dostaw"
+
+msgid "Edit Shipment Methods"
+msgstr "Edycja metody dostawy"
+
+msgid "Delete Shipment Methods"
+msgstr "Usuń metodę dostawy"
+
+msgid "Admin Add Shipment Method"
+msgstr "Dodawanie metody dostawy"
+
+msgid "Admin Edit Shipment Method"
+msgstr "Edycja metody dostawy"
+
+msgid "Modified"
+msgstr "Zmodyfikowany"
+
+msgid "Created"
+msgstr "Utworzony"
+
+msgid "Title"
+msgstr "Tytuł"
+
+msgid "List"
+msgstr "Lista"
+
+msgid "Adding"
+msgstr "Dodawanie"
+
+msgid "Editing"
+msgstr "Edytowanie"
+
+msgid "Add"
+msgstr "Dodaj"
+
+msgid "Submit"
+msgstr "Zapisz"
+
+msgid "Poprawnie usunięto."
+msgstr "Poprawnie usunięto."
+
+msgid "Name"
+msgstr "Nazwa"
+
+msgid "Photo Categories"
+msgstr "Kategorie zdjęć"
+
+msgid "New Photo Category"
+msgstr "Nowa kategoria zdjęć"
+
+msgid "List Photo Categories"
+msgstr "Lista kategorii zdjęć"
+
+msgid "Edit Photo Categories"
+msgstr "Edycja kategorii zdjęcia"
+
+msgid "Delete Photo Categories"
+msgstr "Usuń kategorię zdjęcia"
+
+msgid "Admin Add Photo Category"
+msgstr "Dodawanie kategorii zdjęcia"
+
+msgid "Admin Edit Photo Category"
+msgstr "Edycja kategorii zdjęcia"
+
+msgid "Photo Id"
+msgstr "Obrazek"
+msgid "Product Category Id"
+msgstr "Kategoria"
+msgid "Content"
+msgstr "Opis"
+msgid "Price"
+msgstr "Cena"
+msgid "Tax Rate"
+msgstr "VAT"
+msgid "Tax Value"
+msgstr "Wartość VAT"
+
+msgid "Products"
+msgstr "Produkty"
+
+msgid "New Product"
+msgstr "Dodaj produkt"
+
+msgid "List Products"
+msgstr "Lista produktów"
+
+msgid "Edit Products"
+msgstr "Edycja produktu"
+
+msgid "Delete Products"
+msgstr "Usuń produkt"
+
+msgid "Admin Add Product"
+msgstr "Dodawanie produktu"
+
+msgid "Admin Edit Product"
+msgstr "Edycja produktu"
+
+
+msgid "Product Categories"
+msgstr "Kategorie produktów"
+
+msgid "New Product Category"
+msgstr "Dodaj kategorię produktu"
+
+msgid "List Product Categories"
+msgstr "Lista kategorii produktów"
+
+msgid "Edit Product Categories"
+msgstr "Edycja kategorii produktu"
+
+msgid "Delete Product Categories"
+msgstr "Usuń kategorię produktu"
+
+msgid "Admin Add Product Category"
+msgstr "Dodawanie kategorii produktów"
+
+msgid "Admin Edit Product Category"
+msgstr "Edycja kategorii produktu"
+
+msgid "Product Category Data"
+msgstr "Dane o kategorii produktów"
+
+msgid "Product Data"
+msgstr "Dane o produkcie"
+
+
+msgid "Color"
+msgstr "Kolor"
+
+msgid "Color Img"
+msgstr "Plik tekstury"
+
+msgid "Window Colors"
+msgstr "Kolory okien"
+
+msgid "New Window Color"
+msgstr "Dodaj kolor okna"
+
+msgid "List Window Colors"
+msgstr "Lista kolorów okien"
+
+msgid "Edit Window Colors"
+msgstr "Edycja koloru okna"
+
+msgid "Delete Window Colors"
+msgstr "Usuń kolor okna"
+
+msgid "Admin Add Window Color"
+msgstr "Dodawanie koloru okna"
+
+msgid "Admin Edit Window Color"
+msgstr "Edycja koloru okna"
+
+msgid "Code"
+msgstr "Kod"
+msgid "Image"
+msgstr "Obraz"
+msgid "Description"
+msgstr "Opis"
+msgid "Price Sq M"
+msgstr "Cena za m²"
+
+msgid "Glass Patterned Types"
+msgstr "Szyby ornamentowe"
+
+msgid "New Glass Patterned Type"
+msgstr "Dodaj szybę ornamentową"
+
+msgid "List Glass Patterned Types"
+msgstr "Lista szyb ornamentowych"
+
+msgid "Edit Glass Patterned Types"
+msgstr "Edycja szyby ornamentowej"
+
+msgid "Delete Glass Patterned Types"
+msgstr "Usuń szybę ornamentową"
+
+msgid "Admin Add Glass Patterned Type"
+msgstr "Dodawanie szyby ornamentowej"
+
+msgid "Admin Edit Glass Patterned Type"
+msgstr "Edycja szyby ornamentowej"
+
+msgid "Glass Patterned Type Data"
+msgstr "Dane szyby ornamentowej"
+
+msgid "Glass Types Category Id"
+msgstr "ID kategorii szyb"
+
+msgid "Glass Types"
+msgstr "Typ szyby"
+
+msgid "New Glass Type"
+msgstr "Dodaj typ szyby"
+
+msgid "List Glass Types"
+msgstr "Lista typów szyb"
+
+msgid "Edit Glass Types"
+msgstr "Edycja typów szyb"
+
+msgid "Delete Glass Types"
+msgstr "Usuń typ szyby"
+
+msgid "Admin Add Glass Type"
+msgstr "Dodawanie typu szyby"
+
+msgid "Admin Edit Glass Type"
+msgstr "Edycja typu szyby"
+
+msgid "Glass Type Data"
+msgstr "Dane typu szyby"
+
+msgid "Glass Type Id"
+msgstr "ID typu szyby"
+
+msgid "Glass Types Categories"
+msgstr "Kategorie szyb"
+
+msgid "New Glass Types Category"
+msgstr "Dodaj kategorię szyb"
+
+msgid "List Glass Types Categories"
+msgstr "Lista kategorii szyb"
+
+msgid "Edit Glass Types Categories"
+msgstr "Edycja kategorii szyb"
+
+msgid "Delete Glass Types Categories"
+msgstr "Usuń kategorię szyb"
+
+msgid "Admin Add Glass Types Category"
+msgstr "Dodawanie kategorii szyb"
+
+msgid "Admin Edit Glass Types Category"
+msgstr "Edycja kategorii szyb"
+
+msgid "Glass Types Category Data"
+msgstr "Dane kategorii szyb"
+
+msgid "Symbol"
+msgstr "Symbol"
+
+msgid "Sash Types"
+msgstr "Typ skrzydła"
+
+msgid "New Sash Type"
+msgstr "Dodaj typ skrzydła"
+
+msgid "List Sash Types"
+msgstr "Lista typów skrzydeł"
+
+msgid "Edit Sash Types"
+msgstr "Edycja typu skrzydła"
+
+msgid "Delete Sash Types"
+msgstr "Usuń typ skrzydła"
+
+msgid "Admin Add Sash Type"
+msgstr "Dodawanie typu skrzydła"
+
+msgid "Admin Edit Sash Type"
+msgstr "Edycja typu skrzydła"
+msgid "Sash Type Data"
+msgstr "Dane typu skrzydła"
+
+
+
+msgid "Window Line Id"
+msgstr "Linia okien"
+msgid "Price Factor In"
+msgstr "Cena (kol. wew.)"
+msgid "Price Factor Out"
+msgstr "Cena (kol. zew.)"
+msgid "Price Factor Both"
+msgstr "Cena (kol. obustr.)"
+
+msgid "Window Color Groups"
+msgstr "Grupy kolorów"
+
+msgid "New Window Color Group"
+msgstr "Dodaj grupę kolorów"
+
+msgid "List Window Color Groups"
+msgstr "Lista grup kolorów"
+
+msgid "Edit Window Color Groups"
+msgstr "Edycja grupy kolorów"
+
+msgid "Delete Window Color Groups"
+msgstr "Usuń grupę kolorów"
+
+msgid "Admin Add Window Color Group"
+msgstr "Dodawanie grupy kolorów"
+
+msgid "Admin Edit Window Color Group"
+msgstr "Edycja grupy kolorów"
+
+msgid "Window Color Group Data"
+msgstr "Dane grupy kolorów"
+
+
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Window Fittings"
+msgstr "Okucia"
+
+msgid "New Window Fitting"
+msgstr "Dodaj okucie"
+
+msgid "List Window Fittings"
+msgstr "Lista okuć"
+
+msgid "Edit Window Fittings"
+msgstr "Edycja okucia"
+
+msgid "Delete Window Fittings"
+msgstr "Usuń okucie"
+
+msgid "Admin Add Window Fitting"
+msgstr "Dodawanie okucia"
+
+msgid "Admin Edit Window Fitting"
+msgstr "Edycja okucia"
+
+msgid "Window Fitting Data"
+msgstr "Dane okucia"
+
+
+msgid "Window Handlers"
+msgstr "Klamki"
+
+msgid "New Window Handler"
+msgstr "Dodaj klamkę"
+
+msgid "List Window Handlers"
+msgstr "Lista klamek"
+
+msgid "Edit Window Handlers"
+msgstr "Edycja klamki"
+
+msgid "Delete Window Handlers"
+msgstr "Usuń klamkę"
+
+msgid "Admin Add Window Handler"
+msgstr "Dodawanie klamki"
+
+msgid "Admin Edit Window Handler"
+msgstr "Edycja klamki"
+
+msgid "Window Handler Data"
+msgstr "Dane klamki"
+
+
+msgid "Window Lines"
+msgstr "Linie okien"
+
+msgid "New Window Line"
+msgstr "Dodaj linię okien"
+
+msgid "List Window Lines"
+msgstr "Lista linii okien"
+
+msgid "Edit Window Lines"
+msgstr "Edycja linii okien"
+
+msgid "Delete Window Lines"
+msgstr "Usuń linię okien"
+
+msgid "Admin Add Window Line"
+msgstr "Dodawanie linii okien"
+
+msgid "Admin Edit Window Line"
+msgstr "Edycja linii okien"
+
+msgid "Window Line Data"
+msgstr "Dane linii okien"
+
+
+msgid "Window Seal Colors"
+msgstr "Kolory uszczelek"
+
+msgid "New Window Seal Color"
+msgstr "Dodaj kolor uszczelki"
+
+msgid "List Window Seal Colors"
+msgstr "Lista kolorów uszczelek"
+
+msgid "Edit Window Seal Colors"
+msgstr "Edycja koloru uszczelki"
+
+msgid "Delete Window Seal Colors"
+msgstr "Usuń kolor uszczelki"
+
+msgid "Admin Add Window Seal Color"
+msgstr "Dodawanie koloru uszczelki"
+
+msgid "Admin Edit Window Seal Color"
+msgstr "Edycja koloru uszczelki"
+
+msgid "Window Seal Color Data"
+msgstr "Dane koloru uszczelki"
+
+
+msgid "Sash Type Id"
+msgstr "Typ skrzydła"
+msgid "Height From"
+msgstr "Wys. od"
+msgid "Height To"
+msgstr "Wys. do"
+msgid "Width From"
+msgstr "Szer. od"
+msgid "Width To"
+msgstr "Szer. do"
+
+msgid "Windows Sizes"
+msgstr "Wymiary okien"
+
+msgid "New Windows Size"
+msgstr "Dodaj wymiar okien"
+
+msgid "List Windows Sizes"
+msgstr "Lista wymiarów okien"
+
+msgid "Edit Windows Sizes"
+msgstr "Edycja wymiaru okien"
+
+msgid "Delete Windows Sizes"
+msgstr "Usuń wymiar okien"
+
+msgid "Admin Add Windows Size"
+msgstr "Dodawanie wymiaru okien"
+
+msgid "Admin Edit Windows Size"
+msgstr "Edycja wymiaru okien"
+msgid "Windows Size Data"
+msgstr "Dane wymiaru okien"
+
+msgid "Sashes Layouts"
+msgstr "Układy skrzydeł"
+
+msgid "New Sashes Layout"
+msgstr "Dodaj układ skrzydeł"
+
+msgid "List Sashes Layouts"
+msgstr "Lista układów skrzydeł"
+
+msgid "Edit Sashes Layouts"
+msgstr "Edytuj układ skrzydeł"
+
+msgid "Delete Sashes Layouts"
+msgstr "Usuń układ skrzydeł"
+
+msgid "Admin Add Sashes Layout"
+msgstr "Dodawanie układu skrzydeł"
+
+msgid "Admin Edit Sashes Layout"
+msgstr "Edycja układu skrzydeł"
+
+msgid "Sashes Layout Data"
+msgstr "Dane układu skrzydeł"
+
+
+
+
+
+msgid "Color thumb"
+msgstr "Miniatura koloru"
+
+msgid "Construction Colours"
+msgstr "Kolory konstrukcji"
+
+msgid "New Construction Colour"
+msgstr "Dodaj kolor konstrukcji"
+
+msgid "List Construction Colours"
+msgstr "Lista kolorów konstrukcji"
+
+msgid "Edit Construction Colours"
+msgstr "Edycja koloru konstrukcji"
+
+msgid "Delete Construction Colours"
+msgstr "Usuń kolor konstrukcji"
+
+msgid "Admin Add Construction Colour"
+msgstr "Dodawanie koloru konstrukcji"
+
+msgid "Admin Edit Construction Colour"
+msgstr "Edycja koloru konstrukcji"
+
+msgid "Construction Colour Data"
+msgstr "Dane koloru konstrukcji"
+
+
+
+msgid "Price Factor"
+msgstr "Współczynnik ceny"
+msgid "Price Factor (% additional payment)"
+msgstr "Współczynnik ceny (dopłata w %)"
+msgid "Price Margin"
+msgstr "Marża (%)"
+
+msgid "Lines"
+msgstr "Linie"
+
+msgid "New Line"
+msgstr "Dodaj linię"
+
+msgid "List Lines"
+msgstr "Lista linii"
+
+msgid "Edit Lines"
+msgstr "Edycja linii"
+
+msgid "Delete Lines"
+msgstr "Usuń linię"
+
+msgid "Admin Add Line"
+msgstr "Dodawanie linii"
+
+msgid "Admin Edit Line"
+msgstr "Edycja linii"
+
+msgid "Line Data"
+msgstr "Dane linii"
+
+
+
+msgid "Min Width"
+msgstr "Min. szerokość"
+msgid "Max Width"
+msgstr "Maks. szerokość"
+msgid "Quantity"
+msgstr "Ilość konsoli"
+
+msgid "Mounting Console Quantities"
+msgstr "Ilości konsoli montażowych"
+
+
+msgid "Edit Mounting Console Quantities"
+msgstr "Edycja Mounting Console Quantities"
+
+msgid "Delete Mounting Console Quantities"
+msgstr "Usuń Mounting Console Quantities"
+
+msgid "Admin Add Mounting Console Quantity"
+msgstr "Dodawanie Mounting Console Quantity"
+
+msgid "Admin Edit Mounting Console Quantity"
+msgstr "Edycja Mounting Console Quantity"
+
+msgid "Mounting Console Quantity Data"
+msgstr "Dane Mounting Console Quantity"
+
+
+msgid "Mountings"
+msgstr "Sposoby montażu"
+
+msgid "Mounting"
+msgstr "Sposób montażu"
+
+msgid "New Mounting"
+msgstr "Dodaj sposób montażu"
+
+msgid "List Mountings"
+msgstr "Lista sposobów montażu"
+
+msgid "Edit Mountings"
+msgstr "Edycja sposobu montażu"
+
+msgid "Delete Mountings"
+msgstr "Usuń sposób montażu"
+
+msgid "Admin Add Mounting"
+msgstr "Dodawanie sposobu montażu"
+
+msgid "Admin Edit Mounting"
+msgstr "Edycja sposobu montażu"
+
+msgid "Mounting Data"
+msgstr "Dane sposobu montażu"
+
+
+msgid "Line Id"
+msgstr "Line Id"
+msgid "Mounting Id"
+msgstr "Mounting Id"
+
+msgid "Mounting Console Prices"
+msgstr "Ceny konsoli montażowych"
+
+msgid "New Mounting Console Price"
+msgstr "Dodaj Mounting Console Price"
+
+msgid "List Mounting Console Prices"
+msgstr "Lista Mounting Console Prices"
+
+msgid "Edit Mounting Console Prices"
+msgstr "Edycja Mounting Console Prices"
+
+msgid "Delete Mounting Console Prices"
+msgstr "Usuń Mounting Console Prices"
+
+msgid "Admin Add Mounting Console Price"
+msgstr "Dodawanie Mounting Console Price"
+
+msgid "Admin Edit Mounting Console Price"
+msgstr "Edycja Mounting Console Price"
+
+msgid "Mounting Console Price Data"
+msgstr "Dane Mounting Console Price"
+
+
+
+msgid "Line Id"
+msgstr "Linia"
+msgid "Outreach"
+msgstr "Wysięg"
+
+msgid "Sizes"
+msgstr "Wymiary"
+
+msgid "New Size"
+msgstr "Dodaj wymiar"
+
+msgid "Admin Add Size"
+msgstr "Dodaj wymiar"
+
+msgid "Size Data"
+msgstr "Dane wymiaru"
+
+msgid "List Sizes"
+msgstr "Lista wymiarów"
+
+
+msgid "Valances"
+msgstr "Falbany"
+
+msgid "New Valance"
+msgstr "Dodaj falbanę"
+
+msgid "List Valances"
+msgstr "Lista falban"
+
+msgid "Edit Valances"
+msgstr "Edycja falbanę"
+
+msgid "Delete Valances"
+msgstr "Usuń falbanę"
+
+msgid "Admin Add Valance"
+msgstr "Dodawanie falbany"
+
+msgid "Admin Edit Valance"
+msgstr "Edycja falbany"
+
+msgid "Valance Data"
+msgstr "Dane falbany"
+
+
+msgid "Fabrics"
+msgstr "Tkaniny"
+
+msgid "New Fabric"
+msgstr "Dodaj tkaninę"
+
+msgid "List Fabrics"
+msgstr "Lista tkanin"
+
+msgid "Edit Fabrics"
+msgstr "Edycja tkaniny"
+
+msgid "Delete Fabrics"
+msgstr "Usuń tkaninę"
+
+msgid "Admin Add Fabric"
+msgstr "Dodawanie tkaniny"
+
+msgid "Admin Edit Fabric"
+msgstr "Edycja tkaniny"
+
+msgid "Fabric Data"
+msgstr "Dane tkaniny"
+
+
+msgid "Fabric Id"
+msgstr "Tkanina"
+
+msgid "Fabric Styles"
+msgstr "Wzory tkanin"
+
+msgid "New Fabric Style"
+msgstr "Dodaj wzór tkaniny"
+
+msgid "List Fabric Styles"
+msgstr "Lista wzorów tkanin"
+
+msgid "Edit Fabric Styles"
+msgstr "Edycja wzoru tkaniny"
+
+msgid "Delete Fabric Styles"
+msgstr "Usuń wzór tkaniny"
+
+msgid "Admin Add Fabric Style"
+msgstr "Dodawanie wzoru tkaniny"
+
+msgid "Admin Edit Fabric Style"
+msgstr "Edycja wzoru tkaniny"
+
+msgid "Fabric Style Data"
+msgstr "Dane wzoru tkaniny"
+
+msgid "Fabrics Styles Import"
+msgstr "Import wzorów tkanin"
+
+
+#: Model Cranks 
+
+msgid "Cranks"
+msgstr "Korby"
+
+msgid "New Crank"
+msgstr "Dodaj korbę"
+
+msgid "List Cranks"
+msgstr "Lista korb"
+
+msgid "Edit Cranks"
+msgstr "Edycja korby"
+
+msgid "Delete Cranks"
+msgstr "Usuń korbę"
+
+msgid "Admin Add Crank"
+msgstr "Dodawanie korby"
+
+msgid "Admin Edit Crank"
+msgstr "Edycja korby"
+
+msgid "Crank Data"
+msgstr "Dane korby"
+
+
+#: Model Motors 
+
+msgid "Motors"
+msgstr "Napędy"
+
+msgid "New Motor"
+msgstr "Dodaj napęd"
+
+msgid "List Motors"
+msgstr "Lista napędów"
+
+msgid "Edit Motors"
+msgstr "Edycja napędu"
+
+msgid "Delete Motors"
+msgstr "Usuń napęd"
+
+msgid "Admin Add Motor"
+msgstr "Dodawanie napędu"
+
+msgid "Admin Edit Motor"
+msgstr "Edycja napędu"
+
+msgid "Motor Data"
+msgstr "Dane napędu"
+
+#: Model Motor Options 
+
+msgid "Motor Id"
+msgstr "Napęd"
+
+msgid "Motor Options"
+msgstr "Opcje napędów"
+
+msgid "New Motor Option"
+msgstr "Dodaj opcję napędu"
+
+msgid "List Motor Options"
+msgstr "Lista opcji napędów"
+
+msgid "Edit Motor Options"
+msgstr "Edycja opcji napędu"
+
+msgid "Delete Motor Options"
+msgstr "Usuń opcję napędu"
+
+msgid "Admin Add Motor Option"
+msgstr "Dodawanie opcji napędu"
+
+msgid "Admin Edit Motor Option"
+msgstr "Edycja opcji napędu"
+
+msgid "Motor Option Data"
+msgstr "Dane opcji napędu"
+
+#: Model Accessories 
+
+msgid "Price Model"
+msgstr "Model cen"
+
+msgid "Accessories"
+msgstr "Akcesoria"
+
+msgid "New Accessory"
+msgstr "Dodaj akcesorium"
+
+msgid "List Accessories"
+msgstr "Lista akcesoriów"
+
+msgid "Edit Accessories"
+msgstr "Edycja akcesorium"
+
+msgid "Delete Accessories"
+msgstr "Usuń akcesorium"
+
+msgid "Admin Add Accessory"
+msgstr "Dodawanie akcesorium"
+
+msgid "Admin Edit Accessory"
+msgstr "Edycja akcesorium"
+
+msgid "Accessory Data"
+msgstr "Dane akcesorium"
+
+#: Model Hood Prices 
+
+msgid "Hood Prices"
+msgstr "Ceny daszków"
+
+msgid "New Hood Price"
+msgstr "Dodaj daszek"
+
+msgid "List Hood Prices"
+msgstr "Lista daszków"
+
+msgid "Edit Hood Prices"
+msgstr "Edycja daszku"
+
+msgid "Delete Hood Prices"
+msgstr "Usuń daszek"
+
+msgid "Admin Add Hood Price"
+msgstr "Dodawanie daszku"
+
+msgid "Admin Edit Hood Price"
+msgstr "Edycja daszku"
+
+msgid "Hood Price Data"
+msgstr "Dane daszku"
+
+#: Model Window Bar Types 
+
+msgid "Field Price"
+msgstr "Cena za pole"
+
+msgid "Window Bar Types"
+msgstr "Rodzaje szprosów"
+
+msgid "New Window Bar Type"
+msgstr "Dodaj rodzaj szprosu"
+
+msgid "List Window Bar Types"
+msgstr "Lista rodzaji szprosów"
+
+msgid "Edit Window Bar Types"
+msgstr "Edycja rodzaju szprosu"
+
+msgid "Delete Window Bar Types"
+msgstr "Usuń rodzaj szprosu"
+
+msgid "Admin Add Window Bar Type"
+msgstr "Dodawanie rodzaju szprosu"
+
+msgid "Admin Edit Window Bar Type"
+msgstr "Edycja rodzaju szprosu"
+
+msgid "Window Bar Type Data"
+msgstr "Dane rodzaju szprosu"
+
+#: Model RollerShutterLines 
+
+msgid "Allowed Mosquito Net"
+msgstr "Dozwolona moskitiera"
+
+msgid "RollerShutterLines"
+msgstr "Linie rolet"
+
+msgid "New RollerShutterLine"
+msgstr "Dodaj linię rolet"
+
+msgid "List RollerShutterLines"
+msgstr "Lista linii rolet"
+
+msgid "Edit RollerShutterLines"
+msgstr "Edycja linii rolet"
+
+msgid "Delete RollerShutterLines"
+msgstr "Usuń linię rolet"
+
+msgid "Admin Add RollerShutterLine"
+msgstr "Dodawanie linii rolet"
+
+msgid "Admin Edit RollerShutterLine"
+msgstr "Edycja linii rolet"
+
+msgid "RollerShutterLine Data"
+msgstr "Dane linii rolet"
+
+
+#: Model RollerShutterAccessories 
+
+msgid "RollerShutterAccessories"
+msgstr "Akcesoria"
+
+msgid "New RollerShutterAccessory"
+msgstr "Dodaj akcesorium"
+
+msgid "List RollerShutterAccessories"
+msgstr "Lista akcesoriów"
+
+msgid "Edit RollerShutterAccessories"
+msgstr "Edycja akcesorium"
+
+msgid "Delete RollerShutterAccessories"
+msgstr "Usuń akcesorium"
+
+msgid "Admin Add RollerShutterAccessory"
+msgstr "Dodawanie akcesorium"
+
+msgid "Admin Edit RollerShutterAccessory"
+msgstr "Edycja akcesorium"
+
+msgid "RollerShutterAccessory Data"
+msgstr "Dane akcesorium"
+
+#: Model RollerShutterColors 
+
+msgid "Profile"
+msgstr "Profil"
+msgid "Guide Channel"
+msgstr "Prowadnica"
+msgid "Endslat"
+msgstr "Listwa dolna"
+msgid "Box"
+msgstr "Skrzynka"
+msgid "RollerShutterColor"
+msgstr "Kolor"
+msgid "RollerShutterColor Img"
+msgstr "Tekstura"
+
+msgid "RollerShutterColors"
+msgstr "Kolory rolet"
+
+msgid "New RollerShutterColor"
+msgstr "Dodaj kolor rolet"
+
+msgid "List RollerShutterColors"
+msgstr "Lista kolorów rolet"
+
+msgid "Edit RollerShutterColors"
+msgstr "Edycja koloru rolet"
+
+msgid "Delete RollerShutterColors"
+msgstr "Usuń kolor rolet"
+
+msgid "Admin Add RollerShutterColor"
+msgstr "Dodawanie koloru rolet"
+
+msgid "Admin Edit RollerShutterColor"
+msgstr "Edycja koloru rolet"
+
+msgid "RollerShutterColor Data"
+msgstr "Dane koloru rolet"
+
+
+#: Model RollerShutterDrive Paths 
+
+msgid "RollerShutterDrive Paths"
+msgstr "Wyprowadzenia napędu"
+
+msgid "New RollerShutterDrive Path"
+msgstr "Dodaj wyprowadzenie napędu"
+
+msgid "List RollerShutterDrive Paths"
+msgstr "Lista wyprowadzeń napędu"
+
+msgid "Edit RollerShutterDrive Paths"
+msgstr "Edycja wyprowadzenia napędu"
+
+msgid "Delete RollerShutterDrive Paths"
+msgstr "Usuń wyprowadzenie napędu"
+
+msgid "Admin Add RollerShutterDrive Path"
+msgstr "Dodawanie wyprowadzenia napędu"
+
+msgid "Admin Edit RollerShutterDrive Path"
+msgstr "Edycja wyprowadzenia napędu"
+
+msgid "RollerShutterDrive Path Data"
+msgstr "Dane wyprowadzenia napędu"
+
+#: Model RollerShutterDrives 
+
+msgid "RollerShutterDrives"
+msgstr "Napędy rolet"
+
+msgid "New RollerShutterDrive"
+msgstr "Dodaj napęd rolet"
+
+msgid "List RollerShutterDrives"
+msgstr "Lista napędów rolet"
+
+msgid "Edit RollerShutterDrives"
+msgstr "Edycja napędu rolet"
+
+msgid "Delete RollerShutterDrives"
+msgstr "Usuń napęd rolet"
+
+msgid "Admin Add RollerShutterDrive"
+msgstr "Dodawanie napędu rolet"
+
+msgid "Admin Edit RollerShutterDrive"
+msgstr "Edycja napędu rolet"
+
+msgid "RollerShutterDrive Data"
+msgstr "Dane napędu rolet"
+
+#: Model Guide Channels 
+
+
+msgid "Img"
+msgstr "Obraz"
+
+msgid "Guide Channels"
+msgstr "Prowadnice"
+
+msgid "New Guide Channel"
+msgstr "Dodaj prowadnicę"
+
+msgid "List Guide Channels"
+msgstr "Lista prowadnic"
+
+msgid "Edit Guide Channels"
+msgstr "Edycja prowadnicy"
+
+msgid "Delete Guide Channels"
+msgstr "Usuń prowadnicę"
+
+msgid "Admin Add Guide Channel"
+msgstr "Dodawanie prowadnicy"
+
+msgid "Admin Edit Guide Channel"
+msgstr "Edycja prowadnicy"
+
+msgid "Guide Channel Data"
+msgstr "Dane prowadnicy"
+
+#: Model RollerShutterMotors 
+
+msgid "RollerShutterMotors"
+msgstr "Silniki rolet"
+
+msgid "New RollerShutterMotor"
+msgstr "Dodaj silnik"
+
+msgid "List RollerShutterMotors"
+msgstr "Lista silników"
+
+msgid "Edit RollerShutterMotors"
+msgstr "Edycja silnika"
+
+msgid "Delete RollerShutterMotors"
+msgstr "Usuń silnik"
+
+msgid "Admin Add RollerShutterMotor"
+msgstr "Dodawanie silnika"
+
+msgid "Admin Edit RollerShutterMotor"
+msgstr "Edycja silnika"
+
+msgid "RollerShutterMotor Data"
+msgstr "Dane silnika"
+
+#: Model RollerShutterProfiles 
+
+msgid "RollerShutterProfiles"
+msgstr "Profile rolet"
+
+msgid "Profiles"
+msgstr "Profile"
+
+msgid "RollerShutterProfile"
+msgstr "Profil rolet"
+
+msgid "New RollerShutterProfile"
+msgstr "Dodaj profil rolet"
+
+msgid "List RollerShutterProfiles"
+msgstr "Lista profili rolet"
+
+msgid "Edit RollerShutterProfiles"
+msgstr "Edycja profilu rolet"
+
+msgid "Delete RollerShutterProfiles"
+msgstr "Usuń profil rolet"
+
+msgid "Admin Add RollerShutterProfile"
+msgstr "Dodawanie profilu rolet"
+
+msgid "Admin Edit RollerShutterProfile"
+msgstr "Edycja profilu rolet"
+
+msgid "RollerShutterProfile Data"
+msgstr "Dane profilu rolet"
+
+//Model Roller Shutter Boxes 
+
+msgid "Roller Shutter Boxes"
+msgstr "Skrzynki rolet"
+
+msgid "New Roller Shutter Box"
+msgstr "Dodaj skrzynkę rolety"
+
+msgid "List Roller Shutter Boxes"
+msgstr "Lista skrzynek rolet"
+
+msgid "Edit Roller Shutter Boxes"
+msgstr "Edycja skrzynki rolety"
+
+msgid "Delete Roller Shutter Boxes"
+msgstr "Usuń skrzynkę rolety"
+
+msgid "Admin Add Roller Shutter Box"
+msgstr "Dodawanie skrzynki rolety"
+
+msgid "Admin Edit Roller Shutter Box"
+msgstr "Edycja skrzynki rolety"
+
+msgid "Roller Shutter Box Data"
+msgstr "Dane skrzynki rolety"
+
+//Model Roller Shutter Box Sizes 
+
+msgid "Roller Shutter Box Id"
+msgstr "Skrzynka rolety"
+msgid "Box Size"
+msgstr "Rozmiar skrzynki"
+msgid "Height A"
+msgstr "Wysokość (A) mm"
+msgid "Width B"
+msgstr "Szerokość (B) mm"
+msgid "Height C"
+msgstr "Wysokość (C) mm"
+
+msgid "Roller Shutter Box Sizes"
+msgstr "Rozmiary skrzynek rolet"
+
+msgid "Box Sizes"
+msgstr "Rozmiary skrzynek"
+
+msgid "New Roller Shutter Box Size"
+msgstr "Dodaj rozmiar skrzynki"
+
+msgid "List Roller Shutter Box Sizes"
+msgstr "Lista rozmiarów skrzynek"
+
+msgid "Edit Roller Shutter Box Sizes"
+msgstr "Edycja rozmiaru skrzynki"
+
+msgid "Delete Roller Shutter Box Sizes"
+msgstr "Usuń rozmiar skrzynki"
+
+msgid "Admin Add Roller Shutter Box Size"
+msgstr "Dodawanie rozmiaru skrzynki"
+
+msgid "Admin Edit Roller Shutter Box Size"
+msgstr "Edycja rozmiaru skrzynki"
+
+msgid "Roller Shutter Box Size Data"
+msgstr "Dane rozmiaru skrzynki"
+
+//Model Roller Shutter Color Groups 
+
+msgid "Roller Shutter Box Size Id"
+msgstr "Rozmiar skrzynki"
+msgid "Roller Shutter Profile Id"
+msgstr "Profil"
+msgid "Price Percent"
+msgstr "Dopłata (%)"
+
+msgid "Roller Shutter Color Groups"
+msgstr "Grupy kolorów rolet"
+
+msgid "Endslats"
+msgstr "Listwy dolne"
+
+msgid "New Roller Shutter Color Group"
+msgstr "Dodaj grupę kolorów rolet"
+
+msgid "List Roller Shutter Color Groups"
+msgstr "Lista grup kolorów rolet"
+
+msgid "Edit Roller Shutter Color Groups"
+msgstr "Edycja grupy kolorów rolet"
+
+msgid "Delete Roller Shutter Color Groups"
+msgstr "Usuń grupę kolorów rolet"
+
+msgid "Admin Add Roller Shutter Color Group"
+msgstr "Dodawanie grupy kolorów rolet"
+
+msgid "Admin Edit Roller Shutter Color Group"
+msgstr "Edycja grupy kolorów rolet"
+
+msgid "Roller Shutter Color Group Data"
+msgstr "Dane grupy kolorów rolet"
+
+#: Model RollerShutterSizes 
+
+msgid "RollerShutterLine Id"
+msgstr "Linia rolet"
+msgid "RollerShutterProfile Id"
+msgstr "Profil rolet"
+msgid "Mosquito Net"
+msgstr "Moskitiera"
+
+msgid "RollerShutterSizes"
+msgstr "Rozmiary rolet"
+
+msgid "New RollerShutterSize"
+msgstr "Dodaj rozmiar rolety"
+
+msgid "List RollerShutterSizes"
+msgstr "Lista rozmiarów rolet"
+
+msgid "Edit RollerShutterSizes"
+msgstr "Edycja rozmiaru rolety"
+
+msgid "Delete RollerShutterSizes"
+msgstr "Usuń rozmiar rolety"
+
+msgid "Admin Add RollerShutterSize"
+msgstr "Dodawanie rozmiaru rolety"
+
+msgid "Admin Edit RollerShutterSize"
+msgstr "Edycja rozmiaru rolety"
+
+msgid "RollerShutterSize Data"
+msgstr "Dane rozmiaru rolety"
+
+#: Model Rollup Valance Prices 
+
+msgid "Rollup Valance Prices"
+msgstr "Ceny zwijanej rolety"
+
+msgid "New Rollup Valance Price"
+msgstr "Dodaj cenę zwijanej rolety"
+
+msgid "List Rollup Valance Prices"
+msgstr "Lista cen zwijanej rolety"
+
+msgid "Edit Rollup Valance Prices"
+msgstr "Edycja ceny zwijanej rolety"
+
+msgid "Delete Rollup Valance Prices"
+msgstr "Usuń cenę zwijanej rolety"
+
+msgid "Admin Add Rollup Valance Price"
+msgstr "Dodawanie ceny zwijanej rolety"
+
+msgid "Admin Edit Rollup Valance Price"
+msgstr "Edycja ceny zwijanej rolety"
+
+msgid "Rollup Valance Price Data"
+msgstr "Dane ceny zwijanej rolety"
+
+msgid "Bar Colors"
+msgstr "Kolory szprosów"
+
+msgid "New Bar Color"
+msgstr "Dodaj kolor szprosu"
+
+msgid "Admin Add Bar Color"
+msgstr "Dodawanie koloru szprosu"
+
+msgid "Admin Edit Bar Color"
+msgstr "Edycja koloru szprosu"
+
+msgid "List Bar Colors"
+msgstr "Lista kolorów szprosów"
+
+msgid "Window Color Data"
+msgstr "Dane koloru"
+
+#Model Window Accessories 
+
+msgid "Window Accessories Category Id"
+msgstr "Kategoria"
+msgid "Price Model"
+msgstr "Model cennikowy"
+msgid "Price"
+msgstr "Cena"
+
+msgid "Window Accessories"
+msgstr "Akcesoria / dodatki"
+
+msgid "New Window Accessory"
+msgstr "Nowy dodatek"
+
+msgid "List Window Accessories"
+msgstr "Lista dodatków"
+
+msgid "Edit Window Accessories"
+msgstr "Edycja dodatków"
+
+msgid "Delete Window Accessories"
+msgstr "Usuń dodatek"
+
+msgid "Admin Add Window Accessory"
+msgstr "Nowy dodatek"
+
+msgid "Admin Edit Window Accessory"
+msgstr "Edycja dodatku"
+
+msgid "Window Accessory Data"
+msgstr "Dane dodatku"
+
+#Model Window Accessories Categories 
+
+msgid "Window Accessories Categories"
+msgstr "Kategorie dodatków (akcesoriów)"
+
+msgid "New Window Accessories Category"
+msgstr "Dodaj kategorię"
+
+msgid "List Window Accessories Categories"
+msgstr "Lista kategorii"
+
+msgid "Edit Window Accessories Categories"
+msgstr "Edycja kategorii"
+
+msgid "Delete Window Accessories Categories"
+msgstr "Usuń kategorię"
+
+msgid "Admin Add Window Accessories Category"
+msgstr "Dodawanie kategorii"
+
+msgid "Admin Edit Window Accessories Category"
+msgstr "Edycja kategorii"
+
+msgid "Window Accessories Category Data"
+msgstr "Dane kategorii"
+
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Order References"
+msgstr "Polecenia"
+
+msgid "New Order Reference"
+msgstr "Dodaj Order Reference"
+
+msgid "List Order References"
+msgstr "Lista Order References"
+
+msgid "Edit Order References"
+msgstr "Edycja Order References"
+
+msgid "Delete Order References"
+msgstr "Usuń Order References"
+
+msgid "Admin Add Order Reference"
+msgstr "Dodawanie Order Reference"
+
+msgid "Admin Edit Order Reference"
+msgstr "Edycja Order Reference"
+
+msgid "Order Reference Data"
+msgstr "Dane Order Reference"
+
+msgid "List Product Promotions"
+msgstr "Lista promocji"
+
+msgid "Single"
+msgstr "Pojedynczy"
+msgid "Value"
+msgstr "Wartość"
+msgid "Expiry Date"
+msgstr "Data wygaśnięcia"
+
+msgid "Used"
+msgstr "Użyty"
+
+msgid "Deleted"
+msgstr "Usunięty"
+
+msgid "Modified"
+msgstr "Zmodyfikowany"
+
+msgid "Promotion Codes"
+msgstr "Kody promocyjne"
+
+msgid "New Promotion Code"
+msgstr "Dodaj kod promocyjny"
+
+msgid "List Promotion Codes"
+msgstr "Lista kodów promocyjnych"
+
+msgid "Edit Promotion Codes"
+msgstr "Edycja kodu promocyjnego"
+
+msgid "Delete Promotion Codes"
+msgstr "Usuń kod promocyjny"
+
+msgid "Admin Add Promotion Code"
+msgstr "Dodawanie kodu promocyjnego"
+
+msgid "Admin Edit Promotion Code"
+msgstr "Edycja kodu promocyjnego"
+
+msgid "Promotion Code Data"
+msgstr "Dane kodu promocyjnego"
+
+
+//Model Sliders 
+
+msgid "Tiny Name"
+msgstr "Krótka nazwa"
+msgid "Text Color"
+msgstr "Kolor tekstu"
+msgid "Button Text"
+msgstr "Tekst przycisku"
+msgid "Button Link"
+msgstr "Link przycisku"
+
+msgid "Sliders"
+msgstr "Slidery"
+
+msgid "New Slider"
+msgstr "Dodaj Slider"
+
+msgid "List Sliders"
+msgstr "Lista Sliderów"
+
+msgid "Edit Sliders"
+msgstr "Edytuj Slider"
+
+msgid "Delete Sliders"
+msgstr "Usuń Slider"
+
+msgid "Admin Add Slider"
+msgstr "Dodawanie Slidera"
+
+msgid "Admin Edit Slider"
+msgstr "Edycja Slidera"
+
+msgid "Slider Data"
+msgstr "Dane Slidera"
+

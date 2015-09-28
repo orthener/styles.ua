@@ -1,0 +1,33 @@
+//Model Sashes Layouts 
+
+msgid "Code"
+msgstr "Code"
+msgid "Description"
+msgstr "Description"
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Sashes Layouts"
+msgstr "Sashes Layouts"
+
+msgid "New Sashes Layout"
+msgstr "Dodaj Sashes Layout"
+
+msgid "List Sashes Layouts"
+msgstr "Lista Sashes Layouts"
+
+msgid "Edit Sashes Layouts"
+msgstr "Edycja Sashes Layouts"
+
+msgid "Delete Sashes Layouts"
+msgstr "Usuń Sashes Layouts"
+
+msgid "Admin Add Sashes Layout"
+msgstr "Dodawanie Sashes Layout"
+
+msgid "Admin Edit Sashes Layout"
+msgstr "Edycja Sashes Layout"
+
+msgid "Sashes Layout Data"
+msgstr "Dane Sashes Layout"
+

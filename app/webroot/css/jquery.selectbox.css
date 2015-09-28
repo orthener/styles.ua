@@ -1,0 +1,122 @@
+@CHARSET "UTF-8";
+.sbHolder{
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    height: 29px;
+    position: relative;
+    width: 280px;
+    margin-left:-5px;
+    border-radius: 10px;
+    color: #989898;
+    transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    font-family: "PT Sans Pro Regular";
+}
+.sbHolder a{
+    color: #989898
+}
+.sbSelector{
+    display: block;
+    height: 29px;
+    left: 0;
+    line-height: 29px;
+    outline: none;
+    overflow: hidden;
+    position: absolute;
+    text-indent: 10px;
+    top: 0;
+    width: 250px;
+}
+.sbSelector:link, .sbSelector:visited, .sbSelector:hover{
+    outline: none;
+    text-decoration: none;
+}
+.sbToggle{
+    background: url(../img/layouts/default/select1.png) 7px 14px no-repeat;
+    display: block;
+    height: 29px;
+    outline: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+}
+.sbToggle:hover{
+    background: url(../img/layouts/default/select1.png) 7px 14px no-repeat;
+}
+.sbToggleOpen{
+    background: url(../img/layouts/default/select2.png) 7px 14px no-repeat;
+}
+.sbToggleOpen:hover{
+    background: url(../img/layouts/default/select2.png) 7px 14px no-repeat;
+}
+.sbHolderDisabled{
+    background-color: #fff;
+}
+.sbHolderDisabled .sbToggle{
+
+}
+.sbOptions{
+    background-color: #fff;
+    list-style: none;
+    left: -1px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 29px;
+    width: 101%;
+    margin-left: 0;
+    z-index: 1;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+.sbOptions li{
+    padding: 0 7px;
+    list-style: none;
+    margin-left: 5px;
+}
+.sbOptions a{
+    border-bottom: dotted 1px #dedede;
+    display: block;
+    outline: none;
+    padding: 7px 0 7px 7px;
+    color: #4d4d4d
+}
+.sbOptions a:link, .sbOptions a:visited{
+    color: black;
+    text-decoration: none;
+    color: #4d4d4d
+}
+.sbOptions a:hover,
+.sbOptions a:focus,
+.sbOptions a.sbFocus{
+    color: #00AEDA;
+}
+.sbOptions li.last a{
+    border-bottom: none;
+}
+.sbOptions .sbDisabled{
+    border-bottom: dotted 1px #515151;
+    color: #999;
+    display: block;
+    padding: 7px 0 7px 3px;
+}
+.sbOptions .sbGroup{
+    border-bottom: dotted 1px #515151;
+    color: #EBB52D;
+    display: block;
+    font-weight: bold;
+    padding: 7px 0 7px 3px;
+}
+.sbOptions .sbSub{
+    padding-left: 17px;
+}
+/*.searchSpan.categorySelect .sbHolder{
+    width: 270px;
+}
+.searchSpan.categorySelect .sbOptions{
+    width: 91%;
+}*/

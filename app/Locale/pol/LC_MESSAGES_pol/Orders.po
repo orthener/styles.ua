@@ -1,0 +1,56 @@
+//Model Orders 
+
+msgid "Hash"
+msgstr "Hash"
+msgid "Order Status Id"
+msgstr "Order Status Id"
+msgid "Customer Id"
+msgstr "Customer Id"
+msgid "Address"
+msgstr "Address"
+msgid "Invoice Identity"
+msgstr "Invoice Identity"
+msgid "Shipment Method Id"
+msgstr "Shipment Method Id"
+msgid "Shipment Price"
+msgstr "Shipment Price"
+msgid "Shipment Tax Rate"
+msgstr "Shipment Tax Rate"
+msgid "Shipment Tax Value"
+msgstr "Shipment Tax Value"
+msgid "Shipment Discount"
+msgstr "Shipment Discount"
+msgid "Total"
+msgstr "Total"
+msgid "Total Tax Value"
+msgstr "Total Tax Value"
+msgid "Track Number"
+msgstr "Track Number"
+msgid "Modified"
+msgstr "Modified"
+msgid "Payment Type"
+msgstr "Payment Type"
+msgid "Vat"
+msgstr "Vat"
+
+msgid "Orders"
+msgstr "Orders"
+
+msgid "New Order"
+msgstr "Dodaj Order"
+
+msgid "List Orders"
+msgstr "Lista Orders"
+
+msgid "Edit Orders"
+msgstr "Edycja Orders"
+
+msgid "Delete Orders"
+msgstr "Usuń Orders"
+
+msgid "Admin Add Order"
+msgstr "Dodawanie Order"
+
+msgid "Admin Edit Order"
+msgstr "Edycja Order"
+

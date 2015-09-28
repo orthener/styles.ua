@@ -1,0 +1,29 @@
+//Model News Categories 
+
+msgid "Modified"
+msgstr "Modified"
+
+msgid "News Categories"
+msgstr "News Categories"
+
+msgid "New News Category"
+msgstr "Dodaj News Category"
+
+msgid "List News Categories"
+msgstr "Lista News Categories"
+
+msgid "Edit News Categories"
+msgstr "Edycja News Categories"
+
+msgid "Delete News Categories"
+msgstr "Usuń News Categories"
+
+msgid "Admin Add News Category"
+msgstr "Dodawanie News Category"
+
+msgid "Admin Edit News Category"
+msgstr "Edycja News Category"
+
+msgid "News Category Data"
+msgstr "Dane News Category"
+

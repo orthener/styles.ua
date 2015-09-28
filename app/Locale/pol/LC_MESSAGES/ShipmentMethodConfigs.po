@@ -1,0 +1,34 @@
+//Model Shipment Method Configs 
+
+msgid "Shipment Method Id"
+msgstr "Shipment Method Id"
+msgid "Weight"
+msgstr "Weight"
+msgid "Price"
+msgstr "Price"
+msgid "Tax Rate"
+msgstr "Tax Rate"
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Shipment Method Configs"
+msgstr "Shipment Method Configs"
+
+msgid "New Shipment Method Config"
+msgstr "Dodaj Shipment Method Config"
+
+msgid "List Shipment Method Configs"
+msgstr "Lista Shipment Method Configs"
+
+msgid "Edit Shipment Method Configs"
+msgstr "Edycja Shipment Method Configs"
+
+msgid "Delete Shipment Method Configs"
+msgstr "Usuń Shipment Method Configs"
+
+msgid "Admin Add Shipment Method Config"
+msgstr "Dodawanie Shipment Method Config"
+
+msgid "Admin Edit Shipment Method Config"
+msgstr "Edycja Shipment Method Config"
+

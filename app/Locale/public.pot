@@ -1,0 +1,1056 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2012-09-28 14:29+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Lib\PluginConfig\WindowConfiguratorConfig.php:59;80;210
+#: Plugin\RollerShutter\Model\RollerShutterConfiguration.php:240
+msgid "Przy szerokości %s wysokość okna musi mieścić się w zakresie %smm - %smm"
+msgstr ""
+
+#: Lib\PluginConfig\WindowConfiguratorConfig.php:143
+#: Plugin\RollerShutter\Model\RollerShutterConfiguration.php:310
+msgid "Przy wysokości %s szerokość otworu musi mieścić się w zakresie %smm - %smm"
+msgstr ""
+
+#: Lib\PluginConfig\WindowConfiguratorConfig.php:145
+#: Plugin\RollerShutter\Model\RollerShutterConfiguration.php:312
+msgid "Przy wysokości %s szerokość okna musi mieścić się w zakresie %smm - %smm"
+msgstr ""
+
+#: Lib\PluginConfig\WindowConfiguratorConfig.php:208
+#: Plugin\RollerShutter\Model\RollerShutterConfiguration.php:238
+msgid "Przy szerokości %s wysokość otworu musi mieścić się w zakresie %smm - %smm"
+msgstr ""
+
+#: Lib\PluginConfig\WindowConfiguratorConfig.php:235;255
+msgid "W tym momencie nie jest możliwe skonfigurowanie okna w wybranej linii okien"
+msgstr ""
+
+#: Lib\PluginConfig\WindowConfiguratorConfig.php:288
+msgid "Szerokość otworu musi mieścić się w zakresie %smm - %smm"
+msgstr ""
+
+#: Lib\PluginConfig\WindowConfiguratorConfig.php:290
+#: Plugin\RollerShutter\Model\RollerShutterConfiguration.php:353
+msgid "Szerokość okna musi mieścić się w zakresie %smm - %smm"
+msgstr ""
+
+#: Lib\PluginConfig\WindowConfiguratorConfig.php:324
+msgid "Wysokość otworu musi mieścić się w zakresie %smm - %smm"
+msgstr ""
+
+#: Lib\PluginConfig\WindowConfiguratorConfig.php:326
+#: Plugin\RollerShutter\Model\RollerShutterConfiguration.php:391
+msgid "Wysokość okna musi mieścić się w zakresie %smm - %smm"
+msgstr ""
+
+#: Plugin\Awning\Controller\ConfigurationsController.php:90
+#: Plugin\RollerShutter\Controller\RollerShutterConfigurationsController.php:119
+#: Plugin\Window\Controller\WindowConfigurationsController.php:109
+msgid "Nie można przejść od razu do kroku nr %s. Przejdź po kolei wszystkie kroki."
+msgstr ""
+
+#: Plugin\Awning\Controller\ConfigurationsController.php:123
+#: Plugin\Awning\Controller\FabricsController.php:79;102
+#: Plugin\Awning\Controller\HoodPricesController.php:79;100
+#: Plugin\Awning\Controller\MountingConsolePricesController.php:79;103
+#: Plugin\Awning\Controller\MountingConsoleQuantitiesController.php:79;102
+#: Plugin\Awning\Controller\RollupValancePricesController.php:79;100
+#: Plugin\Awning\Controller\ValancesController.php:79;102
+#: Plugin\RollerShutter\Controller\RollerShutterBoxSizesController.php:79;102
+#: Plugin\RollerShutter\Controller\RollerShutterBoxesController.php:79;100
+#: Plugin\RollerShutter\Controller\RollerShutterConfigurationsController.php:197;431
+#: Plugin\RollerShutter\Controller\RollerShutterDrivePathsController.php:79;100
+#: Plugin\RollerShutter\Controller\RollerShutterDrivesController.php:79;100
+#: Plugin\RollerShutter\Controller\RollerShutterMotorsController.php:79;100
+#: Plugin\Window\Controller\GlassPatternedTypesController.php:79;100
+#: Plugin\Window\Controller\SashesLayoutsVariantsSashesController.php:79;104
+#: Plugin\Window\Controller\WindowBarTypesController.php:79;100
+#: Plugin\Window\Controller\WindowClearancesController.php:79;102
+#: Plugin\Window\Controller\WindowConfigurationRecordsController.php:79;105
+#: Plugin\Window\Controller\WindowConfigurationsController.php:524;572
+#: Plugin\Window\Controller\WindowsSizesController.php:82;106
+msgid "Poprawnie zapisano."
+msgstr ""
+
+#: Plugin\Awning\Controller\ConfigurationsController.php:131
+#: Plugin\Awning\Controller\FabricsController.php:82;105
+#: Plugin\Awning\Controller\HoodPricesController.php:82;103
+#: Plugin\Awning\Controller\MountingConsolePricesController.php:82;106
+#: Plugin\Awning\Controller\MountingConsoleQuantitiesController.php:82;105
+#: Plugin\Awning\Controller\RollupValancePricesController.php:82;103
+#: Plugin\Awning\Controller\ValancesController.php:82;105
+#: Plugin\RollerShutter\Controller\RollerShutterBoxSizesController.php:82;105
+#: Plugin\RollerShutter\Controller\RollerShutterBoxesController.php:82;103
+#: Plugin\RollerShutter\Controller\RollerShutterConfigurationsController.php:205;434
+#: Plugin\RollerShutter\Controller\RollerShutterDrivePathsController.php:82;103
+#: Plugin\RollerShutter\Controller\RollerShutterDrivesController.php:82;103
+#: Plugin\RollerShutter\Controller\RollerShutterMotorsController.php:82;103
+#: Plugin\Window\Controller\GlassPatternedTypesController.php:82;103
+#: Plugin\Window\Controller\SashesLayoutsVariantsSashesController.php:82;107
+#: Plugin\Window\Controller\WindowBarTypesController.php:82;103
+#: Plugin\Window\Controller\WindowClearancesController.php:82;105
+#: Plugin\Window\Controller\WindowConfigurationRecordsController.php:82;108
+#: Plugin\Window\Controller\WindowConfigurationsController.php:527;584
+#: Plugin\Window\Controller\WindowsSizesController.php:85;109
+msgid "Wystąpił błąd podczas zapisu, popraw formularz i spróbuj ponownie."
+msgstr ""
+
+#: Plugin\Awning\Controller\ConfigurationsController.php:499
+msgid "Wywołanie możliwe tylko metodą POST"
+msgstr ""
+
+#: Plugin\Awning\Controller\ConfigurationsController.php:528
+msgid "Brak zapisanej konfiguracji - nie można dodać do koszyka"
+msgstr ""
+
+#: Plugin\Awning\Controller\ConfigurationsController.php:571
+#: Plugin\Awning\Controller\FabricsController.php:129
+#: Plugin\Awning\Controller\HoodPricesController.php:125
+#: Plugin\Awning\Controller\MountingConsolePricesController.php:131
+#: Plugin\Awning\Controller\MountingConsoleQuantitiesController.php:129
+#: Plugin\Awning\Controller\RollupValancePricesController.php:125
+#: Plugin\Awning\Controller\ValancesController.php:129
+#: Plugin\RollerShutter\Controller\RollerShutterBoxSizesController.php:129
+#: Plugin\RollerShutter\Controller\RollerShutterBoxesController.php:125
+#: Plugin\RollerShutter\Controller\RollerShutterConfigurationsController.php:462
+#: Plugin\RollerShutter\Controller\RollerShutterDrivePathsController.php:125
+#: Plugin\RollerShutter\Controller\RollerShutterDrivesController.php:125
+#: Plugin\RollerShutter\Controller\RollerShutterMotorsController.php:125
+#: Plugin\Window\Controller\GlassPatternedTypesController.php:125
+#: Plugin\Window\Controller\SashesLayoutsVariantsSashesController.php:133
+#: Plugin\Window\Controller\WindowBarTypesController.php:139
+#: Plugin\Window\Controller\WindowClearancesController.php:129
+#: Plugin\Window\Controller\WindowConfigurationRecordsController.php:135
+#: Plugin\Window\Controller\WindowConfigurationsController.php:695
+#: Plugin\Window\Controller\WindowsSizesController.php:134
+msgid "Poprawnie usunięto."
+msgstr ""
+
+#: Plugin\Awning\Controller\ConfigurationsController.php:574
+#: Plugin\Awning\Controller\FabricsController.php:132
+#: Plugin\Awning\Controller\HoodPricesController.php:128
+#: Plugin\Awning\Controller\MountingConsolePricesController.php:134
+#: Plugin\Awning\Controller\MountingConsoleQuantitiesController.php:132
+#: Plugin\Awning\Controller\RollupValancePricesController.php:128
+#: Plugin\Awning\Controller\ValancesController.php:132
+#: Plugin\RollerShutter\Controller\RollerShutterBoxSizesController.php:132
+#: Plugin\RollerShutter\Controller\RollerShutterBoxesController.php:128
+#: Plugin\RollerShutter\Controller\RollerShutterConfigurationsController.php:465
+#: Plugin\RollerShutter\Controller\RollerShutterDrivePathsController.php:128
+#: Plugin\RollerShutter\Controller\RollerShutterDrivesController.php:128
+#: Plugin\RollerShutter\Controller\RollerShutterMotorsController.php:128
+#: Plugin\Window\Controller\GlassPatternedTypesController.php:128
+#: Plugin\Window\Controller\SashesLayoutsVariantsSashesController.php:136
+#: Plugin\Window\Controller\WindowBarTypesController.php:142
+#: Plugin\Window\Controller\WindowClearancesController.php:132
+#: Plugin\Window\Controller\WindowConfigurationRecordsController.php:138
+#: Plugin\Window\Controller\WindowConfigurationsController.php:698
+#: Plugin\Window\Controller\WindowsSizesController.php:137
+msgid "Nie można usunąć."
+msgstr ""
+
+#: Plugin\Awning\View\Configurations\start.ctp:11
+msgid "Konfigurator markiz"
+msgstr ""
+
+#: Plugin\Awning\View\Configurations\start.ctp:73;257
+#: Plugin\Window\View\WindowConfigurations\start.ctp:71;255
+msgid "Trwa komunikacja z serwerem ..."
+msgstr ""
+
+#: Plugin\Awning\View\Configurations\start.ctp:131;166;286;324
+#: Plugin\Awning\View\Elements\Configurations\step6.ctp:95
+#: Plugin\RollerShutter\View\Elements\RollerShutterConfigurations\submenu_items.ctp:33
+#: Plugin\Window\View\WindowConfigurations\start.ctp:108;143;284
+msgid "Wystąpił błąd połaczenia. Proszę odświeżyć stronę, jeśli problem będzie się powtarzał."
+msgstr ""
+
+#: Plugin\Awning\View\Configurations\start.ctp:147
+#: Plugin\Window\View\WindowConfigurations\start.ctp:124
+msgid "Należy poprawnie wprowadzić wymagane dane, aby przejść do kolejnego kroku"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:12
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:10
+msgid "Specyfikacja produktu"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:13
+#: Plugin\StaticProduct\View\Elements\Commerce\OrderItemDetails.ctp:11
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:11
+msgid "Cena netto"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:14
+#: Plugin\Commerce\View\Orders\cart.ctp:24
+#: Plugin\StaticProduct\View\Elements\Commerce\OrderItemDetails.ctp:12
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:12
+msgid "Ilość"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:15
+#: Plugin\Commerce\View\Customers\order_details.ctp:28
+#: Plugin\Commerce\View\Orders\admin_view.ctp:76
+#: Plugin\StaticProduct\View\Elements\Commerce\OrderItemDetails.ctp:13
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:13
+msgid "Wartość netto"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:16
+#: Plugin\Commerce\View\Customers\order_item.ctp:19
+#: Plugin\Commerce\View\Orders\cart.ctp:23
+#: Plugin\Commerce\View\Orders\completed.ctp:21
+#: Plugin\Commerce\View\Orders\summary.ctp:22
+#: Plugin\StaticProduct\View\Elements\Commerce\OrderItemDetails.ctp:14
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:14
+msgid "Cena brutto"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:43
+#: Plugin\Awning\View\Elements\Commerce\OrderItemFullDescription.ctp:5
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:10
+msgid "Typ markizy:"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:49
+#: Plugin\Awning\View\Elements\Commerce\OrderItemFullDescription.ctp:11
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:19
+msgid "Szerokość x Wysięg"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:51
+#: Plugin\Awning\View\Elements\Commerce\OrderItemFullDescription.ctp:13
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:21
+msgid "%s cm x %s cm"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:55
+#: Plugin\Awning\View\Elements\Commerce\OrderItemFullDescription.ctp:17
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:32
+msgid "Kolor konstrukcji:"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:61
+#: Plugin\Awning\View\Elements\Commerce\OrderItemFullDescription.ctp:23
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:44
+msgid "Poszycie:"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:71
+#: Plugin\Awning\View\Elements\Commerce\OrderItemFullDescription.ctp:33
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:59
+msgid "Falbana"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:73
+#: Plugin\Awning\View\Elements\Commerce\OrderItemFullDescription.ctp:35
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:60
+#: Plugin\Awning\View\Elements\Configurations\step5.ctp:31
+msgid "brak falbany"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:80
+#: Plugin\Awning\View\Elements\Commerce\OrderItemFullDescription.ctp:42
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:71
+#: Plugin\Awning\View\Elements\Configurations\step6.ctp:20
+msgid "links"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:81
+#: Plugin\Awning\View\Elements\Commerce\OrderItemFullDescription.ctp:43
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:72
+#: Plugin\Awning\View\Elements\Configurations\step6.ctp:21
+msgid "rechts"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:83
+#: Plugin\Awning\View\Elements\Commerce\OrderItemFullDescription.ctp:45
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:75
+msgid "Bedienseite:"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:85
+#: Plugin\Awning\View\Elements\Commerce\OrderItemFullDescription.ctp:47
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:77
+msgid "(von außen gesehen)"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:94
+#: Plugin\Awning\View\Elements\Commerce\OrderItemFullDescription.ctp:56
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:87
+#: Plugin\Awning\View\Elements\Configurations\step6.ctp:24
+msgid "Kurbel"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:95
+#: Plugin\Awning\View\Elements\Commerce\OrderItemFullDescription.ctp:57
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:88
+#: Plugin\Awning\View\Elements\Configurations\step6.ctp:25
+msgid "Elektromotor"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:98
+#: Plugin\Awning\View\Elements\Commerce\OrderItemFullDescription.ctp:60
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:92
+msgid "Napęd"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:105
+#: Plugin\Awning\View\Elements\Commerce\OrderItemFullDescription.ctp:67
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:103
+#: Plugin\Awning\View\Elements\Configurations\step6.ctp:42
+msgid "Długość korby:"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:110
+#: Plugin\Awning\View\Elements\Commerce\OrderItemFullDescription.ctp:72
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:109
+#: Plugin\Awning\View\Elements\Configurations\step6.ctp:52
+msgid "Rodzaj wyłącznika:"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:116
+#: Plugin\Awning\View\Elements\Commerce\OrderItemFullDescription.ctp:78
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:116
+#: Plugin\Awning\View\Elements\Configurations\step6options.ctp:4
+msgid "Sterowanie:"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:131
+#: Plugin\Awning\View\Elements\Commerce\OrderItemFullDescription.ctp:93
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:132
+#: Plugin\Awning\View\Elements\Configurations\step7.ctp:5
+msgid "Montageart:"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Commerce\OrderItemDetails.ctp:137
+#: Plugin\Awning\View\Elements\Commerce\OrderItemFullDescription.ctp:99
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:140
+#: Plugin\Awning\View\Elements\Configurations\step8.ctp:21
+msgid "Zubehör:"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:24;63;111;124;134;149;158
+msgid "€ %s"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:62
+msgid "€ %s/m"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:155
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:148
+msgid "Cena:"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Configurations\configurationTable.ctp:164
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:139
+msgid "Cena (wylicz.):"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Configurations\step1.ctp:58
+#: Plugin\StaticProduct\View\Products\view.ctp:8
+#: Plugin\Window\View\Elements\WindowConfigurations\step1.ctp:99
+msgid "Strona główna"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Configurations\step1.ctp:59
+#: Plugin\Awning\View\Elements\Configurations\step2.ctp:132
+#: Plugin\Awning\View\Elements\Configurations\step3.ctp:45
+#: Plugin\Awning\View\Elements\Configurations\step4.ctp:40
+#: Plugin\Awning\View\Elements\Configurations\step5.ctp:104
+#: Plugin\Awning\View\Elements\Configurations\step6.ctp:132
+#: Plugin\Awning\View\Elements\Configurations\step7.ctp:56
+#: Plugin\Awning\View\Elements\Configurations\step8.ctp:70
+#: Plugin\RollerShutter\View\Elements\RollerShutterConfigurations\step2.ctp:61
+#: Plugin\Window\View\Elements\WindowConfigurations\step1.ctp:100
+#: Plugin\Window\View\Elements\WindowConfigurations\step2.ctp:102
+#: Plugin\Window\View\Elements\WindowConfigurations\step3.ctp:139
+#: Plugin\Window\View\Elements\WindowConfigurations\step4.ctp:69
+#: Plugin\Window\View\Elements\WindowConfigurations\step5.ctp:10
+#: Plugin\Window\View\Elements\WindowConfigurations\step6.ctp:46
+#: Plugin\Window\View\Elements\WindowConfigurations\step7.ctp:150
+#: Plugin\Window\View\Elements\WindowConfigurations\step9.ctp:87
+msgid "Następny krok »"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Configurations\step2.ctp:4
+msgid "wysięg:"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Configurations\step2.ctp:102
+msgid "Przy wysięgu %s szerokość całkowita musi znajdować się w zakresie %s cm - %s cm"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Configurations\step2.ctp:131
+#: Plugin\Awning\View\Elements\Configurations\step3.ctp:44
+#: Plugin\Awning\View\Elements\Configurations\step4.ctp:39
+#: Plugin\Awning\View\Elements\Configurations\step5.ctp:103
+#: Plugin\Awning\View\Elements\Configurations\step6.ctp:131
+#: Plugin\Awning\View\Elements\Configurations\step7.ctp:55
+#: Plugin\Awning\View\Elements\Configurations\step8.ctp:69
+#: Plugin\Awning\View\Elements\Configurations\step9.ctp:20
+#: Plugin\RollerShutter\View\Elements\RollerShutterConfigurations\step2.ctp:60
+#: Plugin\Window\View\Elements\WindowConfigurations\step10.ctp:8
+#: Plugin\Window\View\Elements\WindowConfigurations\step2.ctp:101
+#: Plugin\Window\View\Elements\WindowConfigurations\step3.ctp:138
+#: Plugin\Window\View\Elements\WindowConfigurations\step4.ctp:68
+#: Plugin\Window\View\Elements\WindowConfigurations\step5.ctp:9
+#: Plugin\Window\View\Elements\WindowConfigurations\step6.ctp:45
+#: Plugin\Window\View\Elements\WindowConfigurations\step7.ctp:149
+#: Plugin\Window\View\Elements\WindowConfigurations\step8.ctp:127
+#: Plugin\Window\View\Elements\WindowConfigurations\step9.ctp:86
+msgid "Poprzedni krok »"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Configurations\step5.ctp:3
+msgid "Uwaga:"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Configurations\step5.ctp:5
+msgid "Oferujemy falbany w trzech kształtach wycięć C,D,E, jak na rysunkach poniżej. Wysokość falbany standardowej wynosi 21cm. Falbany są estetycznie wykończone tasiemką. Przy tkaninie typu PLAIN dostępna jest wyłącznie falbana E."
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Configurations\step5.ctp:11
+msgid "Volant - Rollo"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Configurations\step5.ctp:13
+msgid "W markizach California, o wysięgu do 310cm, jest dostępna falbana zwijana (wyłącznie z wykończeniem typu E)"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Configurations\step5.ctp:21
+msgid "Falbana zwijana"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Configurations\step6.ctp:29
+msgid "Bedienseite (von außen gesehen):"
+msgstr ""
+
+#: Plugin\Awning\View\Elements\Configurations\step9.ctp:21
+#: Plugin\Window\View\Elements\WindowConfigurations\step10.ctp:9
+msgid "Do koszyka »"
+msgstr ""
+
+#: Plugin\Commerce\Controller\CustomersController.php:470
+msgid "Twoje zamówienie nie zostało zapisane. Sprawdź formularz i popraw odpowiednie dane."
+msgstr ""
+
+#: Plugin\Commerce\Controller\OrdersController.php:309;358
+msgid "Zamówienie nr %s - hedom.pl"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\add.ctp:1
+#: Plugin\Commerce\View\Customers\edit.ctp:4
+msgid "Dane klienta"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\add.ctp:3
+#: Plugin\Commerce\View\Customers\edit.ctp:8
+msgid "DANE KLIENTA"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_discount.ctp:1
+msgid "PROGRAM PARTNERSKI"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_invoice.ctp:1
+msgid "Faktury"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_orders.ctp:10
+msgid "MOJE KONTO"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:1
+msgid "ZAMÓWIENIA W TRAKCIE REALIZACJI"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_orders_in_chart.ctp:1
+msgid "W Koszyku"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_orders_status_ended.ctp:1
+msgid "ZAMÓWIENIA ZREALIZOWANE"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:1
+msgid "USTAWIENIA KONTA"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\order_details.ctp:2
+#: Plugin\Commerce\View\Customers\order_item.ctp:2
+#: Plugin\Commerce\View\Orders\admin_view.ctp:2
+msgid "PODGLĄD ZAMÓWIENIA NUMER: "
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\order_details.ctp:12
+msgid "Powrót"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\order_details.ctp:27
+#: Plugin\Commerce\View\Orders\admin_view.ctp:75
+msgid "Summe"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\order_details.ctp:29
+#: Plugin\Commerce\View\Orders\admin_view.ctp:77
+msgid "Wartość VAT"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\order_details.ctp:30
+#: Plugin\Commerce\View\Orders\admin_view.ctp:78
+#: Plugin\Commerce\View\Orders\completed.ctp:23
+msgid "Wartość brutto"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\order_item.ctp:18
+#: Plugin\Commerce\View\Orders\cart.ctp:22
+#: Plugin\Commerce\View\Orders\completed.ctp:20
+#: Plugin\Commerce\View\Orders\summary.ctp:21
+msgid "Nazwa produktu"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\order_item.ctp:74
+msgid "Szczegóły zamówienia (do druku)"
+msgstr ""
+
+#: Plugin\Commerce\View\Elements\Orders\cart.ctp:77
+msgid "sztuki"
+msgstr ""
+
+#: Plugin\Commerce\View\Elements\Orders\table_index.ctp:9
+msgid "pozostało"
+msgstr ""
+
+#: Plugin\Commerce\View\Email\html\order_adminemail.ctp:1
+#: Plugin\Commerce\View\Email\html\order_email.first.ctp:3
+#: View\Emails\html\test.ctp:1
+#: View\Emails\text\test.ctp:1
+msgid "Witaj!"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\admin_specification.ctp:2
+msgid "SPECYFIKACJA ZAMÓWIENIA NUMER: "
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\cart.ctp:4
+#: View\Layouts\default.ctp:53
+msgid "Koszyk"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\cart.ctp:14
+msgid "KOSZYK"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\cart.ctp:25
+msgid "Edytuj"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\cart.ctp:48
+#: Plugin\Commerce\View\Orders\summary.ctp:46
+msgid "Razem:"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\cart.ctp:136
+#: Plugin\Commerce\View\Orders\summary.ctp:64
+msgid "Forma płatności"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\cart.ctp:139
+#: Plugin\Commerce\View\Orders\summary.ctp:67
+msgid "Sposób wysyłki"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\cart.ctp:156
+#: Plugin\Commerce\View\Orders\completed.ctp:97
+#: Plugin\Commerce\View\Orders\summary.ctp:115
+msgid "Do zapłaty:"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\cart.ctp:159
+#: Plugin\Commerce\View\Orders\completed.ctp:104
+#: Plugin\Commerce\View\Orders\summary.ctp:51;122
+msgid "(brutto)"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\completed.ctp:22
+msgid "Ilość brutto"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\summary.ctp:4
+msgid "Podsumowanie"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\summary.ctp:12
+msgid "PODSUMOWANIE"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\summary.ctp:23
+msgid "Ilosć"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\summary.ctp:24
+msgid "Wartość<br /> brutto"
+msgstr ""
+
+#: Plugin\Payments\View\Payments\confirm.ctp:4
+msgid "Potwierdzenie"
+msgstr ""
+
+#: Plugin\Payments\View\Payments\selfstatus.ctp:1
+msgid "SELF STATUS TEST"
+msgstr ""
+
+#: Plugin\Payments\View\Payments\start.ctp:1
+msgid "Płatność"
+msgstr ""
+
+#: Plugin\RollerShutter\Controller\RollerShutterLinesController.php:114
+#: Plugin\StaticProduct\Controller\ProductCategoriesController.php:107
+#: Plugin\Window\Controller\WindowLinesController.php:107
+msgid "Zmieniono pozycję"
+msgstr ""
+
+#: Plugin\RollerShutter\Model\RollerShutterConfiguration.php:355
+msgid "Szerokość rolety musi mieścić się w zakresie %smm - %smm"
+msgstr ""
+
+#: Plugin\RollerShutter\Model\RollerShutterConfiguration.php:393
+msgid "Wysokość rolety musi mieścić się w zakresie %smm - %smm"
+msgstr ""
+
+#: Plugin\RollerShutter\View\Elements\RollerShutterConfigurations\step1radio.ctp:33
+#: Plugin\Window\View\Elements\WindowConfigurations\step1.ctp:43
+msgid "Wybierz linię okien, aby przejść do kolejnego kroku"
+msgstr ""
+
+#: Plugin\RollerShutter\View\Elements\RollerShutterConfigurations\step5.ctp:7
+msgid "Linksgerollt"
+msgstr ""
+
+#: Plugin\RollerShutter\View\Elements\RollerShutterConfigurations\step5.ctp:8
+msgid "Rechttsgerolt"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Elements\Commerce\OrderItemDetails.ctp:10
+msgid "Produkt"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\front.ctp:13
+#: Plugin\StaticProduct\View\Products\front_all.ctp:21
+#: Plugin\StaticProduct\View\Products\index.ctp:23
+#: Plugin\StaticProduct\View\Products\view.ctp:46
+msgid "Kaufen"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\index.ctp:16
+msgid "więcej"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\index.ctp:22
+#: Plugin\StaticProduct\View\Products\view.ctp:45
+msgid "netto"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:24
+msgid "Olivari"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:27
+msgid "Parametry"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:32
+msgid "Klamka w stali nierdzewnej - gwarancja 30 lat"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:35
+msgid "Producent"
+msgstr ""
+
+#: Plugin\Window\Model\WindowConfigurationRecord.php:97
+msgid "Przy wysokości %smm nie można użyć tego skrzydła"
+msgstr ""
+
+#: Plugin\Window\Model\WindowConfigurationRecord.php:105
+msgid "Przy wysokości %smm szerokość tego skrzydła musi mieścić się w zakresie %smm - %smm"
+msgstr ""
+
+#: Plugin\Window\Model\WindowConfigurationRecord.php:114
+msgid "Wybierz rodzaj skrzydła"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:44
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:12
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:10
+msgid "Typ okna:"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:47
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:15
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:13
+msgid "PVC > "
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:53
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:23
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:21
+msgid "Kolor ram:"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:58;60
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:27;29
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:25;27
+msgid "Biały"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:64
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:33
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:31
+msgid "obustronny"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:64
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:33
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:31
+msgid "zewnętrzny"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:71
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:42
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:40
+msgid "Wymiary (szer. x wys.):"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:74
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:44
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:42
+msgid "%s mm x %s mm"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:78
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:46
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:44
+msgid "(rozmiar otworu: %s mm x %s mm)"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:87
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:55
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:53
+msgid "Skrzydło #%s:"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:93
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:60
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:58
+msgid "lewe"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:93
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:60
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:58
+msgid "prawe"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:96
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:63
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:61
+msgid ", wymiary : %s mm x %s mm"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:98
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:65
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:63
+msgid ", szer skrzydła przesuwnego : %s mm"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:106
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:77
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:75
+msgid "Uszczelka:"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:110
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:85
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:83
+msgid "Szyba:"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:116
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:93
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:91
+msgid "Szyba Ornamentowa:"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:122
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:104
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:102
+msgid "Okucie:"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:127
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:114
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:112
+msgid "Klamka:"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:133
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:124
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:122
+msgid "Szprosy (poz. x pion.):"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:139
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:131
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:129
+msgid "Kolor szprosów:"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemDetails.ctp:140
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:133
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:131
+#: Plugin\Window\View\Elements\WindowConfigurations\step2.ctp:52
+#: Plugin\Window\View\Elements\WindowConfigurations\step8color.ctp:25
+#: Plugin\Window\View\Elements\WindowConfigurations\step8colors.ctp:3
+msgid "Białe"
+msgstr ""
+
+#: Plugin\Window\View\Elements\Commerce\OrderItemFullDescription.ctp:6
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:4
+msgid "Twoja bieżąca konfiguracja:"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\configurationTable.ctp:124
+msgid "%s mm"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step2.ctp:5
+msgid "Okno białe"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step2.ctp:6
+msgid "Kolor zewnętrzny"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step2.ctp:7
+msgid "Kolor obustronny"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step2.ctp:14
+msgid "Kolor ram"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step2.ctp:65
+msgid "Wybierz kolor okien, aby przejść do kolejnego kroku"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step3.ctp:7
+msgid "Podaję całkowity wymiar:"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step3.ctp:14
+msgid "okna"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step3.ctp:15
+msgid "otworu okiennego"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step3.ctp:21
+msgid "szerokość całkowita:"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step3.ctp:24
+msgid "wysokość całkowita:"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step4.ctp:2
+msgid "Układy skrzydeł"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step4.ctp:3
+msgid "wybierz układ skrzydeł spośród dostępnych dla podanych wymiarów okna"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step5horizontal.ctp:19
+#: Plugin\Window\View\Elements\WindowConfigurations\step5vertical.ctp:18
+msgid "Skrzydło #%s"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step5psk.ctp:6
+msgid "Przesuwne PSK prawe"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step5psk.ctp:7
+msgid "Przesuwne PSK lewe"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step6.ctp:2
+msgid "Kolory standardowe"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step7.ctp:23
+msgid "Rodzaj szyby"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step7.ctp:37
+msgid "Typ szyby"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step7.ctp:59
+msgid "Szyby ornamentowe:"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step7.ctp:63
+msgid "Bez ornamentu"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step7.ctp:91
+msgid "Wybierz rodzaj szyby."
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step8.ctp:6
+msgid "Bez szprosów"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step8.ctp:42
+msgid "Szerokość szprosów"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step8.ctp:43
+msgid "mm"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step8.ctp:128
+msgid "Następny dalej »"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step8color.ctp:2
+msgid "Kolor szprosów"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step9.ctp:21
+msgid "Okucie"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step9.ctp:36
+msgid "Wybierz typ klamki:"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step9.ctp:59
+msgid "Okucia i klamki"
+msgstr ""
+
+#: Plugin\Window\View\Elements\WindowConfigurations\step9.ctp:60
+msgid "Dla wybranej konfiguracji nie ma możliwości wyboru okuć i klamek."
+msgstr ""
+
+#: Plugin\Window\View\WindowConfigurations\start.ctp:1
+msgid "Resetuj konfigurator"
+msgstr ""
+
+#: Plugin\Window\View\WindowConfigurations\start.ctp:11
+msgid "Konfigurator okien"
+msgstr ""
+
+#: Plugin\Window\View\WindowConfigurations\start.ctp:259
+msgid "1. Linia okien"
+msgstr ""
+
+#: Plugin\Window\View\WindowConfigurations\start.ctp:295
+msgid "2. Kolor ram"
+msgstr ""
+
+#: Plugin\Window\View\WindowConfigurations\start.ctp:296
+msgid "3. Wymiary całkowite"
+msgstr ""
+
+#: Plugin\Window\View\WindowConfigurations\start.ctp:297
+msgid "4. Układ skrzydeł"
+msgstr ""
+
+#: Plugin\Window\View\WindowConfigurations\start.ctp:298
+msgid "5. Konfiguracja skrzydeł"
+msgstr ""
+
+#: Plugin\Window\View\WindowConfigurations\start.ctp:299
+msgid "6. Kolor uszczelek"
+msgstr ""
+
+#: Plugin\Window\View\WindowConfigurations\start.ctp:300
+msgid "7. Szyby"
+msgstr ""
+
+#: Plugin\Window\View\WindowConfigurations\start.ctp:301
+msgid "8. Szprosy"
+msgstr ""
+
+#: Plugin\Window\View\WindowConfigurations\start.ctp:302
+msgid "9. Okucia i klamki"
+msgstr ""
+
+#: Plugin\Window\View\WindowConfigurations\start.ctp:303
+msgid "10. Podsumowanie"
+msgstr ""
+
+#: View\Emails\html\test.ctp:3
+#: View\Emails\text\test.ctp:4
+msgid "To jest wiadomość testowa"
+msgstr ""
+
+#: View\Emails\html\test.ctp:5
+#: View\Emails\text\test.ctp:7
+msgid "Sprawdź szczegóły na stronie %s."
+msgstr ""
+
+#: View\Emails\html\test.ctp:7
+#: View\Emails\text\test.ctp:10
+msgid "Sprawdź"
+msgstr ""
+
+#: View\Layouts\default.ctp:19
+msgid "Bauelemente"
+msgstr ""
+
+#: View\Layouts\default.ctp:47
+msgid "O nas"
+msgstr ""
+
+#: View\Layouts\default.ctp:48
+msgid "Produkty"
+msgstr ""
+
+#: View\Layouts\default.ctp:49
+msgid "Realizacje"
+msgstr ""
+
+#: View\Layouts\default.ctp:50
+msgid "Propozycje"
+msgstr ""
+
+#: View\Layouts\default.ctp:51
+msgid "Kontakt"
+msgstr ""
+
+#: View\Layouts\default.ctp:55
+msgid "Wyloguj"
+msgstr ""
+
+#: View\Layouts\default.ctp:72
+msgid "Alle Kategorien"
+msgstr ""
+

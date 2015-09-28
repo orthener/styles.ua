@@ -1,0 +1,1 @@
+<?php echo $this->Form->input("Product.category_id", array('options' => $categories, 'empty' => __d('front', 'wszystkie'))); ?>

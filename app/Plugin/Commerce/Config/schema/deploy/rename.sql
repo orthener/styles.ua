@@ -1,0 +1,9 @@
+RENAME TABLE  `feb_sapor`.`addresses` TO  `feb_sapor`.`commerce_addresses` ;
+RENAME TABLE  `feb_sapor`.`affiliate_programs` TO  `feb_sapor`.`commerce_affiliate_programs` ;
+RENAME TABLE  `feb_sapor`.`customers` TO  `feb_sapor`.`commerce_customers` ;
+RENAME TABLE  `feb_sapor`.`invoice_identities` TO  `feb_sapor`.`commerce_invoice_identities` ;
+RENAME TABLE  `feb_sapor`.`orders` TO  `feb_sapor`.`commerce_orders` ;
+RENAME TABLE  `feb_sapor`.`order_items` TO  `feb_sapor`.`commerce_order_items` ;
+RENAME TABLE  `feb_sapor`.`order_item_files` TO  `feb_sapor`.`commerce_order_item_files` ;
+RENAME TABLE  `feb_sapor`.`shipment_methods` TO  `feb_sapor`.`commerce_shipment_methods` ;
+RENAME TABLE  `feb_sapor`.`shipment_method_configs` TO  `feb_sapor`.`commerce_shipment_method_configs` ;

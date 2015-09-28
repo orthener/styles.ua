@@ -1,0 +1,34 @@
+//Model Shipment Methods 
+
+msgid "Shipment Price"
+msgstr "Shipment Price"
+msgid "Cash On Delivery Price"
+msgstr "Cash On Delivery Price"
+msgid "Tax Rate"
+msgstr "Tax Rate"
+msgid "Track Link"
+msgstr "Track Link"
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Shipment Methods"
+msgstr "Shipment Methods"
+
+msgid "New Shipment Method"
+msgstr "Dodaj Shipment Method"
+
+msgid "List Shipment Methods"
+msgstr "Lista Shipment Methods"
+
+msgid "Edit Shipment Methods"
+msgstr "Edycja Shipment Methods"
+
+msgid "Delete Shipment Methods"
+msgstr "Usuń Shipment Methods"
+
+msgid "Admin Add Shipment Method"
+msgstr "Dodawanie Shipment Method"
+
+msgid "Admin Edit Shipment Method"
+msgstr "Edycja Shipment Method"
+

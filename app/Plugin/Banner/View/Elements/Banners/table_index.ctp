@@ -1,0 +1,1 @@
+<?php echo $this->element('Banners/indexsort', array('tree' => $tree)); ?>

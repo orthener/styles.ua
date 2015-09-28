@@ -1,0 +1,29 @@
+//Model Sashes Layouts Variants 
+
+msgid "Sashes Layout Id"
+msgstr "Sashes Layout Id"
+
+msgid "Sashes Layouts Variants"
+msgstr "Sashes Layouts Variants"
+
+msgid "New Sashes Layouts Variant"
+msgstr "Dodaj Sashes Layouts Variant"
+
+msgid "List Sashes Layouts Variants"
+msgstr "Lista Sashes Layouts Variants"
+
+msgid "Edit Sashes Layouts Variants"
+msgstr "Edycja Sashes Layouts Variants"
+
+msgid "Delete Sashes Layouts Variants"
+msgstr "Usuń Sashes Layouts Variants"
+
+msgid "Admin Add Sashes Layouts Variant"
+msgstr "Dodawanie Sashes Layouts Variant"
+
+msgid "Admin Edit Sashes Layouts Variant"
+msgstr "Edycja Sashes Layouts Variant"
+
+msgid "Sashes Layouts Variant Data"
+msgstr "Dane Sashes Layouts Variant"
+

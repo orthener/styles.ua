@@ -1,0 +1,3 @@
+<?php echo $this->Html->link(__d('front', 'Sklep'), '/', array('class' => 'shop' . (($siteType == 'default') ? 'active' : ''))); ?>
+<?php echo $this->Html->link(__d('front', 'Inspiracja'), '/blog', array('class' => 'inspiration' . (($siteType == 'default') ? 'active' : ''))); ?>
+<?php echo $this->Html->link(__d('front', 'Muzyka'), '/studio', array('class' => 'music' . (($siteType == 'default') ? 'active' : ''))); ?>

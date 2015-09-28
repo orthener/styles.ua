@@ -1,0 +1,35 @@
+//Model Window Clearances 
+
+msgid "Window Line Id"
+msgstr "Window Line Id"
+msgid "Color"
+msgstr "Color"
+msgid "Max Size"
+msgstr "Max Size"
+msgid "Clearance"
+msgstr "Clearance"
+
+msgid "Window Clearances"
+msgstr "Window Clearances"
+
+msgid "New Window Clearance"
+msgstr "Dodaj Window Clearance"
+
+msgid "List Window Clearances"
+msgstr "Lista Window Clearances"
+
+msgid "Edit Window Clearances"
+msgstr "Edycja Window Clearances"
+
+msgid "Delete Window Clearances"
+msgstr "Usuń Window Clearances"
+
+msgid "Admin Add Window Clearance"
+msgstr "Dodawanie Window Clearance"
+
+msgid "Admin Edit Window Clearance"
+msgstr "Edycja Window Clearance"
+
+msgid "Window Clearance Data"
+msgstr "Dane Window Clearance"
+

@@ -1,0 +1,2 @@
+ALTER TABLE  `order_items` ADD  `discount` INT( 3 ) UNSIGNED NOT NULL DEFAULT  '0' COMMENT  'Rabat, wartosci procentowe od 0-100' AFTER  `quantity`;
+ALTER TABLE  `orders` ADD  `shipment_discount` INT( 3 ) UNSIGNED NOT NULL DEFAULT  '0' COMMENT  'Rabat, wartosci procentowe od 0-100' AFTER  `shipment_price_type`

@@ -1,0 +1,10 @@
+@media print { 
+
+    div {
+        display: none;
+    }
+
+    #content, #content div {
+        display: block;
+    }
+}

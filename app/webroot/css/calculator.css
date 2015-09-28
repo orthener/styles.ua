@@ -1,0 +1,33 @@
+div.calculatorPageContent {
+    padding: 20px;
+}
+
+div.calculatorPage {
+    color: #121212;
+}
+
+
+div.calculatorPage h1 {
+    margin-bottom: 20px;
+}
+
+div.calculatorBox h2{
+    margin-left: 97px;
+}
+@media (min-width: 979px) and (max-width: 1199px) { 
+    div.calculatorBox h2{
+        margin-left: 40px;
+    }
+}
+@media (max-width: 978px){ 
+    div.calculatorBox {
+        margin-top: 30px;
+    }
+    div.calculatorBox h2{
+        margin-left: 20px;
+    }
+
+}
+div.calculatorBox{
+    padding: 15px 0px;
+}

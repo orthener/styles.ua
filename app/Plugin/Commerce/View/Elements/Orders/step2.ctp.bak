@@ -1,0 +1,130 @@
+<p id="userError"></p>
+<div class="clearfix productsLogin">
+    <div>
+        <div class="productsLoginTexts">
+            Możesz dokonać zakupów bez rejestracji. <br />
+            Zaloguj się jako gość.
+        </div>
+        <?php
+        echo $this->Form->input('guest', array('type' => 'checkbox', 'id' => 'guest_box', 'label' => 'Robię zakupy jako gość'));
+        echo $this->Form->input('accept', array('type' => 'checkbox', 'label' => $this->Html->link('Akceptuję', array('plugin' => 'page', 'controller' => 'pages', 'action' => 'view', 'warunki')) . ' warunki', 'id' => 'accept_box'));
+        echo $this->Form->submit('Kontynuuj', array('id' => 'guest_submit', 'onClick' => "show_step('3')"));
+        ?>
+    </div>
+    <div>
+        <div class="productsLoginLabel">Rejestracja</div>
+        <?php
+        echo $this->Form->input('email', array('id' => 'login_r', 'label' => false, 'placeholder' => 'Email'));
+        echo $this->Form->input('name', array('id' => 'name_r', 'label' => false, 'placeholder' => 'Login'));
+        echo $this->Form->input('terms', array('type' => 'checkbox', 'label' => $this->Html->link('Akceptuję', array('plugin' => 'page', 'controller' => 'pages', 'action' => 'view', 'regulamin')) . ' warunki', 'id' => 'terms'));
+        echo $this->Form->submit('Rejestruj', array('id' => 'register_submit'));
+        ?>
+        <p id="reg_info"></p>
+    </div>
+    <div>
+        <div class="productsLoginLabel">Logowanie</div>
+        <?php
+        echo $this->Form->input('email', array('id' => 'login_l', 'label' => false, 'placeholder' => 'Email'));
+        echo $this->Form->input('pass', array('type' => 'password', 'id' => 'password_l', 'label' => false, 'placeholder' => 'Hasło'));
+//        echo $this->Form->input('terms', array('type' => 'checkbox', 'label' => 'Pamiętaj mnie'));  
+
+        echo $this->Form->submit('Zaloguj', array('id' => 'login_submit'));
+        ?>
+        <p id="login_info"></p>
+    </div>
+    <?php echo $this->Form->hidden('customer_id', array('id' => 'cust_input')); ?>
+    <script type="text/javascript">  
+        $('#register_submit').bind('click', function() {
+            $("#reg_info").text('');
+            if($('#login_r').val() != '' && $('#name_r').val() != '') {
+                if($('#terms').attr('checked') == 'checked') {
+                    $.ajax({
+                        url: '<?php echo $this->Html->url(array('plugin' => 'user', 'controller' => 'users', 'action' => 'register', 'ext' => 'json')); ?>',
+                        dataType: 'json',
+                        data: {email: $('#login_r').val(), name: $('#name_r').val()},
+                        type: 'post',
+                        success: function(json) {
+                            if(json.status == 1) {                       
+                                $("#reg_info").text('Twoje konto zostało utworzone. Odbierz pocztę i aktywuj konto');
+                                $('#login_r').val('');
+                                $('#name_r').val('');
+                                $('#terms').attr('checked', false)
+                            } else {
+                                $("#reg_info").css("color", 'red').text('Sprawdź czy podałeś prawidłowe dane');
+                                if(json.errors != undefined) {
+                                    if(json.errors.email != undefined) {
+                                        $("#reg_info").append('<br />' + json.errors.email[0]);
+                                    }
+                                    if(json.errors.name[0] != undefined) {
+                                        $("#reg_info").append('<br />' + json.errors.name[0]);
+                                    }
+                                }
+                            }
+                        }
+                    });              
+                } else {
+                    $("#reg_info").stop().css("color", 'red').text('Nie zaakceptowano warunków').fadeIn(800).fadeOut(2500);
+                }
+            } else {
+                $("#reg_info").stop().css("color", 'red').text('Nie podano wszystkich danych').fadeIn(800).fadeOut(2500);
+            }
+        });
+    
+        $('#login_submit').bind('click', function() {
+            $("#login_info").text('');
+            if($('#login_l').val() != '' && $('#password_l').val() != '') {
+                $.ajax({
+                    url: '<?php echo $this->Html->url(array('plugin' => 'user', 'controller' => 'users', 'action' => 'ajax_pass_check', 'ext' => 'json')); ?>',
+                    dataType: 'json',
+                    data: {User: {email: $('#login_l').val(), pass: $('#password_l').val()}},
+                    type: 'post',
+                    success: function(json) {
+                        if(json.status == 1) {
+                            $('#login_l').attr('disabled', true);
+                            $('#password_l').attr('disabled', true);
+                            $('#name_r').attr('disabled', true);
+                            $('#login_r').attr('disabled', true);
+                            isUser = 1;
+                            $('#cust_input').val(json.user.Customer.id);
+                            getAddress(json.user.Customer.id)
+                            show_step('3');
+                        } else {
+                            $('#login_info').css('color', 'red').text(json.notification.content);
+                        }                        
+                    }
+                });   
+                
+            } else {
+                $("#login_info").stop().css("color", 'red').text('Nie podano wszystkich danych').fadeIn(800).fadeOut(2500);
+            }       
+        });
+    
+        function getAddress(id) {
+            //var id = 4;
+            $.ajax({
+                url: '<?php echo $this->Html->url(array('plugin' => 'commerce', 'controller' => 'orders', 'action' => 'get_user_address', 'ext' => 'json')); ?>',
+                dataType: 'json',
+                type: 'post',
+                data: {id: id},
+                success: function(json) {
+                    $('#InvoiceIdentityDefaultName').attr('value' ,json.customer.InvoiceIdentityDefault.name);
+                    $('#InvoiceIdentityDefaultAddress').attr('value' ,json.customer.InvoiceIdentityDefault.address);
+                    $('#InvoiceIdentityDefaultCity').attr('value' ,json.customer.InvoiceIdentityDefault.city);
+                    $('#InvoiceIdentityDefaultPostCode').attr('value' ,json.customer.InvoiceIdentityDefault.post_code);
+                    $('#InvoiceIdentityDefaultCountryId').attr('value' ,json.customer.InvoiceIdentityDefault.country_id);
+                    $('#InvoiceIdentityDefaultNip').attr('value' ,json.customer.InvoiceIdentityDefault.nip);
+                    $('#InvoiceIdentityDefaultRegionId').attr('value' ,json.customer.InvoiceIdentityDefault.region_id);
+                
+                    $('#AddressDefaultName').attr('value' ,json.customer.AddressDefault.name);
+                    $('#AddressDefaultAddress').attr('value' ,json.customer.AddressDefault.address);
+                    $('#AddressDefaultCity').attr('value' ,json.customer.AddressDefault.city);
+                    $('#AddressDefaultPostCode').attr('value' ,json.customer.AddressDefault.post_code);
+                    $('#AddressDefaultCountryId').attr('value' ,json.customer.AddressDefault.country_id);
+                    $('#AddressDefaultRegionId').attr('value' ,json.customer.AddressDefault.region_id);
+                }
+            });
+  
+        }
+    
+    </script>
+</div>

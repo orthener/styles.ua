@@ -1,0 +1,852 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-01-31 09:24+0100\n"
+"PO-Revision-Date: 2014-02-03 18:56+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 1.6.3\n"
+
+#: Plugin\Banner\View\Banners\view.ctp:30
+msgid "Sortowanie"
+msgstr "Сортировать"
+
+#: Plugin\Banner\View\Banners\view.ctp:34
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:23
+msgid "Płeć"
+msgstr "Пол"
+
+#: Plugin\Banner\View\Banners\view.ctp:37
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:26
+#: Plugin\StaticProduct\View\Products\view.ctp:118
+msgid "Rozmiar"
+msgstr "Размер"
+
+#: Plugin\Banner\View\Banners\view.ctp:40
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:29
+#: Plugin\StaticProduct\View\Products\view.ctp:118
+msgid "Cena"
+msgstr "Цена"
+
+#: Plugin\Banner\View\Banners\view.ctp:43
+msgid "Kolor"
+msgstr "Цвет"
+
+#: Plugin\Banner\View\Banners\view.ctp:46
+msgid "inne"
+msgstr "ДРУГИЕ"
+
+#: Plugin\Banner\View\Banners\view.ctp:46
+msgid "marki"
+msgstr "БРЕНДЫ"
+
+#: Plugin\Banner\View\Banners\view.ctp:88 Plugin\Brand\View\Brands\view.ctp:58
+#: Plugin\StaticProduct\View\Products\index.ctp:23
+#: Plugin\StaticProduct\View\ProductsCategories\view.ctp:30
+msgid "Popularne"
+msgstr "Популярное"
+
+#: Plugin\Banner\View\Banners\view.ctp:89 Plugin\Brand\View\Brands\view.ctp:59
+#: Plugin\StaticProduct\View\Products\index.ctp:24
+#: Plugin\StaticProduct\View\ProductsCategories\view.ctp:31
+msgid "Nowości"
+msgstr "Новое"
+
+#: Plugin\Banner\View\Banners\view.ctp:90 Plugin\Brand\View\Brands\view.ctp:60
+#: Plugin\StaticProduct\View\Products\index.ctp:25
+#: Plugin\StaticProduct\View\ProductsCategories\view.ctp:32
+msgid "Wyprzedaż"
+msgstr "Распродажа"
+
+#: Plugin\Banner\View\Banners\view.ctp:136
+#: Plugin\Brand\View\Brands\view.ctp:104
+#: Plugin\StaticProduct\View\Products\index.ctp:83
+#: Plugin\StaticProduct\View\Products\view.ctp:242
+#: Plugin\StaticProduct\View\ProductsCategories\view.ctp:86
+msgid "Kolejne produkty"
+msgstr "Показать еще"
+
+#: Plugin\Brand\View\Brands\view.ctp:16
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:16
+#: Plugin\Commerce\View\Customers\my_orders_status_ended.ctp:12
+#: Plugin\Commerce\View\Customers\my_settings.ctp:11
+#: Plugin\Payments\View\Payments\start.ctp:8
+#: Plugin\Payments\View\Payments\transfer.ctp:10
+#: Plugin\StaticProduct\View\Products\index.ctp:15
+#: Plugin\StaticProduct\View\Products\view.ctp:28
+#: Plugin\StaticProduct\View\ProductsCategories\view.ctp:22
+#: View\Calculators\index.ctp:10
+msgid "NAVIGATION"
+msgstr "Навигация"
+
+#: Plugin\Brand\View\Brands\view.ctp:33
+msgid "Podziel się"
+msgstr "Поделиться"
+
+#: Plugin\Brand\View\Brands\view.ctp:111
+#: Plugin\StaticProduct\View\Products\view.ctp:250
+#: Plugin\StaticProduct\View\ProductsCategories\view.ctp:93
+msgid "Ostatnio na blogu"
+msgstr "Последнее на блоге"
+
+#: Plugin\Commerce\Controller\OrderItemsController.php:161
+msgid "Przekroczono dozwoloną ilość produktu dla tego rozmiaru."
+msgstr "Достигнуто максимальное количество товара для этого размера."
+
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:3
+#: Plugin\Commerce\View\Customers\my_orders_status_ended.ctp:3
+msgid "Twoje zamówienia"
+msgstr "Ваш заказ"
+
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:4
+msgid "W trakcie realizacji"
+msgstr "В процессе реализации"
+
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:30
+#: Plugin\Commerce\View\Customers\my_orders_status_ended.ctp:26
+msgid "NR ZAMÓWIENIA"
+msgstr "№ ЗАКАЗА"
+
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:31
+#: Plugin\Commerce\View\Customers\my_orders_status_ended.ctp:27
+msgid "DATA"
+msgstr "ДАТА"
+
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:32
+msgid "STATUS"
+msgstr "СТАТУС"
+
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:33
+#: Plugin\Commerce\View\Customers\my_orders_status_ended.ctp:28
+msgid "WARTOŚĆ"
+msgstr "СТОИМОСТЬ"
+
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:34
+msgid "ZAPŁACONO"
+msgstr "ЗАПЛАЧЕНО"
+
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:35
+#: Plugin\Commerce\View\Customers\my_orders_status_ended.ctp:29
+msgid "SZCZEGÓŁY"
+msgstr "ДЕТАЛИ"
+
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:53
+msgid "Szczegóły"
+msgstr "Детали"
+
+#: Plugin\Commerce\View\Customers\my_orders_status_ended.ctp:4
+msgid "Zrealizowane"
+msgstr "Реализовано"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:34
+msgid "adres e-mail"
+msgstr "Адрес e-mail"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:39
+msgid "nazwa"
+msgstr "Название"
+
+msgid "nazwa użytkownika"
+msgstr "Логин"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:43
+msgid "Zmiana hasła"
+msgstr "Смена пароля"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:45
+msgid "aktualne hasło"
+msgstr "Актуальный пароль"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:48
+msgid "nowe hasło"
+msgstr "Новый пароль"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:49
+msgid "potwierdź hasło"
+msgstr "Подтвердите пароль"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:53
+msgid "Edycja Avatara"
+msgstr "Редактировать Аватар"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:65
+msgid "imię i nazwisko"
+msgstr "Имя и Фамилия"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:66
+msgid "e-mail kontaktowy"
+msgstr "Контактный e-mail"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:69;82
+msgid "telefon"
+msgstr "Телефон"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:78;107
+msgid "imię i nazwisko lub nazwa"
+msgstr "Имя и Фамилия, либо Название"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:79;109
+msgid "ulica"
+msgstr "Улица"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:80;110
+msgid "nr domu"
+msgstr "№ Дома"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:81;111
+msgid "nr mieszkania"
+msgstr "№ Квартиры"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:88;117
+msgid "kod pocztowy"
+msgstr "Почтовый код"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:89
+msgid "miasto"
+msgstr "Город"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:93;122
+msgid "kraj"
+msgstr "Страна"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:94;94;123;123
+msgid "województwo"
+msgstr "Область"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:108
+msgid "NIP"
+msgstr "ЕДРПОУ"
+
+#: Plugin\Commerce\View\Elements\Orders\order_product.ctp:19
+#: Plugin\Commerce\View\Orders\front_cart_info.ctp:24
+msgid "rozmiar"
+msgstr "Размер"
+
+#: Plugin\Commerce\View\Elements\Orders\order_product.ctp:36;43
+#: Plugin\StaticProduct\View\Products\view.ctp:148;154
+msgid "Maksymalna ilość produktów w tym rozmiarze wynosi "
+msgstr "Максимальное количество товаров в этом размере составляет"
+
+#: Plugin\Commerce\View\Elements\Orders\step6.ctp:2
+msgid "Wpisz dane osoby rekomendującej"
+msgstr "Впишите данные человека, который порекомендовал Вам нас"
+
+#: Plugin\Commerce\View\Elements\Orders\step6.ctp:7
+msgid "Dodaj komentarz do zamówienia"
+msgstr "Добавить комментарий к заказу"
+
+#: Plugin\Commerce\View\Orders\front_cart_info.ctp:26
+msgid "sztuki"
+msgstr "Штуки"
+
+#: Plugin\Commerce\View\Orders\front_cart_info.ctp:42
+msgid "rozwiń"
+msgstr "Раскрыть"
+
+#: Plugin\Commerce\View\Orders\front_cart_info.ctp:43
+msgid "zwiń"
+msgstr "Скрыть"
+
+#: Plugin\Commerce\View\Orders\front_cart_info.ctp:48
+msgid "Przejdź do koszyka"
+msgstr "Перейти в корзину"
+
+#: Plugin\Payments\View\Payments\start.ctp:2
+msgid "Koszyk"
+msgstr "Корзина"
+
+#: Plugin\Payments\View\Payments\start.ctp:3;15
+msgid "Płatność"
+msgstr "Оплата"
+
+#: Plugin\Payments\View\Payments\transfer.ctp:16
+msgid "Składanie zamówienia"
+msgstr "Оформление заказа"
+
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:13
+msgid "Filtrowanie"
+msgstr "Фильтровать"
+
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:32
+msgid "inne marki"
+msgstr "Другие бренды"
+
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:32
+msgid "Czołowe marki"
+msgstr "провідні бренды"
+
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:86
+msgid "Wybierz rozmiar"
+msgstr "Выберите размер"
+
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:99
+msgid "pokaż"
+msgstr "Показать"
+
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:99
+msgid "Cena"
+msgstr "цена"
+
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:116
+msgid "Kobieta"
+msgstr "Девушка"
+
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:124
+msgid "Mężczyzna"
+msgstr "Парень"
+
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:132
+msgid "Wszystkie"
+msgstr "Все"
+
+#: Plugin\StaticProduct\View\Elements\Products\product_select.ctp:1
+msgid "wszystkie"
+msgstr "Все"
+
+#: Plugin\StaticProduct\View\Products\admin_multi_edit.ctp:14
+msgid "Zaznacz jeśli chcesz zmienić"
+msgstr "Отметьте, если хотите изменить"
+
+#: Plugin\StaticProduct\View\Products\admin_multiselect.ctp:3
+#: View\Elements\default\search.ctp:3;4
+#: View\Elements\default\search_blog.ctp:3;4
+msgid "Szukaj"
+msgstr "Искать"
+
+#: Plugin\StaticProduct\View\Products\front.ctp:2
+#: Plugin\StaticProduct\View\Products\index.ctp:33
+#: Plugin\StaticProduct\View\ProductsCategories\view.ctp:40
+msgid "Nie znaleziono produktów spełniających kryteria wyszukiwania."
+msgstr "Товаров, отвечающих критериям поиска не найдено!"
+
+#: Plugin\StaticProduct\View\Products\front_all.ctp:12
+msgid "Kaufen"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\index.ctp:1;9
+#: Plugin\StaticProduct\View\ProductsCategories\view.ctp:1;16
+msgid "Produkty"
+msgstr "Товары"
+
+#: Plugin\StaticProduct\View\Products\index.ctp:2
+msgid "Strona główna"
+msgstr "Главная страница"
+
+#: Plugin\StaticProduct\View\Products\index.ctp:4
+#: Plugin\StaticProduct\View\ProductsCategories\view.ctp:12
+msgid "Wyszukiwarka"
+msgstr "Поиск по сайту"
+
+#: Plugin\StaticProduct\View\Products\view.ctp:66
+msgid "Kliknij w strzałki lub zdjęcie aby zobaczyć więcej!"
+msgstr "Нажмите на фото либо боковые указатели, чтобы увидеть другие ракурсы!"
+
+#: Plugin\StaticProduct\View\Products\view.ctp:82
+msgid "Pełny opis"
+msgstr "Полное описание"
+
+#: Plugin\StaticProduct\View\Products\view.ctp:83
+msgid "Zwiń opis"
+msgstr "Скрыть описание"
+
+#: Plugin\StaticProduct\View\Products\view.ctp:110;125
+msgid "Ilość"
+msgstr "Количество"
+
+#: Plugin\StaticProduct\View\Products\view.ctp:182
+msgid "Masz problem z wyborem rozmiaru?"
+msgstr "Возникла проблема с выбором размера?"
+
+#: Plugin\StaticProduct\View\Products\view.ctp:183
+msgid "Sprawdź jak mierzymy nasze"
+msgstr "Узнайте, как мы меряем наши"
+
+#: Plugin\StaticProduct\View\Products\view.ctp:184
+msgid "produkty klikając po prawej"
+msgstr "товары, нажав на кнопку →"
+
+#: Plugin\StaticProduct\View\Products\view.ctp:193
+msgid "Informacje o wysyłce"
+msgstr "Информация о доставке"
+
+#: Plugin\StaticProduct\View\Products\view.ctp:195
+msgid "Delivery inside Europe within 1-3 Days with UPS!"
+msgstr ""
+"Доставка товара от склада в Ваши руки займет 5-15 дней, с момента оформления "
+"заказа!"
+
+#: Plugin\StaticProduct\View\Products\view.ctp:196
+msgid "VISA/MC or Paypal secure payments."
+msgstr "Оплатите заказ за 10 секунд, используя PAYU!"
+
+#: View\Elements\default\bottom_menu.ctp:1
+#: View\Elements\default\top_menu.ctp:1
+msgid "Sklep"
+msgstr "Shop"
+
+#: View\Elements\default\bottom_menu.ctp:2
+msgid "Inspiracja"
+msgstr "Blog"
+
+#: View\Elements\default\bottom_menu.ctp:3
+msgid "Muzyka"
+msgstr "Studio"
+
+#: View\Elements\default\top_menu.ctp:2
+msgid "Blog"
+msgstr "Blog"
+
+#: View\Elements\default\top_menu.ctp:3
+msgid "Studio"
+msgstr "Studio"
+
+#: View\Emails\html\newsletter\newsletter_register.ctp:1
+#: View\Emails\html\newsletter\newsletter_unregister.ctp:1
+#: View\Emails\text\newsletter\newsletter_register.ctp:1
+#: View\Emails\text\newsletter\newsletter_unregister.ctp:1
+msgid "Witaj!"
+msgstr "Приветствуем!"
+
+#: View\Emails\html\newsletter\newsletter_register.ctp:4
+#: View\Emails\text\newsletter\newsletter_register.ctp:4
+msgid "Aby zapisać się do newslettera, kliknij w poniższy link:"
+msgstr "Чтобы подписаться на наши новости, нажмите на эту ссылку:"
+
+#: View\Emails\html\newsletter\newsletter_register.ctp:13
+#: View\Emails\text\newsletter\newsletter_register.ctp:13
+msgid "Jeśli nie zapisywałeś się do newslettera, zignoruj tę wiadomość."
+msgstr ""
+"Если Вы не подписывались на наши новости, проигнорируйте это сообщение. "
+"Приносим Вам свои извенения!"
+
+#: View\Emails\html\newsletter\newsletter_register.ctp:16
+#: View\Emails\text\newsletter\newsletter_register.ctp:16
+msgid "Aby całkowicie usunąć email z listy należy kliknąć w poniższy link:"
+msgstr ""
+"Чтобы удалить данный e-mail из новостной рассылки, нажмите на эту ссылку:"
+
+#: View\Emails\html\newsletter\newsletter_unregister.ctp:4
+#: View\Emails\text\newsletter\newsletter_unregister.ctp:4
+msgid "Aby usunąć się z listy newslettera należy kliknąć w poniższy link:"
+msgstr "Чтобы отказаться от новостной рассылки, нажмите на эту ссылку:"
+
+#: View\Emails\html\newsletter\user_newsletter.ctp:4
+#: View\Emails\text\newsletter\user_newsletter.ctp:5
+msgid "Aby zrezygnować z newslettera należy kliknąć w poniższy link:"
+msgstr "Чтобы отписаться от новостной рассылки, нажмите на эту ссылку:"
+
+#: View\Helper\FebFormHelper.php:67
+msgid "usuń plik"
+msgstr "Удалить файл"
+
+#: View\Layouts\default.ctp:124
+msgid "Wybierz strefę"
+msgstr "Выберите раздел"
+
+msgid "Dodaj do koszyka"
+msgstr "добавить в корзину"
+
+msgid "Problem z rozmiarem?"
+msgstr "проблема с размером?"
+
+msgid "Czas realizacji"
+msgstr "срок поставки"
+
+msgid "Zaloguj"
+msgstr "Войти"
+
+############
+#NEW
+############
+
+#: View\Helper\FebFormHelper.php:67
+msgid "usuń plik"
+msgstr "Удалить файл"
+
+#: View\Layouts\blog.ctp:126 View\Layouts\default.ctp:124
+#: View\Layouts\studio.ctp:103
+#: C:\xampp\htdocs\sss\\News\Controller\NewsController.php:451;451;451
+msgid "Komentarz został zapisany i oczekuje na weryfikację."
+msgstr "Ваш комментарий был записан и ожидает проверки."
+
+#: C:\xampp\htdocs\sss\\News\Controller\NewsController.php:455;455;455
+msgid "Komentarz nie został zapisany. Proszę sprawdzić formularz i spróbować ponownie."
+msgstr "Ваш комментарий не был записан! Пожалуйста, проверьте формуляж и попробуйте снова."
+
+#: C:\xampp\htdocs\sss\\News\Controller\NewsController.php:610;610;610
+msgid "Styczeń"
+msgstr "Январь"
+
+#: C:\xampp\htdocs\sss\\News\Controller\NewsController.php:611;611;611
+msgid "Luty"
+msgstr "Февраль"
+
+#: C:\xampp\htdocs\sss\\News\Controller\NewsController.php:612;612;612
+msgid "Marzec"
+msgstr "Март"
+
+#: C:\xampp\htdocs\sss\\News\Controller\NewsController.php:613;613;613
+msgid "Kwiecień"
+msgstr "Апрель"
+
+#: C:\xampp\htdocs\sss\\News\Controller\NewsController.php:614;614;614
+msgid "Maj"
+msgstr "Май"
+
+#: C:\xampp\htdocs\sss\\News\Controller\NewsController.php:615;615;615
+msgid "Czerwiec"
+msgstr "Июнь"
+
+#: C:\xampp\htdocs\sss\\News\Controller\NewsController.php:616;616;616
+msgid "Lipiec"
+msgstr "Июль"
+
+#: C:\xampp\htdocs\sss\\News\Controller\NewsController.php:617;617;617
+msgid "Sierpień"
+msgstr "Август"
+
+#: C:\xampp\htdocs\sss\\News\Controller\NewsController.php:618;618;618
+msgid "Wrzesień"
+msgstr "Сентябрь"
+
+#: C:\xampp\htdocs\sss\\News\Controller\NewsController.php:619;619;619
+msgid "Październik"
+msgstr "Октябрь"
+
+#: C:\xampp\htdocs\sss\\News\Controller\NewsController.php:620;620;620
+msgid "Listopad"
+msgstr "Ноябрь"
+
+#: C:\xampp\htdocs\sss\\News\Controller\NewsController.php:621;621;621
+msgid "Grudzień"
+msgstr "Декабрь"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\comments.ctp:4;4;4
+#: C:\xampp\htdocs\sss\\Page\View\Elements\Comments\comments.ctp:13;13;13
+msgid "Dodaj komentarz"
+msgstr "Добавить комментарий"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\comments.ctp:7;7;7
+msgid "Komentarz jako:"
+msgstr "Комментарий от:"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\comments.ctp:14;14;14
+msgid "Odpowiadasz na"
+msgstr "Ответ на:"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\comments.ctp:14;14;14
+msgid "Anuluj odpowiadanie"
+msgstr "Отменить ответ"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\comments.ctp:19;19;19
+msgid "Treść"
+msgstr "Содержание"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\comments.ctp:25;25;25
+msgid "OPUBLIKUJ"
+msgstr "ОПУБЛИКУЙ"
+
+#: C:\xampp\htdocs\sss\\News\View\News\populars_promoted.ctp:4;4;4
+msgid "Najpopularniejsze produkty"
+msgstr "Самое популярное"
+
+#: C:\xampp\htdocs\sss\\News\View\News\right_box.ctp:22;22;22
+msgid "TOP KATEGORIE"
+msgstr "ТОП КАТЕГОРИИ"
+
+#: C:\xampp\htdocs\sss\\News\View\News\right_box.ctp:26;26;26
+msgid "wybierz kategorię"
+msgstr "Выбери категорию"
+
+#: C:\xampp\htdocs\sss\\News\View\News\right_box.ctp:44;44;44
+msgid "ZAPISZ SIĘ NA NASZE NEWSLETTERY"
+msgstr "ПОДПИШИТЕСЬ НА НАШИ НОВОСТИ"
+
+#: C:\xampp\htdocs\sss\\News\View\News\right_box.ctp:47;47;47
+msgid "ZAMÓW"
+msgstr "Подписаться!"
+
+#: C:\xampp\htdocs\sss\\News\View\News\right_box.ctp:52;52;52
+msgid "ARCHIWUM"
+msgstr "АРХИВ"
+
+#: C:\xampp\htdocs\sss\\News\View\News\right_box.ctp:70;70;70
+msgid "Podany adres email jest niepoprawny."
+msgstr "Указан некорректный e-mail адрес!"
+
+#: C:\xampp\htdocs\sss\\News\View\News\right_box.ctp:88;88;88
+msgid "Twój adres email został zapisany na nasz newsletter."
+msgstr "Ваш e-mail адрес теперь подписан к нашей рассылке!"
+
+#: C:\xampp\htdocs\sss\\News\View\News\right_box.ctp:91;91;91
+msgid "Wystąpił błąd. Spróbuj ponownie później."
+msgstr "Произошла ошибка. Попробуйте позднее!"
+
+#: C:\xampp\htdocs\sss\\News\View\News\view.ctp:61;61;61
+msgid "Komentarzy"
+msgstr "Комментарии"
+
+#: C:\xampp\htdocs\sss\\News\View\News\view.ctp:73;73;73
+msgid "Tweetnij"
+msgstr "Твитни!"
+
+#: C:\xampp\htdocs\sss\\News\View\News\view.ctp:99;99;99
+msgid "aby dodać komentarz"
+msgstr "войдите в свой аккаунт!"
+
+#: C:\xampp\htdocs\sss\\News\View\News\view.ctp:99;99;99
+msgid "Zaloguj się,"
+msgstr "Чтобы оставить комментарий,"
+
+#: C:\xampp\htdocs\sss\\Newsletter\Model\NewsletterMessage.php:20;20;20
+msgid "Wprowadź tytuł wiadomości"
+msgstr "Введите тему сообщения"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\delete.ctp:1;1;1
+msgid "Rezygnuję z newslettera"
+msgstr "Я отказываюсь от рассылки новостей!"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\delete.ctp:2;2;2
+msgid "Twój adres email to "
+msgstr "Ваш адрес e-mail, это"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\delete.ctp:3;3;3
+msgid "Czy jesteś pewien ze chcesz usunąć go z listy newslettera?"
+msgstr "Вы уверенны, что хотите удалить его из списка подписчиков?"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\delete.ctp:7;7;7
+msgid "Usuń"
+msgstr "Удалить"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\ok.ctp:1;1;1
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\remove.ctp:1;1;1
+msgid "Newsletter"
+msgstr "Новостная рассылка"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\ok.ctp:2;2;2
+msgid "Dziękujemy za dodanie się do newslettera."
+msgstr "Благодарим Вас за подписку на наши новости!"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\ok.ctp:3;3;3
+msgid "Na podany adres została wysłana wiadomość aktywacyjna."
+msgstr "На указанный адрес e-mail было выслано сообщение с подтверждением активации."
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\remove.ctp:2;2;2
+msgid "Dziękujemy za skorzystanie z newslettera."
+msgstr "Благодарим Вас за подписку на наши новости!"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\remove.ctp:4;4;4
+msgid "Na podany adres email została wysłana wiadomość."
+msgstr "На указанный адрес e-mail было выслано сообщение."
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\success.ctp:1;1;1
+msgid "Adres został dopisany do listy. Należy jeszcze potwierdzić udział, na podany adres został wysłany email z linkiem aktywacyjnym. Dziękujemy."
+msgstr "Ваш адрес теперь в списке получателей наших новостей. Но Вам еще нужно подтвердить подписку, на указанный Вами адрес было отправлено e-mail сообщение с активационной ссылкой. Благодарим Вас! :)"
+
+#: C:\xampp\htdocs\sss\\Page\View\Elements\Comments\comments.ctp:19;19;19
+msgid "Przepisz dwa słowa z obrazka"
+msgstr "Введите два слова с изображения"
+
+#: C:\xampp\htdocs\sss\\Page\View\Elements\Comments\comments.ctp:23;23;23
+msgid "Dodaj"
+msgstr "Добавить"
+
+#: C:\xampp\htdocs\sss\\Page\View\Pages\index.ctp:28;28;28
+msgid "Czołowe marki"
+msgstr "Основные бренды"
+
+#: C:\xampp\htdocs\sss\\Page\View\Pages\studio_index.ctp:7;7;7
+msgid "PROFESJONALNE STUDIO NAGRAŃ"
+msgstr "Профессиональная студия звукозаписи!"
+
+#: C:\xampp\htdocs\sss\\User\View\Elements\Users\ajaxlogin.ctp:16;16;16
+#: C:\xampp\htdocs\sss\\User\View\Elements\Users\login_module.ctp:20;20;20
+#: C:\xampp\htdocs\sss\\User\View\Users\login.ctp:26;26;26
+#: C:\xampp\htdocs\sss\\User\View\Elements\Users\login_module.ctp:4;4;4
+msgid "Wyloguj się"
+msgstr "Выйти"
+
+#: C:\xampp\htdocs\sss\\User\View\Elements\Users\login_module.ctp:6;9;6;9;6;9
+msgid "Moje konto"
+msgstr "Мой аккаунт"
+
+#: C:\xampp\htdocs\sss\\User\View\Elements\Users\login_module.ctp:7;7;7
+msgid "Przejdź do panelu"
+msgstr "Перейти в панель"
+
+#: C:\xampp\htdocs\sss\\User\View\Elements\Users\login_module.ctp:11;11;11
+msgid "Witaj"
+msgstr "Здравствуйте"
+
+#: C:\xampp\htdocs\sss\\User\View\Elements\Users\login_module.ctp:30;30;30
+msgid "hasło"
+msgstr "Пароль"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\login.ctp:20;20;20
+#: C:\xampp\htdocs\sss\\User\View\Users\register.ctp:16;16;16
+msgid "E-mail"
+msgstr "E-mail"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\login.ctp:21;21;21
+msgid "Hasło"
+msgstr "Пароль"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\login.ctp:25;25;25
+msgid "Zapamiętaj mnie"
+msgstr "Запомнить меня"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\login.ctp:27;27;27
+msgid "Nie pamiętasz hasła? Przypomnij hasło."
+msgstr "Забыли свой пароль? Напомним!"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\register.ctp:17;17;17
+msgid "Nazwa"
+msgstr "Название"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\register.ctp:22;22;22
+msgid "Oświadczam, że zapoznałem się z %s oraz %s, rozumiem je i zobowiązuje sie je przestrzegać."
+msgstr "Подтверждаю, что я ознакомился с %s и %s, понимаю, что там написано и обязуюсь придерживаться этих условий."
+
+#: C:\xampp\htdocs\sss\\User\View\Users\register.ctp:30;30;30
+msgid "Zarejestruj się"
+msgstr "Регистрация"
+
+msgid "Rejestracja"
+msgstr "Регистрация"
+
+#Custom
+msgid "Płatność przelewem"
+msgstr "Банковский перевод"
+
+msgid "Płatność elektroniczna PayU"
+msgstr "Оплата с помощью PayU"
+
+msgid "Płatność za pobraniem/przy odbiorze"
+msgstr "Оплата при получении/наложенным платежом"
+
+msgid "Zapłac"
+msgstr "Оплатить"
+
+msgid "Cena finalna"
+msgstr "Итоговая цена"
+
+msgid "Cena jednostkowa"
+msgstr "Цена за штуку"
+
+msgid "Produkty"
+msgstr "Товары"
+
+msgid "PODGLĄD ZAMÓWIENIA NUMER"
+msgstr "ПОСМОТРЕТЬ ЗАКАЗ №"
+
+msgid "Podgląd zamówienia"
+msgstr "Посмотреть заказ"
+
+msgid "Sposób dostawy"
+msgstr "Способ доставки"
+
+msgid "Suma"
+msgstr "Сумма"
+
+msgid "Zapłać"
+msgstr "Заплатить"
+
+msgid "Zdjęcie"
+msgstr "Фотография"
+
+msgid "zakupy prywatne"
+msgstr "Приватная покупка"
+
+msgid "zakupy firmowe"
+msgstr "Покупка на фирму"
+
+msgid "Zapisz"
+msgstr "Сохранить"
+
+msgid "Zobacz także"
+msgstr "Смотрите так же"
+
+msgid "warunki"
+msgstr "Условия"
+
+msgid "Robię zakupy jako gość"
+msgstr "Я делаю покупку в качестве Гостя"
+
+msgid "miejscowość"
+msgstr "Город"
+
+msgid "CZYTAJ CAŁY ARTYKUŁ"
+msgstr "ЧИТАТЬ ВСЮ СТАТЬЮ"
+
+msgid "Komentarzy"
+msgstr "Комментарии"
+
+msgid "AUTOR"
+msgstr "АВТОР"
+
+msgid "STARSZE POSTY"
+msgstr "НАЗАД"
+
+msgid "NOWSZE POSTY"
+msgstr "ВПЕРЁД"
+
+msgid "Komentarz został zapisany i oczekuje na weryfikację."
+msgstr "Ваш комментарий был записан и ожидает проверки."
+
+msgid "Komentarz nie został zapisany. Proszę sprawdzić formularz i spróbować ponownie."
+msgstr "Ваш комментарий не был записан! Пожалуйста, проверьте формуляж и попробуйте снова."
+
+msgid "twój e-mail"
+msgstr "Ваш e-mail"
+
+msgid "wybierz miesiąc"
+msgstr "Выберите месяц"
+
+msgid "Tweetnij"
+msgstr "Твитни!"
+
+msgid "Odpowiedz"
+msgstr "Ответ"
+
+msgid "ten komentarz"
+msgstr "Комментарий"
+
+msgid "Komentarz został dodany i oczekuje na moderację"
+msgstr "Ваш комментарий был записан и ожидает модерации."
+
+msgid "Oblicz"
+msgstr "Рассчитать!"
+
+msgid "nazwa"
+msgstr "Название"
+
+msgid "Twoje zamówienie zostało zapisane w systemie i oczekujemy na płatność."
+msgstr "Ваш заказ записан в системе и, в данный момент, ожидает оплаты."
+
+msgid "Twoje zamówienie zostało zapisane w systemie i zostanie wysłane za pobraniem."
+msgstr "Ваш заказ записан в системе и будет отправлен наложенным платежом."
+
+msgid "Zapłać poprzez PayU"
+msgstr "Заплатить через PayU"
+
+msgid "Podaj cenę w PLN"
+msgstr "Укажите цену в PLN"
+
+msgid "Wybierz dostawę w GRN"
+msgstr "Выберите способ доставки:"
+
+msgid "Cena w GRN"
+msgstr "Цена в ГРН"
+
+msgid "Wiadomość:"
+msgstr "сообщение:"
+
+msgid "Nazwa użytkownika"
+msgstr "Логин"

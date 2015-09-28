@@ -1,0 +1,154 @@
+
+
+.studio{
+    
+}
+
+.studio .studio-srodek{
+    width:870px;
+    height:450px;
+    float:left;
+    background: url('../img/layouts/default/studio-srodek.jpg') no-repeat center top;
+}
+
+.studio .studio-srodek1{
+    width:870px;
+    height:450px;
+}
+
+.studio .film{
+  width:300px;
+    height:664px;
+    background: #f1d204;
+    float:right;
+    position:absolute;
+    right:20px;
+    top:132px;
+    color:#000000;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.studio .lista{
+    margin: 0;
+}
+.studio .lista li{
+background: url('../img/layouts/default/studio-strzalka.jpg') no-repeat left top;
+padding-left: 100px;
+margin-bottom: 20px;
+}
+
+.studio .strzalka {
+    padding-right: 20px;
+    float:left;
+    
+}
+.studio .strzalka-blok {
+    padding-top: 2px;
+    padding-bottom: 30px;
+    
+}
+
+.studio .player {
+ width:848px;
+ height: 105px;
+ border: 1px solid red;
+}
+
+.studio .most-popular {
+    width: 1170px;
+    height:138px;
+    border: 0px solid red;
+    margin : 0 auto;
+    
+}
+h2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    padding-left: 30px;
+    padding-top: 30px;
+    
+}
+
+
+.studio #naviFooter{
+    background: #f1d204;
+    
+}
+
+.studio .slider {
+    width: 1170px;
+    height:263px;
+    border: 0px solid red;
+    margin : 0 auto;
+}
+
+
+.studio .slider-element{
+   width: 192px;
+    height:261px;
+    border-bottom: 2px solid #403b4b;
+    border-top: 2px solid #403b4b;
+    border-left:  1px solid #403b4b;
+    border-right:  1px solid #403b4b;
+    float: left;
+    
+}
+
+.alfa img {
+
+filter: alpha(opacity=100);
+-moz-opacity: 100;
+-khtml-opacity: 100;
+opacity: 100;
+
+
+}
+.alfa:hover img {
+
+filter: alpha(opacity=80);
+-moz-opacity: 0.8;
+-khtml-opacity: 0.8;
+opacity: 0.8;
+}
+
+.studio .menu-site{
+    background: #d6bb07;
+    border:1px solid #d6bb07;
+}
+
+.studio .menu-cms{
+    background: #d6bb07;
+}
+
+.studio #naviFooter {
+background: f1d204;
+}
+.studio #footer {
+background: #d6bb07;
+}
+.studio #naviFooter .my-row .menu-cms{
+    margin: 0;
+   border-color: #d6bb07;
+    border:1px solid #d6bb07;
+}
+
+.studio #naviFooter .my-row .menu-site {
+    border-color: #d6bb07;
+}
+
+.studio #naviFooter .my-row .menu-cms ul li.more ul{
+    background-color:#d6bb07; 
+}
+.studio #naviFooter .my-row .menu-cms ul li.more:hover ul li{
+    background-color:#d6bb07; 
+}
+.studio #naviFooter .my-row .menu-cms ul li.more ul li:hover{
+    background-color:#f53b3c; 
+}
+
+

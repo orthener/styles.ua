@@ -1,0 +1,487 @@
+body{
+    background: url(../img/default/body_bg.png) repeat-y top center #f6f6f6;
+    font: normal 12px/14px arial, sans-serif;
+    color: #5a5a5a;
+}
+#topbg{
+    background: url(../img/default/top_bg.jpg) no-repeat top center;
+}
+
+h1.red{
+    padding-left: 10px;
+    background: url(../img/default/h1_red.png) left top no-repeat;
+    font: bold 14px/16px arial, sans-serif;
+    color: #444444;
+}
+h1.red a{
+    color: #444444;
+    text-decoration: none;
+}
+.box{
+    background: url(../img/default/box.png) left top repeat-x;
+    padding-top: 10px;
+}
+.FLeft{
+    float: left;
+}
+.FRight{
+    float: right;
+}
+.message{
+    background: orange;
+    border: 1px solid red;
+    color: #fff;
+    text-align: center;
+}
+#container{
+    width: 1007px;
+    margin: auto;
+    padding-top: 43px;
+}
+#header{
+    background: url(../img/default/header_bg.png) repeat-x bottom center #fff;
+    height: 117px;
+    position: relative;
+}
+#header h1{
+    position: absolute;
+    top: -20px;
+    left: 33px;
+}
+#terminarzHead{
+    float: right;
+    width: 310px;
+    padding: 5px 25px 0 0;
+}
+#terminarzHead a{
+    display: block;
+    font: normal 12px/14px arial, sans-serif;
+    color: #5a5a5a;
+    padding: 3px 10px;
+    border-bottom: 1px solid #d2d2d2;
+}
+#terminarzHead a:hover{
+    background-color: #e30613;
+    color: #fff;
+    text-decoration: none;
+}
+#grayBg{
+    padding: 0 25px;
+    background: url(../img/default/gray_bg.png) repeat-x bottom #d4d4d4 ;
+    
+}
+#menu{
+    background: url(../img/default/menu_bg.png) repeat-x bottom #e30613 ;
+}
+#menu li{
+    float: left;
+    font: bold 15px/23px 'Trajan Pro', serif;
+}
+#menu li a{
+    color: #fff;
+    display: block;
+    padding: 8px;
+}
+#menu li.active{
+    border: 1px solid;
+    border-bottom: none 0;
+    margin-top: -5px;
+    padding-top: 4px;
+    z-index: 2;
+    position: relative;
+    background: url(../img/default/white_bg.png) repeat-x top;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+}
+#menu li.active a{
+    color: #1a171b;
+}
+#menu #cse-search-form{
+    float: right;
+    padding-top: 9px;
+    padding-right: 10px;
+    width: 200px;
+}
+#menu .gsc-branding{
+    display: none;
+}
+
+#menu .gsc-input input{
+    border: 1px #d5d5d5 solid;
+    height: 20px;
+    line-height: 17px;
+}
+#menu td.gsc-search-button{
+    padding-left: 10px;
+}
+#menu input.gsc-search-button{
+    background: transparent url(../img/default/szukaj.png) no-repeat center center;
+    text-indent: -200px;
+    overflow: hidden;
+    width: 22px;
+    height: 22px;
+    line-height: 0;
+    cursor: pointer;
+    display: block;
+    border: 1px #d5d5d5 solid;
+}
+#tinymce .gsc-control-cse{
+    border: none;
+    background-color: transparent;
+}
+#crumb{
+    background: url(../img/default/crumb_bg.png) repeat-x top;
+    border-bottom: 1px solid #d9d9d9;
+}
+#content{
+    border-top: 1px solid #fff;
+    background: url(../img/default/white_bg.png) repeat-x top #fff;
+    padding: 20px 25px;
+}
+#borderSlider{
+    border: 1px solid #e5e5e5;
+}
+#slider{
+    border: 1px solid #ffffff;
+    padding: 5px 9px;
+    position: relative;
+    height: 373px;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+#borderSlider #slider ul{
+    position: absolute;
+    right: 9px;
+    top: 5px;
+    
+}
+
+#borderSlider #slider ul li.ui-state-hover a{
+    border-bottom: 1px solid #cc0511;
+    border-top: 1px solid #e93842;
+}
+#borderSlider #slider ul li{
+    color: #fff;
+    text-align: center;
+    padding-left: 40px;
+    background: none;
+    border: none;
+}
+#borderSlider #slider ul li.ui-tabs-selected{
+    
+    background: url('../img/default/slider_li_active.png') no-repeat top left;
+}
+#borderSlider #slider ul li a {
+    background: #e30613;
+    border-bottom: 1px solid #cc0511;
+    border-top: 1px solid #e93842;    
+    color: #fff;
+    font: bold 18px/23px 'Trajan Pro', serif;
+    vertical-align: middle;
+    display: block;
+    height: 53px;
+    width: 288px;
+    padding: 10px;
+}
+#borderSlider #slider ul li a span{
+    font: normal 12px/14px arial, sans-serif;
+    clear: both;
+}
+
+#borderSlider #slider .infoSlider{
+    background: url(../img/default/opacity.png);
+    position: absolute;
+    bottom: 38px;
+    left: 10px;
+    width: 540px;
+    font: normal 14px/18px arial, sans-serif;
+    color: #fff;
+    padding: 16px 27px 30px 27px;
+}
+#borderSlider #slider .wiecejSlider{
+    position: absolute;
+    bottom: 38px;
+    left: 388px;
+    display: block;
+    width: 100px;
+    height: 27px;
+    background: url(../img/default/opacity.png);
+    color: #fff;
+    font: normal 14px/25px arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+#borderSlider #slider .tab{
+    height: 373px;
+    overflow: hidden;
+}
+#borderSlider #slider .ui-tabs-hide{
+    display: none;
+}
+#crumb{
+    font: normal 12px/34px arial, sans-serif;
+    color: #e30613;
+    padding-left: 20px;
+}
+#crumb a{
+    color: #555555;
+    margin: 0px 4px;
+}
+#leftColum{
+    float: left;
+    width: 230px;
+}
+#leftColum #datepickerPage{
+    font-size: 11px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 210px;
+}
+
+#newsletter a{
+    color: #888888;
+    font: normal 11px/15px tahoma, sans-serif;
+}
+#newsletter b{
+    font: bold 12px/16px arial, sans-serif;
+}
+#newsletter .text{
+    padding: 18px 0 9px 0;
+}
+#newsletter .text input{
+    width: 228px;
+    border: 1px solid #ececec;
+}
+
+#newsletter .submit input{
+    float: right;
+    font: bold 10px/10px arial, sans-serif;
+    background: url(../img/default/zapisz.png) repeat-x top left;
+    border: none;
+    color: #fff;
+    width: 75px;
+    text-align: center;
+    padding: 3px 0;
+    cursor: pointer;
+}
+#tinymce{
+    float: right;
+    width: 708px;
+}
+
+#tinymce .list{
+    border-bottom: 1px dotted #5a5a5a;
+    padding: 15px 0;
+}
+#tinymce .imageList{
+    float: left;
+    width: 155px;
+    text-align: center;
+}
+#tinymce .imageList img{
+    display: inline;
+    float: none;
+}
+#tinymce .contentList{
+    float: right;
+    width: 550px;
+    font: normal 12px/14px arial, sans-serif;
+    color: #5a5a5a;
+}
+
+#tinymce .contentList a{
+    color: #e30613;
+    font-weight: bold;
+}
+
+#partnerzy{
+    text-align: center;
+}
+#partnerzy img{
+    margin: 10px 0;
+    display: inline;
+}
+#footer{
+    background: url(../img/default/footer_top.png) left top repeat-x #e3e3e3;
+    line-height: 1.5;
+}
+#footer .four{
+    float: left;
+    width: 23%;
+    padding: 20px 1%;
+}
+#footer h1{
+    font: bold 18px/22px 'Trajan Pro', serif;
+}
+#footer h1.shadow{
+    background: url(../img/default/footer_top.png) left bottom repeat-x;
+    padding-bottom: 20px;
+}
+#footer ul{
+    padding: 20px;
+}
+#footer ul li{
+    padding: 2px 0;
+    list-style-image: url(../img/default/footer_li.png);
+}
+#footer ul li,
+#footer ul li a{
+    color: #444444;
+    font: normal 12px/14px arial, sans-serif;
+}
+#footer .pogoda{
+    float: left;
+    width: 740px;
+}
+#footerBootom{
+    background: url(../img/default/footer_bottom.png) left top repeat-x #e8e8e8;
+    font: normal 12px/16px arial, sans-serif;
+    text-align: center;
+    color: #222222;
+    padding: 20px;
+}
+#comment{
+    width: 400px;
+    
+}
+#comment legend{
+    color: #e30613;
+    font: bold 20px/25px arial, sans-serif;
+}
+#comment label{
+    font: bold 12px/20px aria, sans-serif;
+    color: #444444;
+    width: 75px;
+    vertical-align: top;
+    display: block;
+    float: left;
+}
+#comment .text input,
+#comment textarea{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: solid 1px #d9d9d9;
+}
+#comment fieldset{
+    padding: 15px 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+#comment .submit{
+    text-align: right;
+    padding: 10px 0;
+}
+
+.commentName{
+    color: #E30613;
+    font: bold 14px/20px arial,sans-serif;
+    float: left;
+    padding-right: 5px;
+    width: 200px;
+    overflow: hidden;
+    text-align: right;
+}
+
+.commentDesc{
+    width: 450px;
+    border: 1px solid #d2d2d2;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 15px;
+}
+#recaptcha_widget_div{
+    margin-top: 20px;
+}
+/**/
+#submenu li{
+    position: relative;
+    padding: 2px 0px 2px 10px;
+    background-image: url('../img/default/submenu_li.png');
+    background-position: 1px 9px;
+    background-repeat: no-repeat;
+}
+#submenu li,
+#submenu li a{
+    color: #5a5a5a;
+    font: bold 14px/16px arial, sans-serif;
+    text-decoration: none;
+    
+}
+#submenu li a{
+    display: block;
+    padding: 4px 0;
+    width: 200px;
+}
+#submenu li:hover{
+    background: #e30613;
+    color: #fff;
+}
+#submenu li:hover a{
+    color: #fff;
+}
+
+#submenu li ul,
+#submenu li:hover li ul,
+#submenu li li:hover li ul,
+#submenu li li li:hover li ul,
+#submenu li li li li:hover li ul{
+    display: none;
+}
+#submenu li:hover ul,
+#submenu li li:hover ul,
+#submenu li li li:hover ul,
+#submenu li li li li:hover ul,
+#submenu li li li li li:hover ul{
+    display: block;
+}
+#submenu li ul{
+    position: absolute;
+    top: 0;
+    left: 125px;
+    z-index: 3;
+}
+#submenu li li{
+    border-bottom: #cc0511 solid 1px;
+    border-top: #e93842 solid 1px;
+    background: #e30613;
+    border-right: #e93842 solid 1px;
+    border-left: #e93842 solid 1px;
+    padding: 1px 2px;
+}
+#submenu li li,
+#submenu li li a,
+#submenu li li:hover li,
+#submenu li li:hover li a,
+#submenu li li li:hover li,
+#submenu li li li:hover li a
+#submenu li li li li:hover li,
+#submenu li li li li:hover li a{
+    font: normal 12px/14px arial, sans-serif;
+    color: #fff;
+    background-color: #e30613;
+}
+#submenu li li:hover,
+#submenu li li:hover a,
+#submenu li li li:hover,
+#submenu li li li:hover a,
+#submenu li li li li:hover,
+#submenu li li li li:hover a,
+#submenu li li li li li:hover,
+#submenu li li li li li li:hover a{
+    color: #e30613;
+    background-color: #fff;
+}
+.error-message {
+padding-left: 75px;
+color: red;
+}
+.podpis{
+    text-align: right;
+    font: bold 11px/18px arial, sans-serif;
+    color: #5A5A5A;
+}

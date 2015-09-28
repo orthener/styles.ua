@@ -1,0 +1,3 @@
+<?php echo $this->Html->link(__d('front', 'Sklep'), '/', array('class' => 'span2 my-span4 bt-no-margin shop ' . (($siteType == 'default') ? 'active' : ''))); ?>
+<?php echo $this->Html->link(__d('front', 'Blog'), '/blog', array('class' => 'span2 my-span4 bt-no-margin inspiration ' . (($siteType == 'blog') ? 'active' : ''))); ?>
+<?php echo $this->Html->link(__d('front', 'Studio'), '/studio', array('class' => 'span2 my-span4 bt-no-margin music ' . (($siteType == 'studio') ? 'active' : ''))); ?>

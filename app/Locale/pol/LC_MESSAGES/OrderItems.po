@@ -1,0 +1,46 @@
+//Model Order Items 
+
+msgid "Order Id"
+msgstr "Order Id"
+msgid "Product Id"
+msgstr "Product Id"
+msgid "Product"
+msgstr "Product"
+msgid "Desc"
+msgstr "Desc"
+msgid "Price"
+msgstr "Price"
+msgid "Tax Rate"
+msgstr "Tax Rate"
+msgid "Tax Value"
+msgstr "Tax Value"
+msgid "Quantity"
+msgstr "Quantity"
+msgid "Discount"
+msgstr "Discount"
+msgid "Weight"
+msgstr "Weight"
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Order Items"
+msgstr "Order Items"
+
+msgid "New Order Item"
+msgstr "Dodaj Order Item"
+
+msgid "List Order Items"
+msgstr "Lista Order Items"
+
+msgid "Edit Order Items"
+msgstr "Edycja Order Items"
+
+msgid "Delete Order Items"
+msgstr "Usuń Order Items"
+
+msgid "Admin Add Order Item"
+msgstr "Dodawanie Order Item"
+
+msgid "Admin Edit Order Item"
+msgstr "Edycja Order Item"
+

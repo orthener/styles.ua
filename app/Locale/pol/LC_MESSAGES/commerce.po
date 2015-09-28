@@ -1,0 +1,347 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-01-03 10:03+0100\n"
+"PO-Revision-Date: 2014-01-14 12:27+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 1.6.3\n"
+
+#: Plugin\Commerce\Controller\OrderItemsController.php:42
+msgid "Nie ustawiony identyfikator, lub plik"
+msgstr "Не установлен индентификатор, либо файл"
+
+#: Plugin\Commerce\Controller\OrderItemsController.php:55
+msgid "Wystąpiły błędy podczas usuwania."
+msgstr "Во время удаления появились ошибки."
+
+#: Plugin\Commerce\Controller\OrderItemsController.php:58
+msgid "Zamówienie nie należy do Ciebie."
+msgstr "Заказ Вам не принадлежит."
+
+#: Plugin\Commerce\Controller\OrderItemsController.php:97
+msgid "Nie można zapisac pliku z tym rozszerzeniem"
+msgstr "Нельзя сохранить файл с этим расширением"
+
+#: Plugin\Commerce\Controller\OrderItemsController.php:103
+msgid "Zamówienie nie należy do Ciebie"
+msgstr "Заказ Вам не принадлежит"
+
+#: Plugin\Commerce\Controller\OrdersController.php:1478
+msgid "Koszty wysyłki"
+msgstr "Стоимость доставки"
+
+#: Plugin\Commerce\Model\Customer.php:147
+msgid "Podaj e-mail"
+msgstr "Введите e-mail"
+
+#: Plugin\Commerce\Model\Customer.php:148
+msgid ""
+"Podany adres e-mail jest już zarejestrowany. Zaloguj się aby złozyć "
+"zamówienie na ten adres"
+msgstr ""
+"Данный адрес e-mail уже зарегистрирован в системе. Войдите на сайт, чтобы "
+"оформить заказ на этот адрес"
+
+#: Plugin\Commerce\View\Elements\Orders\admin_order_items.ctp:238
+msgid "Szczegóły zamówienia"
+msgstr "Детали заказа"
+
+#: Plugin\Commerce\View\Elements\Orders\admin_order_items.ctp:243
+msgid "Nazwa"
+msgstr "Название"
+
+#: Plugin\Commerce\View\Elements\Orders\admin_order_items.ctp:244
+msgid "Ilość"
+msgstr "Количество"
+
+#: Plugin\Commerce\View\Elements\Orders\admin_order_items.ctp:245
+msgid "Cena Netto"
+msgstr "Цена Нетто"
+
+#: Plugin\Commerce\View\Elements\Orders\admin_order_items.ctp:246
+#: Plugin\Payments\View\Elements\invoice_table_taxes.ctp:5
+msgid "VAT"
+msgstr "НДС"
+
+#: Plugin\Commerce\View\Elements\Orders\admin_order_items.ctp:247
+msgid "Cena Brutto"
+msgstr "Цена Брутто"
+
+#: Plugin\Commerce\View\Elements\Orders\admin_order_items.ctp:248
+msgid "Rabat"
+msgstr "Скидка"
+
+#: Plugin\Commerce\View\Elements\Orders\admin_order_items.ctp:249
+msgid "Razem bez rabatu"
+msgstr "Всего без скидки"
+
+#: Plugin\Commerce\View\Elements\Orders\admin_order_items.ctp:250
+#: Plugin\Payments\View\Elements\invoice_summary.ctp:3
+msgid "Razem"
+msgstr "Всего"
+
+#: Plugin\Commerce\View\Elements\Orders\admin_order_items.ctp:276
+msgid "Wysyłka i transport"
+msgstr "Доставка и транспорт"
+
+#: Plugin\Commerce\View\Elements\Orders\admin_order_items.ctp:278
+msgid "Wartość Zamówienia"
+msgstr "Стоимость Заказа"
+
+#: Plugin\Commerce\View\Elements\Orders\admin_order_items.ctp:312
+msgid "Do Zapłaty"
+msgstr "К Оплате"
+
+#: Plugin\Commerce\View\Elements\Orders\admin_order_items.ctp:323
+msgid "Zapłacono"
+msgstr "Оплачено"
+
+#: Plugin\Commerce\View\Elements\Orders\admin_order_items.ctp:328
+msgid "Pozostało"
+msgstr "Осталось"
+
+#: Plugin\Commerce\View\Elements\Orders\form.ctp:5
+msgid "Nie masz konta? <span>Wprowadź dane.</span>"
+msgstr "Еще не зарегистрированы? <span>Введите данные.</span>"
+
+#: Plugin\Commerce\View\Elements\Orders\form.ctp:6
+msgid "Masz już konto? <span>Zaloguj się!</span>"
+msgstr "Уже зарегистрированы? <span>Войдите!</span>"
+
+#: Plugin\Commerce\View\Elements\Orders\form.ctp:18;65
+#: Plugin\Commerce\View\Elements\Orders\step3.ctp:9
+msgid "imię i nazwisko"
+msgstr "Имя и Фамилия"
+
+#: Plugin\Commerce\View\Elements\Orders\form.ctp:19
+#: Plugin\Commerce\View\Elements\Orders\step3.ctp:10
+#: Plugin\Payments\View\Helper\InvoiceHelper.php:16;41;99
+msgid "NIP"
+msgstr "ЄДРПОУ"
+
+#: Plugin\Commerce\View\Elements\Orders\form.ctp:20;44
+msgid "adres"
+msgstr "Адрес"
+
+#: Plugin\Commerce\View\Elements\Orders\form.ctp:26;50
+#: Plugin\Commerce\View\Elements\Orders\step3.ctp:14
+#: Plugin\Commerce\View\Elements\Orders\step4.ctp:15
+msgid "kod pocztowy"
+msgstr "Почтовый код"
+
+#: Plugin\Commerce\View\Elements\Orders\form.ctp:27;51
+#: Plugin\Commerce\View\Elements\Orders\step3.ctp:15
+#: Plugin\Commerce\View\Elements\Orders\step4.ctp:16
+msgid "miejscowość"
+msgstr ""
+
+#: Plugin\Commerce\View\Elements\Orders\form.ctp:31;55
+#: Plugin\Commerce\View\Elements\Orders\step3.ctp:16
+#: Plugin\Commerce\View\Elements\Orders\step4.ctp:19
+msgid "kraj"
+msgstr "Страна"
+
+#: Plugin\Commerce\View\Elements\Orders\form.ctp:32;56
+#: Plugin\Commerce\View\Elements\Orders\step3.ctp:17
+#: Plugin\Commerce\View\Elements\Orders\step4.ctp:20
+msgid "województwo"
+msgstr "Область"
+
+#: Plugin\Commerce\View\Elements\Orders\form.ctp:36
+msgid "Inne dane do wysyłki"
+msgstr "Другие данные к отправке"
+
+#: Plugin\Commerce\View\Elements\Orders\form.ctp:43
+#: Plugin\Commerce\View\Elements\Orders\step4.ctp:9
+msgid "imię i nazwisko lub nazwa"
+msgstr "Имя и Фамилия либо Название"
+
+#: Plugin\Commerce\View\Elements\Orders\form.ctp:66
+msgid "telefon"
+msgstr "Телефон"
+
+#: Plugin\Commerce\View\Elements\Orders\form.ctp:69
+msgid "e-mail"
+msgstr "Е-mail"
+
+#: Plugin\Commerce\View\Elements\Orders\form.ctp:73
+msgid "Chcę zapamiętać te dane do kolejnych zamówień i założyć konto."
+msgstr "Я хочу сохранить эти данные для следующих заказов и создать аккаунт."
+
+#: Plugin\Commerce\View\Elements\Orders\form.ctp:91
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: Plugin\Commerce\View\Elements\Orders\form.ctp:92
+msgid "Hasło:"
+msgstr "Пароль:"
+
+#: Plugin\Commerce\View\Elements\Orders\form.ctp:98
+msgid "Zapamiętaj mnie"
+msgstr "Запомнить меня"
+
+#: Plugin\Commerce\View\Elements\Orders\step3.ctp:11
+#: Plugin\Commerce\View\Elements\Orders\step4.ctp:10
+msgid "ulica"
+msgstr "Улица"
+
+#: Plugin\Commerce\View\Elements\Orders\step3.ctp:12
+#: Plugin\Commerce\View\Elements\Orders\step4.ctp:11
+msgid "nr domu"
+msgstr "№ дома"
+
+#: Plugin\Commerce\View\Elements\Orders\step3.ctp:13
+#: Plugin\Commerce\View\Elements\Orders\step4.ctp:12
+msgid "nr mieszkania"
+msgstr "№ квартиры"
+
+#: Plugin\Commerce\View\Elements\Orders\step3.ctp:22
+msgid "Dostawa pod inny adres"
+msgstr "Доставка на другой адрес"
+
+#: Plugin\Commerce\View\Elements\Orders\table_index.ctp:45
+msgid "[PLN]"
+msgstr "[PLN]"
+
+#: Plugin\Commerce\View\Elements\customer\customer.ctp:6
+msgid "Klient"
+msgstr "Клиент"
+
+#: Plugin\Commerce\View\Elements\customer\customer.ctp:8
+msgid "Telefon"
+msgstr "Телефон"
+
+#: Plugin\Commerce\View\Orders\admin_create_invoice.ctp:4
+msgid "Wystaw Fakturę"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\admin_create_invoice.ctp:7
+msgid ""
+"Faktura zostanie wystawiona zgodnie z danymi zawartymi w zamówieniu. \n"
+"    Przed wystawieniem faktury upewnij się, że dane w zamówieniu są "
+"prawidłowe"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\admin_create_invoice.ctp:12
+msgid "Data wystawienia / Data sprzedaży"
+msgstr "Дата выставления / Дата продажи"
+
+#: Plugin\Commerce\View\Orders\admin_index.ctp:9
+msgid "Lista Zamówień"
+msgstr "Список Заказов"
+
+#: Plugin\Commerce\View\Orders\admin_view.ctp:65
+msgid "NIP: "
+msgstr "ЄДРПОУ:"
+
+#: Plugin\Payments\View\Elements\invoice_summary.ctp:12
+msgid "Zapłacono: "
+msgstr "Оплачено:"
+
+#: Plugin\Payments\View\Elements\invoice_summary.ctp:16
+msgid "Pozostaje: "
+msgstr "Осталось:"
+
+#: Plugin\Payments\View\Elements\invoice_summary.ctp:24
+msgid "Podpis osoby uprawnionej do wystawienia faktury"
+msgstr "Подпись особы уполномоченной до выставления факуры"
+
+#: Plugin\Payments\View\Elements\invoice_summary.ctp:26
+msgid "Data odbioru"
+msgstr "Дата получения"
+
+#: Plugin\Payments\View\Elements\invoice_summary.ctp:28
+msgid "Podpis osoby uprawnionej do odbioru faktury"
+msgstr "Подпись особы уполномоченной к получению фактуры"
+
+#: Plugin\Payments\View\Elements\invoice_table.ctp:17
+msgid "Cena brutto"
+msgstr "Цена Брутто"
+
+#: Plugin\Payments\View\Elements\invoice_table.ctp:17
+msgid "Cena netto"
+msgstr "Цена Нетто"
+
+#: Plugin\Payments\View\Elements\invoice_table.ctp:23
+msgid "Wartość brutto"
+msgstr "Стоимость Брутто"
+
+#: Plugin\Payments\View\Elements\invoice_table.ctp:23
+msgid "Wartość netto"
+msgstr "Стоимость Нетто"
+
+#: Plugin\Payments\View\Elements\invoice_table_payments.ctp:3
+msgid "Forma płatności"
+msgstr "Форма оплаты"
+
+#: Plugin\Payments\View\Elements\invoice_table_payments.ctp:4
+msgid "Termin"
+msgstr "Сроки"
+
+#: Plugin\Payments\View\Elements\invoice_table_payments.ctp:5
+msgid "Kwota"
+msgstr "Квота"
+
+#: Plugin\Payments\View\Elements\invoice_table_taxes.ctp:4
+msgid "netto"
+msgstr "Нетто"
+
+#: Plugin\Payments\View\Elements\invoice_table_taxes.ctp:6
+msgid "brutto"
+msgstr "Брутто"
+
+#: Plugin\Payments\View\Elements\invoice_table_taxes.ctp:10
+msgid "Stawka %d%%"
+msgstr "Ставка"
+
+#: Plugin\Payments\View\Elements\invoice_table_taxes.ctp:17
+msgid "Razem:"
+msgstr "Всего:"
+
+#: Plugin\Payments\View\Helper\InvoiceHelper.php:20;42
+msgid "tel."
+msgstr "тел."
+
+#: Plugin\Payments\View\Helper\InvoiceHelper.php:50
+msgid "ORYGINAŁ/KOPIA"
+msgstr "ОРИГИНАЛ/КОПИЯ"
+
+#: Plugin\Payments\View\Helper\InvoiceHelper.php:60
+msgid "Faktura VAT"
+msgstr "Фактура НДС"
+
+#: Plugin\Payments\View\Helper\InvoiceHelper.php:62
+msgid "nr %s"
+msgstr "№ %s"
+
+#: Plugin\Payments\View\Helper\InvoiceHelper.php:69
+msgid "data wystawienia: <b>%s</b>"
+msgstr "Дата выставления: <b>%s</b>"
+
+#: Plugin\Payments\View\Helper\InvoiceHelper.php:73
+msgid "data sprzedaży: <b>%s</b>"
+msgstr "Дата продажи: <b>%s</b>"
+
+#: Plugin\Payments\View\Helper\InvoiceHelper.php:82
+msgid "Nabywca"
+msgstr "Покупатель"
+
+#: Plugin\Payments\View\Helper\InvoiceHelper.php:83
+msgid "Odbiorca"
+msgstr "Получатель"
+
+#: Plugin\Payments\View\Invoices\admin_pdf.ctp:20
+msgid "ORYGINAŁ"
+msgstr "ОРИГИНАЛ"
+
+#: Plugin\Payments\View\Invoices\admin_pdf.ctp:20
+msgid "KOPIA"
+msgstr "КОПИЯ"

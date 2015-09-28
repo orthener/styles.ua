@@ -1,0 +1,19 @@
+div#filter-price, div#filter-size, div#filter-gender , div#filter-brands {
+    background-color: #000000;
+    display: none;
+    padding: 10px;
+    position: absolute;
+    z-index: 100;
+}
+div#filter-price.active {
+    display: block;
+}
+div#filter-size.active {
+    display: block;
+}
+div#filter-gender.active {
+    display: block;
+}
+div#filter-brands.active {
+    display: block;
+}

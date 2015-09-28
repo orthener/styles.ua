@@ -1,0 +1,12 @@
+p { margin: 0; }
+body { padding: 10px; background-color:white; }
+body, body p {
+font-family: Calibri, Arial, sans-serif;
+font-size: 11pt;
+color: #4f4f4f;
+}
+big { font-size: 13pt; }
+small, small a {
+color: #8d8d8d;
+font-size: 9pt;
+}

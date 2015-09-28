@@ -1,0 +1,4581 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sławomir Jach <s.jach@feb.net.pl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+
+msgid "Addresses"
+msgstr ""
+
+msgid "Edit"
+msgstr "Редакция"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "New Address"
+msgstr ""
+
+msgid "List Addresses"
+msgstr ""
+
+msgid "Edit Addresses"
+msgstr ""
+
+msgid "Delete Addresses"
+msgstr ""
+
+msgid "Admin Add Address"
+msgstr ""
+
+msgid "Admin Edit Address"
+msgstr ""
+
+msgid "Minimum"
+msgstr ""
+
+msgid "Discount"
+msgstr ""
+
+msgid "Affiliate Programs"
+msgstr ""
+
+msgid "New Affiliate Program"
+msgstr ""
+
+msgid "List Affiliate Programs"
+msgstr ""
+
+msgid "Edit Affiliate Programs"
+msgstr ""
+
+msgid "Delete Affiliate Programs"
+msgstr ""
+
+msgid "Admin Add Affiliate Program"
+msgstr ""
+
+msgid "Admin Edit Affiliate Program"
+msgstr ""
+
+msgid "Customer Id"
+msgstr ""
+
+msgid "Iscompany"
+msgstr ""
+
+msgid "Nip"
+msgstr "ЕГРПОУ"
+
+msgid "Address"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "Post Code"
+msgstr ""
+
+msgid "Region Id"
+msgstr ""
+
+msgid "Country Id"
+msgstr ""
+
+msgid "Invoice Identities"
+msgstr ""
+
+msgid "New Invoice Identity"
+msgstr ""
+
+msgid "List Invoice Identities"
+msgstr ""
+
+msgid "Edit Invoice Identities"
+msgstr ""
+
+msgid "Delete Invoice Identities"
+msgstr ""
+
+msgid "Admin Add Invoice Identity"
+msgstr ""
+
+msgid "Admin Edit Invoice Identity"
+msgstr ""
+
+msgid "User Id"
+msgstr ""
+
+msgid "Contact Person"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "Address Id"
+msgstr ""
+
+msgid "Invoice Identity Id"
+msgstr ""
+
+msgid "Customers"
+msgstr ""
+
+msgid "New Customer"
+msgstr ""
+
+msgid "List Customers"
+msgstr ""
+
+msgid "Edit Customers"
+msgstr ""
+
+msgid "Delete Customers"
+msgstr ""
+
+msgid "Admin Add Customer"
+msgstr ""
+
+msgid "Admin Edit Customer"
+msgstr ""
+
+msgid "Order Item Id"
+msgstr ""
+
+msgid "Accepted"
+msgstr ""
+
+msgid "Desc"
+msgstr ""
+
+msgid "Order Item Files"
+msgstr ""
+
+msgid "New Order Item File"
+msgstr ""
+
+msgid "List Order Item Files"
+msgstr ""
+
+msgid "Edit Order Item Files"
+msgstr ""
+
+msgid "Delete Order Item Files"
+msgstr ""
+
+msgid "Admin Add Order Item File"
+msgstr ""
+
+msgid "Admin Edit Order Item File"
+msgstr ""
+
+msgid "Order Id"
+msgstr ""
+
+msgid "Product Id"
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+msgid "Price"
+msgstr ""
+
+msgid "Tax Rate"
+msgstr ""
+
+msgid "Tax Value"
+msgstr ""
+
+msgid "Quantity"
+msgstr ""
+
+msgid "Weight"
+msgstr ""
+
+msgid "Order Items"
+msgstr ""
+
+msgid "New Order Item"
+msgstr ""
+
+msgid "List Order Items"
+msgstr ""
+
+msgid "Edit Order Items"
+msgstr ""
+
+msgid "Delete Order Items"
+msgstr ""
+
+msgid "Admin Add Order Item"
+msgstr ""
+
+msgid "Admin Edit Order Item"
+msgstr ""
+
+msgid "Order Statuses"
+msgstr ""
+
+msgid "New Order Status"
+msgstr ""
+
+msgid "List Order Statuses"
+msgstr ""
+
+msgid "Edit Order Statuses"
+msgstr ""
+
+msgid "Delete Order Statuses"
+msgstr ""
+
+msgid "Admin Add Order Status"
+msgstr ""
+
+msgid "Admin Edit Order Status"
+msgstr ""
+
+msgid "Hash"
+msgstr ""
+
+msgid "Order Status Id"
+msgstr ""
+
+msgid "Invoice Identity"
+msgstr ""
+
+msgid "Shipment Method Id"
+msgstr ""
+
+msgid "Shipment Price"
+msgstr ""
+
+msgid "Shipment Tax Rate"
+msgstr ""
+
+msgid "Shipment Tax Value"
+msgstr ""
+
+msgid "Shipment Discount"
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Total Tax Value"
+msgstr ""
+
+msgid "Track Number"
+msgstr ""
+
+msgid "Payment Type"
+msgstr ""
+
+msgid "Vat"
+msgstr ""
+
+msgid "Orders"
+msgstr ""
+
+msgid "New Order"
+msgstr ""
+
+msgid "List Orders"
+msgstr ""
+
+msgid "Edit Orders"
+msgstr ""
+
+msgid "Delete Orders"
+msgstr ""
+
+msgid "Admin Add Order"
+msgstr ""
+
+msgid "Admin Edit Order"
+msgstr ""
+
+msgid "Shipment Method Configs"
+msgstr ""
+
+msgid "New Shipment Method Config"
+msgstr ""
+
+msgid "List Shipment Method Configs"
+msgstr ""
+
+msgid "Edit Shipment Method Configs"
+msgstr ""
+
+msgid "Delete Shipment Method Configs"
+msgstr ""
+
+msgid "Admin Add Shipment Method Config"
+msgstr ""
+
+msgid "Admin Edit Shipment Method Config"
+msgstr ""
+
+msgid "Cash On Delivery Price"
+msgstr ""
+
+msgid "Track Link"
+msgstr ""
+
+msgid "Shipment Methods"
+msgstr ""
+
+msgid "New Shipment Method"
+msgstr ""
+
+msgid "List Shipment Methods"
+msgstr ""
+
+msgid "Edit Shipment Methods"
+msgstr ""
+
+msgid "Delete Shipment Methods"
+msgstr ""
+
+msgid "Admin Add Shipment Method"
+msgstr ""
+
+msgid "Admin Edit Shipment Method"
+msgstr ""
+
+msgid "Modified"
+msgstr "модифицированный"
+
+msgid "Created"
+msgstr "созданный"
+
+msgid "Title"
+msgstr "Заголовок"
+
+msgid "News Title"
+msgstr "Заголовок"
+
+msgid "List"
+msgstr "Список"
+
+msgid "Adding"
+msgstr "добавлять"
+
+msgid "Editing"
+msgstr "Редакция"
+
+msgid "Add"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Poprawnie usunięto."
+msgstr "Успешно удалено."
+
+msgid "Name"
+msgstr "Название"
+
+msgid "Photo Categories"
+msgstr ""
+
+msgid "New Photo Category"
+msgstr ""
+
+msgid "List Photo Categories"
+msgstr ""
+
+msgid "Edit Photo Categories"
+msgstr ""
+
+msgid "Delete Photo Categories"
+msgstr ""
+
+msgid "Admin Add Photo Category"
+msgstr ""
+
+msgid "Admin Edit Photo Category"
+msgstr ""
+
+msgid "Photo Id"
+msgstr ""
+
+msgid "Product Category Id"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Price"
+msgstr ""
+
+msgid "Tax Rate"
+msgstr ""
+
+msgid "Tax Value"
+msgstr ""
+
+msgid "Products"
+msgstr "Товаров"
+
+msgid "New Product"
+msgstr ""
+
+msgid "List Products"
+msgstr ""
+
+msgid "Edit Products"
+msgstr ""
+
+msgid "Delete Products"
+msgstr ""
+
+msgid "Admin Add Product"
+msgstr "добавлять"
+
+msgid "Add Product"
+msgstr "добавлять"
+
+msgid "Admin Edit Product"
+msgstr "Редакция"
+
+msgid "Product Categories"
+msgstr ""
+
+msgid "New Product Category"
+msgstr ""
+
+msgid "List Product Categories"
+msgstr ""
+
+msgid "Edit Product Categories"
+msgstr ""
+
+msgid "Delete Product Categories"
+msgstr ""
+
+msgid "Admin Add Product Category"
+msgstr ""
+
+msgid "Admin Edit Product Category"
+msgstr ""
+
+msgid "Product Category Data"
+msgstr ""
+
+msgid "Product Data"
+msgstr "Информация о продукте"
+
+msgid "Phone"
+msgstr ""
+
+msgid "Order References"
+msgstr ""
+
+msgid "New Order Reference"
+msgstr ""
+
+msgid "List Order References"
+msgstr ""
+
+msgid "Edit Order References"
+msgstr ""
+
+msgid "Delete Order References"
+msgstr ""
+
+msgid "Admin Add Order Reference"
+msgstr ""
+
+msgid "Admin Edit Order Reference"
+msgstr ""
+
+msgid "Order Reference Data"
+msgstr ""
+
+msgid "List Product Promotions"
+msgstr ""
+
+msgid "Single"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Expiry Date"
+msgstr ""
+
+msgid "Used"
+msgstr ""
+
+msgid "Deleted"
+msgstr ""
+
+
+msgid "Promotion Codes"
+msgstr ""
+
+msgid "New Promotion Code"
+msgstr ""
+
+msgid "List Promotion Codes"
+msgstr ""
+
+msgid "Edit Promotion Codes"
+msgstr ""
+
+msgid "Delete Promotion Codes"
+msgstr ""
+
+msgid "Admin Add Promotion Code"
+msgstr ""
+
+msgid "Admin Edit Promotion Code"
+msgstr ""
+
+msgid "Promotion Code Data"
+msgstr ""
+
+msgid "Tiny Name"
+msgstr ""
+
+msgid "Text Color"
+msgstr ""
+
+msgid "Button Text"
+msgstr ""
+
+msgid "Button Link"
+msgstr ""
+
+msgid "Sliders"
+msgstr "Слайдеры"
+
+msgid "New Slider"
+msgstr "Новый слайдер"
+
+msgid "List Sliders"
+msgstr "Список слайдеров"
+
+msgid "Edit Sliders"
+msgstr "Редактировать слайдеры"
+
+msgid "Delete Sliders"
+msgstr "Удалить слайдеры"
+
+msgid "Admin Add Slider"
+msgstr ""
+
+msgid "Admin Edit Slider"
+msgstr ""
+
+msgid "Slider Data"
+msgstr ""
+
+msgid "Image"
+msgstr ""
+
+msgid "Url"
+msgstr ""
+
+msgid "Usuń"
+msgstr "Удалить"
+
+msgid "Filtruj"
+msgstr "Фильтруй"
+
+msgid "Strona"
+msgstr "Сайт"
+
+msgid "Kategoria"
+msgstr "Категория"
+
+msgid "Konfiguracja"
+msgstr "Конфигурация"
+
+msgid "Galeria"
+msgstr "Галерея"
+
+msgid "Ustawienia HTML"
+msgstr "Настройки HTML"
+
+msgid "Maksymalna ilość znaków 255 "
+msgstr "Максимальное кол-во знаков 255"
+
+msgid "Maksymalna ilość znaków 255"
+msgstr "Максимальное кол-во знаков 255"
+
+msgid "Dodaj nową pozycję menu"
+msgstr "Добавить новую позицию Меню"
+
+msgid "Kliknij przycisk "Dodaj nową pozycję", aby dodać do menu nową kategorię lub nowy link."
+msgstr "Нажмите кнопку \"Добавить новую позицию\", чтобы добавить в Меню новую категорию либо новую ссылку."
+
+msgid "Dodaj nową pozycję"
+msgstr "Добавить новую позицию"
+
+msgid "Dodaj pozycję"
+msgstr "Добавить позицию"
+
+msgid "Anuluj"
+msgstr "Аннулировать"
+
+msgid "Przeciągnij poniższy element w wybrane miejsce w drzewie lub kliknij przycisk dodaj aby umieścić na końcu drzewa."
+msgstr "Перетяните этот элемент в выбранное место в структурном дереве, либо нажмите кнопку \"Добавить и установить в конце структурного дерева\"."
+
+msgid "Migająca pozycja"
+msgstr "Мигающая позиция"
+
+msgid "Sekcja"
+msgstr "Секция"
+
+msgid "Wybierz"
+msgstr "Выберите"
+
+msgid "Tytuł"
+msgstr "Заголовок"
+
+msgid "Treść"
+msgstr "Описание"
+
+msgid "Nadawca"
+msgstr "Отправитель"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "Wysłano do"
+msgstr "Отправлено к"
+
+msgid "Zmodyfikowano (wysłano)"
+msgstr "Модифицировано (отправлено)"
+
+msgid "odbiorców"
+msgstr "получателей"
+
+msgid "Witaj"
+msgstr "Здравствуйте"
+
+msgid "Powrót"
+msgstr "Назад"
+
+msgid "Wyloguj"
+msgstr "Выйти"
+
+msgid "Ostatnio zalogowany"
+msgstr "Ваш последний визит"
+
+msgid "Wyszukaj"
+msgstr "Найти"
+
+msgid "Kod produktu"
+msgstr "Код товара"
+
+msgid "Kod kreskowy"
+msgstr "Штрих код"
+
+msgid "Producent"
+msgstr "Производитель"
+
+msgid "Marka"
+msgstr "Бренд"
+
+msgid "Rozmiar produktu"
+msgstr "Размер"
+
+msgid "Kolekcja damska/męska"
+msgstr "Коллекция мужская/женская"
+
+msgid "Ilość"
+msgstr "Кол-во"
+
+msgid "Promowany na stronie głównej"
+msgstr "Рекламировать на главной странице"
+
+msgid "Wyprzedaż"
+msgstr "Распродажа"
+
+msgid "Promowany na blogu"
+msgstr "Рекламировать в Блоге"
+
+msgid "Cena minimalna"
+msgstr "Минимальная цена"
+
+msgid "Cena maksymalna"
+msgstr "Максимальная цена"
+
+msgid "Podatek"
+msgstr "Налог"
+
+msgid "Najwcześniejsza data utworzenia"
+msgstr "Наиболее новая дата добавления"
+
+msgid "Najpóźniejsza data utworzenia"
+msgstr "Наиболее старая дата добавления"
+
+msgid "Najwcześniejsza data modyfikacji"
+msgstr "Наиболее новая дата модификации"
+
+msgid "Najpóźniejsza data modyfikacji"
+msgstr "Наиболее старая дата модификации"
+
+msgid "Produkt na promocji"
+msgstr "Товар рекламируется"
+
+msgid "wybierz ..."
+msgstr "выбрать …"
+
+msgid "Cena brutto"
+msgstr "Цена брутто"
+
+msgid "Na blogu"
+msgstr "В Блоге"
+
+msgid "Promocja"
+msgstr "Реклама"
+
+msgid "Actions"
+msgstr ""
+
+msgid "wyprzedaż"
+msgstr "распродажа"
+
+msgid "promocja"
+msgstr "реклама"
+
+msgid "na blogu"
+msgstr "в Блоге"
+
+msgid "Edytuj zaznaczone"
+msgstr "Редактировать выбранное"
+
+msgid "List Products"
+msgstr "Список Товаров"
+
+msgid "Edit Products"
+msgstr "Редактировать Товары"
+
+msgid "nieustalone"
+msgstr "Не установлено"
+
+msgid "man"
+msgstr "Парни"
+
+msgid "woman"
+msgstr "Девушки"
+
+msgid "Dostępna ilość produktów"
+msgstr "Доступное кол-во товаров"
+
+msgid "Produkt rozmiarowy"
+msgstr "Необходимо выбрать размер."
+
+msgid "Dodaj podobne produkty"
+msgstr "Добавить похожий товар"
+
+msgid "Kategoria"
+msgstr "Категория"
+
+msgid "Miniaturka"
+msgstr "Миниатюра"
+
+msgid "Dodaj akcesoria"
+msgstr "Добавить аксессуары"
+
+msgid "Dodaj"
+msgstr "Добавить"
+
+msgid "Kategorie"
+msgstr "Категории"
+
+msgid "Słowa kluczowe"
+msgstr "Ключевые слова"
+
+msgid "Ustawienia html"
+msgstr "Настройки html"
+
+msgid "Opis strony"
+msgstr "Описание страницы"
+
+msgid "Wystąpił błąd podczas zapisu, popraw formularz i spróbuj ponownie."
+msgstr "Во время сохранения записи возникла ошибка, поправьте форму и попробуйте снова."
+
+msgid "Poprawnie zapisano"
+msgstr "Успешно записано"
+
+msgid "Poprawnie zapisano."
+msgstr "Успешно записано."
+
+msgid "Nazwa rozmiaru nie może być pusta. Usuń lub wypełnij aby kontynuować."
+msgstr "Данные \"размера\" не могут быть пустыми. "
+
+msgid "Waga"
+msgstr "Вес"
+
+msgid "Czas realizacji"
+msgstr "Время реализации"
+
+msgid "Brand"
+msgstr "Бренд"
+
+msgid "Grafika"
+msgstr "Фотографии"
+
+msgid "Link"
+msgstr "Ссылка"
+
+msgid "Edytuj"
+msgstr "Редактировать"
+
+msgid "Wybierz"
+msgstr "Выбрать"
+
+msgid "Brak opisu"
+msgstr "Нет описания"
+
+msgid "Media Type"
+msgstr ""
+
+msgid "Czy aktywny"
+msgstr "Активирован?"
+
+msgid "Author"
+msgstr "Автор"
+
+msgid "TAK"
+msgstr "ДА"
+
+msgid "NIE"
+msgstr "НЕТ"
+
+msgid "brak"
+msgstr "Отсутствует"
+
+msgid "Czy ma być aktywny"
+msgstr "Должен ли быть активным?"
+
+msgid "File"
+msgstr "Файл"
+
+msgid "Studio Movie Data"
+msgstr ""
+
+msgid "Rodzaj utworu"
+msgstr "Вид создаваемого"
+
+msgid "Admin Edit Studio Movie"
+msgstr ""
+
+msgid "Studio Movies"
+msgstr ""
+
+msgid "szukaj"
+msgstr "искать"
+
+msgid "Status zamówienia"
+msgstr "Статус заказа"
+
+msgid "Zrealizowane"
+msgstr "Реализовано"
+
+msgid "W trakcie realizacji"
+msgstr "В процессе реализации"
+
+msgid "Lista zamówień w trakcie realizacji"
+msgstr "Список заказов \"в процессе реализации\""
+
+msgid "Lista zamówień zrealizowanych"
+msgstr "Список реализованных заказов"
+
+msgid "Dostawa"
+msgstr "Доставка"
+
+msgid "Płatność"
+msgstr "Оплата"
+
+msgid "Dodaj płatność"
+msgstr "Добавить оплату"
+
+msgid "Orders"
+msgstr ""
+
+msgid "Wyślij Wiadomość Email do Klienta"
+msgstr "Отправить Клиенту е-mail сообщение"
+
+msgid "Zamówienie Numer"
+msgstr "Заказ Номер"
+
+msgid "Data utworzenia zamówienia"
+msgstr "Дата создания заказа"
+
+msgid "Ostatnia modyfikacja"
+msgstr "Последняя модификация"
+
+msgid "Edycja Danych Klienta"
+msgstr "Редактировать данные Клиента"
+
+msgid "Status"
+msgstr "Статус:"
+
+msgid "Dane do Wysyłki"
+msgstr "Данные для отправки:"
+
+msgid "Wystawiona faktura vat"
+msgstr "Фактура VAT:"
+
+msgid "Nr listu przewozowego"
+msgstr "Сопроводительный лист №"
+
+msgid "Dane do Faktury"
+msgstr "Данные для фактуры:"
+
+msgid "Dane Klienta"
+msgstr "Данные клиента:"
+
+msgid "Nadawca"
+msgstr "Отправитель:"
+
+msgid "Odbiorca"
+msgstr "Получатель:"
+
+msgid "Informacje o realizacji zamówienia nr #"
+msgstr "Информация о реализации заказа № #"
+
+msgid "Faktura została już wygenerowana. Pomimo tego chcesz zmienić zamówienie?"
+msgstr "Фактура была сгенерирована. Всё равно хотите изменить заказ?"
+
+msgid "Koszt dostawy"
+msgstr "Стоимость доставки:"
+
+msgid "Wartość prowizji"
+msgstr "Показатель комиссии:"
+
+msgid "rozmiar"
+msgstr "Размер:"
+
+msgid "Płatność przelewem"
+msgstr "Оплата банковским переводом"
+
+msgid "Płatność elektroniczna PayU"
+msgstr "Оплата с помощью PayU"
+
+msgid "Płatność za pobraniem/przy odbiorze"
+msgstr "Оплата наложенным платежом / при получении"
+
+msgid "Notatki"
+msgstr "Заметки"
+
+msgid "Płatności"
+msgstr "Платежи"
+
+msgid "RAZEM"
+msgstr "ВСЕГО:"
+
+msgid "z kosztami wysyłki"
+msgstr "Включая стоимость доставки"
+
+msgid "Zapłacono"
+msgstr "Оплачено"
+
+msgid "Pozostało"
+msgstr "Осталось"
+
+msgid "Nadplata "
+msgstr "Переплата"
+
+msgid "Dostawa"
+msgstr "Доставка"
+
+msgid "Szczegóły zamówienia"
+msgstr "Детали заказа"
+
+msgid "Przesyłkę można śledzić pod adresem"
+msgstr "За посылкой можно следить по адресу:"
+
+msgid "Twoje zamówienie zostało zaktualizowane. Szczególy zamówienia możesz sprawdzić poniżej"
+msgstr "Ваш заказ принят к реализации. Детали заказа будут отправлены Вам немного позднее."
+
+msgid "Witaj"
+msgstr "Здравствуйте"
+
+msgid "Uaktualnione przez"
+msgstr "Актуализировано "
+
+msgid "Modyfikacja Produktów Zamówienia"
+msgstr "Модификация товаров в заказе"
+
+msgid "zmieniono z"
+msgstr "изменено с"
+
+msgid "na"
+msgstr "на"
+
+msgid "Historia Modyfikacji"
+msgstr "История модификаций"
+
+msgid "Modyfikacja danych do faktury"
+msgstr "Модификация данных для Фактуры"
+
+msgid "Modyfikacja danych wysyłki"
+msgstr "Модификация данных для отправки"
+
+msgid "Zmienione dane transakcji"
+msgstr "Измененные данные транзакции"
+
+msgid "Płatność anulowana"
+msgstr "Оплата аннулирована"
+
+msgid "Płatność jest w trakcie tworzenia"
+msgstr "Оплата в процессе создания"
+
+msgid "Płatność utworzona"
+msgstr "Оплата создана"
+
+msgid "W trakcie realizacji"
+msgstr "В процессе реализации"
+
+msgid "Płatność zakończona bez zaktualizowania stanu konta (stanu powiązanego rekordu)"
+msgstr "Платеж закончен без актуализации состояния счета."
+
+msgid "Płatność zakończona"
+msgstr "Оплата закончена"
+
+msgid "Zapamiętaj mnie"
+msgstr "Запомнить меня"
+
+msgid "Pole formularza nie może być puste"
+msgstr "Поля в формуляже не могут быть пустыми!"
+
+msgid "Logowanie"
+msgstr "Войти"
+
+msgid "Przypomnienie hasła"
+msgstr "Напомнить пароль"
+
+#: C:\xampp\htdocs\sss\\Baner\Controller\BanersController.php:31;103
+msgid "Nie odnaleziono"
+msgstr "Не найдено"
+
+#: C:\xampp\htdocs\sss\\Comment\Controller\CommentsController.php:181
+#: C:\xampp\htdocs\sss\\Menu\Controller\MenusController.php:174
+#: C:\xampp\htdocs\sss\\Tree\Controller\TreeController.php:104
+msgid "Zmieniono pozycję"
+msgstr "Позицию изменено"
+
+#: C:\xampp\htdocs\sss\\Comment\Controller\CommentsController.php:200
+#: C:\xampp\htdocs\sss\\Menu\Controller\MenusController.php:193
+#: C:\xampp\htdocs\sss\\Tree\Controller\TreeController.php:123
+msgid "Wprowadź nazwę, aby dodać pozycję."
+msgstr "Введите название, чтобы добавить позицию."
+
+#: C:\xampp\htdocs\sss\\Comment\Controller\CommentsController.php:210;219
+#: C:\xampp\htdocs\sss\\Menu\Controller\MenusController.php:203;212
+#: C:\xampp\htdocs\sss\\Tree\Controller\TreeController.php:134;143
+msgid "Dodano pozycję na koniec drzewa."
+msgstr "Позиция добавлена в конец структурного дерева."
+
+#: C:\xampp\htdocs\sss\\Comment\Controller\CommentsController.php:217
+#: C:\xampp\htdocs\sss\\Menu\Controller\MenusController.php:210
+#: C:\xampp\htdocs\sss\\Tree\Controller\TreeController.php:141
+msgid "Dodano pozycję do drzewa."
+msgstr "Позиция добавлена в структурное дерево."
+
+#: C:\xampp\htdocs\sss\\Comment\Controller\CommentsController.php:224
+#: C:\xampp\htdocs\sss\\Menu\Controller\MenusController.php:217
+#: C:\xampp\htdocs\sss\\Tree\Controller\TreeController.php:148
+msgid "Dodanie pozycji nie powiodło się, sprawdź formularz i spróbuj ponownie"
+msgstr "Позиция не добавлена, проверьте формуляж и попробуйте снова."
+
+#: C:\xampp\htdocs\sss\\Comment\View\Comments\admin_edit.ctp:4
+#: C:\xampp\htdocs\sss\\Menu\View\Menus\admin_edit.ctp:4
+#: C:\xampp\htdocs\sss\\Tree\View\Elements\Categories\form.ctp:4
+msgid "Menu"
+msgstr "Меню"
+
+#: C:\xampp\htdocs\sss\\Country\Controller\CountriesController.php:79;100
+#: C:\xampp\htdocs\sss\\Modification\Controller\ModificationsController.php:79;100
+#: C:\xampp\htdocs\sss\\News\Controller\NewsCategoriesController.php:79;100
+#: C:\xampp\htdocs\sss\\Region\Controller\RegionsController.php:79;100
+#: C:\xampp\htdocs\sss\\Slider\Controller\SlidersController.php:87;108
+msgid "Poprawnie zapisano."
+msgstr "Успешно сохранено."
+
+#: C:\xampp\htdocs\sss\\Country\Controller\CountriesController.php:82;103
+#: C:\xampp\htdocs\sss\\Modification\Controller\ModificationsController.php:82;103
+#: C:\xampp\htdocs\sss\\News\Controller\NewsCategoriesController.php:82;103
+#: C:\xampp\htdocs\sss\\Region\Controller\RegionsController.php:82;103
+#: C:\xampp\htdocs\sss\\Slider\Controller\SlidersController.php:90;111
+msgid "Wystąpił błąd podczas zapisu, popraw formularz i spróbuj ponownie."
+msgstr "Во время сохранения произошла ошибка, проверьте формуляж и попробуйте снова."
+
+#: C:\xampp\htdocs\sss\\Country\Controller\CountriesController.php:125
+#: C:\xampp\htdocs\sss\\Modification\Controller\ModificationsController.php:125
+#: C:\xampp\htdocs\sss\\News\Controller\NewsCategoriesController.php:125
+#: C:\xampp\htdocs\sss\\Region\Controller\RegionsController.php:125
+#: C:\xampp\htdocs\sss\\Slider\Controller\SlidersController.php:133
+msgid "Poprawnie usunięto."
+msgstr "Успешно удалено."
+
+#: C:\xampp\htdocs\sss\\Country\Controller\CountriesController.php:128
+#: C:\xampp\htdocs\sss\\Modification\Controller\ModificationsController.php:128
+#: C:\xampp\htdocs\sss\\News\Controller\NewsCategoriesController.php:128
+#: C:\xampp\htdocs\sss\\Region\Controller\RegionsController.php:128
+#: C:\xampp\htdocs\sss\\Slider\Controller\SlidersController.php:136
+msgid "Nie można usunąć."
+msgstr "Нет возможности удалить."
+
+#: C:\xampp\htdocs\sss\\GoogleSearch\View\Searches\index.ctp:23
+msgid "Wyniki wyszukiwania"
+msgstr "Результаты поиска:"
+
+#: C:\xampp\htdocs\sss\\Help\View\Layouts\help.ctp:19
+msgid "FebCMS2 - Pomoc"
+msgstr "FebCMS2 - Помощь"
+
+#: C:\xampp\htdocs\sss\\Maintenance\Controller\MaintenanceController.php:75
+msgid "Błędne hasło"
+msgstr "Неверный пароль"
+
+#: C:\xampp\htdocs\sss\\Maintenance\Controller\MaintenanceController.php:78
+msgid "Błędny login"
+msgstr "Неверный логин"
+
+#: C:\xampp\htdocs\sss\\Maintenance\View\Maintenance\index.ctp:1
+#: C:\xampp\htdocs\sss\\User\View\Elements\Users\ajaxlogin.ctp:1
+msgid "Logowanie"
+msgstr "Вход"
+
+#: C:\xampp\htdocs\sss\\News\View\News\index.ctp:10
+msgid "Blog"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Elements\Newsletters\add.ctp:4
+msgid "wpisz adres e-mail"
+msgstr "впишите e-mail адрес"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Elements\Newsletters\add.ctp:13
+msgid "Dołącz"
+msgstr "Добавить"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Elements\Newsletters\add.ctp:25
+msgid "Proszę czekać"
+msgstr "Пожалуйста, ожидайте"
+
+#: C:\xampp\htdocs\sss\\Page\View\Pages\index.ctp:5
+#: C:\xampp\htdocs\sss\\Page\View\Pages\view.ctp:12
+msgid "Strona główna"
+msgstr "Главная страница"
+
+#: C:\xampp\htdocs\sss\\Slug\Controller\Component\SlugComponent.php:74
+msgid "Strona nie istnieje"
+msgstr "Данная страница, к сожалению, не найдена."
+
+#: C:\xampp\htdocs\sss\\User\View\Emails\html\user_passreset.ctp:1
+#: C:\xampp\htdocs\sss\\User\View\Emails\html\user_register.ctp:1
+#: C:\xampp\htdocs\sss\\User\View\Emails\text\user_passreset.ctp:1
+msgid "Witaj"
+msgstr "Здравствуйте"
+
+#: C:\xampp\htdocs\sss\\User\View\Emails\html\user_passreset.ctp:3
+#: C:\xampp\htdocs\sss\\User\View\Emails\text\user_passreset.ctp:4
+msgid "Aby ustawić nowe hasło, kliknij poniższy link:"
+msgstr "Чтобы установить новый пароль, нажмите на данную ссылку:"
+
+#: C:\xampp\htdocs\sss\\User\View\Emails\html\user_register.ctp:3
+#: C:\xampp\htdocs\sss\\User\View\Emails\text\user_register.ctp:4
+msgid "Aby dokończyć proces rejestracji, należy kliknąć (lub wkleić w pasek adresu przeglądarki) poniższy link:"
+msgstr "Чтобы закончить процесс регистрации, Вам нужно нажать на данную ссылку (либо скопировать её и вставить в стоку адресов браузера) ."
+
+#: C:\xampp\htdocs\sss\\User\View\Emails\text\user_register.ctp:1
+msgid "Witaj,"
+msgstr "Здравствуйте,"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\facebook_register_ok.ctp:9
+#: C:\xampp\htdocs\sss\\User\View\Users\register_ok.ctp:1
+msgid "Konto zostało utworzone"
+msgstr "Аккаунт создан"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\facebook_register_ok.ctp:11
+#: C:\xampp\htdocs\sss\\User\View\Users\register_ok.ctp:3
+msgid "Dziękujemy za rejestrację."
+msgstr "Благодарим Вас за регистрацию."
+
+#: C:\xampp\htdocs\sss\\User\View\Users\facebook_register_ok.ctp:14
+msgid "Za chwile zostaniesz zalogowany. Nie chcesz czekac? "
+msgstr "Через несколько секунд Вы будете перенаправлены в свой аккаунт. Не хотите ждать?"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\new_pass.ctp:1
+msgid "Przypomnienie Hasła"
+msgstr "Напомнить пароль"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\new_pass.ctp:6
+#: C:\xampp\htdocs\sss\\User\View\Users\register_by_facebook.ctp:6
+msgid "Hasło"
+msgstr "Пароль"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\new_pass.ctp:7
+#: C:\xampp\htdocs\sss\\User\View\Users\register_by_facebook.ctp:7
+msgid "Powtórz hasło"
+msgstr "Повторите пароль"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\pass_recall.ctp:19
+msgid "Przypomnienie hasła"
+msgstr "Напомнить пароль"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\pass_recall.ctp:26
+msgid "Wyślij"
+msgstr "Отправить"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\register.ctp:1;12
+msgid "Rejestracja"
+msgstr "Регистрация"
+
+#: sss\plugins\User\View\Users\activate.ctp:20
+msgid "Login"
+msgstr "Логин"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\register.ctp:20
+#: C:\xampp\htdocs\sss\\User\View\Users\register_by_facebook.ctp:9
+msgid "Regulaminem"
+msgstr "Регламентом"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\register.ctp:21
+#: C:\xampp\htdocs\sss\\User\View\Users\register_by_facebook.ctp:10
+msgid "Polityką prywatności"
+msgstr "Политика конфиденциальности"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\register_by_facebook.ctp:4
+msgid "E-mail"
+msgstr "E-mail"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\register_by_facebook.ctp:5
+msgid "Nazwa"
+msgstr "Заголовок"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\register_by_facebook.ctp:11
+msgid "Oświadczam, że zapoznałem się z %s oraz %s, rozumiem je i zobowiązuje sie je przestrzegać."
+msgstr "Я ознакомился с %s и %s, понимаю, что там написано и обязываюсь придерживаться этих условий."
+
+#: C:\xampp\htdocs\sss\\User\View\Users\register_by_facebook.ctp:14
+msgid "REJESTRACJA"
+msgstr "РЕГИСТРАЦИЯ"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\register_by_facebook_non_auth.ctp:1
+msgid "Konto NIE mogło zostać utworzone"
+msgstr "Извините, аккаунт не может быть быть создан."
+
+#: C:\xampp\htdocs\sss\\User\View\Users\register_by_facebook_non_auth.ctp:3
+msgid "Nie zaakceptowałeś wymaganych uprawnień"
+msgstr "Вы не согласились с необходимыми для нашей работы условиями."
+
+#: C:\xampp\htdocs\sss\\User\View\Users\register_by_facebook_non_auth.ctp:6
+msgid "Wróć, jeżeli zmienisz zdanie."
+msgstr "Вернитесь назад, если передумаете,"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\register_ok.ctp:6
+msgid "Odbierz pocztę email, aby aktywować konto."
+msgstr "Загляните в свой почтовый ящик, чтобы активировать аккаунт."
+
+msgid "Miejscowość"
+msgstr "Город"
+
+msgid "Ten formularz akceptuje jedynie pliki graficzne (jpeg, gif, png)"
+msgstr "Этот формуляж поддерживает только файлы с форматом (jpeg, gif, png)"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_add.ctp:2
+msgid "Dodawanie banera"
+msgstr "Добавление баннера"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_add.ctp:4
+msgid "Nowy baner"
+msgstr "Новый баннер"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_add.ctp:5
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_edit.ctp:6
+#: C:\xampp\htdocs\sss\\Comment\View\Comments\admin_add.ctp:4
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_add.ctp:19
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_edit.ctp:21
+#: C:\xampp\htdocs\sss\\Help\View\Helps\admin_edit.ctp:17
+#: C:\xampp\htdocs\sss\\Menu\View\Menus\admin_add.ctp:4
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_add.ctp:12
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_edit.ctp:13
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\admin_add.ctp:9
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\admin_edit.ctp:10
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\edit.ctp:10
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_add.ctp:12
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_edit.ctp:13
+#: C:\xampp\htdocs\sss\\Tree\View\Categories\admin_add.ctp:4
+#: C:\xampp\htdocs\sss\\User\View\Permissions\admin_edit.ctp:12
+msgid "Submit"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_add.ctp:8
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_baner_stats.ctp:128
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_edit.ctp:9
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_index.ctp:11;57
+#: C:\xampp\htdocs\sss\\Comment\View\Comments\admin_add.ctp:7
+#: C:\xampp\htdocs\sss\\Comment\View\Comments\admin_index.ctp:9
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_add.ctp:7
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_edit.ctp:8
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_index.ctp:7
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_view.ctp:37
+#: C:\xampp\htdocs\sss\\Country\View\Countries\index.ctp:7
+#: C:\xampp\htdocs\sss\\Country\View\Countries\view.ctp:37
+#: C:\xampp\htdocs\sss\\Country\View\Elements\Countries\table_index.ctp:9
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_add.ctp:22
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_edit.ctp:24
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_index.ctp:11
+#: C:\xampp\htdocs\sss\\Help\View\Helps\admin_edit.ctp:20
+#: C:\xampp\htdocs\sss\\Help\View\Helps\admin_index.ctp:9
+#: C:\xampp\htdocs\sss\\Menu\View\Menus\admin_add.ctp:7
+#: C:\xampp\htdocs\sss\\Modification\View\Elements\Modifications\table_index.ctp:12
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\add.ctp:7
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_add.ctp:7
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_edit.ctp:8
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_index.ctp:7
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_view.ctp:52
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\edit.ctp:8
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\index.ctp:7
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\view.ctp:52
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_add.ctp:15
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_edit.ctp:16
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_view.ctp:42
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\table_index.ctp:14
+#: C:\xampp\htdocs\sss\\News\View\Elements\NewsCategories\table_index.ctp:8
+#: C:\xampp\htdocs\sss\\News\View\News\admin_add.ctp:9
+#: C:\xampp\htdocs\sss\\News\View\News\admin_edit.ctp:10
+#: C:\xampp\htdocs\sss\\News\View\News\admin_index.ctp:10
+#: C:\xampp\htdocs\sss\\News\View\News\admin_view.ctp:52
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\add.ctp:9
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_add.ctp:9
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_edit.ctp:10
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_index.ctp:8
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:27;52
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\edit.ctp:10
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\index.ctp:7
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:27;52
+#: C:\xampp\htdocs\sss\\Newsletter\View\Elements\Newsletters\table_index.ctp:9
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\admin_add.ctp:12
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\admin_edit.ctp:13
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\admin_view.ctp:27
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\edit.ctp:13
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\index.ctp:9;47
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\view.ctp:27
+#: C:\xampp\htdocs\sss\\Note\View\Elements\Notes\table_index.ctp:10
+#: C:\xampp\htdocs\sss\\Note\View\Notes\add.ctp:7
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_add.ctp:7
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_edit.ctp:8
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_index.ctp:6
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_view.ctp:47
+#: C:\xampp\htdocs\sss\\Note\View\Notes\edit.ctp:8
+#: C:\xampp\htdocs\sss\\Note\View\Notes\index.ctp:7
+#: C:\xampp\htdocs\sss\\Note\View\Notes\view.ctp:47
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_add.ctp:15
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_edit.ctp:16
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_view.ctp:42
+#: C:\xampp\htdocs\sss\\Photo\View\Elements\Photos\table_index.ctp:10
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\add.ctp:7
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\admin_add.ctp:7
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\admin_edit.ctp:8
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\admin_index.ctp:167
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\edit.ctp:5
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\index.ctp:7
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\view.ctp:47
+#: C:\xampp\htdocs\sss\\Region\View\Elements\Regions\table_index.ctp:6
+#: C:\xampp\htdocs\sss\\Region\View\Regions\add.ctp:7
+#: C:\xampp\htdocs\sss\\Region\View\Regions\admin_add.ctp:7
+#: C:\xampp\htdocs\sss\\Region\View\Regions\admin_edit.ctp:8
+#: C:\xampp\htdocs\sss\\Region\View\Regions\admin_index.ctp:7
+#: C:\xampp\htdocs\sss\\Region\View\Regions\admin_view.ctp:22
+#: C:\xampp\htdocs\sss\\Region\View\Regions\edit.ctp:8
+#: C:\xampp\htdocs\sss\\Region\View\Regions\index.ctp:7
+#: C:\xampp\htdocs\sss\\Region\View\Regions\view.ctp:22
+#: C:\xampp\htdocs\sss\\Searcher\View\Searchers\admin_edit.ctp:8
+#: C:\xampp\htdocs\sss\\Searcher\View\Searchers\admin_index.ctp:10
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_index.ctp:10
+#: C:\xampp\htdocs\sss\\Slider\View\Elements\Sliders\table_index.ctp:13
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\add.ctp:9
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_add.ctp:9
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_edit.ctp:10
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_index.ctp:7
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_view.ctp:52
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\edit.ctp:10
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\index.ctp:7
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\view.ctp:52
+#: C:\xampp\htdocs\sss\\Tree\View\Categories\admin_add.ctp:7
+#: C:\xampp\htdocs\sss\\Tree\View\Categories\admin_edit.ctp:10
+#: C:\xampp\htdocs\sss\\Tree\View\Categories\admin_index.ctp:6
+#: C:\xampp\htdocs\sss\\Tree\View\Categories\admin_view.ctp:37
+#: C:\xampp\htdocs\sss\\Tree\View\Elements\Categories\table_index.ctp:8
+#: C:\xampp\htdocs\sss\\User\View\Elements\PermissionCategories\table_index.ctp:7
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\add.ctp:9
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\admin_add.ctp:9
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\admin_edit.ctp:10
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\admin_index.ctp:7
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\admin_view.ctp:27;47
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\edit.ctp:10
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\index.ctp:7
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\view.ctp:27;47
+#: C:\xampp\htdocs\sss\\User\View\PermissionGroups\admin_add.ctp:9
+#: C:\xampp\htdocs\sss\\User\View\PermissionGroups\admin_summary.ctp:209
+#: C:\xampp\htdocs\sss\\User\View\Permissions\admin_edit.ctp:15
+#: C:\xampp\htdocs\sss\\User\View\Permissions\admin_index.ctp:9;47
+msgid "Actions"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_add.ctp:10
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_baner_stats.ctp:131
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_edit.ctp:13
+msgid "List Baners"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_baner_stats.ctp:130
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_index.ctp:59
+msgid "New Baner"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_edit.ctp:2;5
+msgid "Edycja banera"
+msgstr "Редактировать баннер"
+
+
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_edit.ctp:12
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_index.ctp:37
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_edit.ctp:10
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_view.ctp:40
+#: C:\xampp\htdocs\sss\\Country\View\Countries\view.ctp:40
+#: C:\xampp\htdocs\sss\\Country\View\Elements\Countries\table_index.ctp:24
+#: C:\xampp\htdocs\sss\\Help\View\Helps\admin_edit.ctp:23
+#: C:\xampp\htdocs\sss\\Help\View\Helps\admin_index.ctp:26
+#: C:\xampp\htdocs\sss\\Modification\View\Elements\Modifications\table_index.ctp:29
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_edit.ctp:10
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_view.ctp:55
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\edit.ctp:10
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\view.ctp:55
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_edit.ctp:19
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_view.ctp:45
+#: C:\xampp\htdocs\sss\\News\View\News\admin_edit.ctp:12
+#: C:\xampp\htdocs\sss\\News\View\News\admin_view.ctp:55
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_edit.ctp:12
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:30;71
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\edit.ctp:12
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:30;71
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\admin_edit.ctp:15
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\admin_view.ctp:30
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\edit.ctp:16
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\index.ctp:27
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\view.ctp:30
+#: C:\xampp\htdocs\sss\\Note\View\Elements\Notes\table_index.ctp:27
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_edit.ctp:10
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_view.ctp:50
+#: C:\xampp\htdocs\sss\\Note\View\Notes\edit.ctp:10
+#: C:\xampp\htdocs\sss\\Note\View\Notes\view.ctp:50
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_edit.ctp:19
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_view.ctp:45
+#: C:\xampp\htdocs\sss\\Photo\View\Elements\Photos\table_index.ctp:30
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\admin_edit.ctp:10
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\edit.ctp:7
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\view.ctp:50
+#: C:\xampp\htdocs\sss\\Region\View\Elements\Regions\table_index.ctp:17
+#: C:\xampp\htdocs\sss\\Region\View\Regions\admin_edit.ctp:10
+#: C:\xampp\htdocs\sss\\Region\View\Regions\admin_view.ctp:25
+#: C:\xampp\htdocs\sss\\Region\View\Regions\edit.ctp:10
+#: C:\xampp\htdocs\sss\\Region\View\Regions\view.ctp:25
+#: C:\xampp\htdocs\sss\\Searcher\View\Searchers\admin_edit.ctp:10
+#: C:\xampp\htdocs\sss\\Searcher\View\Searchers\admin_index.ctp:25
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_view.ctp:44
+#: C:\xampp\htdocs\sss\\Slider\View\Elements\Sliders\table_index.ctp:35
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_edit.ctp:12
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_view.ctp:55
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\edit.ctp:12
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\view.ctp:55
+#: C:\xampp\htdocs\sss\\Tree\View\Categories\admin_view.ctp:40
+#: C:\xampp\htdocs\sss\\Tree\View\Elements\Categories\table_index.ctp:26
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\admin_edit.ctp:12
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\admin_view.ctp:30;61
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\edit.ctp:12
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\view.ctp:30;61
+#: C:\xampp\htdocs\sss\\User\View\Permissions\admin_edit.ctp:17
+#: C:\xampp\htdocs\sss\\User\View\Permissions\admin_index.ctp:27
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_index.ctp:2
+msgid "Baners"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_index.ctp:5
+msgid "URL"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_index.ctp:6
+#: C:\xampp\htdocs\sss\\Comment\View\Comments\admin_relatedindex.ctp:7
+#: C:\xampp\htdocs\sss\\Comment\View\Elements\li_add_album.ctp:15
+#: C:\xampp\htdocs\sss\\Menu\View\Elements\li_add_album.ctp:15
+#: C:\xampp\htdocs\sss\\Menu\View\Menus\admin_relatedindex.ctp:7
+#: C:\xampp\htdocs\sss\\Slug\View\Elements\li_add.ctp:8
+#: C:\xampp\htdocs\sss\\Slug\View\Tree\relatedindex.ctp:7
+#: C:\xampp\htdocs\sss\\Tree\View\Elements\li_add.ctp:8
+#: C:\xampp\htdocs\sss\\Tree\View\Elements\tree\category\li_add.ctp:15
+#: C:\xampp\htdocs\sss\\Tree\View\Elements\tree\category\li_add_album.ctp:15
+#: C:\xampp\htdocs\sss\\Tree\View\Tree\relatedindex.ctp:7
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_add.ctp:6
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_edit.ctp:7
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_view.ctp:31
+#: C:\xampp\htdocs\sss\\User\View\Users\activate.ctp:18
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_add.ctp:7
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_edit.ctp:8
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_view.ctp:24;58
+msgid "Nazwa"
+msgstr "Заголовок"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_index.ctp:7
+msgid "Ilość kliknięć"
+msgstr "Колличество кликов"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_index.ctp:8
+msgid "Ilość wyświetleń"
+msgstr "Колличество показов"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_index.ctp:9
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:593
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_view.ctp:2
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_add.ctp:10
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_edit.ctp:11
+msgid "Grupa"
+msgstr "Группа"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_index.ctp:10
+msgid "Publikowany"
+msgstr "Опубликованный"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_index.ctp:36
+#: C:\xampp\htdocs\sss\\Country\View\Elements\Countries\table_index.ctp:23
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_index.ctp:28
+#: C:\xampp\htdocs\sss\\Help\View\Helps\admin_index.ctp:25
+#: C:\xampp\htdocs\sss\\Modification\View\Elements\Modifications\table_index.ctp:28
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:70
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:70
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\index.ctp:26
+#: C:\xampp\htdocs\sss\\Note\View\Elements\Notes\table_index.ctp:26
+#: C:\xampp\htdocs\sss\\Photo\View\Elements\Photos\table_index.ctp:29
+#: C:\xampp\htdocs\sss\\Region\View\Elements\Regions\table_index.ctp:16
+#: C:\xampp\htdocs\sss\\Searcher\View\Searchers\admin_index.ctp:24
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_index.ctp:16
+#: C:\xampp\htdocs\sss\\Slider\View\Elements\Sliders\table_index.ctp:34
+#: C:\xampp\htdocs\sss\\User\View\Elements\PermissionCategories\table_index.ctp:20
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\admin_view.ctp:60
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\view.ctp:60
+#: C:\xampp\htdocs\sss\\User\View\Permissions\admin_index.ctp:26
+msgid "Edit"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_index.ctp:45
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_index.ctp:37
+#: C:\xampp\htdocs\sss\\Help\View\Helps\admin_index.ctp:34
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\index.ctp:35
+#: C:\xampp\htdocs\sss\\User\View\Permissions\admin_index.ctp:35
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_index.ctp:50
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_index.ctp:42
+#: C:\xampp\htdocs\sss\\Help\View\Helps\admin_index.ctp:39
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\index.ctp:40
+#: C:\xampp\htdocs\sss\\User\View\Permissions\admin_index.ctp:40
+msgid "previous"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Baner\View\Baners\admin_index.ctp:53
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_index.ctp:45
+#: C:\xampp\htdocs\sss\\Help\View\Helps\admin_index.ctp:42
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\index.ctp:43
+#: C:\xampp\htdocs\sss\\User\View\Permissions\admin_index.ctp:43
+msgid "next"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Baner\View\Elements\form.ctp:4
+msgid "Baner"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Baner\View\Elements\form.ctp:15
+msgid "Nazwa banera"
+msgstr "Название баннера"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Elements\form.ctp:16
+msgid "URL strony"
+msgstr "URL страницы"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Elements\form.ctp:17
+#: C:\xampp\htdocs\sss\\News\Controller\NewsController.php:479
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_add.ctp:9
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_edit.ctp:9
+#: C:\xampp\htdocs\sss\\Page\View\Elements\Pages\fields.ctp:5
+msgid "Tytuł"
+msgstr "Заголовок"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Elements\form.ctp:27
+msgid "Baner HTML"
+msgstr "Баннер HTML"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Elements\form.ctp:28
+msgid "Kod HTML"
+msgstr "Код HTML"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Elements\form.ctp:34
+msgid "Baner Obrazek"
+msgstr "Изображение баннера"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Elements\form.ctp:35
+msgid "Wybierz grafikę"
+msgstr "Выберите изображение"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Elements\form.ctp:40
+#: C:\xampp\htdocs\sss\\Help\View\Helps\admin_edit.ctp:12
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_view.ctp:18
+msgid "Treść"
+msgstr "Описание"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Elements\form.ctp:45
+msgid "Publikacja"
+msgstr "Публикация"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Elements\form.ctp:46
+msgid "Publikować?"
+msgstr "Опубликовать?"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Elements\form.ctp:47
+msgid "Położenie"
+msgstr "Положение"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Elements\form.ctp:48
+msgid "Data publikacji"
+msgstr "Дата публикации"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Elements\form.ctp:53
+msgid "Limity wyświetleń"
+msgstr "Лимиты показов"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Elements\form.ctp:55
+msgid "Limit kliknięć"
+msgstr "Лимит кликов"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Elements\form.ctp:57;62
+msgid "Bez limitu"
+msgstr "Без лимита"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Elements\form.ctp:59
+msgid "Limit wyświetleń"
+msgstr "Лимит показов"
+
+#: C:\xampp\htdocs\sss\\Baner\View\Elements\form.ctp:64
+msgid "Data wygaśnięcia"
+msgstr "Дата остановки"
+
+#: C:\xampp\htdocs\sss\\Comment\Controller\CommentsController.php:115
+#: C:\xampp\htdocs\sss\\Menu\Controller\MenusController.php:104
+msgid "Model nie istnieje."
+msgstr "Модель не существует."
+
+#: C:\xampp\htdocs\sss\\Comment\Controller\CommentsController.php:231;296;322
+#: C:\xampp\htdocs\sss\\Menu\Controller\MenusController.php:224
+#: C:\xampp\htdocs\sss\\Tree\Controller\CategoriesController.php:106;126;152
+msgid "Nie znaleziono pozycji o podanym ID"
+msgstr "Позиция с таким ID не найдена"
+
+#: C:\xampp\htdocs\sss\\Comment\Controller\CommentsController.php:236
+#: C:\xampp\htdocs\sss\\Menu\Controller\MenusController.php:229
+#: C:\xampp\htdocs\sss\\Tree\Controller\CategoriesController.php:116;131
+msgid "Zapisano pozycję w menu"
+msgstr "Позиция записана в меню"
+
+#: C:\xampp\htdocs\sss\\Comment\Controller\CommentsController.php:239
+#: C:\xampp\htdocs\sss\\Menu\Controller\MenusController.php:232
+#: C:\xampp\htdocs\sss\\Tree\Controller\CategoriesController.php:119;134
+msgid "Zapisywanie pozycji w menu nie powiodło się. Sprawdź formularz i spróbuj ponownie."
+msgstr "Запись позиции в меню не произошло. Проверьте формуляж и попробуйте снова."
+
+#: C:\xampp\htdocs\sss\\Comment\Controller\CommentsController.php:305
+msgid "Zaakceptuj najpierw komentarz nadrzędny"
+msgstr "Прежде всего, одобрите приоритетный комментарий"
+
+#: C:\xampp\htdocs\sss\\Comment\View\Comments\admin_add.ctp:9
+#: C:\xampp\htdocs\sss\\Menu\View\Menus\admin_add.ctp:9
+#: C:\xampp\htdocs\sss\\Tree\View\Categories\admin_add.ctp:9
+#: C:\xampp\htdocs\sss\\Tree\View\Categories\admin_view.ctp:41
+msgid "List Categories"
+msgstr "Список категорий"
+
+#: C:\xampp\htdocs\sss\\Comment\View\Comments\admin_relatedindex.ctp:2
+#: C:\xampp\htdocs\sss\\Menu\View\Menus\admin_relatedindex.ctp:2
+#: C:\xampp\htdocs\sss\\Slug\View\Tree\relatedindex.ctp:2
+#: C:\xampp\htdocs\sss\\Tree\View\Tree\relatedindex.ctp:2
+msgid "Wybierz pozycję"
+msgstr "Выберите позицию"
+
+#: C:\xampp\htdocs\sss\\Comment\View\Comments\admin_relatedindex.ctp:10
+#: C:\xampp\htdocs\sss\\Menu\View\Menus\admin_relatedindex.ctp:10
+#: C:\xampp\htdocs\sss\\Slug\View\Tree\relatedindex.ctp:10
+#: C:\xampp\htdocs\sss\\Tree\View\Tree\relatedindex.ctp:10
+msgid "Dodatkowe informacje"
+msgstr "Дополнительная информация"
+
+#: C:\xampp\htdocs\sss\\Comment\View\Comments\admin_relatedindex.ctp:37
+#: C:\xampp\htdocs\sss\\Menu\View\Menus\admin_relatedindex.ctp:37
+#: C:\xampp\htdocs\sss\\Slug\View\Tree\relatedindex.ctp:34
+#: C:\xampp\htdocs\sss\\Tree\View\Tree\relatedindex.ctp:34
+msgid "Strona %page% z %pages%, pokazano %current% rekordów z %count% wszystkich, zaczynając od %start%, a kończąc na %end%"
+msgstr "Страницы %page% и %pages%, показано %current% рекордов из %count% всех, начиная од %start%, и заканчивая на %end%"
+
+#: C:\xampp\htdocs\sss\\Comment\View\Elements\fields.ctp:5
+#: C:\xampp\htdocs\sss\\Menu\View\Elements\fields.ctp:5
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_active.ctp:10
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_index.ctp:10
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_active.ctp:10
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_index.ctp:10
+#: C:\xampp\htdocs\sss\\Tree\View\Elements\tree\category\li_add.ctp:25
+msgid "Opcje"
+msgstr "Опции"
+
+#: C:\xampp\htdocs\sss\\Comment\View\Elements\fields.ctp:9
+#: C:\xampp\htdocs\sss\\Menu\View\Elements\fields.ctp:9
+#: C:\xampp\htdocs\sss\\Tree\View\Elements\tree\category\li_add.ctp:28
+msgid "Adres url"
+msgstr "Ссылка"
+
+#: C:\xampp\htdocs\sss\\Comment\View\Elements\li_position.ctp:10
+msgid "Czy chcesz usunąć # %s oraz wszystkie pozycje podrzędne?"
+msgstr "Вы хотите удалить # %s, а так же все предыдущие позиции?"
+
+#: C:\xampp\htdocs\sss\\Comment\View\Elements\title.ctp:2
+#: C:\xampp\htdocs\sss\\Menu\View\Elements\title.ctp:2
+#: C:\xampp\htdocs\sss\\Tree\View\Elements\tree\category\title.ctp:2
+msgid "Edycja menu"
+msgstr "Изменить меню"
+
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_view.ctp:2
+#: C:\xampp\htdocs\sss\\Country\View\Countries\view.ctp:2
+msgid "Country"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_view.ctp:39
+#: C:\xampp\htdocs\sss\\Country\View\Countries\view.ctp:39
+msgid "Edit Country"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_view.ctp:40
+#: C:\xampp\htdocs\sss\\Country\View\Countries\view.ctp:40
+msgid "Delete Country"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_view.ctp:41
+#: C:\xampp\htdocs\sss\\Country\View\Countries\view.ctp:41
+msgid "List Countries"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_view.ctp:42
+#: C:\xampp\htdocs\sss\\Country\View\Countries\view.ctp:42
+msgid "New Country"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\DynamicElements\Controller\DynamicElementsController.php:37;52
+msgid "Wycinek został zapisany"
+msgstr "Вырезка была записана"
+
+#: C:\xampp\htdocs\sss\\DynamicElements\Controller\DynamicElementsController.php:40;55
+msgid "Zapisywanie wycinka nie powiodło się. Sprawdź formularz i spróbuj ponownie"
+msgstr "Запись выризки не произошла. Проверьте формуляж и попробуйте снова."
+
+#: C:\xampp\htdocs\sss\\DynamicElements\Controller\DynamicElementsController.php:47;65
+msgid "Nieprawidłowy ID wycinka."
+msgstr "Неверный ID вырезки."
+
+#: C:\xampp\htdocs\sss\\DynamicElements\Controller\DynamicElementsController.php:69
+msgid "Wycinek został usunięty"
+msgstr "Вырезка была удалена"
+
+#: C:\xampp\htdocs\sss\\DynamicElements\Controller\DynamicElementsController.php:72
+msgid "Usuwanie wycinka nie powiodło się"
+msgstr "Удаление вырезки не произошло"
+
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_add.ctp:1;4
+msgid "Nowy wycinek strony"
+msgstr "Новая вырезка страницы"
+
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_add.ctp:1;4
+msgid "fragment layoutu"
+msgstr "Фрагмент layoutu"
+
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_add.ctp:7
+msgid "Dodaj wycinek strony"
+msgstr "Добавить вырезку страницы"
+
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_add.ctp:15
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_edit.ctp:17
+msgid "Zawartość"
+msgstr "Содержимое"
+
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_add.ctp:25
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_edit.ctp:29
+msgid "Lista wycinków"
+msgstr "Список вырезок"
+
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_edit.ctp:1;5
+msgid "Edycja wycinka strony"
+msgstr "Изменить вырезку страницы"
+
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_edit.ctp:1;5
+msgid "fragmentu layoutu"
+msgstr "Фрагмента layoutu"
+
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_edit.ctp:8
+msgid "Edytuj wycinek strony"
+msgstr "Изменить вырезку страницы"
+
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_index.ctp:1;3
+msgid "Wycinki strony"
+msgstr "Вырезки страницы"
+
+#: C:\xampp\htdocs\sss\\DynamicElements\View\DynamicElements\admin_index.ctp:1;3
+msgid "Fragmenty layoutu"
+msgstr "Фрагменты layoutu"
+
+#: C:\xampp\htdocs\sss\\GoogleAnalytics\Model\Datasources\google_analytics_source.php:196
+msgid "start-date is required"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\GoogleAnalytics\Model\Datasources\google_analytics_source.php:201
+msgid "end-date is required"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\GoogleAnalytics\Model\Datasources\google_analytics_source.php:206
+msgid "metrics is required"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\GoogleAnalytics\Model\Datasources\google_analytics_source.php:212
+msgid "date order is reversed"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\GoogleAnalytics\Model\Datasources\google_analytics_source.php:220
+msgid "too many dimensions, the maximum allowed is 7"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\GoogleAnalytics\Model\Datasources\google_analytics_source.php:229
+msgid "too many metrics, the maximum allowed is 10"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Help\Controller\HelpsController.php:51
+msgid "Poprawinie zapisano"
+msgstr "Успешно записано"
+
+#: C:\xampp\htdocs\sss\\Help\Controller\HelpsController.php:53
+msgid "Wystapily bledy przy zapisie"
+msgstr "При сохранении произошла ошибка"
+
+#: C:\xampp\htdocs\sss\\Help\Controller\HelpsController.php:75;101
+msgid "Invalid help"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Help\Controller\HelpsController.php:79
+msgid "The help has been saved"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Help\Controller\HelpsController.php:82
+msgid "The help could not be saved. Please, try again."
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Help\Controller\HelpsController.php:104
+msgid "Help deleted"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Help\Controller\HelpsController.php:107
+msgid "Help was not deleted"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Help\View\Elements\breadcrumb.ctp:57
+msgid "Edycja Strony Pomocy"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Help\View\Helps\admin_edit.ctp:4
+msgid "Admin Edit Help"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Help\View\Helps\admin_edit.ctp:24
+msgid "List Helps"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Help\View\Helps\admin_index.ctp:2
+msgid "Helps"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Image\Model\Behavior\UploadBehavior.php:202;517
+msgid "Tym formularzem nie można wysłać pliku większego niż "
+msgstr "Вы не можете выслать файл больший чем"
+
+#: C:\xampp\htdocs\sss\\Image\Model\Behavior\UploadBehavior.php:502;521
+msgid "Nie wysłano pliku."
+msgstr "Файл отправлен."
+
+#: C:\xampp\htdocs\sss\\Image\Model\Behavior\UploadBehavior.php:504
+msgid "Wysyłany plik nie może być pusty"
+msgstr "Отправленный файл не может быть пустым"
+
+#: C:\xampp\htdocs\sss\\Image\Model\Behavior\UploadBehavior.php:512
+msgid "Maksymalny dopuszczalny rozmiar pliku na tym serwerze to "
+msgstr "Максимальный допустимый размер файла на данном сервере"
+
+#: C:\xampp\htdocs\sss\\Image\Model\Behavior\UploadBehavior.php:517
+msgid "Tym formularzem nie można wysłać pliku tej wielkości"
+msgstr "Через этот формуляж нельзя выслать файл такого размера"
+
+#: C:\xampp\htdocs\sss\\Image\Model\Behavior\UploadBehavior.php:519
+msgid "The uploaded file was only partially uploaded."
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Image\Model\Behavior\UploadBehavior.php:523
+msgid "Missing a temporary folder."
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Image\Model\Behavior\UploadBehavior.php:525
+msgid "Failed to write file to disk."
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Image\Model\Behavior\UploadBehavior.php:527
+msgid "File upload stopped by extension."
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Image\Model\Behavior\UploadBehavior.php:529
+msgid "Unknown exception while file upload"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Menu\View\Elements\li_position.ctp:37;52
+#: C:\xampp\htdocs\sss\\Tree\View\Elements\tree\category\li_position.ctp:39;55
+msgid "Usunąć pozycję dla tego języka, oraz wszystkie pozycje podrzędne?"
+msgstr "Удалить позицию для этого языка, и все второстепенные позиции?"
+
+#: C:\xampp\htdocs\sss\\Menu\View\Elements\li_position.ctp:42;42
+#: C:\xampp\htdocs\sss\\Translate\View\Elements\flags\trash.ctp:20;21
+#: C:\xampp\htdocs\sss\\Tree\View\Elements\tree\category\li_position.ctp:44;44
+msgid "Usuń Wszystkie"
+msgstr "Удалить все"
+
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_view.ctp:2
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\view.ctp:2
+msgid "Modification"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_view.ctp:54
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\view.ctp:54
+msgid "Edit Modification"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_view.ctp:55
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\view.ctp:55
+msgid "Delete Modification"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_view.ctp:56
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\view.ctp:56
+msgid "List Modifications"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_view.ctp:57
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\view.ctp:57
+msgid "New Modification"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\Controller\CommentsController.php:37;60
+#: C:\xampp\htdocs\sss\\Page\Controller\CommentsController.php:37;60
+msgid "Invalid comment"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\Controller\CommentsController.php:47;65
+#: C:\xampp\htdocs\sss\\Page\Controller\CommentsController.php:47;65
+msgid "The comment has been saved"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\Controller\CommentsController.php:50;68
+#: C:\xampp\htdocs\sss\\Page\Controller\CommentsController.php:50;68
+msgid "The comment could not be saved. Please, try again."
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\Controller\CommentsController.php:81
+#: C:\xampp\htdocs\sss\\Page\Controller\CommentsController.php:81
+msgid "Invalid id for comment"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\Controller\NewsController.php:354
+#: C:\xampp\htdocs\sss\\Setting\Controller\SettingsController.php:70
+msgid "Strona nie istnieje."
+msgstr "Страница не существует."
+
+#: C:\xampp\htdocs\sss\\News\Controller\NewsController.php:480
+#: C:\xampp\htdocs\sss\\Page\Controller\PagesController.php:249
+msgid "Kategoria"
+msgstr "Категория"
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_active.ctp:1
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_index.ctp:1;3
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_active.ctp:1
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_index.ctp:1;3
+msgid "Komentarze do moderacji"
+msgstr "Проверить комментарии"
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_active.ctp:3
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_active.ctp:3
+msgid "Komentarze zaakceptowane"
+msgstr "Одобренные комментарии"
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_active.ctp:24
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_index.ctp:25
+#: C:\xampp\htdocs\sss\\Newsletter\View\Elements\NewsletterMessages\table_index.ctp:28
+#: C:\xampp\htdocs\sss\\Newsletter\View\Elements\Newsletters\table_index.ctp:24
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_edit.ctp:30
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_active.ctp:30
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_index.ctp:30
+#: C:\xampp\htdocs\sss\\Page\View\Pages\admin_edit.ctp:20
+#: C:\xampp\htdocs\sss\\Slug\View\Elements\li_position.ctp:7
+#: C:\xampp\htdocs\sss\\Tree\View\Elements\li_position.ctp:7
+#: C:\xampp\htdocs\sss\\User\View\Elements\Users\table_index.ctp:37
+msgid "Usuń"
+msgstr "Удалить"
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_active.ctp:34
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_active.ctp:40
+msgid "do akceptacji"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_add.ctp:4
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_add.ctp:4
+msgid "Add Comment"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_add.ctp:18
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_edit.ctp:20
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_view.ctp:46
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_add.ctp:18
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_edit.ctp:20
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_view.ctp:46
+msgid "List Comments"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_add.ctp:19
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_edit.ctp:21
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_view.ctp:48
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_add.ctp:19
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_edit.ctp:21
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_view.ctp:48
+msgid "List Albums"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_add.ctp:20
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_edit.ctp:22
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_view.ctp:49
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_add.ctp:20
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_edit.ctp:22
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_view.ctp:49
+msgid "New Album"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_edit.ctp:4
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_view.ctp:44
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_edit.ctp:4
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_view.ctp:44
+msgid "Edit Comment"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_index.ctp:26
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_index.ctp:31
+msgid "Akceptuj"
+msgstr "Одобрить"
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_index.ctp:35
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_index.ctp:40
+msgid "zaakceptowane"
+msgstr "Одобренные"
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_view.ctp:2
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_view.ctp:2
+msgid "Comment"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_view.ctp:4
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:42
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:42
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\admin_view.ctp:4
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\view.ctp:4
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_view.ctp:4
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_view.ctp:4
+#: C:\xampp\htdocs\sss\\Tree\View\Categories\admin_view.ctp:4
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_view.ctp:30
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\admin_view.ctp:42
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\view.ctp:42
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_view.ctp:23;57
+msgid "Id"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_view.ctp:9
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_view.ctp:9
+msgid "Desc"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_view.ctp:14
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_view.ctp:14
+msgid "Active"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_view.ctp:19
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_view.ctp:19
+msgid "Album"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_view.ctp:24
+#: C:\xampp\htdocs\sss\\News\View\News\admin_view.ctp:29
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_view.ctp:14
+#: C:\xampp\htdocs\sss\\Note\View\Notes\view.ctp:14
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_view.ctp:24
+msgid "User"
+msgstr ""
+
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_view.ctp:45
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_view.ctp:45
+msgid "Delete Comment"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_view.ctp:47
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_view.ctp:47
+msgid "New Comment"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_view.ctp:50
+#: C:\xampp\htdocs\sss\\News\View\News\admin_view.ctp:58
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_view.ctp:53
+#: C:\xampp\htdocs\sss\\Note\View\Notes\view.ctp:53
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_view.ctp:50
+msgid "List Users"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Comments\admin_view.ctp:51
+#: C:\xampp\htdocs\sss\\News\View\News\admin_view.ctp:59
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_view.ctp:54
+#: C:\xampp\htdocs\sss\\Note\View\Notes\view.ctp:54
+#: C:\xampp\htdocs\sss\\Page\View\Comments\admin_view.ctp:51
+msgid "New User"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\Comments\comments.ctp:4
+#: C:\xampp\htdocs\sss\\News\View\Elements\Comments\comments_list.ctp:4
+msgid "Dodaj komentarz"
+msgstr "Добавить комментарий"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\table_index.ctp:34
+msgid "Zdjęcia"
+msgstr "Изображения"
+
+#: C:\xampp\htdocs\sss\\News\View\News\admin_view.ctp:2
+msgid "News"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\News\admin_view.ctp:54
+msgid "Edit News"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\News\admin_view.ctp:55
+msgid "Delete News"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\News\admin_view.ctp:56
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:33
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:33
+msgid "List News"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\News\admin_view.ctp:57
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:34;80
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:34;80
+msgid "New News"
+msgstr "добавить статью"
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:2
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:2
+msgid "News Category"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:29
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:29
+msgid "Edit News Category"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:30
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:30
+msgid "Delete News Category"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:31
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:31
+msgid "List News Categories"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:32
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:32
+msgid "New News Category"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:38
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:38
+msgid "Related News"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:43
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:43
+msgid "Blog"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:44
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:44
+msgid "Main"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:45
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:45
+msgid "User Id"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:46
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:46
+msgid "Photo Id"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:47
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:47
+msgid "Order"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:48
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:48
+msgid "Date"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:49
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:49
+msgid "News Category Id"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:69
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:69
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\index.ctp:25
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\admin_view.ctp:59
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\view.ctp:59
+#: C:\xampp\htdocs\sss\\User\View\Permissions\admin_index.ctp:25
+msgid "View"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewsletterMessagesController.php:27;36;57;82;87;111
+msgid "Nieprawidłowy ID wiadomości"
+msgstr "Неверный ID сообщения"
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewsletterMessagesController.php:46;68
+msgid "Wiadomość została zapisana"
+msgstr "Сообщение записано"
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewsletterMessagesController.php:50;71
+msgid "Zapisywanie wiadomości nie powiodło się, sprawdź formularz i spróbuj ponownie"
+msgstr "Сообщение не записано, проверьте формуляж и попробуйте снова"
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewsletterMessagesController.php:62
+msgid "Nie można edytować, wiadomość została już wysłana do %s odbiorców"
+msgstr "Нельзя редактировать, сообщение уже выслано к %s получателям"
+
+msgid "Wiadomość testowa została wysłana na adres"
+msgstr "сообщение тест уже выслано к"
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewsletterMessagesController.php:91
+msgid "Wiadomość w trakcie wysyłki (odbiorca %s)"
+msgstr "Сообщение в процессе отправки (получатель %s)"
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewsletterMessagesController.php:95
+msgid "Wiadomość została już wysłana do %s odbiorców"
+msgstr "Сообщение отправлено к %s получателям"
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewsletterMessagesController.php:101
+msgid "Wiadomość została przekazana do wysyłki"
+msgstr "Сообщение передано к отправке"
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewsletterMessagesController.php:105
+msgid "Użyj przycisku \"Wyślij wiadomość newslettera\", aby dokonać wysyłki"
+msgstr "Нажмите кнопку \"Отправить ссобщение в рассылку\", чтобы реализовать отправку"
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewsletterMessagesController.php:116
+msgid "Nie można usunąć, wiadomość została już wysłana do %s odbiorców"
+msgstr "Нельзя удалить, сообщение выслано к %s получателям"
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewsletterMessagesController.php:120
+msgid "Wiadomość została usunięta"
+msgstr "Сообщение было удалено"
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewsletterMessagesController.php:123
+msgid "Usuwanie wiadomości nie powiodło się"
+msgstr "Удаление сообщения не произошло"
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewsletterMessagesController.php:218
+#: C:\xampp\htdocs\sss\\User\Controller\PermissionsController.php:351
+msgid "Nieprawidłowe wywołanie"
+msgstr "Неправильный вызов"
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewslettersController.php:62
+msgid "Witamy wśród odbiorców newslettera "
+msgstr "Приветствуем Вас в нашей новостной ленте"
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewslettersController.php:64
+msgid "Czy chcesz zrezygnować z newslettera ?"
+msgstr "Вы хотите отписаться от новостной ленты?"
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewslettersController.php:89
+msgid "Email jest już aktywny"
+msgstr "Данный E-mail уже активирован"
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewslettersController.php:93
+msgid "Aktywacja newslettera przebiegła pomyślnie"
+msgstr "Активация в ленте новостей прошла успешно"
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewslettersController.php:95
+msgid "Email nie został aktywowany. Skontaktuj się z administratorem strony."
+msgstr "E-mail не активирован. Свяжитесь с администратором нашего сайта."
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewslettersController.php:107
+msgid "Nie znaleziono adresu w bazie"
+msgstr "Адрес в базе не найден."
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewslettersController.php:113
+msgid "Adres email został usunięty z bazy"
+msgstr "Адрес e-mail был удалён из базы"
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewslettersController.php:116
+msgid "Nie udalo się usunąć adresu email"
+msgstr "Адрес e-mail не удалось удалить."
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewslettersController.php:130;150
+msgid "Invalid newsletter"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewslettersController.php:140;155
+msgid "The newsletter has been saved"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewslettersController.php:143;158
+msgid "The newsletter could not be saved. Please, try again."
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewslettersController.php:168
+msgid "Nieprawidłowy id odbiorcy"
+msgstr "Неверный ID получателя"
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewslettersController.php:172
+msgid "Odbiorca newslettera został usunięty."
+msgstr "Получатель был удалён из ленты новостей."
+
+#: C:\xampp\htdocs\sss\\Newsletter\Controller\NewslettersController.php:175
+msgid "Usuwanie odbiorcy newslettera nie powiodło się."
+msgstr "Удаление пользователя из ленты новостей не произошло."
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Elements\NewsletterMessages\table_index.ctp:1
+msgid "Lista wiadomości newslettera"
+msgstr "Список сообщений новостной ленты"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Elements\NewsletterMessages\table_index.ctp:9
+#: C:\xampp\htdocs\sss\\User\View\Elements\Users\table_index.ctp:10
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_view.ctp:34
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_view.ctp:28;61
+msgid "Akcje"
+msgstr "Акция"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Elements\NewsletterMessages\table_index.ctp:26
+msgid "Podgląd"
+msgstr "Посмотреть"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Elements\NewsletterMessages\table_index.ctp:27
+#: C:\xampp\htdocs\sss\\User\View\Elements\Users\table_index.ctp:36
+msgid "Edytuj"
+msgstr "Редактировать"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Elements\NewsletterMessages\table_index.ctp:28
+msgid "Na pewno usunąć \"%s\"?"
+msgstr "Точно удалить \"%s\"?"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Elements\Newsletters\table_index.ctp:1
+msgid "Odbiorcy mailingu"
+msgstr "Получатели e-mail сообщений"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Elements\Newsletters\table_index.ctp:7
+msgid "Potwierdzony"
+msgstr "Подтвержденный"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Elements\Newsletters\table_index.ctp:8
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_view.ctp:33
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_view.ctp:9;32
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_view.ctp:26;59
+msgid "Utworzono"
+msgstr "Созданно"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Elements\Newsletters\table_index.ctp:24
+msgid "Na pewno usunąć wpis # %s?"
+msgstr "Точно удалить запись # %s?"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Emails\text\newsletter_register.ctp:1
+#: C:\xampp\htdocs\sss\\Newsletter\View\Emails\text\newsletter_unregister.ctp:1
+msgid "Witaj!"
+msgstr "Здравствуйте!"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Emails\text\newsletter_register.ctp:4
+msgid "Aby zapisać się do newslettera, kliknij w poniższy link:"
+msgstr "Чтобы подписаться на наши новости, нажмите на эту ссылку:"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Emails\text\newsletter_register.ctp:13
+msgid "Jeśli nie zapisywałeś się do newslettera, zignoruj tę wiadomość."
+msgstr "Если Вы не подписывались на наши новости, проигнорируйте данное сообщение."
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Emails\text\newsletter_register.ctp:16
+msgid "Aby całkowicie usunąć email z listy należy kliknąć w poniższy link:"
+msgstr "Чтобы полностью удалить данный e-mail из списка, нажмите на эту ссылку:"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Emails\text\newsletter_unregister.ctp:4
+msgid "Aby usunąć się z listy newslettera należy kliknąć w poniższy link:"
+msgstr "Чтобы удалить себя из листа подписанных на новостную ленту, нажмите на эту ссылку:"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Emails\text\user_newsletter.ctp:5
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_htmlpreview.ctp:4
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_view.ctp:22
+msgid "Aby zrezygnować z newslettera należy kliknąć w poniższy link:"
+msgstr "Чтобы отписаться от новостной ленты, нажмите на эту ссылку:"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_add.ctp:4
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_add.ctp:4
+msgid "Utwórz %s"
+msgstr "Создать %s"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_add.ctp:7
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_edit.ctp:6
+msgid "Nagłówki wiadomości"
+msgstr "Заголовки сообщений"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_add.ctp:10
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_edit.ctp:10
+msgid "Nazwa nadawcy"
+msgstr "Название отправителя"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_add.ctp:11
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_edit.ctp:11
+msgid "Email nadawcy"
+msgstr "E-mail отправителя"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_add.ctp:16
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_edit.ctp:16
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_view.ctp:29
+msgid "Treść HTML"
+msgstr "Содержимое HTML"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_add.ctp:21
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_edit.ctp:21
+msgid "Treść tekstowa"
+msgstr "Текстовое содержимое"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_add.ctp:25
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_edit.ctp:25
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_add.ctp:11
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_edit.ctp:13
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_prefix.ctp:90
+#: C:\xampp\htdocs\sss\\Tree\View\Categories\admin_edit.ctp:7
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_add.ctp:11
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_edit.ctp:12
+#: C:\xampp\htdocs\sss\\User\View\Permissions\admin_add_rp.ctp:38
+#: C:\xampp\htdocs\sss\\User\View\Users\activate.ctp:24
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_add.ctp:15
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_edit.ctp:23;62;74
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_reset.ctp:14
+msgid "Zapisz"
+msgstr "Записать"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_add.ctp:30
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_edit.ctp:31
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_view.ctp:61
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_add.ctp:15
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_edit.ctp:18
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_view.ctp:21
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_add.ctp:19
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_edit.ctp:84
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_view.ctp:99
+msgid "Lista %s"
+msgstr "Список %s"
+
+msgid "Lista"
+msgstr "Список"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_edit.ctp:3
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_view.ctp:59
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_view.ctp:19
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_edit.ctp:4
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_view.ctp:97
+msgid "Edytuj %s"
+msgstr "Редактировать %s"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_edit.ctp:30
+#: C:\xampp\htdocs\sss\\Note\View\Elements\Notes\notes.ctp:15
+msgid "Na pewno usunąć wiadomość?"
+msgstr "Точно удалить сообщение?"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_index.ctp:9
+msgid "Nowa %s"
+msgstr "Новая %s"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_view.ctp:3
+msgid "Wiadomość newslettera"
+msgstr "Сообщение для новостной ленты"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_view.ctp:10
+msgid "Temat"
+msgstr "Тема"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_view.ctp:13
+msgid "Nadawca"
+msgstr "Отправитель"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_view.ctp:35
+msgid "Wysłano"
+msgstr "Отправлено"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_view.ctp:35
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_view.ctp:9;33
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_view.ctp:27;60
+msgid "Zmodyfikowano"
+msgstr "Модифицировано"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_view.ctp:41;53
+msgid "Wyślij %s"
+msgstr "Отправить %s"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_view.ctp:60
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_edit.ctp:17
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_view.ctp:20
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_edit.ctp:83
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_view.ctp:98
+msgid "Usuń %s"
+msgstr "Удалить %s"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_view.ctp:60
+msgid "Jesteś pewien, że chcesz usunąć wiadomość o temacie: \"%s\"?"
+msgstr "Вы уверены, что хотите удалить сообщение с темой: \"%s\"?"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_view.ctp:65
+msgid "Wiadomość została wysłana do %s odbiorców"
+msgstr "Сообщение было отправлено к %s получателям"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_view.ctp:67
+msgid "Lista odbiorców"
+msgstr "Список получателей"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\admin_add.ctp:4
+msgid "Admin Add Newsletter"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\admin_add.ctp:15
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\admin_edit.ctp:16
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\admin_view.ctp:31
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\edit.ctp:17
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\view.ctp:31
+msgid "List Newsletters"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\admin_edit.ctp:4
+msgid "Admin Edit Newsletter"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\admin_view.ctp:2
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\view.ctp:2
+msgid "Newsletter"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\admin_view.ctp:9
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\view.ctp:9
+msgid "Email"
+msgstr "E-mail"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\admin_view.ctp:29
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\edit.ctp:4
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\view.ctp:29
+msgid "Edit Newsletter"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\admin_view.ctp:30
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\view.ctp:30
+msgid "Delete Newsletter"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\admin_view.ctp:32
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\index.ctp:49
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\view.ctp:32
+msgid "New Newsletter"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\index.ctp:2
+msgid "Newsletters"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_view.ctp:2
+#: C:\xampp\htdocs\sss\\Note\View\Notes\view.ctp:2
+msgid "Note"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_view.ctp:49
+#: C:\xampp\htdocs\sss\\Note\View\Notes\view.ctp:49
+msgid "Edit Note"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_view.ctp:50
+#: C:\xampp\htdocs\sss\\Note\View\Notes\view.ctp:50
+msgid "Delete Note"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_view.ctp:51
+#: C:\xampp\htdocs\sss\\Note\View\Notes\view.ctp:51
+msgid "List Notes"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_view.ctp:52
+#: C:\xampp\htdocs\sss\\Note\View\Notes\view.ctp:52
+msgid "New Note"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Page\Controller\PagesController.php:176;192
+#: C:\xampp\htdocs\sss\\Translate\Controller\Component\FebI18nComponent.php:299
+msgid "Invalid localization"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Page\Controller\PagesController.php:224
+msgid "Komentarz został zapisany i oczekuje na weryfikację."
+msgstr "Комментарий был записан и ожидает проверки."
+
+#: C:\xampp\htdocs\sss\\Page\Controller\PagesController.php:227
+msgid "Komentarz nie został zapisany. Proszę sprawdzić formularz i spróbować ponownie."
+msgstr "Комментарий не был записан. Проверьте, пожалуйста, формуляж и попробуйте снова."
+
+#: C:\xampp\htdocs\sss\\Page\Controller\PagesController.php:275;297
+msgid "Pozycja została zapisana"
+msgstr "Позиция записана"
+
+#: C:\xampp\htdocs\sss\\Page\Controller\PagesController.php:279;300
+msgid "Pozycja nie została zapisana. Sprawdz formularz i spróbuj ponnownie"
+msgstr "Позиция не записана. Проверьте, пожалуйста, формуляж и попробуйте снова."
+
+#: C:\xampp\htdocs\sss\\Page\Controller\PagesController.php:291
+msgid "Nieprawidłowa pozycja"
+msgstr "Неверная позиция"
+
+#: C:\xampp\htdocs\sss\\Page\Model\Page.php:95
+msgid "Wprowadź tytuł strony"
+msgstr "Введите заголовок страницы"
+
+#: C:\xampp\htdocs\sss\\Page\View\Elements\Pages\table_index.ctp:4
+msgid "Realizacje"
+msgstr "Реализация"
+
+#: C:\xampp\htdocs\sss\\Page\View\Elements\Pages\table_index.ctp:7
+msgid "Podstrony"
+msgstr "Подстраницы"
+
+#: C:\xampp\htdocs\sss\\Page\View\Pages\admin_add.ctp:16
+#: C:\xampp\htdocs\sss\\Page\View\Pages\admin_edit.ctp:21
+msgid "Lista stron"
+msgstr "Список страниц"
+
+#: C:\xampp\htdocs\sss\\Page\View\Pages\admin_edit.ctp:20
+msgid "Czy napewno chcesz bezpowrotnie usunąć # %s?"
+msgstr "Вы серьезно хотите безвозвратно удалить # %s?"
+
+#: C:\xampp\htdocs\sss\\Page\View\Pages\admin_edit.ctp:22
+msgid "Edytuj zdjęcia"
+msgstr "Изменить изображения"
+
+#: C:\xampp\htdocs\sss\\Page\View\Pages\admin_index.ctp:9
+msgid "Dodaj pozycję"
+msgstr "Добавить позицию"
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\admin_index.ctp:9
+msgid "Ładowanie..."
+msgstr "Загрузка..."
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\view.ctp:2
+msgid "Photo"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\view.ctp:14
+msgid "Offer"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\view.ctp:19
+msgid "Page"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\view.ctp:49
+msgid "Edit Photo"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\view.ctp:50
+msgid "Delete Photo"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\view.ctp:51
+msgid "List Photos"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\view.ctp:52
+msgid "New Photo"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\view.ctp:53
+msgid "List Offers"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\view.ctp:54
+msgid "New Offer"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\view.ctp:55
+msgid "List Pages"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\view.ctp:56
+msgid "New Page"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Recaptcha\View\Helper\CaptchaToolHelper.php:28
+msgid "No public key was set for reCaptcha."
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Region\View\Regions\admin_view.ctp:2
+#: C:\xampp\htdocs\sss\\Region\View\Regions\view.ctp:2
+msgid "Region"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Region\View\Regions\admin_view.ctp:24
+#: C:\xampp\htdocs\sss\\Region\View\Regions\view.ctp:24
+msgid "Edit Region"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Region\View\Regions\admin_view.ctp:25
+#: C:\xampp\htdocs\sss\\Region\View\Regions\view.ctp:25
+msgid "Delete Region"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Region\View\Regions\admin_view.ctp:26
+#: C:\xampp\htdocs\sss\\Region\View\Regions\view.ctp:26
+msgid "List Regions"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Region\View\Regions\admin_view.ctp:27
+#: C:\xampp\htdocs\sss\\Region\View\Regions\view.ctp:27
+msgid "New Region"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Setting\Controller\SettingsController.php:28
+msgid "Panel"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Setting\Controller\SettingsController.php:32
+msgid "Ustawienia"
+msgstr "Установки"
+
+#: C:\xampp\htdocs\sss\\Setting\Controller\SettingsController.php:46
+msgid "Strona nie istnieje.."
+msgstr "Страница не существует..."
+
+#: C:\xampp\htdocs\sss\\Setting\Controller\SettingsController.php:53
+msgid "Nowe ustawienie"
+msgstr "Новые настройки"
+
+#: C:\xampp\htdocs\sss\\Setting\Controller\SettingsController.php:58;75
+msgid "Poprawnie zapisano."
+msgstr "Успешно записано."
+
+#: C:\xampp\htdocs\sss\\Setting\Controller\SettingsController.php:61;78
+msgid "Wystąpił błąd podczas zapisu, popraw formularz i spróbuj ponownie."
+msgstr "Во время записи возникла ошибка, поправьте формуляж и попробуйте снова."
+
+#: C:\xampp\htdocs\sss\\Setting\Controller\SettingsController.php:67
+msgid "Edycja ustawień"
+msgstr "Редактировать настройки"
+
+#: C:\xampp\htdocs\sss\\Setting\Controller\SettingsController.php:88;127
+msgid "Strona nie istnieje"
+msgstr "Страница не существует"
+
+#: C:\xampp\htdocs\sss\\Setting\Controller\SettingsController.php:92
+msgid "Poprawnie usunięto"
+msgstr "Успешно удалено"
+
+#: C:\xampp\htdocs\sss\\Setting\Controller\SettingsController.php:94
+msgid "Nie można usunąć"
+msgstr "Нельзя удалить"
+
+#: C:\xampp\htdocs\sss\\Setting\Controller\SettingsController.php:101
+msgid "Ustawienie: %s"
+msgstr "Настройки: %s"
+
+#: C:\xampp\htdocs\sss\\Setting\Controller\SettingsController.php:115
+msgid "Poprawnie zapisano"
+msgstr "Успешно записано"
+
+#: C:\xampp\htdocs\sss\\Setting\Controller\SettingsController.php:117
+msgid "Wystąpiły błędy podczas zapisu, sprawdź poniższy formularz i spróbuj ponownie"
+msgstr "Появились ошибки во время записи, проверьте, пожалуйста, формуляж и попробуйте снова."
+
+#: C:\xampp\htdocs\sss\\Setting\Controller\SettingsController.php:143
+msgid "Import/export ustawień"
+msgstr "Імпорт/експорт настроек"
+
+#: C:\xampp\htdocs\sss\\Setting\Controller\SettingsController.php:179
+msgid "UWAGA!! Dodano do bazy klucz %s o wartości: %s"
+msgstr "ВНИМАНИЕ!!!"
+
+#: C:\xampp\htdocs\sss\\Setting\View\Elements\Setting\fields.ctp:2
+msgid "Ogólne"
+msgstr "Общее"
+
+#: C:\xampp\htdocs\sss\\Setting\View\Elements\Setting\fields.ctp:3
+msgid "Zaawansowane"
+msgstr "Главное"
+
+#: C:\xampp\htdocs\sss\\Setting\View\Elements\Setting\fields.ctp:7
+msgid "np. Tytuł strony"
+msgstr "например \"название страницы\""
+
+#: C:\xampp\htdocs\sss\\Setting\View\Elements\Setting\fields.ctp:16
+msgid "e.g., takie jak w inpucie + tinymce"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_add.ctp:12
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_edit.ctp:14
+msgid "Anuluj"
+msgstr "Аннулировать"
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_add.ctp:22
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_edit.ctp:24
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_import.ctp:18
+msgid "Lista ustawień"
+msgstr "Список настроек"
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_edit.ctp:25
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_import.ctp:19
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_index.ctp:52
+msgid "Dodaj ustawienie"
+msgstr "Добавить настройки"
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_import.ctp:10
+msgid "Ustawienia z pliku settings.yml"
+msgstr "Настройки из файла settings.yml"
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_import.ctp:13
+msgid "Importuj"
+msgstr "Импортируй"
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_index.ctp:7
+msgid "Klucz"
+msgstr "Ключ"
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_index.ctp:8
+msgid "Wartość"
+msgstr "Стоимость"
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_index.ctp:9
+msgid "Możliwość edycji"
+msgstr "Возможность редакции"
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_index.ctp:21
+msgid "Are you sure?"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_index.ctp:23
+msgid "▼"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_index.ctp:24
+msgid "▲"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_index.ctp:53
+msgid "Import/Export"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_view.ctp:2
+msgid "Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_view.ctp:9
+msgid "Key"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_view.ctp:14
+msgid "Value"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_view.ctp:19
+msgid "Description"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_view.ctp:24
+msgid "Input Type"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_view.ctp:29
+msgid "Weight"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_view.ctp:34
+msgid "Params"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_view.ctp:43
+msgid "Edit Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_view.ctp:44
+msgid "Delete Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_view.ctp:45
+msgid "List Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Setting\View\Settings\admin_view.ctp:46
+msgid "New Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_index.ctp:10
+msgid "Sortowanie"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_view.ctp:2
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\view.ctp:2
+msgid "Slider"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_view.ctp:54
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\view.ctp:54
+msgid "Edit Slider"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_view.ctp:55
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\view.ctp:55
+msgid "Delete Slider"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_view.ctp:56
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\view.ctp:56
+msgid "List Sliders"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_view.ctp:57
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\view.ctp:57
+msgid "New Slider"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Slug\View\Elements\li_position.ctp:10
+#: C:\xampp\htdocs\sss\\Slug\View\Elements\li_position_leftmenu.ctp:10
+#: C:\xampp\htdocs\sss\\Tree\View\Elements\li_position.ctp:10
+#: C:\xampp\htdocs\sss\\Tree\View\Elements\li_position_leftmenu.ctp:10
+msgid "Usunąć pozycję, oraz wszystkie pozycje podrzędne?"
+msgstr "Удалить эту и все второстепенные позиции?"
+
+#: C:\xampp\htdocs\sss\\Slug\View\Elements\li_position_leftmenu.ctp:7
+#: C:\xampp\htdocs\sss\\Tree\View\Elements\li_position_leftmenu.ctp:7
+msgid "x"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Slug\View\Elements\title.ctp:1
+#: C:\xampp\htdocs\sss\\Tree\View\Categories\index.ctp:2
+#: C:\xampp\htdocs\sss\\Tree\View\Elements\title.ctp:1
+msgid "Sortuj"
+msgstr "Сортировать"
+
+#: C:\xampp\htdocs\sss\\Translate\Controller\Component\FebI18nComponent.php:310
+msgid "Pozycja została usunieta"
+msgstr "Позиция была удалена"
+
+#: C:\xampp\htdocs\sss\\Translate\Controller\Component\FebI18nComponent.php:313
+msgid "Pozycja nie została usunięta"
+msgstr "Позиция не была удалена"
+
+#: C:\xampp\htdocs\sss\\Translate\Controller\Component\FebI18nComponent.php:318
+msgid "Język został usunięty"
+msgstr "Язык был удален"
+
+#: C:\xampp\htdocs\sss\\Translate\Controller\Component\FebI18nComponent.php:321
+msgid "Język nie został usunięty"
+msgstr "Язык не был удален"
+
+#: C:\xampp\htdocs\sss\\Translate\View\Elements\flags\trash.ctp:13
+msgid "Czy napewno chcesz usunąć tą wersje jezykową strony %s?"
+msgstr "Вы действительно хотите удалить эту языковую версию страницы %s?"
+
+#: C:\xampp\htdocs\sss\\Translate\View\Elements\flags\trash.ctp:24
+msgid "Usunąć wszystkie wersje językowe?"
+msgstr "Удалить все языковые версии?"
+
+#: C:\xampp\htdocs\sss\\Tree\Controller\CategoriesController.php:157
+msgid "Pozycja została usunięta"
+msgstr "Позиция была удалена"
+
+#: C:\xampp\htdocs\sss\\Tree\Controller\CategoriesController.php:160
+msgid "Uzuwanie wybranej pozycji nie powiodło się."
+msgstr "Удаление данной позиции не произошло"
+
+#: C:\xampp\htdocs\sss\\Tree\Model\Category.php:58
+msgid "Wprowadź tytuł"
+msgstr "Введите заголовок"
+
+#: C:\xampp\htdocs\sss\\Tree\Model\Category.php:59
+msgid "Menu może mieć maksymalnie 3 poziomy zagłębienia"
+msgstr "Меню может иметь максимально 3 уровня углубления"
+
+#: C:\xampp\htdocs\sss\\Tree\View\Categories\admin_index.ctp:8
+msgid "New Category"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Tree\View\Categories\admin_view.ctp:2
+msgid "Category"
+msgstr ""
+
+
+#: C:\xampp\htdocs\sss\\Tree\View\Categories\admin_view.ctp:14
+msgid "Link"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Tree\View\Categories\admin_view.ctp:19
+msgid "Lock"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Tree\View\Categories\admin_view.ctp:39
+msgid "Edit Category"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Tree\View\Categories\admin_view.ctp:40
+msgid "Delete Category"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Tree\View\Elements\Categories\table_index.ctp:1
+#: C:\xampp\htdocs\sss\\Tree\View\Elements\tree\index.ctp:16
+msgid "Categories"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:591
+msgid "Email użytkownika"
+msgstr "E-mail пользователя"
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:593
+msgid "wybierz ..."
+msgstr "выберите ..."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersLogsController.php:21
+msgid "Invalid UsersLog."
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersLogsController.php:36;54
+msgid "The UsersLog has been saved"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersLogsController.php:39;57
+msgid "The UsersLog could not be saved. Please, try again."
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersLogsController.php:49
+msgid "Invalid UsersLog"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersLogsController.php:70
+msgid "Invalid id for UsersLog"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersLogsController.php:74
+msgid "UsersLog deleted"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\User\View\Elements\Users\table_index.ctp:1
+msgid "Użytkownicy"
+msgstr "Пользователи"
+
+#: C:\xampp\htdocs\sss\\User\View\Elements\Users\table_index.ctp:35
+msgid "Szczegóły"
+msgstr "Детали"
+
+#: C:\xampp\htdocs\sss\\User\View\Elements\Users\table_index.ctp:37
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_edit.ctp:83
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_view.ctp:98
+msgid "Jesteś pewien, że chcesz usunąć użytkownika \"%s\"?"
+msgstr "Вы уверены, что хотите удалить пользователя \"%s\"?"
+
+#: C:\xampp\htdocs\sss\\User\View\Emails\html\user_passreset.ctp:8
+#: C:\xampp\htdocs\sss\\User\View\Emails\text\user_passreset.ctp:10
+msgid "Zgłoszenie wysłane:"
+msgstr "Обращение отправлено:"
+
+#: C:\xampp\htdocs\sss\\User\View\Emails\html\user_passreset.ctp:8
+#: C:\xampp\htdocs\sss\\User\View\Emails\text\user_passreset.ctp:10
+msgid "z adresu:"
+msgstr "с адреса:"
+
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_edit.ctp:4
+msgid "Edycja %s"
+msgstr "Редакция %s"
+
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_edit.ctp:17
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_view.ctp:20
+msgid "Jesteś pewien, że chcesz usunąć grupę \"%s\"?"
+msgstr "Вы уверены, что хотите удалить группу \"%s\"?"
+
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_view.ctp:4
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_view.ctp:25
+msgid "Alias"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_view.ctp:26
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_view.ctp:53
+msgid "Uprawnienia %s"
+msgstr "Полномочия %s"
+
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_view.ctp:51
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_view.ctp:78
+msgid "Usuń powiązanie"
+msgstr "Удалить связь"
+
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_view.ctp:69
+#: C:\xampp\htdocs\sss\\User\View\Permissions\admin_add_rp.ctp:19
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_index.ctp:10
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_view.ctp:106
+msgid "Dodaj %s"
+msgstr "Добавь %s"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\activate.ctp:15
+msgid "Aktywacja konta"
+msgstr "Активация аккаунта"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\activate.ctp:20
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_add.ctp:9
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_edit.ctp:71
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_reset.ctp:11
+msgid "Hasło"
+msgstr "Пароль"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\activate.ctp:21
+msgid "Powtórz hasło"
+msgstr "Повторите пароль"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_add.ctp:4
+msgid "Dodaj "
+msgstr "Добавить"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_add.ctp:6
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_edit.ctp:7
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_view.ctp:7
+msgid "Aktywne"
+msgstr "Активное"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_edit.ctp:17
+msgid "Uprawnienia"
+msgstr "Полномочия"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_edit.ctp:68
+msgid "Zmień hasło"
+msgstr "Изменить пароль"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_edit.ctp:79
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_view.ctp:45
+msgid "Szczegóły %s"
+msgstr "Детали %s"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_edit.ctp:81
+msgid "Odblokuj %s"
+msgstr "Опубликовать %s"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_edit.ctp:81
+msgid "Jesteś pewien, że chcesz odblokować użytkownika \"%s\"?"
+msgstr "Вы уверены, что хотите разблокировать пользователя \"%s\"?"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_reset.ctp:9
+msgid "Ustaw hasło"
+msgstr "Установить пароль"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_view.ctp:2
+msgid "Konto użytkownika"
+msgstr "Счет пользователя"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_view.ctp:12
+msgid "Data utworzenia (modyfikacji)"
+msgstr "Дата создания (модификации)"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_view.ctp:19
+msgid "Użytkownik należy do %s"
+msgstr "Пользователь принадлежит к %s"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_view.ctp:84
+msgid "Jesteś pewnien, że chcesz usunąć uprawnienie użytkownika \"%s\" do zasobu \"%s\"?"
+msgstr "Вы уверены, что хотите удалить полномочия пользователя \"%s\" к запасу \"%s\"?"
+
+#MINE
+msgid "Nazwa"
+msgstr "Заголовок"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Aktywny"
+msgstr "Активный"
+
+msgid "Grupy"
+msgstr "Группы"
+
+msgid "Utworzono"
+msgstr "Создано"
+
+msgid "Ostatnie logowanie"
+msgstr "Последний вход"
+
+msgid "MENU GŁÓWNE"
+msgstr "ГЛАВНОЕ МЕНЮ"
+
+msgid "PORTAL"
+msgstr "ПОРТАЛ"
+
+msgid "CMS"
+msgstr "CMS"
+
+msgid "WYLOGUJ"
+msgstr "ВЫЙТИ"
+
+msgid "Menu strony"
+msgstr "Меню сайта"
+
+msgid "Strony statyczne"
+msgstr "Статические страницы"
+
+msgid "Banery"
+msgstr "Баннеры"
+
+msgid "Elementy dynamiczne"
+msgstr "Динамические эллементы"
+
+msgid "Strony"
+msgstr "Страницы"
+
+msgid "New Banner"
+msgstr "Новый баннер"
+
+msgid "Banners"
+msgstr "Баннеры"
+
+msgid "List"
+msgstr "Список"
+
+msgid "Ustawienia"
+msgstr "Установки"
+
+msgid "Blog"
+msgstr ""
+
+msgid "Studio"
+msgstr ""
+
+msgid "Slider"
+msgstr "Слайдер"
+
+msgid "System zamówień"
+msgstr "Система заказов"
+
+msgid "Marki"
+msgstr "Бренды"
+
+msgid "Raporty sprzedaży"
+msgstr "Отчеты продаж"
+
+msgid "Wiadomości"
+msgstr "Сообщения"
+
+msgid "Odbiorcy"
+msgstr "Получатели"
+
+msgid "Kategorie"
+msgstr "Категории"
+
+msgid "Wpisy"
+msgstr "Записи"
+
+msgid "Komentarze do moderacji"
+msgstr "Комментарии для модерации"
+
+msgid "Komentarze zaakceptowane"
+msgstr "Одобренные комментарии"
+
+msgid "Lista"
+msgstr "Список"
+
+msgid "Dodaj nowy slide"
+msgstr "Добавить новый слайд"
+
+msgid "Lista zamówień w trakcie realizacji"
+msgstr "Список заказов в процессе реализации"
+
+msgid "Lista zamówień zrealizowanych"
+msgstr "Список реализованных заказов"
+
+msgid "Lista zamówień anulowanych"
+msgstr "Список аннулированных заказов"
+
+msgid "Klienci"
+msgstr "Клиенты"
+
+msgid "Cennik kosztów wysyłki"
+msgstr "Ценник услуг доставки"
+
+msgid "Statusy zamówienia"
+msgstr "Статусы заказа"
+
+msgid "Kody promocyjne"
+msgstr "Промо коды"
+
+msgid "Otwieraj w nowym oknie"
+msgstr "Открыть в новом окне"
+
+msgid "List Banners"
+msgstr "Список баннеров"
+
+msgid "dowolna"
+msgstr "любая"
+
+msgid "Sekcja"
+msgstr "Секция"
+
+msgid "Wysyłka testowa"
+msgstr "Тест-отправка"
+
+msgid "link wypisania z newslettera"
+msgstr "Ссылка выписки из ленты новостей"
+
+msgid "Data utworzenia, od"
+msgstr "Дата создания, от"
+
+msgid "Data utworzenia, do"
+msgstr "Дата создания, до"
+
+msgid "Data wpisu, od"
+msgstr "Дата записи, от"
+
+msgid "Data wpisu, do"
+msgstr "Дата записи, до"
+
+msgid "Akceptuj"
+msgstr "Одобрить"
+
+msgid "Media"
+msgstr "Медиа"
+
+#: C:\xampp\htdocs\sss\\Comment\View\Comments\admin_index.ctp:2;11
+msgid "Komentarze do moderacji"
+msgstr "Комментарии для модерации"
+
+#: C:\xampp\htdocs\sss\\Comment\View\Comments\admin_index.ctp:4;12
+msgid "Komentarze zaakceptowane"
+msgstr "Одобренные комментарии"
+
+#: C:\xampp\htdocs\sss\\Comment\View\Comments\admin_relatedindex.ctp:29
+#: C:\xampp\htdocs\sss\\Menu\View\Menus\admin_relatedindex.ctp:29
+#: C:\xampp\htdocs\sss\\Slug\View\Tree\relatedindex.ctp:24
+#: C:\xampp\htdocs\sss\\Tree\View\Tree\relatedindex.ctp:24
+msgid "Wybierz"
+msgstr "Выбери"
+
+#: C:\xampp\htdocs\sss\\Comment\View\Elements\li_position.ctp:14
+msgid "User: "
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Comment\View\Elements\li_position.ctp:15
+msgid "News: "
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Comment\View\Elements\li_position.ctp:17
+msgid "Parent comments: "
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Comment\View\Elements\li_position.ctp:19
+msgid "Comments: "
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Country\Controller\CountriesController.php:65;96;122;152;183;209
+#: C:\xampp\htdocs\sss\\Modification\Controller\ModificationsController.php:65;96;122;152;183;209
+#: C:\xampp\htdocs\sss\\News\Controller\NewsCategoriesController.php:65;96;122;154;185
+#: C:\xampp\htdocs\sss\\News\Controller\NewsController.php:378
+#: C:\xampp\htdocs\sss\\Note\Controller\NotesController.php:58;91;119
+#: C:\xampp\htdocs\sss\\Photo\Controller\PhotosController.php:66;217;276;309
+#: C:\xampp\htdocs\sss\\Region\Controller\RegionsController.php:65;96;122;152;183;209
+#: C:\xampp\htdocs\sss\\Slider\Controller\SlidersController.php:73;104;130;160;191;217
+#: C:\xampp\htdocs\sss\\User\Controller\PermissionCategoriesController.php:57;88;114
+#: C:\xampp\htdocs\sss\\User\Controller\PermissionGroupsController.php:94;125
+msgid "Strona nie istnieje."
+msgstr "Страница не существует."
+
+#: C:\xampp\htdocs\sss\\Country\Controller\CountriesController.php:166;187
+#: C:\xampp\htdocs\sss\\Modification\Controller\ModificationsController.php:166;187
+#: C:\xampp\htdocs\sss\\News\Controller\NewsCategoriesController.php:168;189
+#: C:\xampp\htdocs\sss\\Note\Controller\NotesController.php:72;95
+#: C:\xampp\htdocs\sss\\Photo\Controller\PhotosController.php:258;280
+#: C:\xampp\htdocs\sss\\Region\Controller\RegionsController.php:166;187
+#: C:\xampp\htdocs\sss\\Searcher\Controller\SearchersController.php:59
+#: C:\xampp\htdocs\sss\\Slider\Controller\SlidersController.php:174;195
+#: C:\xampp\htdocs\sss\\User\Controller\PermissionCategoriesController.php:71;92
+#: C:\xampp\htdocs\sss\\User\Controller\PermissionGroupsController.php:71;98
+msgid "Poprawnie zapisano."
+msgstr "Успешно записано."
+
+#: C:\xampp\htdocs\sss\\Country\Controller\CountriesController.php:169
+#: C:\xampp\htdocs\sss\\Modification\Controller\ModificationsController.php:169
+#: C:\xampp\htdocs\sss\\News\Controller\NewsCategoriesController.php:171;192
+#: C:\xampp\htdocs\sss\\Note\Controller\NotesController.php:75
+#: C:\xampp\htdocs\sss\\Photo\Controller\PhotosController.php:261
+#: C:\xampp\htdocs\sss\\Region\Controller\RegionsController.php:169
+#: C:\xampp\htdocs\sss\\Slider\Controller\SlidersController.php:177;198
+#: C:\xampp\htdocs\sss\\User\Controller\PermissionCategoriesController.php:74
+#: C:\xampp\htdocs\sss\\User\Controller\PermissionGroupsController.php:74
+msgid "Wystąpił błąd podczas zapisu, popraw formularz i spróbuj ponownie."
+msgstr "Во время записи произошла ошибка, отредактируйте формуляж и попробуйте снова."
+
+#: C:\xampp\htdocs\sss\\Country\Controller\CountriesController.php:212
+#: C:\xampp\htdocs\sss\\Modification\Controller\ModificationsController.php:212
+#: C:\xampp\htdocs\sss\\Note\Controller\NotesController.php:122
+#: C:\xampp\htdocs\sss\\Region\Controller\RegionsController.php:212
+#: C:\xampp\htdocs\sss\\Searcher\Controller\SearchersController.php:84
+#: C:\xampp\htdocs\sss\\Slider\Controller\SlidersController.php:220
+#: C:\xampp\htdocs\sss\\User\Controller\PermissionCategoriesController.php:117
+msgid "Poprawnie usunięto."
+msgstr "Успешно удалено."
+
+#: C:\xampp\htdocs\sss\\Country\Controller\CountriesController.php:215
+#: C:\xampp\htdocs\sss\\Modification\Controller\ModificationsController.php:215
+#: C:\xampp\htdocs\sss\\Note\Controller\NotesController.php:125
+#: C:\xampp\htdocs\sss\\Region\Controller\RegionsController.php:215
+#: C:\xampp\htdocs\sss\\Slider\Controller\SlidersController.php:223
+#: C:\xampp\htdocs\sss\\User\Controller\PermissionCategoriesController.php:120
+msgid "Nie można usunąć."
+msgstr "Нельзя удалить."
+
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_add.ctp:3
+msgid "Admin Add Country"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_add.ctp:4
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_edit.ctp:5
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\add.ctp:4
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_add.ctp:4
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_edit.ctp:5
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\edit.ctp:5
+#: C:\xampp\htdocs\sss\\News\View\News\admin_add.ctp:6
+#: C:\xampp\htdocs\sss\\News\View\News\admin_edit.ctp:7
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\add.ctp:6
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_add.ctp:6
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_edit.ctp:7
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\edit.ctp:7
+#: C:\xampp\htdocs\sss\\Note\View\Notes\add.ctp:4
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_add.ctp:4
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_edit.ctp:5
+#: C:\xampp\htdocs\sss\\Note\View\Notes\edit.ctp:5
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\add.ctp:4
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\admin_add.ctp:4
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\admin_edit.ctp:5
+#: C:\xampp\htdocs\sss\\Region\View\Regions\add.ctp:4
+#: C:\xampp\htdocs\sss\\Region\View\Regions\admin_add.ctp:4
+#: C:\xampp\htdocs\sss\\Region\View\Regions\admin_edit.ctp:5
+#: C:\xampp\htdocs\sss\\Region\View\Regions\edit.ctp:5
+#: C:\xampp\htdocs\sss\\Searcher\View\Searchers\admin_edit.ctp:5
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\add.ctp:6
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_add.ctp:6
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_edit.ctp:7
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\edit.ctp:7
+#: C:\xampp\htdocs\sss\\User\View\Elements\PermissionGroups\addForm.ctp:9
+#: C:\xampp\htdocs\sss\\User\View\Elements\PermissionGroups\editForm.ctp:11
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\add.ctp:6
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\admin_add.ctp:6
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\admin_edit.ctp:7
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\edit.ctp:7
+#: C:\xampp\htdocs\sss\\User\View\PermissionGroups\admin_add.ctp:6
+msgid "Submit"
+msgstr "Записать"
+
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_add.ctp:9
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_edit.ctp:11
+msgid "List Countries"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_edit.ctp:4
+msgid "Admin Edit Country"
+msgstr ""
+
+
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_index.ctp:9
+#: C:\xampp\htdocs\sss\\Country\View\Countries\index.ctp:9
+msgid "New Country"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_view.ctp:4
+#: C:\xampp\htdocs\sss\\Country\View\Countries\view.ctp:4
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_view.ctp:4
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\view.ctp:4
+#: C:\xampp\htdocs\sss\\News\View\News\admin_view.ctp:4
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_view.ctp:4
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\view.ctp:4
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_view.ctp:4
+#: C:\xampp\htdocs\sss\\Note\View\Notes\view.ctp:4
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\view.ctp:4
+#: C:\xampp\htdocs\sss\\Region\View\Regions\admin_view.ctp:4
+#: C:\xampp\htdocs\sss\\Region\View\Regions\view.ctp:4
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_view.ctp:4
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\view.ctp:4
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\admin_view.ctp:4
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\view.ctp:4
+msgid "Id"
+msgstr ""
+
+
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_view.ctp:14
+#: C:\xampp\htdocs\sss\\Country\View\Countries\view.ctp:14
+#: C:\xampp\htdocs\sss\\Country\View\Elements\Countries\fields.ctp:5
+#: C:\xampp\htdocs\sss\\Country\View\Elements\Countries\table_index.ctp:5
+msgid "Printable Name En"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_view.ctp:19
+#: C:\xampp\htdocs\sss\\Country\View\Countries\view.ctp:19
+#: C:\xampp\htdocs\sss\\Country\View\Elements\Countries\fields.ctp:6
+#: C:\xampp\htdocs\sss\\Country\View\Elements\Countries\table_index.ctp:6
+msgid "Printable Name"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_view.ctp:24
+#: C:\xampp\htdocs\sss\\Country\View\Countries\view.ctp:24
+#: C:\xampp\htdocs\sss\\Country\View\Elements\Countries\fields.ctp:7
+#: C:\xampp\htdocs\sss\\Country\View\Elements\Countries\table_index.ctp:7
+msgid "Iso3"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Country\View\Countries\admin_view.ctp:29
+#: C:\xampp\htdocs\sss\\Country\View\Countries\view.ctp:29
+#: C:\xampp\htdocs\sss\\Country\View\Elements\Countries\fields.ctp:8
+#: C:\xampp\htdocs\sss\\Country\View\Elements\Countries\table_index.ctp:8
+msgid "Numcode"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Country\View\Elements\Countries\table_index.ctp:1
+msgid "Countries"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Menu\Model\Menu.php:45
+#: C:\xampp\htdocs\sss\\Tree\Model\Category.php:61
+msgid "Pozycja bez linku (węzeł)"
+msgstr "Позиция без ссылки (узел)"
+
+#: C:\xampp\htdocs\sss\\Menu\Model\Menu.php:46
+#: C:\xampp\htdocs\sss\\Tree\Model\Category.php:62
+msgid "Pozycja z linkiem"
+msgstr "Позиция со ссылкой"
+
+#: C:\xampp\htdocs\sss\\Menu\Model\Menu.php:47
+#: C:\xampp\htdocs\sss\\Tree\Model\Category.php:63
+msgid "Pozycja powiązana z podstroną"
+msgstr "Позиция связана с подстраницей"
+
+#: C:\xampp\htdocs\sss\\Menu\View\Elements\li_position.ctp:16
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\table_index.ctp:44
+#: C:\xampp\htdocs\sss\\Page\View\Elements\Pages\table_index.ctp:33
+#: C:\xampp\htdocs\sss\\Slug\View\Tree\relatedindex.ctp:20
+#: C:\xampp\htdocs\sss\\Tree\View\Elements\tree\category\li_position.ctp:17
+#: C:\xampp\htdocs\sss\\Tree\View\Tree\relatedindex.ctp:20
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_index.ctp:30
+msgid "Edytuj"
+msgstr "Редактировать"
+
+#: C:\xampp\htdocs\sss\\Menu\View\Elements\li_position.ctp:35
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\table_index.ctp:45
+#: C:\xampp\htdocs\sss\\Searcher\View\Searchers\admin_edit.ctp:10
+#: C:\xampp\htdocs\sss\\Translate\View\Elements\flags\trash.ctp:11
+#: C:\xampp\htdocs\sss\\Tree\View\Elements\tree\category\li_position.ctp:37
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_index.ctp:31
+msgid "Usuń"
+msgstr "Удалить"
+
+#: C:\xampp\htdocs\sss\\Modification\View\Elements\Modifications\fields.ctp:4
+#: C:\xampp\htdocs\sss\\Modification\View\Elements\Modifications\table_index.ctp:4
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_view.ctp:9
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\view.ctp:9
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\table_index.ctp:11
+#: C:\xampp\htdocs\sss\\Note\View\Elements\Notes\fields.ctp:5
+#: C:\xampp\htdocs\sss\\Note\View\Elements\Notes\table_index.ctp:5
+msgid "User Id"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Modification\View\Elements\Modifications\fields.ctp:5
+#: C:\xampp\htdocs\sss\\Modification\View\Elements\Modifications\table_index.ctp:5
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_view.ctp:14
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\view.ctp:14
+#: C:\xampp\htdocs\sss\\Note\View\Elements\Notes\fields.ctp:7
+#: C:\xampp\htdocs\sss\\Note\View\Elements\Notes\table_index.ctp:7
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_view.ctp:24
+#: C:\xampp\htdocs\sss\\Note\View\Notes\view.ctp:24
+msgid "Model"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Modification\View\Elements\Modifications\fields.ctp:6
+#: C:\xampp\htdocs\sss\\Modification\View\Elements\Modifications\table_index.ctp:6
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_view.ctp:19
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\view.ctp:19
+msgid "Foreign Key"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Modification\View\Elements\Modifications\fields.ctp:7
+#: C:\xampp\htdocs\sss\\Modification\View\Elements\Modifications\table_index.ctp:7
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_view.ctp:24
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\view.ctp:24
+msgid "Action"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Modification\View\Elements\Modifications\fields.ctp:8
+#: C:\xampp\htdocs\sss\\Modification\View\Elements\Modifications\table_index.ctp:8
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_view.ctp:29
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\view.ctp:29
+msgid "User Details"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Modification\View\Elements\Modifications\fields.ctp:9
+#: C:\xampp\htdocs\sss\\Modification\View\Elements\Modifications\table_index.ctp:9
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_view.ctp:34
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\view.ctp:34
+msgid "Content Before"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Modification\View\Elements\Modifications\fields.ctp:10
+#: C:\xampp\htdocs\sss\\Modification\View\Elements\Modifications\table_index.ctp:10
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_view.ctp:39
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\view.ctp:39
+msgid "Content After"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Modification\View\Elements\Modifications\table_index.ctp:1
+msgid "Modifications"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\add.ctp:3
+msgid "Add Modification"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\add.ctp:9
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_add.ctp:9
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_edit.ctp:11
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\edit.ctp:11
+msgid "List Modifications"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_add.ctp:3
+msgid "Admin Add Modification"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_edit.ctp:4
+msgid "Admin Edit Modification"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\admin_index.ctp:9
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\index.ctp:9
+msgid "New Modification"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Modification\View\Modifications\edit.ctp:4
+msgid "Edit Modification"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\fields.ctp:2
+msgid "News Data"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\fields.ctp:9
+msgid "Kategoria wpisu"
+msgstr "Категория записи"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\fields.ctp:10
+msgid "Data wydarzenia"
+msgstr "Дата выставления"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\fields.ctp:11
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\table_index.ctp:8
+#: C:\xampp\htdocs\sss\\News\View\News\admin_view.ctp:9
+msgid "Main"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\fields.ctp:12
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\table_index.ctp:9
+msgid "Czy opublikować"
+msgstr "Опубликовать"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\fields.ctp:17
+msgid "Opis skrócony"
+msgstr "Короткое описание"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\fields.ctp:23
+#: C:\xampp\htdocs\sss\\News\View\News\admin_view.ctp:24
+#: C:\xampp\htdocs\sss\\Note\View\Elements\Notes\fields.ctp:8
+#: C:\xampp\htdocs\sss\\Note\View\Elements\Notes\table_index.ctp:8
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_view.ctp:29
+#: C:\xampp\htdocs\sss\\Note\View\Notes\view.ctp:29
+#: C:\xampp\htdocs\sss\\Slider\View\Elements\Sliders\fields.ctp:12
+msgid "Content"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\fields.ctp:29
+#: C:\xampp\htdocs\sss\\News\View\Elements\NewsCategories\fields.ctp:8
+msgid "Kody reklam zewnętrznego reklamodawcy"
+msgstr "Коды реклам внешнего рекламодателя"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\fields.ctp:30
+#: C:\xampp\htdocs\sss\\News\View\Elements\NewsCategories\fields.ctp:9
+msgid "Reklama nr 1"
+msgstr "Реклама №1"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\fields.ctp:31
+#: C:\xampp\htdocs\sss\\News\View\Elements\NewsCategories\fields.ctp:10
+msgid "Reklama nr 2"
+msgstr "Реклама №2"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\fields.ctp:32
+#: C:\xampp\htdocs\sss\\News\View\Elements\NewsCategories\fields.ctp:11
+msgid "Kod w sekcji head"
+msgstr "Код в секции \"head\""
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\fields.ctp:37
+#: C:\xampp\htdocs\sss\\News\View\Elements\NewsCategories\fields.ctp:15
+msgid "Ustawienia html"
+msgstr "Параметры html"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\fields.ctp:38
+#: C:\xampp\htdocs\sss\\News\View\Elements\NewsCategories\fields.ctp:16
+msgid "Słowa kluczowe"
+msgstr "Ключевые слова"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\fields.ctp:39
+#: C:\xampp\htdocs\sss\\News\View\Elements\NewsCategories\fields.ctp:17
+msgid "Opis strony"
+msgstr "Описание"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\table_index.ctp:1
+#: C:\xampp\htdocs\sss\\News\View\News\admin_index.ctp:1
+msgid "Blog"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\table_index.ctp:5
+#: C:\xampp\htdocs\sss\\News\View\News\admin_view.ctp:34
+msgid "Photo Id"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\table_index.ctp:6
+msgid "Kategoria"
+msgstr "Категория"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\table_index.ctp:12
+msgid "Date"
+msgstr ""
+
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\table_index.ctp:26;27
+msgid "TAK"
+msgstr "ДА"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\News\table_index.ctp:26;27
+msgid "NIE"
+msgstr "НЕТ"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\NewsCategories\fields.ctp:2
+msgid "Blog Category Data"
+msgstr "Основная информация"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\NewsCategories\fields.ctp:4
+msgid "Czy promować kategorię"
+msgstr "Рекламировать категорию"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\NewsCategories\table_index.ctp:1
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_edit.ctp:1
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_index.ctp:1
+msgid "Blog Categories"
+msgstr "Блог Категории"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\NewsCategories\table_index.ctp:6
+msgid "Czy promowany"
+msgstr "Рекламируется"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\NewsCategories\table_index.ctp:16
+msgid "Tak"
+msgstr "Да"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\NewsCategories\table_index.ctp:16
+msgid "Nie"
+msgstr "Нет"
+
+#: C:\xampp\htdocs\sss\\News\View\Elements\NewsCategories\table_index.ctp:24
+msgid "Edit"
+msgstr "Редакция"
+
+#: C:\xampp\htdocs\sss\\News\View\News\admin_add.ctp:1
+#: C:\xampp\htdocs\sss\\News\View\News\admin_edit.ctp:1
+msgid "News"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\News\admin_add.ctp:1
+msgid "Admin Add News"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\News\admin_add.ctp:11
+msgid "List News"
+msgstr ""
+
+
+#: C:\xampp\htdocs\sss\\News\View\News\admin_edit.ctp:1
+msgid "Admin Edit Blog"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\News\admin_edit.ctp:13
+msgid "List blog articles"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\News\admin_index.ctp:1
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_index.ctp:1
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\index.ctp:1
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_index.ctp:1
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\index.ctp:1
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\admin_index.ctp:1
+#: C:\xampp\htdocs\sss\\User\View\PermissionCategories\index.ctp:1
+msgid "List"
+msgstr "Список"
+
+#: C:\xampp\htdocs\sss\\News\View\News\admin_index.ctp:12
+msgid "New News"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\News\admin_view.ctp:14
+msgid "Slug"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\add.ctp:1
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_add.ctp:1
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\edit.ctp:1
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\index.ctp:1
+msgid "News Categories"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\add.ctp:1
+msgid "Add News Category"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\add.ctp:11
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_add.ctp:11
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\edit.ctp:13
+msgid "List News Categories"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_add.ctp:1
+msgid "Admin Add News Category"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_edit.ctp:1
+msgid "Admin Edit Blog Category"
+msgstr ""
+
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\admin_index.ctp:10
+msgid "New Blog Category"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\edit.ctp:1
+msgid "Edit News Category"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\News\View\NewsCategories\index.ctp:9
+msgid "New News Category"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_add.ctp:1
+msgid "Nowa wiadomość » Newsletter"
+msgstr "Новое сообщение » Новостная лента"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_edit.ctp:1
+msgid "Edycja wiadomości » Newsletter"
+msgstr "Редактировать сообщения » Новостная лента"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_index.ctp:1
+msgid "Lista wiadomości » Newsletter"
+msgstr "Список сообщений » Новостная лента"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\NewsletterMessages\admin_view.ctp:1
+msgid "Podgląd wiadomości » Newsletter"
+msgstr "Просмотреть сообщения » Новостная лента"
+
+#: C:\xampp\htdocs\sss\\Newsletter\View\Newsletters\admin_index.ctp:1
+msgid "Odbiorcy mailingu"
+msgstr "Получатели е-mail рассылки"
+
+#: C:\xampp\htdocs\sss\\Note\View\Elements\Notes\fields.ctp:6
+#: C:\xampp\htdocs\sss\\Note\View\Elements\Notes\table_index.ctp:6
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_view.ctp:19
+#: C:\xampp\htdocs\sss\\Note\View\Notes\view.ctp:19
+msgid "Row Id"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Note\View\Elements\Notes\table_index.ctp:1
+msgid "Notes"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Note\View\Notes\add.ctp:3
+msgid "Add Note"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Note\View\Notes\add.ctp:9
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_add.ctp:9
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_edit.ctp:11
+#: C:\xampp\htdocs\sss\\Note\View\Notes\edit.ctp:11
+msgid "List Notes"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_add.ctp:3
+msgid "Admin Add Note"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_edit.ctp:4
+msgid "Admin Edit Note"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Note\View\Notes\admin_index.ctp:8
+#: C:\xampp\htdocs\sss\\Note\View\Notes\index.ctp:9
+msgid "New Note"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Note\View\Notes\edit.ctp:4
+msgid "Edit Note"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Page\View\Elements\Pages\table_index.ctp:3
+msgid "Lista pozycji » Realizacje"
+msgstr "Список позиций » Реализация"
+
+#: C:\xampp\htdocs\sss\\Page\View\Elements\Pages\table_index.ctp:6
+msgid "Lista pozycji » Podstrony"
+msgstr "Список позиций » Подстраницы"
+
+#: C:\xampp\htdocs\sss\\Page\View\Elements\Pages\table_index.ctp:36
+msgid "Zdjęcia"
+msgstr "Изображения"
+
+#: C:\xampp\htdocs\sss\\Page\View\Pages\admin_add.ctp:2
+msgid "Nowa pozycja » Realizacje"
+msgstr "Новая позиция » Реализация"
+
+#: C:\xampp\htdocs\sss\\Page\View\Pages\admin_add.ctp:4
+msgid "Nowa pozycja » Podstrony"
+msgstr "Новая позиция » Подстраницы"
+
+#: C:\xampp\htdocs\sss\\Page\View\Pages\admin_edit.ctp:3
+msgid "Edycja pozycji » Realizacje"
+msgstr "Редактировать позиции » Реализация"
+
+#: C:\xampp\htdocs\sss\\Page\View\Pages\admin_edit.ctp:5
+msgid "Edycja pozycji » Podstrony"
+msgstr "Редактировать позиции » Подстраницы"
+
+#: C:\xampp\htdocs\sss\\Photo\Controller\PhotosController.php:99
+msgid "Nie można wysłać pliku"
+msgstr "Файл нельзя выслать"
+
+#: C:\xampp\htdocs\sss\\Photo\Controller\PhotosController.php:153;155
+msgid "Błąd podczas zapisu tytułu"
+msgstr "Ошибка во время записи заголовка"
+
+#: C:\xampp\htdocs\sss\\Photo\View\Elements\Photos\fields.ctp:4
+#: C:\xampp\htdocs\sss\\Photo\View\Elements\Photos\table_index.ctp:4
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\view.ctp:9
+#: C:\xampp\htdocs\sss\\Slider\View\Elements\Sliders\fields.ctp:24
+#: C:\xampp\htdocs\sss\\Slider\View\Elements\Sliders\table_index.ctp:11
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_view.ctp:34
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\view.ctp:34
+msgid "Img"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Elements\Photos\fields.ctp:5
+#: C:\xampp\htdocs\sss\\Photo\View\Elements\Photos\table_index.ctp:5
+msgid "Offer Id"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Elements\Photos\fields.ctp:6
+#: C:\xampp\htdocs\sss\\Photo\View\Elements\Photos\table_index.ctp:6
+msgid "Page Id"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Elements\Photos\fields.ctp:8
+#: C:\xampp\htdocs\sss\\Photo\View\Elements\Photos\table_index.ctp:8
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\view.ctp:29
+#: C:\xampp\htdocs\sss\\Region\View\Elements\Regions\fields.ctp:5
+#: C:\xampp\htdocs\sss\\Region\View\Elements\Regions\table_index.ctp:5
+#: C:\xampp\htdocs\sss\\Region\View\Regions\admin_view.ctp:14
+#: C:\xampp\htdocs\sss\\Region\View\Regions\view.ctp:14
+msgid "Order"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Elements\Photos\photoBox.ctp:15
+msgid "Ustaw jako główne"
+msgstr "Установить, как главное"
+
+#: C:\xampp\htdocs\sss\\Photo\View\Elements\Photos\photoBox.ctp:16;22
+msgid "Ustaw opis zdjęcia"
+msgstr "Добавить описание изображения"
+
+#: C:\xampp\htdocs\sss\\Photo\View\Elements\Photos\photoBox.ctp:17
+msgid "K"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Elements\Photos\photoBox.ctp:18
+msgid "Usuń zdjęcie"
+msgstr "Удалить изображение"
+
+#: C:\xampp\htdocs\sss\\Photo\View\Elements\Photos\photoBox.ctp:29
+msgid "Jesteś pewny usunięcia zdjęcia?"
+msgstr "Точно удалить изображение?"
+
+#: C:\xampp\htdocs\sss\\Photo\View\Elements\Photos\table_index.ctp:1
+msgid "Photos"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\add.ctp:3
+msgid "Add Photo"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\add.ctp:9
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\admin_add.ctp:9
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\admin_edit.ctp:11
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\edit.ctp:8
+msgid "List Photos"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\admin_add.ctp:3
+msgid "Admin Add Photo"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\admin_edit.ctp:4
+msgid "Admin Edit Photo"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\admin_index.ctp:114
+msgid "Galeria zdjęć: "
+msgstr "Галерея изображений:"
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\admin_index.ctp:171
+msgid "Edit "
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\admin_index.ctp:173
+msgid "Edycja wpisów"
+msgstr "Редакция записей"
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\admin_index.ctp:177
+msgid "List "
+msgstr "Список"
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\admin_index.ctp:179
+msgid "New Product"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\admin_index.ctp:208
+msgid "Wystąpił krytyczny bład, skontaktuj się z administratorem"
+msgstr "Появилась критическая ошибка, обратитесь к администратору"
+
+#: C:\xampp\htdocs\sss\\Photo\View\Photos\index.ctp:9
+msgid "New Photo"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Region\View\Elements\Regions\table_index.ctp:1
+msgid "Regions"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Region\View\Regions\add.ctp:3
+msgid "Add Region"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Region\View\Regions\add.ctp:9
+#: C:\xampp\htdocs\sss\\Region\View\Regions\admin_add.ctp:9
+#: C:\xampp\htdocs\sss\\Region\View\Regions\admin_edit.ctp:11
+#: C:\xampp\htdocs\sss\\Region\View\Regions\edit.ctp:11
+msgid "List Regions"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Region\View\Regions\admin_add.ctp:3
+msgid "Admin Add Region"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Region\View\Regions\admin_edit.ctp:4
+msgid "Admin Edit Region"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Region\View\Regions\admin_index.ctp:9
+#: C:\xampp\htdocs\sss\\Region\View\Regions\index.ctp:9
+msgid "New Region"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Region\View\Regions\edit.ctp:4
+msgid "Edit Region"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Searcher\Controller\SearchersController.php:55
+msgid "Niepoprawna referencja."
+msgstr "Неисправимая рекомендация."
+
+#: C:\xampp\htdocs\sss\\Searcher\Controller\SearchersController.php:81
+msgid "Niepoprawna referencja"
+msgstr "Неисправимая рекомендация"
+
+#: C:\xampp\htdocs\sss\\Searcher\Controller\SearchersController.php:87
+msgid "Nie można usunąć"
+msgstr "Нельзя удалить"
+
+#: C:\xampp\htdocs\sss\\Searcher\View\Elements\Searchers\fields.ctp:4
+msgid "model"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Searcher\View\Elements\Searchers\fields.ctp:5
+msgid "row_id"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Searcher\View\Elements\Searchers\fields.ctp:6
+msgid "selected"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Searcher\View\Searchers\admin_edit.ctp:4
+msgid "Edycja"
+msgstr "Редакция"
+
+#: C:\xampp\htdocs\sss\\Searcher\View\Searchers\admin_edit.ctp:11
+#: C:\xampp\htdocs\sss\\Searcher\View\Searchers\admin_index.ctp:2
+msgid "Lista"
+msgstr ""
+
+msgid "Photo"
+msgstr "фото"
+
+msgid "Actions"
+msgstr "Действия"
+
+#: C:\xampp\htdocs\sss\\Searcher\View\Searchers\admin_search.ctp:17
+msgid "Brak wyników wyszukiwania"
+msgstr "Поиск не дал результатов"
+
+#: C:\xampp\htdocs\sss\\Slider\View\Elements\Sliders\fields.ctp:7
+msgid "Slider Data"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Slider\View\Elements\Sliders\fields.ctp:9
+msgid "Aktywny"
+msgstr "Активный"
+
+#: C:\xampp\htdocs\sss\\Slider\View\Elements\Sliders\fields.ctp:11
+#: C:\xampp\htdocs\sss\\Slider\View\Elements\Sliders\table_index.ctp:7
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_view.ctp:14
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\view.ctp:14
+msgid "Tiny Name"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Slider\View\Elements\Sliders\fields.ctp:17
+#: C:\xampp\htdocs\sss\\Slider\View\Elements\Sliders\table_index.ctp:8
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_view.ctp:19
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\view.ctp:19
+msgid "Text Color"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Slider\View\Elements\Sliders\fields.ctp:22
+#: C:\xampp\htdocs\sss\\Slider\View\Elements\Sliders\table_index.ctp:9
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_view.ctp:24
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\view.ctp:24
+msgid "Button Text"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Slider\View\Elements\Sliders\fields.ctp:23
+#: C:\xampp\htdocs\sss\\Slider\View\Elements\Sliders\table_index.ctp:10
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_view.ctp:29
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\view.ctp:29
+msgid "Button Link"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Slider\View\Elements\Sliders\table_index.ctp:1
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\add.ctp:1
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_add.ctp:1
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_edit.ctp:1
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_index.ctp:1
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\edit.ctp:1
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\index.ctp:1
+msgid "Sliders"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Slider\View\Elements\Sliders\table_index.ctp:5
+msgid "Active"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\add.ctp:1
+msgid "Add Slider"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\add.ctp:11
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_add.ctp:11
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_edit.ctp:13
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\edit.ctp:13
+msgid "List Sliders"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_add.ctp:1
+msgid "Admin Add Slider"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_edit.ctp:1
+msgid "Admin Edit Slider"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\admin_index.ctp:9
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\index.ctp:9
+msgid "New Slider"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Slider\View\Sliders\edit.ctp:1
+msgid "Edit Slider"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\Tree\View\Categories\admin_edit.ctp:12
+msgid "Lista linków - Menu publiczne"
+msgstr "Список ссылок - Общественное меню"
+
+#: C:\xampp\htdocs\sss\\User\Controller\GroupsController.php:15;40;64
+msgid "Nieprawidłowy ID grupy"
+msgstr "Неверный ID группы"
+
+#: C:\xampp\htdocs\sss\\User\Controller\GroupsController.php:25;45
+msgid "Grupa została zapisana"
+msgstr "Группа записана"
+
+#: C:\xampp\htdocs\sss\\User\Controller\GroupsController.php:28;48
+msgid "Zapisywanie grupy nie powidło się. Sprawdź formularz i spróbuj ponownie."
+msgstr "Запись группы не произошла. Проверьте формуляж и попробуйте снова."
+
+#: C:\xampp\htdocs\sss\\User\Controller\GroupsController.php:68
+msgid "Grupa została usunięta"
+msgstr "Группа удалена"
+
+#: C:\xampp\htdocs\sss\\User\View\Elements\Users\table_index.ctp:30
+msgid "Zaloguj jako"
+msgstr "Войдите, как"
+
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_index.ctp:2
+msgid "Grupy Użytkowników"
+msgstr "Группы Пользователей"
+
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_index.ctp:7
+msgid "Nazwa"
+msgstr "Заголовок"
+
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_index.ctp:8
+msgid "Alias"
+msgstr ""
+
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_index.ctp:9
+msgid "Utworzono"
+msgstr "Создано"
+
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_index.ctp:10
+msgid "Zmodyfikowano"
+msgstr "Модифицировано"
+
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_index.ctp:11
+msgid "Akcje"
+msgstr "Акция"
+
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_index.ctp:29
+msgid "Szczegóły"
+msgstr "Детали"
+
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_index.ctp:31
+msgid "Jesteś pewien, że chcesz usunąć grupę \"%s\"?"
+msgstr "Вы уверены, что хотите удалить группу \"%s\"?"
+
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_index.ctp:40
+msgid "Dodaj %s"
+msgstr "Добавить %s"
+
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_index.ctp:41
+msgid "Lista %s"
+msgstr "Список %s"
+
+#: C:\xampp\htdocs\sss\\User\View\Groups\admin_index.ctp:42
+msgid "Uprawnienia %s"
+msgstr "Полномочия %s"
+
+#: C:\xampp\htdocs\sss\\User\View\Users\admin_index.ctp:1
+msgid "Users"
+msgstr "Пользователи"
+
+msgid "Podaj poprawny adres e-mail"
+msgstr "Укажите правильный e-mail адрес"
+
+msgid "Podpisz się, aby wysłać komentarz"
+msgstr "Подпишитесь, чтобы оставить комментарий"
+
+msgid "Wprowadź treść"
+msgstr "Введите текст"
+
+msgid "Ustawienia"
+msgstr "Параметры"
+
+msgid "Czy można przekroczyć tabelę wag"
+msgstr "Можна ли переступить таблицу веса?"
+
+msgid "Jednokrotnego użytku"
+msgstr "Однократного использования"
+
+msgid "Promotion Code Data"
+msgstr "Дата Промо Кода"
+
+msgid "New Brand"
+msgstr ""
+
+msgid "Img2"
+msgstr ""
+
+msgid "List Brands"
+msgstr ""
+
+msgid "Ilość zrealizowanych zamówień"
+msgstr "Кол-во реализованных заказов"
+
+msgid "Wartość zrealizowanych zamówień"
+msgstr "Стоимость реализованных заказов"
+
+msgid "Wykres dzienny"
+msgstr "График за день"
+
+msgid "Wykres miesięczny"
+msgstr "График за месяц"
+
+msgid "Wykres roczny"
+msgstr "График за год"
+
+msgid "Wartość"
+msgstr "Стоимость"
+
+msgid "Ilość"
+msgstr "Кол-во"
+
+msgid "Okres rozliczeniowy"
+msgstr "Расчетный период"
+
+msgid "Raporty sprzedaży"
+msgstr "Отчеты продаж"
+
+msgid "Product Category"
+msgstr "Товаров Категория"
+
+msgid "Oś czasu"
+msgstr "Хронология"
+
+
+msgid "Dodaj użytkownika"
+msgstr "Добавить пользователя"
+
+msgid "Szczegóły użytkownika"
+msgstr "Детали пользователя"
+
+msgid "Usuń użytkownika"
+msgstr "Удалить пользователя"
+
+msgid "Lista użytkowników"
+msgstr "Список пользователей"
+
+msgid "Nowa wiadomość newslettera"
+msgstr "Добавить ссобщение в рассылку"
+
+msgid "wiadomość newslettera"
+msgstr "ссобщение в рассылку"
+
+msgid "Edytuj wiadomość newslettera"
+msgstr "Редактировать ссобщение в рассылку"
+
+msgid "Usuń wiadomość newslettera"
+msgstr "Удалить ссобщение в рассылку"
+
+msgid "Lista wiadomości newslettera"
+msgstr "Список ссобщение в рассылку"
+
+msgid "Wysyłanie wiadomości"
+msgstr "Отправить ссобщение в рассылку"
+
+msgid "Data"
+msgstr "дата"
+
+msgid "gotówka"
+msgstr "наличные"
+
+msgid "przelew"
+msgstr "передача"
+
+msgid "zwrot"
+msgstr "возвращение"
+
+msgid "pobranie"
+msgstr "скачать"
+
+msgid "Typ płatności"
+msgstr "тип оплаты"
+
+msgid "zamówienie nr "
+msgstr "Заказ Номер "
+
+msgid "zmieniono z"
+msgstr "изменено с"
+
+msgid "Pobierz szablon csv"
+msgstr "Скачать шаблон csv"
+
+msgid "Import pliku csv"
+msgstr "Импортировать файл csv"
+
+msgid "New News"
+msgstr "добавить статью"
+
+msgid "News Count"
+msgstr "Кол-во статей"
+
+
+
+msgid "Podaj prawidłowy adres email"
+msgstr ""
+
+msgid "Ten adres jest już zarejestrowany w naszej bazie"
+msgstr "Данный e-mail адрес уже используется в другом зарегистрированном аккаунте. Пожалуйста, укажите другой e-mail адрес."
+
+msgid "Podaj nazwę nie przekraczającą 30 znaków"
+msgstr ""
+
+msgid "Podaj nazwę przekraczającą 3 znaki"
+msgstr ""
+
+msgid "Ten login jest już zajęty, wybierz inny"
+msgstr ""
+
+msgid "Hasło musi zawierać minimum 5 znaków"
+msgstr ""
+
+msgid "Hasła wpisane w oba pola nie są takie same."
+msgstr ""
+
+msgid "Nie zaakceptowałeś regulaminu serwisu"
+msgstr "Поставьте птичку напротив ознакомления с Регламентом сайта"
+
+
+
+
+msgid "Podaj prawidłowy adres email"
+msgstr "Редактировать пользователя"
+
+msgid "Nazwa użytkownika"
+msgstr "Логин"
+
+msgid "Edytuj użytkownika"
+msgstr "Редактировать пользователя"
+
+msgid "Edycja Avatar-a"
+msgstr "Редактировать аватар"
+
+msgid "Szczegóły grupy"
+msgstr "Детали группы"
+
+msgid "Użytkownik należy do grup"
+msgstr "Пользователь принадлежит к группы"
+
+
+msgid "New Blog Category"
+msgstr "ДОБАВИТЬ КАТЕГОРИЮ"
+
+msgid "Admin Edit Blog Category"
+msgstr "РЕДАКТИРОВАНИЕ КАТЕГОРИИ"
+
+msgid "Admin Add Blog Category"
+msgstr "добавлять"
+
+msgid "Lista slajdów"
+msgstr "список слайдов"
+
+msgid "Sliders"
+msgstr "список слайдов"
+
+msgid "New Slider"
+msgstr "НОВЫЙ СЛАЙД"
+
+msgid "Sortowanie slajdów"
+msgstr "ПОРЯДОК ПОКАЗА"
+
+msgid "List Sliders"
+msgstr "СПИСОК СЛАЙДОВ"
+
+msgid "Admin Add Slider"
+msgstr "Добавление слайда"
+
+msgid "Admin Edit Slider"
+msgstr "„Добавление слайда"
+
+msgid "Slider Data"
+msgstr "Информация"
+
+msgid "Slider Name"
+msgstr "Заголовок"
+
+msgid "Admin Edit Blog"
+msgstr "РЕДАКТИРОВАНИЕ ЗАПИСИ"
+
+msgid "News Data"
+msgstr "Основная информация"
+
+msgid "LIST BLOG ARTICLES"
+msgstr "СПИСОК ЗАПИСЕЙ"
+
+msgid "Main"
+msgstr "Главная"
+
+msgid "Content"
+msgstr "Полное описание"
+
+msgid "List Blog Categories"
+msgstr "СПИСОК КАТЕГОРИЙ"
+
+msgid "Edit News"
+msgstr "ВЕРНУТЬСЯ К ЗАПИСИ"
+
+msgid "List News"
+msgstr "СПИСОК ЗАПИСЕЙ"
+
+msgid "Ustaw tytuł"
+msgstr "Впишите описание"
+
+msgid "Zapisz"
+msgstr "Записать"
+
+msgid "Dodaj zdjęcie"
+msgstr "Добавить изображение"

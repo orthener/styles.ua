@@ -1,0 +1,26 @@
+//Model Order Statuses 
+
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Order Statuses"
+msgstr "Order Statuses"
+
+msgid "New Order Status"
+msgstr "Dodaj Order Status"
+
+msgid "List Order Statuses"
+msgstr "Lista Order Statuses"
+
+msgid "Edit Order Statuses"
+msgstr "Edycja Order Statuses"
+
+msgid "Delete Order Statuses"
+msgstr "Usuń Order Statuses"
+
+msgid "Admin Add Order Status"
+msgstr "Dodawanie Order Status"
+
+msgid "Admin Edit Order Status"
+msgstr "Edycja Order Status"
+

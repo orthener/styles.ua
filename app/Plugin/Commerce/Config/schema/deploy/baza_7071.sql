@@ -1,0 +1,1 @@
+ALTER TABLE  `addresses` ADD  `phone` INT( 30 ) NOT NULL AFTER  `country_id`

@@ -1,0 +1,34 @@
+//Model Notes 
+
+msgid "User Id"
+msgstr "User Id"
+msgid "Row Id"
+msgstr "Row Id"
+msgid "Model"
+msgstr "Model"
+msgid "Content"
+msgstr "Content"
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Notes"
+msgstr "Notes"
+
+msgid "New Note"
+msgstr "Dodaj Note"
+
+msgid "List Notes"
+msgstr "Lista Notes"
+
+msgid "Edit Notes"
+msgstr "Edycja Notes"
+
+msgid "Delete Notes"
+msgstr "Usuń Notes"
+
+msgid "Admin Add Note"
+msgstr "Dodawanie Note"
+
+msgid "Admin Edit Note"
+msgstr "Edycja Note"
+

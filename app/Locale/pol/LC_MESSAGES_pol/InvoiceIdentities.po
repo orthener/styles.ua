@@ -1,0 +1,42 @@
+//Model Invoice Identities 
+
+msgid "Customer Id"
+msgstr "Customer Id"
+msgid "Iscompany"
+msgstr "Iscompany"
+msgid "Nip"
+msgstr "Nip"
+msgid "Address"
+msgstr "Address"
+msgid "City"
+msgstr "City"
+msgid "Post Code"
+msgstr "Post Code"
+msgid "Region Id"
+msgstr "Region Id"
+msgid "Country Id"
+msgstr "Country Id"
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Invoice Identities"
+msgstr "Invoice Identities"
+
+msgid "New Invoice Identity"
+msgstr "Dodaj Invoice Identity"
+
+msgid "List Invoice Identities"
+msgstr "Lista Invoice Identities"
+
+msgid "Edit Invoice Identities"
+msgstr "Edycja Invoice Identities"
+
+msgid "Delete Invoice Identities"
+msgstr "Usuń Invoice Identities"
+
+msgid "Admin Add Invoice Identity"
+msgstr "Dodawanie Invoice Identity"
+
+msgid "Admin Edit Invoice Identity"
+msgstr "Edycja Invoice Identity"
+

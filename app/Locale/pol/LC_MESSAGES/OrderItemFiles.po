@@ -1,0 +1,30 @@
+//Model Order Item Files 
+
+msgid "Order Item Id"
+msgstr "Order Item Id"
+msgid "Accepted"
+msgstr "Accepted"
+msgid "Desc"
+msgstr "Desc"
+
+msgid "Order Item Files"
+msgstr "Order Item Files"
+
+msgid "New Order Item File"
+msgstr "Dodaj Order Item File"
+
+msgid "List Order Item Files"
+msgstr "Lista Order Item Files"
+
+msgid "Edit Order Item Files"
+msgstr "Edycja Order Item Files"
+
+msgid "Delete Order Item Files"
+msgstr "Usuń Order Item Files"
+
+msgid "Admin Add Order Item File"
+msgstr "Dodawanie Order Item File"
+
+msgid "Admin Edit Order Item File"
+msgstr "Edycja Order Item File"
+

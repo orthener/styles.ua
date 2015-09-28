@@ -1,0 +1,65 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+em{
+    font-style: italic;
+}
+strong{
+    font-weight: bold;
+}
+ol,ul {
+	list-style-type: none;
+	list-style-image: none;
+	list-style-position: outside;
+	padding-left: 20px;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;}
+
+img{display:block;border: 0;}
+a img{display:inline;}
+a{text-decoration: none; outline:none;}
+a:hover{text-decoration: underline;}
+form{vertical-align:middle;}
+.clear{clear:both;}
+table{border-collapse:collapse;}
+/* clearfix */
+.clearfix:after {
+    clear: both;
+    height: 0;
+    
+    display: block;
+    visibility: hidden;
+    
+    content: ".";
+}
+.clearfix {display:inline-block;}
+/* Hide from IE Mac \*/
+.clearfix {display:block;}
+/* End hide from IE Mac */
+
+/* end clearfix */
+
+::-moz-selection{background: #0083d8; color: #fff; text-shadow: none;}
+::selection {background: #0083d8; color: #fff; text-shadow: none;} 

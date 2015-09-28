@@ -1,0 +1,8 @@
+#content .productCategories {
+    float: right;
+    width: 20%;
+}
+#content .products {
+    float: left;
+    width: 80%;
+}

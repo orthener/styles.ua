@@ -1,0 +1,33 @@
+//Model Window Bar Type Widths 
+
+msgid "Window Bar Type Id"
+msgstr "Window Bar Type Id"
+msgid "Width Mm"
+msgstr "Width Mm"
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Window Bar Type Widths"
+msgstr "Window Bar Type Widths"
+
+msgid "New Window Bar Type Width"
+msgstr "Dodaj Window Bar Type Width"
+
+msgid "List Window Bar Type Widths"
+msgstr "Lista Window Bar Type Widths"
+
+msgid "Edit Window Bar Type Widths"
+msgstr "Edycja Window Bar Type Widths"
+
+msgid "Delete Window Bar Type Widths"
+msgstr "Usuń Window Bar Type Widths"
+
+msgid "Admin Add Window Bar Type Width"
+msgstr "Dodawanie Window Bar Type Width"
+
+msgid "Admin Edit Window Bar Type Width"
+msgstr "Edycja Window Bar Type Width"
+
+msgid "Window Bar Type Width Data"
+msgstr "Dane Window Bar Type Width"
+

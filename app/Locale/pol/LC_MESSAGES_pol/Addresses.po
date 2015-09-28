@@ -1,0 +1,40 @@
+//Model Addresses 
+
+msgid "Customer Id"
+msgstr "Customer Id"
+msgid "Address"
+msgstr "Address"
+msgid "City"
+msgstr "City"
+msgid "Post Code"
+msgstr "Post Code"
+msgid "Region Id"
+msgstr "Region Id"
+msgid "Country Id"
+msgstr "Country Id"
+msgid "Phone"
+msgstr "Phone"
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Addresses"
+msgstr "Addresses"
+
+msgid "New Address"
+msgstr "Dodaj Address"
+
+msgid "List Addresses"
+msgstr "Lista Addresses"
+
+msgid "Edit Addresses"
+msgstr "Edycja Addresses"
+
+msgid "Delete Addresses"
+msgstr "Usuń Addresses"
+
+msgid "Admin Add Address"
+msgstr "Dodawanie Address"
+
+msgid "Admin Edit Address"
+msgstr "Edycja Address"
+

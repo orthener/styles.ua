@@ -1,0 +1,185 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-02-18 10:34+0100\n"
+"PO-Revision-Date: 2014-02-19 13:04+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 1.6.3\n"
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:43
+msgid "Nieprawodłowy login lub hasło"
+msgstr "Упс… Вы ввели неправильный логин или пароль"
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:84;102
+msgid "Nie ma takiego użytkownika"
+msgstr "Такого пользователя не существует."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:94
+msgid "Korzystasz z panelu jako "
+msgstr "Вы вошли в панель, как"
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:107
+msgid "Przełączono użytkownika na "
+msgstr "Пользователь переключен на"
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:118;138
+msgid "Błędna dane logowania"
+msgstr "Ошибочные данные для входа!"
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:119;139
+msgid ""
+"Wprowadzony login bądź hasło jest niepoprawny. Pamiętaj, że wielkość liter "
+"ma znaczenie."
+msgstr "Введённый логин или пароль некорректный."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:164
+msgid ""
+"Logowanie nie jest możliwe, ponieważ konto nie zostało aktywowane. \n"
+"                Na Twój adres email wysłana została wiadomość z linkiem "
+"aktywacyjnym, sprawdź pocztę email.\n"
+"                W razie problemów z aktywacją konta skontaktuj się z nami "
+"pod adresem"
+msgstr ""
+"Вход в аккаунт в данный момент не возможен, так как Ваш аккаунт еще не "
+"активирован. \n"
+"                На Ваш e-mail адрес было отправлено сообщение с "
+"активационной ссылкой, проверьте свой                                 "
+"почтовый ящик.\n"
+"                В случае проблем с активацией аккаунта. пожалуйста, "
+"свяжитесь с нами."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:207;208
+msgid "Zalogowano poprawnie"
+msgstr "Вы вошли в свой аккаунт."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:229
+msgid "Błędne hasło"
+msgstr "Ошибочный пароль"
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:232
+msgid "Błędny login"
+msgstr "Ошибочный логин"
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:252
+msgid "Wylogowano poprawnie"
+msgstr "Вы вышли из аккаунта."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:301
+msgid ""
+"Konto zostało utworzone. Odbierz pocztę email, aby przejść do kolejnego "
+"kroku rejestracji."
+msgstr ""
+"Ваш аккаунт был создан. Проверьте свою почту, чтобы перейти к следующему "
+"шагу активации."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:305
+msgid "Rejestracja nie powiodła się. Sprawdź formularz i spróbuj ponownie."
+msgstr "Ошибка регистрации! Проверьте, пожалуйста, форму и попробуйте снова."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:329
+msgid " - rejestracja konta"
+msgstr " - регистрация аккаунта"
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:338
+msgid "Konto było już aktywowane, zaloguj się aby korzystać z konta."
+msgstr ""
+"Ваш аккаунт уже активирован, войдите в него используя данные, указанные Вами "
+"при регистрации."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:353
+msgid "Konto zostało aktywowane."
+msgstr "Ваш аккаунт активирован."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:356;449;453
+msgid "Sprawdź formularz i spróbuj ponownie"
+msgstr "Проверьте форму и попробуйте снова."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:372
+msgid ""
+"Link jest nieprawidłowy lub stracił ważność, skontaktuj się z "
+"administratorem."
+msgstr ""
+"Данная ссылка неправильная либо утратила свою важность, свяжитесь, "
+"пожалуйста, с администратором."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:380
+msgid "Hasło zostało zmienione. Zaloguj się."
+msgstr "Ваш пароль изменен, войдите в аккаунт, используя новые данные."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:383
+msgid "Nie udało się zapisać zmian."
+msgstr "Изменения не удалось записать.."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:414
+msgid " - link resetowania hasła"
+msgstr " - ссылка для сброса пароля"
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:429
+msgid "Odbierz pocztę."
+msgstr "Проверьте свою почту."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:432
+msgid "Podany e-mail nie istnieje w bazie, lub konto nie zostało aktywowane."
+msgstr ""
+"Указанный e-mail адрес не зарегистрирован в системе, либо Ваш аккаунт еще не "
+"был активирован."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:446
+msgid "Hasło zostało zmienione. Możesz się teraz zalogować nowym hasłem"
+msgstr "Пароль изменен. Войдите в аккаунт, используя новый пароль."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:546;627
+msgid "Nie odnaleziono użytkownika"
+msgstr "Пользователь не найден."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:561
+msgid "Avatar zostal zapisany"
+msgstr "Аватар сохранён."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:563
+msgid ""
+"Zapisywanie avatara nie powidło się. Sprawdź formularz i spróbuj ponownie."
+msgstr "Сохранение Аватара не произошло. Проверьте форму и попробуйте снова."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:640;668
+msgid "Użytkownik został zapisany"
+msgstr "Данные пользователя сохранены."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:643;674
+msgid ""
+"Zapisywanie użytkownika nie powidło się. Sprawdź formularz i spróbuj "
+"ponownie."
+msgstr ""
+"Сохранение данных пользователя не произошло. Проверьте форму и попробуйте "
+"снова."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:655
+msgid "Błedy Użytkownik"
+msgstr "Ошибка Пользователя."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:696
+msgid "Invalid user"
+msgstr "Ошибка Пользователя."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:699
+msgid "Użytkownik został usunięty"
+msgstr "Пользователь удалён."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:702
+msgid ""
+"Usuwanie użytkownika nie powiodło się, spróbuj ponownie, lub skontaktuj się "
+"z administratorem."
+msgstr ""
+"Удаление Пользователя не произошло. Попробуйте снова, либо свяжитесь с нами."
+
+#: C:\xampp\htdocs\sss\\User\Controller\UsersController.php:716
+msgid "Hasło zostało ustawione"
+msgstr "Пароль установлен."

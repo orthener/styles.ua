@@ -1,0 +1,40 @@
+//Model Customers 
+
+msgid "User Id"
+msgstr "User Id"
+msgid "Contact Person"
+msgstr "Contact Person"
+msgid "Email"
+msgstr "Email"
+msgid "Phone"
+msgstr "Phone"
+msgid "Address Id"
+msgstr "Address Id"
+msgid "Invoice Identity Id"
+msgstr "Invoice Identity Id"
+msgid "Discount"
+msgstr "Discount"
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Customers"
+msgstr "Customers"
+
+msgid "New Customer"
+msgstr "Dodaj Customer"
+
+msgid "List Customers"
+msgstr "Lista Customers"
+
+msgid "Edit Customers"
+msgstr "Edycja Customers"
+
+msgid "Delete Customers"
+msgstr "Usuń Customers"
+
+msgid "Admin Add Customer"
+msgstr "Dodawanie Customer"
+
+msgid "Admin Edit Customer"
+msgstr "Edycja Customer"
+

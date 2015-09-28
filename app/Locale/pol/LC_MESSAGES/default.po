@@ -1,0 +1,2120 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-01-03 10:03+0100\n"
+"PO-Revision-Date: 2014-01-14 14:41+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 1.6.3\n"
+
+#: Console\Templates\skel\View\Layouts\default.ctp:24
+msgid "CakePHP: the rapid development php framework:"
+msgstr ""
+
+#: Console\Templates\skel\View\Layouts\default.ctp:38;49
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: Controller\AppController.php:84
+msgid "Nieprawidłowy email lub hasło"
+msgstr "Неверный e-mail либо пароль"
+
+#: Controller\AppController.php:87
+msgid "Nie masz dostępu do tego zasobu"
+msgstr "У Вас нет доступа к этому инструменту"
+
+#: Controller\AppController.php:89
+msgid "Zaloguj się, aby uzyskać dostęp"
+msgstr "Войдите в свой аккаунт, чтобы получить доступ"
+
+#: Plugin\Banner\View\Banners\admin_add.ctp:9
+#: Plugin\Banner\View\Banners\admin_edit.ctp:10
+#: Plugin\Banner\View\Banners\admin_index.ctp:7
+#: Plugin\Banner\View\Banners\admin_index_friendly_mode.ctp:21
+#: Plugin\Banner\View\Banners\admin_view.ctp:42
+#: Plugin\Brand\View\Brands\add.ctp:9 Plugin\Brand\View\Brands\admin_add.ctp:9
+#: Plugin\Brand\View\Brands\admin_edit.ctp:10
+#: Plugin\Brand\View\Brands\admin_index.ctp:7
+#: Plugin\Brand\View\Brands\admin_view.ctp:47
+#: Plugin\Brand\View\Brands\edit.ctp:10
+#: Plugin\Brand\View\Elements\Brands\table_index.ctp:10
+#: Plugin\Commerce\View\Addresses\add.ctp:7
+#: Plugin\Commerce\View\Addresses\admin_add.ctp:7
+#: Plugin\Commerce\View\Addresses\admin_edit.ctp:8
+#: Plugin\Commerce\View\Addresses\admin_index.ctp:7
+#: Plugin\Commerce\View\Addresses\admin_view.ctp:62
+#: Plugin\Commerce\View\Addresses\edit.ctp:8
+#: Plugin\Commerce\View\Addresses\index.ctp:7
+#: Plugin\Commerce\View\Addresses\view.ctp:62
+#: Plugin\Commerce\View\AffiliatePrograms\add.ctp:7
+#: Plugin\Commerce\View\AffiliatePrograms\admin_add.ctp:7
+#: Plugin\Commerce\View\AffiliatePrograms\admin_edit.ctp:8
+#: Plugin\Commerce\View\AffiliatePrograms\admin_index.ctp:7
+#: Plugin\Commerce\View\AffiliatePrograms\admin_view.ctp:27
+#: Plugin\Commerce\View\AffiliatePrograms\edit.ctp:8
+#: Plugin\Commerce\View\AffiliatePrograms\index.ctp:7
+#: Plugin\Commerce\View\AffiliatePrograms\view.ctp:27
+#: Plugin\Commerce\View\CurrencyExchangeRates\admin_add.ctp:14
+#: Plugin\Commerce\View\CurrencyExchangeRates\admin_edit.ctp:19
+#: Plugin\Commerce\View\CurrencyExchangeRates\admin_index.ctp:10;25
+#: Plugin\Commerce\View\Customers\admin_add.ctp:7
+#: Plugin\Commerce\View\Customers\admin_edit.ctp:8
+#: Plugin\Commerce\View\Customers\admin_index.ctp:10
+#: Plugin\Commerce\View\Customers\admin_view.ctp:57;89;139;196
+#: Plugin\Commerce\View\Elements\Addresses\table_index.ctp:13
+#: Plugin\Commerce\View\Elements\AffiliatePrograms\table_index.ctp:7
+#: Plugin\Commerce\View\Elements\Customers\table_index.ctp:12
+#: Plugin\Commerce\View\Elements\InvoiceIdentities\table_index.ctp:14
+#: Plugin\Commerce\View\Elements\OrderItemFiles\table_index.ctp:8
+#: Plugin\Commerce\View\Elements\OrderItems\table_index.ctp:16
+#: Plugin\Commerce\View\Elements\OrderReferences\table_index.ctp:8
+#: Plugin\Commerce\View\Elements\OrderStatuses\table_index.ctp:7
+#: Plugin\Commerce\View\Elements\Orders\table_index.ctp:49
+#: Plugin\Commerce\View\Elements\PromotionCodes\table_index.ctp:12
+#: Plugin\Commerce\View\Elements\ShipmentMethodConfigs\table_index.ctp:9
+#: Plugin\Commerce\View\Elements\ShipmentMethods\table_index.ctp:14
+#: Plugin\Commerce\View\InvoiceIdentities\add.ctp:7
+#: Plugin\Commerce\View\InvoiceIdentities\admin_add.ctp:7
+#: Plugin\Commerce\View\InvoiceIdentities\admin_edit.ctp:8
+#: Plugin\Commerce\View\InvoiceIdentities\admin_index.ctp:7
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:67;96
+#: Plugin\Commerce\View\InvoiceIdentities\edit.ctp:8
+#: Plugin\Commerce\View\InvoiceIdentities\index.ctp:7
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:67;96
+#: Plugin\Commerce\View\OrderItemFiles\add.ctp:7
+#: Plugin\Commerce\View\OrderItemFiles\admin_add.ctp:7
+#: Plugin\Commerce\View\OrderItemFiles\admin_edit.ctp:8
+#: Plugin\Commerce\View\OrderItemFiles\admin_index.ctp:7
+#: Plugin\Commerce\View\OrderItemFiles\admin_view.ctp:32
+#: Plugin\Commerce\View\OrderItemFiles\edit.ctp:8
+#: Plugin\Commerce\View\OrderItemFiles\index.ctp:7
+#: Plugin\Commerce\View\OrderItemFiles\view.ctp:32
+#: Plugin\Commerce\View\OrderItems\add.ctp:7
+#: Plugin\Commerce\View\OrderItems\admin_add.ctp:7
+#: Plugin\Commerce\View\OrderItems\admin_edit.ctp:8
+#: Plugin\Commerce\View\OrderItems\admin_index.ctp:7
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:77;99
+#: Plugin\Commerce\View\OrderItems\edit.ctp:8
+#: Plugin\Commerce\View\OrderItems\index.ctp:7
+#: Plugin\Commerce\View\OrderItems\view.ctp:77;99
+#: Plugin\Commerce\View\OrderReferences\add.ctp:9
+#: Plugin\Commerce\View\OrderReferences\admin_add.ctp:9
+#: Plugin\Commerce\View\OrderReferences\admin_edit.ctp:10
+#: Plugin\Commerce\View\OrderReferences\admin_index.ctp:7
+#: Plugin\Commerce\View\OrderReferences\admin_view.ctp:32
+#: Plugin\Commerce\View\OrderReferences\edit.ctp:10
+#: Plugin\Commerce\View\OrderReferences\index.ctp:7
+#: Plugin\Commerce\View\OrderReferences\view.ctp:32
+#: Plugin\Commerce\View\OrderStatuses\add.ctp:7
+#: Plugin\Commerce\View\OrderStatuses\admin_add.ctp:7
+#: Plugin\Commerce\View\OrderStatuses\admin_edit.ctp:8
+#: Plugin\Commerce\View\OrderStatuses\admin_index.ctp:7
+#: Plugin\Commerce\View\OrderStatuses\admin_view.ctp:32
+#: Plugin\Commerce\View\OrderStatuses\edit.ctp:8
+#: Plugin\Commerce\View\OrderStatuses\index.ctp:7
+#: Plugin\Commerce\View\OrderStatuses\view.ctp:32
+#: Plugin\Commerce\View\Orders\admin_add.ctp:22
+#: Plugin\Commerce\View\Orders\admin_edit.ctp:182
+#: Plugin\Commerce\View\Orders\admin_index.ctp:16
+#: Plugin\Commerce\View\Orders\admin_index_cancel.ctp:13
+#: Plugin\Commerce\View\Orders\admin_index_chart.ctp:11
+#: Plugin\Commerce\View\PromotionCodes\add.ctp:9
+#: Plugin\Commerce\View\PromotionCodes\admin_add.ctp:9
+#: Plugin\Commerce\View\PromotionCodes\admin_edit.ctp:10
+#: Plugin\Commerce\View\PromotionCodes\admin_index.ctp:7
+#: Plugin\Commerce\View\PromotionCodes\admin_view.ctp:52
+#: Plugin\Commerce\View\PromotionCodes\edit.ctp:10
+#: Plugin\Commerce\View\PromotionCodes\index.ctp:7
+#: Plugin\Commerce\View\PromotionCodes\view.ctp:52
+#: Plugin\Commerce\View\ShipmentMethodConfigs\add.ctp:7
+#: Plugin\Commerce\View\ShipmentMethodConfigs\admin_add.ctp:7
+#: Plugin\Commerce\View\ShipmentMethodConfigs\admin_edit.ctp:8
+#: Plugin\Commerce\View\ShipmentMethodConfigs\admin_index.ctp:7
+#: Plugin\Commerce\View\ShipmentMethodConfigs\admin_view.ctp:42
+#: Plugin\Commerce\View\ShipmentMethodConfigs\edit.ctp:8
+#: Plugin\Commerce\View\ShipmentMethodConfigs\index.ctp:7
+#: Plugin\Commerce\View\ShipmentMethodConfigs\view.ctp:42
+#: Plugin\Commerce\View\ShipmentMethods\add.ctp:7
+#: Plugin\Commerce\View\ShipmentMethods\admin_add.ctp:7
+#: Plugin\Commerce\View\ShipmentMethods\admin_edit.ctp:8
+#: Plugin\Commerce\View\ShipmentMethods\admin_index.ctp:7
+#: Plugin\Commerce\View\ShipmentMethods\admin_view.ctp:57;79
+#: Plugin\Commerce\View\ShipmentMethods\edit.ctp:8
+#: Plugin\Commerce\View\ShipmentMethods\index.ctp:7
+#: Plugin\Commerce\View\ShipmentMethods\view.ctp:57;79
+#: Plugin\Info\View\Elements\InfoCategories\table_index.ctp:7
+#: Plugin\Info\View\Elements\InfoPages\table_index.ctp:13
+#: Plugin\Info\View\Elements\InfoTags\table_index.ctp:8
+#: Plugin\Info\View\InfoCategories\add.ctp:9
+#: Plugin\Info\View\InfoCategories\admin_add.ctp:10
+#: Plugin\Info\View\InfoCategories\admin_edit.ctp:10
+#: Plugin\Info\View\InfoCategories\admin_index.ctp:7
+#: Plugin\Info\View\InfoCategories\admin_view.ctp:27
+#: Plugin\Info\View\InfoCategories\edit.ctp:10
+#: Plugin\Info\View\InfoCategories\index.ctp:8
+#: Plugin\Info\View\InfoCategories\view.ctp:27
+#: Plugin\Info\View\InfoPages\add.ctp:9
+#: Plugin\Info\View\InfoPages\admin_add.ctp:9
+#: Plugin\Info\View\InfoPages\admin_edit.ctp:10
+#: Plugin\Info\View\InfoPages\admin_index.ctp:8
+#: Plugin\Info\View\InfoPages\admin_view.ctp:47
+#: Plugin\Info\View\InfoPages\edit.ctp:10
+#: Plugin\Info\View\InfoPages\view_old.ctp:47
+#: Plugin\Info\View\InfoTags\add.ctp:9
+#: Plugin\Info\View\InfoTags\admin_add.ctp:9
+#: Plugin\Info\View\InfoTags\admin_edit.ctp:10
+#: Plugin\Info\View\InfoTags\admin_index.ctp:7
+#: Plugin\Info\View\InfoTags\admin_view.ctp:32
+#: Plugin\Info\View\InfoTags\edit.ctp:10 Plugin\Info\View\InfoTags\view.ctp:32
+#: Plugin\Payments\View\Elements\Payments\table_index.ctp:26
+#: Plugin\Payments\View\Payments\add.ctp:9
+#: Plugin\Payments\View\Payments\admin_add.ctp:32
+#: Plugin\Payments\View\Payments\admin_add_1.ctp:9
+#: Plugin\Payments\View\Payments\admin_edit.ctp:10
+#: Plugin\Payments\View\Payments\admin_index.ctp:7
+#: Plugin\Payments\View\Payments\admin_view.ctp:122
+#: Plugin\Payments\View\Payments\edit.ctp:10
+#: Plugin\Payments\View\Payments\index.ctp:7
+#: Plugin\Payments\View\Payments\view.ctp:122
+#: Plugin\Sort\View\Sorts\admin_sort.ctp:17
+#: Plugin\StaticProduct\View\Elements\Products\table_index.ctp:37
+#: Plugin\StaticProduct\View\Elements\ProductsPromotions\table_index.ctp:7
+#: Plugin\StaticProduct\View\Products\admin_add.ctp:9
+#: Plugin\StaticProduct\View\Products\admin_csv_import.ctp:444
+#: Plugin\StaticProduct\View\Products\admin_edit.ctp:10
+#: Plugin\StaticProduct\View\Products\admin_index.ctp:16
+#: Plugin\StaticProduct\View\Products\admin_view.ctp:62
+#: Plugin\StaticProduct\View\ProductsCategories\admin_add.ctp:9
+#: Plugin\StaticProduct\View\ProductsCategories\admin_edit.ctp:10
+#: Plugin\StaticProduct\View\ProductsCategories\admin_index.ctp:7
+#: Plugin\StaticProduct\View\ProductsCategories\admin_index_friendly_mode.ctp:21
+#: Plugin\StaticProduct\View\ProductsCategories\admin_view.ctp:42
+#: Plugin\StaticProduct\View\ProductsPromotions\admin_add.ctp:9
+#: Plugin\StaticProduct\View\ProductsPromotions\admin_edit.ctp:10
+#: Plugin\StaticProduct\View\ProductsPromotions\admin_index.ctp:7
+#: Plugin\Studio\View\Elements\StudioMovies\table_index.ctp:11
+#: Plugin\Studio\View\StudioMovies\add.ctp:9
+#: Plugin\Studio\View\StudioMovies\admin_add.ctp:10
+#: Plugin\Studio\View\StudioMovies\admin_edit.ctp:10
+#: Plugin\Studio\View\StudioMovies\admin_index.ctp:7
+#: Plugin\Studio\View\StudioMovies\admin_view.ctp:37
+#: Plugin\Studio\View\StudioMovies\edit.ctp:10
+#: Plugin\Studio\View\StudioMovies\index.ctp:7
+#: Plugin\Studio\View\StudioMovies\view.ctp:37
+msgid "Actions"
+msgstr ""
+
+#: Plugin\Banner\View\Banners\admin_edit.ctp:12
+#: Plugin\Banner\View\Banners\admin_view.ctp:45
+#: Plugin\Brand\View\Brands\admin_edit.ctp:12
+#: Plugin\Brand\View\Brands\admin_view.ctp:50
+#: Plugin\Brand\View\Brands\edit.ctp:12
+#: Plugin\Commerce\View\Addresses\admin_edit.ctp:10
+#: Plugin\Commerce\View\Addresses\admin_view.ctp:65
+#: Plugin\Commerce\View\Addresses\edit.ctp:10
+#: Plugin\Commerce\View\Addresses\view.ctp:65
+#: Plugin\Commerce\View\AffiliatePrograms\admin_edit.ctp:10
+#: Plugin\Commerce\View\AffiliatePrograms\admin_view.ctp:30
+#: Plugin\Commerce\View\AffiliatePrograms\edit.ctp:10
+#: Plugin\Commerce\View\AffiliatePrograms\view.ctp:30
+#: Plugin\Commerce\View\Customers\admin_view.ctp:60;109;160;223
+#: Plugin\Commerce\View\Elements\Addresses\table_index.ctp:37
+#: Plugin\Commerce\View\Elements\AffiliatePrograms\table_index.ctp:19
+#: Plugin\Commerce\View\Elements\Customers\table_index.ctp:33
+#: Plugin\Commerce\View\Elements\InvoiceIdentities\table_index.ctp:39
+#: Plugin\Commerce\View\Elements\OrderItemFiles\table_index.ctp:23
+#: Plugin\Commerce\View\Elements\OrderItems\table_index.ctp:39
+#: Plugin\Commerce\View\Elements\OrderReferences\table_index.ctp:22
+#: Plugin\Commerce\View\Elements\OrderStatuses\table_index.ctp:19
+#: Plugin\Commerce\View\Elements\PromotionCodes\table_index.ctp:30
+#: Plugin\Commerce\View\Elements\ShipmentMethodConfigs\table_index.ctp:26
+#: Plugin\Commerce\View\Elements\ShipmentMethods\table_index.ctp:34
+#: Plugin\Commerce\View\InvoiceIdentities\admin_edit.ctp:10
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:70;115
+#: Plugin\Commerce\View\InvoiceIdentities\edit.ctp:10
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:70;115
+#: Plugin\Commerce\View\OrderItemFiles\admin_edit.ctp:10
+#: Plugin\Commerce\View\OrderItemFiles\admin_view.ctp:35
+#: Plugin\Commerce\View\OrderItemFiles\edit.ctp:10
+#: Plugin\Commerce\View\OrderItemFiles\view.ctp:35
+#: Plugin\Commerce\View\OrderItems\admin_edit.ctp:10
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:80;113
+#: Plugin\Commerce\View\OrderItems\edit.ctp:10
+#: Plugin\Commerce\View\OrderItems\view.ctp:80;113
+#: Plugin\Commerce\View\OrderReferences\admin_edit.ctp:12
+#: Plugin\Commerce\View\OrderReferences\admin_view.ctp:35
+#: Plugin\Commerce\View\OrderReferences\edit.ctp:12
+#: Plugin\Commerce\View\OrderReferences\view.ctp:35
+#: Plugin\Commerce\View\OrderStatuses\admin_edit.ctp:10
+#: Plugin\Commerce\View\OrderStatuses\admin_view.ctp:35
+#: Plugin\Commerce\View\OrderStatuses\edit.ctp:10
+#: Plugin\Commerce\View\OrderStatuses\view.ctp:35
+#: Plugin\Commerce\View\PromotionCodes\admin_edit.ctp:12
+#: Plugin\Commerce\View\PromotionCodes\admin_view.ctp:55
+#: Plugin\Commerce\View\PromotionCodes\edit.ctp:12
+#: Plugin\Commerce\View\PromotionCodes\view.ctp:55
+#: Plugin\Commerce\View\ShipmentMethodConfigs\admin_edit.ctp:10
+#: Plugin\Commerce\View\ShipmentMethodConfigs\admin_view.ctp:45
+#: Plugin\Commerce\View\ShipmentMethodConfigs\edit.ctp:10
+#: Plugin\Commerce\View\ShipmentMethodConfigs\view.ctp:45
+#: Plugin\Commerce\View\ShipmentMethods\admin_edit.ctp:10
+#: Plugin\Commerce\View\ShipmentMethods\admin_view.ctp:60;95
+#: Plugin\Commerce\View\ShipmentMethods\edit.ctp:10
+#: Plugin\Commerce\View\ShipmentMethods\view.ctp:60;95
+#: Plugin\Info\View\InfoCategories\admin_edit.ctp:12
+#: Plugin\Info\View\InfoCategories\admin_view.ctp:30
+#: Plugin\Info\View\InfoCategories\edit.ctp:12
+#: Plugin\Info\View\InfoCategories\view.ctp:30
+#: Plugin\Info\View\InfoPages\admin_edit.ctp:12
+#: Plugin\Info\View\InfoPages\admin_view.ctp:50
+#: Plugin\Info\View\InfoPages\edit.ctp:12
+#: Plugin\Info\View\InfoPages\view_old.ctp:50
+#: Plugin\Info\View\InfoTags\admin_edit.ctp:12
+#: Plugin\Info\View\InfoTags\admin_view.ctp:35
+#: Plugin\Info\View\InfoTags\edit.ctp:12 Plugin\Info\View\InfoTags\view.ctp:35
+#: Plugin\Payments\View\Elements\Payments\table_index.ctp:59
+#: Plugin\Payments\View\Payments\admin_edit.ctp:12
+#: Plugin\Payments\View\Payments\admin_view.ctp:125
+#: Plugin\Payments\View\Payments\edit.ctp:12
+#: Plugin\Payments\View\Payments\view.ctp:125
+#: Plugin\StaticProduct\View\Elements\Products\table_index.ctp:112
+#: Plugin\StaticProduct\View\Products\admin_edit.ctp:12
+#: Plugin\StaticProduct\View\Products\admin_view.ctp:65
+#: Plugin\StaticProduct\View\ProductsCategories\admin_edit.ctp:12
+#: Plugin\StaticProduct\View\ProductsCategories\admin_view.ctp:45
+#: Plugin\StaticProduct\View\ProductsPromotions\admin_edit.ctp:12
+#: Plugin\Studio\View\StudioMovies\admin_edit.ctp:12
+#: Plugin\Studio\View\StudioMovies\admin_view.ctp:40
+#: Plugin\Studio\View\StudioMovies\edit.ctp:12
+#: Plugin\Studio\View\StudioMovies\view.ctp:40
+msgid "Are you sure you want to delete # %s?"
+msgstr "Вы уверены, что хотите удалить # %s?"
+
+#: Plugin\Banner\View\Banners\admin_view.ctp:2
+msgid "Banner"
+msgstr "Баннер"
+
+#: Plugin\Banner\View\Banners\admin_view.ctp:44
+msgid "Edit Banner"
+msgstr "Редактировать Баннер"
+
+#: Plugin\Banner\View\Banners\admin_view.ctp:45
+msgid "Delete Banner"
+msgstr "Удалить Баннер"
+
+#: Plugin\Banner\View\Banners\admin_view.ctp:46
+#: Plugin\StaticProduct\View\Products\admin_view.ctp:70
+#: Plugin\StaticProduct\View\ProductsCategories\admin_view.ctp:46
+msgid "List Product Categories"
+msgstr "Список Категорий Продуктов"
+
+#: Plugin\Banner\View\Banners\admin_view.ctp:47
+msgid "New Banner"
+msgstr "Новый Баннер"
+
+#: Plugin\Brand\Controller\BrandsController.php:67
+msgid "Invalid brand"
+msgstr "Неверный бренд"
+
+#: Plugin\Brand\View\Brands\admin_index.ctp:10
+#: Plugin\Sort\View\Sorts\admin_sort.ctp:4
+msgid "Sortowanie"
+msgstr "Сортировка"
+
+#: Plugin\Brand\View\Brands\admin_view.ctp:2
+msgid "Brand"
+msgstr "Бренд"
+
+#: Plugin\Brand\View\Brands\admin_view.ctp:49
+msgid "Edit Brand"
+msgstr "Редактировать Бренд"
+
+#: Plugin\Brand\View\Brands\admin_view.ctp:50
+msgid "Delete Brand"
+msgstr "Удалить Бренд"
+
+#: Plugin\Brand\View\Brands\admin_view.ctp:51
+msgid "List Brands"
+msgstr "Список Брендов"
+
+#: Plugin\Brand\View\Brands\admin_view.ctp:52
+msgid "New Brand"
+msgstr "Новый Бренд"
+
+#: Plugin\Commerce\Controller\CurrencyExchangeRatesController.php:36
+msgid "Nieprawidłowy kurs waluty"
+msgstr "Неверный курс валюты"
+
+#: Plugin\Commerce\Controller\CurrencyExchangeRatesController.php:45
+msgid "Kurs waluty został zapisany."
+msgstr "Курс валюты был сохранён."
+
+#: Plugin\Commerce\Controller\CurrencyExchangeRatesController.php:49
+msgid "Kurs waluty nie został zapisany. Sprawdź formularz i spróbuj ponownie."
+msgstr "Курс валюты не был сохранён. Проверьте форму и попробуйте еще раз."
+
+#: Plugin\Commerce\Controller\CustomersController.php:48
+msgid "Osoba kontaktowa"
+msgstr "Контактная особа"
+
+#: Plugin\Commerce\Controller\CustomersController.php:49
+#: Plugin\Commerce\View\Elements\Orders\step2.ctp:29
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:89
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:89
+#: Plugin\Commerce\View\Orders\admin_edit.ctp:98
+msgid "Email"
+msgstr "E-mail"
+
+#: Plugin\Commerce\Controller\CustomersController.php:50
+msgid "Nazwa / Imię i Nazwisko"
+msgstr "Название / Имя и Фамилия"
+
+#: Plugin\Commerce\Controller\CustomersController.php:51
+msgid "Ulica"
+msgstr "Улица"
+
+#: Plugin\Commerce\Controller\CustomersController.php:52
+msgid "Kod pocztowy"
+msgstr "Почтовый код"
+
+#: Plugin\Commerce\Controller\CustomersController.php:53
+msgid "Miejscowość"
+msgstr ""
+
+#: Plugin\Commerce\Controller\CustomersController.php:54
+#: Plugin\Commerce\View\Orders\admin_edit.ctp:128;144
+msgid "Województwo"
+msgstr "Область"
+
+#: Plugin\Commerce\Controller\CustomersController.php:54
+msgid "dowolne"
+msgstr ""
+
+#: Plugin\Commerce\Controller\CustomersController.php:187;206;224;250;286;395
+msgid "Zaloguj się aby uzyskać dostęp do tego zasobu"
+msgstr "Войдите в свой аккаунт, чтобы получить доступ к этому инструменту"
+
+#: Plugin\Commerce\Controller\CustomersController.php:321
+msgid "Podaj poprawne hasło"
+msgstr "Укажите правильный пароль"
+
+#: Plugin\Commerce\Controller\CustomersController.php:331
+msgid "Sprawdź formularz i spróbuj ponownie"
+msgstr "Проверьте форму и попробуйте снова"
+
+#: Plugin\Commerce\Controller\CustomersController.php:354
+msgid "Hasło zostało poprawnie zmienione. Zaloguj ponownie."
+msgstr "Пароль был изменён. Войдите в аккаунт снова."
+
+#: Plugin\Commerce\Controller\CustomersController.php:361
+msgid "Dane zostaly poprawnie zapisane."
+msgstr "Данные были изменены."
+
+#: Plugin\Commerce\Controller\CustomersController.php:364
+msgid "Sprawdź formularz i spróbuj ponownie!"
+msgstr "Проверьте форму и попробуйте снова!"
+
+#: Plugin\Commerce\Controller\CustomersController.php:564;605
+msgid "Błąd. Sprawdź formularz i spróbuj ponownie."
+msgstr "Ошибка. Проверьте форму и попробуйте снова."
+
+#: Plugin\Commerce\Controller\CustomersController.php:597
+msgid ""
+"Konto zostało utworzone. Odbierz pocztę email aby ustawić hasło do konta. "
+"Zostałeś zalogowany, możesz dokończyć proces zamówienia."
+msgstr ""
+"Аккаунт был создан. Войдите в свою e-mail почту, чтобы указать пароль к "
+"аккаунту. В данный момент Вы авторизованы и можете закончить процесс заказа."
+
+#: Plugin\Commerce\Controller\CustomersController.php:602
+msgid "Error 0"
+msgstr "Ошибка 0"
+
+#: Plugin\Commerce\Controller\NotesController.php:13
+msgid "Invalid note"
+msgstr "Неверная запись"
+
+#: Plugin\Commerce\Controller\NotesController.php:23
+msgid "The note has been saved"
+msgstr "Запись была сохранена"
+
+#: Plugin\Commerce\Controller\OrderItemsController.php:173;245
+msgid "Dodanie do koszyka nie powiodło się, nieprawidłowy link."
+msgstr "Добавление в корзину не произошло, неверный путь файла."
+
+#: Plugin\Commerce\Controller\OrdersController.php:254;551
+msgid "Twój Koszyk jest pusty"
+msgstr "Ваша Корзина пуста"
+
+#: Plugin\Commerce\Controller\OrdersController.php:314
+msgid "Twój koszyk został opróżniony"
+msgstr "Ваша корзина была очищена"
+
+#: Plugin\Commerce\Controller\OrdersController.php:678
+msgid "Niepoprawny numer zamówienia"
+msgstr "Некорректный номер заказа"
+
+#: Plugin\Commerce\Controller\OrdersController.php:772
+msgid ""
+"Zapisywanie zamówienia nie powiodło się. Jeśli problem będzie się powtarzał "
+"skontaktuj się z biurem obsługi klienta."
+msgstr ""
+"Заказ не был принят. Если проблема повторится, пожалуйста, свяжитесь с бюром "
+"обслуживания клиента."
+
+#: Plugin\Commerce\Controller\OrdersController.php:820
+msgid "Sesja wygasła"
+msgstr "Сессия аннулирована"
+
+#: Plugin\Commerce\Controller\OrdersController.php:927
+msgid "Wyszukiwane zamówienie nie istnieje."
+msgstr "Искомый заказ не существует."
+
+#: Plugin\Commerce\Controller\OrdersController.php:937
+msgid "Usunięto wszystkie produkty z koszyka."
+msgstr "Из Корзины удалены все товары."
+
+#: Plugin\Commerce\Controller\OrdersController.php:942
+msgid "Usunięto produkt z koszyka."
+msgstr "Товар был удалён из Корзины."
+
+#: Plugin\Commerce\Controller\OrdersController.php:957;1119
+msgid "Nr zamówienia"
+msgstr "№ заказа"
+
+#: Plugin\Commerce\Controller\OrdersController.php:958;1120
+msgid "Nazwa klienta/dane do faktury"
+msgstr "Название клиента/данные для фактуры"
+
+#: Plugin\Commerce\Controller\OrdersController.php:1107
+msgid "Poprawnie usunięto koszyki starsze niż "
+msgstr "Удалены корзины старше, чем"
+
+#: Plugin\Commerce\Controller\OrdersController.php:1160
+msgid "Wyszukiwana oferta nie istnieje."
+msgstr "Искомое предложение не существует."
+
+#: Plugin\Commerce\Controller\OrdersController.php:1176
+msgid "Nie istnieje takie zamówienie."
+msgstr "Такой заказ не существует."
+
+#: Plugin\Commerce\Controller\OrdersController.php:1198
+msgid "Zamówienie zostało pomyślnie zmienione."
+msgstr "Заказ был изменён корректно."
+
+#: Plugin\Commerce\Controller\OrdersController.php:1203
+msgid "Zamówienie nie mogło zostać zapisane, spróbuj ponownie."
+msgstr "Заказ не был записан, попробуйте снова."
+
+#: Plugin\Commerce\Controller\OrdersController.php:1309
+msgid "Nie istnieje zamówienie do którego można wysłać powiadomienie."
+msgstr "Не существует заказа, к которому можно выслать сообщение."
+
+#: Plugin\Commerce\Controller\OrdersController.php:1326
+msgid "Wysłano powiadomienie."
+msgstr "Сообщение выслано."
+
+#: Plugin\Commerce\Controller\OrdersController.php:1329
+msgid "Powiadomienie nie mogłgo zostać wysłane"
+msgstr "Сообщение не было отправлено"
+
+#: Plugin\Commerce\Controller\OrdersController.php:1422
+msgid "Nie można utworzyć FV dla zamówienia o podanym id."
+msgstr "Нельзя создать FV для заказа с указанным id."
+
+#: Plugin\Commerce\Controller\OrdersController.php:1427
+msgid "Nie można utworzyć FV dla zamówienia o podanym id. Faktura już istnieje"
+msgstr "Нельзя создать FV для заказа с указанным id. Фактура уже существует"
+
+#: Plugin\Commerce\Controller\OrdersController.php:1530
+msgid "FV została utworzona"
+msgstr "FV была создана"
+
+#: Plugin\Commerce\Controller\OrdersController.php:1532
+msgid "Tworzenie FV nie powiodło się"
+msgstr "Создание FV не произошло"
+
+#: Plugin\Commerce\View\Addresses\admin_view.ctp:2
+#: Plugin\Commerce\View\Addresses\view.ctp:2
+#: Plugin\Commerce\View\Customers\admin_view.ctp:29;81;132;182
+msgid "Address"
+msgstr "Адрес"
+
+#: Plugin\Commerce\View\Addresses\admin_view.ctp:9
+#: Plugin\Commerce\View\Addresses\view.ctp:9
+#: Plugin\Commerce\View\Customers\admin_view.ctp:2
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:9
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:9
+msgid "Customer"
+msgstr "Клиент"
+
+#: Plugin\Commerce\View\Addresses\admin_view.ctp:34
+#: Plugin\Commerce\View\Addresses\view.ctp:34
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:44
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:44
+msgid "Region"
+msgstr "Область"
+
+#: Plugin\Commerce\View\Addresses\admin_view.ctp:39
+#: Plugin\Commerce\View\Addresses\view.ctp:39
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:49
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:49
+msgid "Country"
+msgstr "Страна"
+
+#: Plugin\Commerce\View\Addresses\admin_view.ctp:64
+#: Plugin\Commerce\View\Addresses\view.ctp:64
+msgid "Edit Address"
+msgstr "Редактировать Адрес"
+
+#: Plugin\Commerce\View\Addresses\admin_view.ctp:65
+#: Plugin\Commerce\View\Addresses\view.ctp:65
+msgid "Delete Address"
+msgstr "Удалить Адрес"
+
+#: Plugin\Commerce\View\Addresses\admin_view.ctp:66
+#: Plugin\Commerce\View\Addresses\view.ctp:66
+#: Plugin\Commerce\View\Customers\admin_view.ctp:65
+msgid "List Addresses"
+msgstr "Список Адресов"
+
+#: Plugin\Commerce\View\Addresses\admin_view.ctp:67
+#: Plugin\Commerce\View\Addresses\view.ctp:67
+#: Plugin\Commerce\View\Customers\admin_view.ctp:66;118
+msgid "New Address"
+msgstr "Новый Адрес"
+
+#: Plugin\Commerce\View\Addresses\admin_view.ctp:68
+#: Plugin\Commerce\View\Addresses\view.ctp:68
+#: Plugin\Commerce\View\Customers\admin_view.ctp:61
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:73
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:73
+#: Plugin\Commerce\View\Orders\admin_add.ctp:28
+msgid "List Customers"
+msgstr "Список Клиентов"
+
+#: Plugin\Commerce\View\Addresses\admin_view.ctp:69
+#: Plugin\Commerce\View\Addresses\view.ctp:69
+#: Plugin\Commerce\View\Customers\admin_view.ctp:62
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:74;124
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:74;124
+#: Plugin\Commerce\View\Orders\admin_add.ctp:29
+msgid "New Customer"
+msgstr "Новый Клиент"
+
+#: Plugin\Commerce\View\Addresses\admin_view.ctp:70
+#: Plugin\Commerce\View\Addresses\view.ctp:70
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:75
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:75
+msgid "List Regions"
+msgstr "Список Областей"
+
+#: Plugin\Commerce\View\Addresses\admin_view.ctp:71
+#: Plugin\Commerce\View\Addresses\view.ctp:71
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:76
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:76
+msgid "New Region"
+msgstr "Новая Область"
+
+#: Plugin\Commerce\View\Addresses\admin_view.ctp:72
+#: Plugin\Commerce\View\Addresses\view.ctp:72
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:77
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:77
+msgid "List Countries"
+msgstr "Список Стран"
+
+#: Plugin\Commerce\View\Addresses\admin_view.ctp:73
+#: Plugin\Commerce\View\Addresses\view.ctp:73
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:78
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:78
+msgid "New Country"
+msgstr "Новая Страна"
+
+#: Plugin\Commerce\View\AffiliatePrograms\admin_view.ctp:2
+#: Plugin\Commerce\View\AffiliatePrograms\view.ctp:2
+msgid "Affiliate Program"
+msgstr "Партнерская Программа"
+
+#: Plugin\Commerce\View\AffiliatePrograms\admin_view.ctp:29
+#: Plugin\Commerce\View\AffiliatePrograms\view.ctp:29
+msgid "Edit Affiliate Program"
+msgstr "Редактировать Партнерскую Программу"
+
+#: Plugin\Commerce\View\AffiliatePrograms\admin_view.ctp:30
+#: Plugin\Commerce\View\AffiliatePrograms\view.ctp:30
+msgid "Delete Affiliate Program"
+msgstr "Удалить Партнерскую Программу"
+
+#: Plugin\Commerce\View\AffiliatePrograms\admin_view.ctp:31
+#: Plugin\Commerce\View\AffiliatePrograms\view.ctp:31
+msgid "List Affiliate Programs"
+msgstr "Список Партнерских Программ"
+
+#: Plugin\Commerce\View\AffiliatePrograms\admin_view.ctp:32
+#: Plugin\Commerce\View\AffiliatePrograms\view.ctp:32
+msgid "New Affiliate Program"
+msgstr "Новая Партнерская Программа"
+
+#: Plugin\Commerce\View\CurrencyExchangeRates\admin_add.ctp:4
+msgid "Admin Add Currency Exchange Rate"
+msgstr "Admin Добавить Курс Валют"
+
+#: Plugin\Commerce\View\CurrencyExchangeRates\admin_add.ctp:11
+#: Plugin\Commerce\View\CurrencyExchangeRates\admin_edit.ctp:16
+#: Plugin\Commerce\View\Orders\admin_add.ctp:19
+#: Plugin\Commerce\View\Orders\admin_create_invoice.ctp:15
+msgid "Submit"
+msgstr "Утвердить"
+
+#: Plugin\Commerce\View\CurrencyExchangeRates\admin_add.ctp:17
+msgid "List Currency Exchange Rates"
+msgstr "Список Валютных Курсов"
+
+#: Plugin\Commerce\View\CurrencyExchangeRates\admin_edit.ctp:7
+msgid "Edytuj kurs waluty"
+msgstr "Редактировать Курс Валют"
+
+#: Plugin\Commerce\View\CurrencyExchangeRates\admin_edit.ctp:23
+msgid "Kursy walut"
+msgstr "Курсы валют"
+
+#: Plugin\Commerce\View\CurrencyExchangeRates\admin_index.ctp:12
+msgid "Wartości historyczne"
+msgstr "Исторические значения"
+
+#: Plugin\Commerce\View\CurrencyExchangeRates\admin_index.ctp:13
+msgid "Wartości bieżące"
+msgstr "Текущие значения"
+
+#: Plugin\Commerce\View\CurrencyExchangeRates\admin_index.ctp:45
+#: Plugin\Commerce\View\Customers\admin_view.ctp:108;159;222
+#: Plugin\Commerce\View\Elements\Addresses\table_index.ctp:36
+#: Plugin\Commerce\View\Elements\AffiliatePrograms\table_index.ctp:18
+#: Plugin\Commerce\View\Elements\Customers\table_index.ctp:32
+#: Plugin\Commerce\View\Elements\InvoiceIdentities\table_index.ctp:38
+#: Plugin\Commerce\View\Elements\OrderItemFiles\table_index.ctp:22
+#: Plugin\Commerce\View\Elements\OrderItems\table_index.ctp:38
+#: Plugin\Commerce\View\Elements\OrderStatuses\table_index.ctp:18
+#: Plugin\Commerce\View\Elements\PromotionCodes\table_index.ctp:29
+#: Plugin\Commerce\View\Elements\ShipmentMethodConfigs\table_index.ctp:25
+#: Plugin\Commerce\View\Elements\ShipmentMethods\table_index.ctp:33
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:114
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:114
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:112
+#: Plugin\Commerce\View\OrderItems\view.ctp:112
+#: Plugin\Commerce\View\ShipmentMethods\admin_view.ctp:94
+#: Plugin\Commerce\View\ShipmentMethods\view.ctp:94
+#: Plugin\Payments\View\Elements\Payments\table_index.ctp:58
+#: Plugin\StaticProduct\View\Elements\Products\table_index.ctp:110
+#: Plugin\StaticProduct\View\Elements\ProductsPromotions\table_index.ctp:21
+msgid "Edit"
+msgstr "Редактировать"
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:9
+msgid "User"
+msgstr "Пользователь"
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:59
+msgid "Edit Customer"
+msgstr "Редактировать Пользователя"
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:60
+msgid "Delete Customer"
+msgstr "Удалить Пользователя"
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:63
+msgid "List Users"
+msgstr "Список Пользователей"
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:64
+msgid "New User"
+msgstr "Новый Пользователь"
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:67
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:71
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:71
+msgid "List Invoice Identities"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:68;169
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:72
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:72
+msgid "New Invoice Identity"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:69
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:83
+#: Plugin\Commerce\View\OrderItems\view.ctp:83
+#: Plugin\Commerce\View\Orders\admin_add.ctp:25
+msgid "List Orders"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:70;232
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:84
+#: Plugin\Commerce\View\OrderItems\view.ctp:84
+msgid "New Order"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:74
+msgid "Related Addresses"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:78;127;178
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:86
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:86
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:94
+#: Plugin\Commerce\View\OrderItems\view.ctp:94
+#: Plugin\Commerce\View\ShipmentMethods\admin_view.ctp:72
+#: Plugin\Commerce\View\ShipmentMethods\view.ctp:72
+msgid "Id"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:79;128;181
+msgid "Customer Id"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:80;130
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:96
+#: Plugin\Commerce\View\OrderItems\view.ctp:96
+msgid "Name"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:82;133
+msgid "City"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:83;134
+msgid "Post Code"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:84;135
+msgid "Region Id"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:85;136
+msgid "Country Id"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:86
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:90
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:90
+msgid "Phone"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:87;137;192
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:94
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:94
+#: Plugin\Commerce\View\ShipmentMethods\admin_view.ctp:78
+#: Plugin\Commerce\View\ShipmentMethods\view.ctp:78
+msgid "Created"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:88;138;193
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:95
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:95
+#: Plugin\Commerce\View\ShipmentMethods\admin_view.ctp:77
+#: Plugin\Commerce\View\ShipmentMethods\view.ctp:77
+msgid "Modified"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:107;158;221
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:113
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:113
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:111
+#: Plugin\Commerce\View\OrderItems\view.ctp:111
+#: Plugin\Commerce\View\ShipmentMethods\admin_view.ctp:93
+#: Plugin\Commerce\View\ShipmentMethods\view.ctp:93
+msgid "View"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:109;160;223
+#: Plugin\Commerce\View\Elements\Addresses\table_index.ctp:37
+#: Plugin\Commerce\View\Elements\AffiliatePrograms\table_index.ctp:19
+#: Plugin\Commerce\View\Elements\Customers\table_index.ctp:33
+#: Plugin\Commerce\View\Elements\InvoiceIdentities\table_index.ctp:39
+#: Plugin\Commerce\View\Elements\OrderItemFiles\table_index.ctp:23
+#: Plugin\Commerce\View\Elements\OrderItems\table_index.ctp:39
+#: Plugin\Commerce\View\Elements\OrderReferences\table_index.ctp:22
+#: Plugin\Commerce\View\Elements\OrderStatuses\table_index.ctp:19
+#: Plugin\Commerce\View\Elements\PromotionCodes\table_index.ctp:30
+#: Plugin\Commerce\View\Elements\ShipmentMethodConfigs\table_index.ctp:26
+#: Plugin\Commerce\View\Elements\ShipmentMethods\table_index.ctp:34
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:115
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:115
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:113
+#: Plugin\Commerce\View\OrderItems\view.ctp:113
+#: Plugin\Commerce\View\ShipmentMethods\admin_view.ctp:95
+#: Plugin\Commerce\View\ShipmentMethods\view.ctp:95
+#: Plugin\Payments\View\Elements\Payments\table_index.ctp:59
+#: Plugin\StaticProduct\View\Elements\Products\table_index.ctp:112
+#: Plugin\StaticProduct\View\Elements\ProductsPromotions\table_index.ctp:22
+msgid "Delete"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:123
+msgid "Related Invoice Identities"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:129
+msgid "Iscompany"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:131
+msgid "Nip"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:174
+msgid "Related Orders"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:179
+msgid "Hash"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:180
+msgid "Order Status Id"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:183
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:2
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:2
+msgid "Invoice Identity"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:184
+#: Plugin\Commerce\View\ShipmentMethods\admin_view.ctp:73
+#: Plugin\Commerce\View\ShipmentMethods\view.ctp:73
+msgid "Shipment Method Id"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:185
+msgid "Shipment Price"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:186
+msgid "Shipment Tax Rate"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:187
+msgid "Shipment Tax Value"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:188
+msgid "Shipment Discount"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:189
+msgid "Total"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:190
+msgid "Total Tax Value"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:191
+msgid "Track Number"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:194
+msgid "Payment Type"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\admin_view.ctp:195
+msgid "Vat"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:30
+msgid "Nazwa konta"
+msgstr "Название счета"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:63
+#: Plugin\Commerce\View\Elements\Orders\form.ctp:62
+#: Plugin\Commerce\View\Elements\customer\menu.ctp:14
+msgid "Dane kontaktowe"
+msgstr "Контактные данные"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:73
+#: Plugin\Commerce\View\Elements\Orders\step4.ctp:5
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:39
+msgid "Dane do wysyłki"
+msgstr "Данные для отправки"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:101
+#: Plugin\Commerce\View\Elements\Orders\form.ctp:13
+#: Plugin\Commerce\View\Elements\customer\menu.ctp:15
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:32
+msgid "Dane do faktury"
+msgstr "Данные для фактуры"
+
+#: Plugin\Commerce\View\Elements\Orders\cart.ctp:118
+msgid "Anzahl"
+msgid_plural "Anzahl"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Plugin\Commerce\View\Elements\Orders\form.ctp:39
+msgid "Dane do wysyłki (jeśli inne niż do faktury)"
+msgstr "Данные для отправки (если иные нежели для фактуры)"
+
+#: Plugin\Commerce\View\Elements\Orders\project_file.ctp:72
+msgid "Na pewno chcesz usunąć ten plik?"
+msgstr "Уверены, что хотите удалить этот файл?"
+
+#: Plugin\Commerce\View\Elements\Orders\project_file.ctp:107;111
+msgid "plik"
+msgid_plural "plików"
+msgstr[0] "Файл"
+
+#: Plugin\Commerce\View\Elements\Orders\project_file.ctp:110
+msgid "pliku"
+msgid_plural "plików"
+msgstr[0] "Файла"
+
+#: Plugin\Commerce\View\Elements\Orders\step1.ctp:6
+msgid "Produkty"
+msgstr "Товары"
+
+#: Plugin\Commerce\View\Elements\Orders\step1.ctp:8
+#: Plugin\Payments\View\Payments\transfer.ctp:60
+msgid "Ilość"
+msgstr "Количество"
+
+#: Plugin\Commerce\View\Elements\Orders\step1.ctp:9
+msgid "Cena finalna"
+msgstr "Итоговая цена"
+
+#: Plugin\Commerce\View\Elements\Orders\step1.ctp:28
+msgid "DOSTAWA"
+msgstr "ДОСТАВКА"
+
+#: Plugin\Commerce\View\Elements\Orders\step1.ctp:52
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:46
+msgid "Metoda płatności"
+msgstr "Метод оплаты"
+
+#: Plugin\Commerce\View\Elements\Orders\step1.ctp:53
+msgid "Płatność za pobraniem/przy odbiorze"
+msgstr "Оплата при получении/наложенный платеж"
+
+#: Plugin\Commerce\View\Elements\Orders\step1.ctp:115
+msgid "Wybierz sposób wysyłki"
+msgstr "Выберите спосок доставки"
+
+#: Plugin\Commerce\View\Elements\Orders\step1.ctp:166
+msgid "Wybierz sposób dostawy"
+msgstr "Выберите спосок доставки"
+
+#: Plugin\Commerce\View\Elements\Orders\step2.ctp:15
+msgid "Zaloguj"
+msgstr "Войти"
+
+#: Plugin\Commerce\View\Elements\Orders\step2.ctp:30
+msgid "Login"
+msgstr "Логин"
+
+#: Plugin\Commerce\View\Elements\Orders\step2.ctp:31
+msgid "Akceptuję"
+msgstr "Принимаю"
+
+#: Plugin\Commerce\View\Elements\Orders\step2.ctp:32
+msgid "Rejestruj"
+msgstr "Зарегистрируй"
+
+#: Plugin\Commerce\View\Elements\Orders\step2.ctp:54
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:36;43;50
+msgid "Kontynuuj"
+msgstr "Далее"
+
+#: Plugin\Commerce\View\Elements\Orders\step2.ctp:63
+msgid "Przejdź dalej"
+msgstr "Перейти далее"
+
+#: Plugin\Commerce\View\Elements\Orders\step2.ctp:93
+msgid "Twoje konto zostało utworzone. Zostałeś automatycznie zalogowany"
+msgstr "Ваш аккаунт был создан. Вы автоматически вошли в него."
+
+#: Plugin\Commerce\View\Elements\Orders\step2.ctp:94
+msgid "Sprawdź czy podałeś prawidłowe dane"
+msgstr "Проверьте, правильно ли введены данные"
+
+#: Plugin\Commerce\View\Elements\Orders\step2.ctp:95
+msgid "Nie zaakceptowano warunków"
+msgstr "Условия не утверждены"
+
+#: Plugin\Commerce\View\Elements\Orders\step2.ctp:96;139
+msgid "Nie podano wszystkich danych"
+msgstr "Не все данные были поданы"
+
+#: Plugin\Commerce\View\Elements\Orders\step3.ctp:5
+msgid "zakupy prywatne"
+msgstr "Приватные покупки"
+
+#: Plugin\Commerce\View\Elements\Orders\step3.ctp:5
+msgid "zakupy firmowe"
+msgstr "Покупка на фирму"
+
+#: Plugin\Commerce\View\Elements\Orders\step7.ctp:6
+msgid "Adres wysyłkowy:"
+msgstr "Адрес для доставки:"
+
+#: Plugin\Commerce\View\Elements\Orders\step7.ctp:11
+msgid "Forma wysyłki:"
+msgstr "Способ доставки:"
+
+#: Plugin\Commerce\View\Elements\Orders\step7.ctp:15
+msgid "Metoda płatności:"
+msgstr "Метод оплаты:"
+
+#: Plugin\Commerce\View\Elements\Orders\step7.ctp:19
+msgid "Kod osobisty aktywny"
+msgstr "Личный код активный"
+
+#: Plugin\Commerce\View\Elements\Orders\step7.ctp:20;27;31;35
+msgid "Zamówienie zawiera"
+msgstr "Заказ включает в себя"
+
+#: Plugin\Commerce\View\Elements\Orders\step7.ctp:20;27;31;35
+msgid "rabatu"
+msgstr "Скидки"
+
+#: Plugin\Commerce\View\Elements\Orders\step7.ctp:25;34
+msgid "Kod promocyjny aktywny!"
+msgstr "Скидочный купон активен!"
+
+#: Plugin\Commerce\View\Elements\Orders\step7.ctp:26
+msgid "(większy niż kod osobisty)"
+msgstr "(больший, чем личный код)"
+
+#: Plugin\Commerce\View\Elements\Orders\step7.ctp:29
+msgid "Kod osobisty aktywny!"
+msgstr "Личный код активен!"
+
+#: Plugin\Commerce\View\Elements\Orders\step7.ctp:30
+msgid "(większy niż kod promocyjny)"
+msgstr "(больший, чем скидочный купон)"
+
+#: Plugin\Commerce\View\Elements\Orders\summary_table.ctp:6
+msgid "Wartość produktów bez rabatu: "
+msgstr "Стоимость товаров без скидки:"
+
+#: Plugin\Commerce\View\Elements\Orders\summary_table.ctp:25
+msgid "Rabat osobisty aktywny - wartość rabatu:"
+msgstr "Индивидуальная скидка активна - размер скидки:"
+
+#: Plugin\Commerce\View\Elements\Orders\summary_table.ctp:27
+msgid "Wartość z rabatem osobistym: "
+msgstr "Стоимость с личным кодом:"
+
+#: Plugin\Commerce\View\Elements\Orders\summary_table.ctp:37
+msgid "Posiadam kupon rabatowy"
+msgstr "У меня есть купон на скидку"
+
+#: Plugin\Commerce\View\Elements\Orders\summary_table.ctp:45
+msgid "Podaj kod promocyjny:"
+msgstr "Введите акционный код:"
+
+#: Plugin\Commerce\View\Elements\Orders\summary_table.ctp:52
+msgid "Kod promocyjny aktywny - wartość rabatu:"
+msgstr "Акционный код активен - размер скидки:"
+
+#: Plugin\Commerce\View\Elements\Orders\summary_table.ctp:55
+msgid "Wartość z kodem promocyjnym: "
+msgstr "Стоимость с акционным кодом:"
+
+#: Plugin\Commerce\View\Elements\Orders\summary_table.ctp:62
+msgid "Usuń kod"
+msgstr "Удалить код"
+
+#: Plugin\Commerce\View\Elements\Orders\summary_table.ctp:68
+msgid ""
+"Jeśli rabat osobisty jest większy niż kupon rabatowy to zostanie naliczony "
+"rabat osobisty"
+msgstr ""
+"Если индивидуальная скидка больше, чем купон на скидку, то будет учтена "
+"индивидуальная скидка"
+
+#: Plugin\Commerce\View\Elements\customer\menu.ctp:2
+msgid "ZAMÓWIENIA"
+msgstr "ЗАКАЗЫ"
+
+#: Plugin\Commerce\View\Elements\customer\menu.ctp:6
+msgid "Mój koszyk"
+msgstr "Моя корзина"
+
+#: Plugin\Commerce\View\Elements\customer\menu.ctp:8
+msgid "W trakcie realizacji"
+msgstr "В процессе реализации"
+
+#: Plugin\Commerce\View\Elements\customer\menu.ctp:9
+msgid "Zrealizowane"
+msgstr "Реализовано"
+
+#: Plugin\Commerce\View\Elements\customer\menu.ctp:12
+msgid "USTAWIENIA KONTA"
+msgstr "НАСТРОЙКИ УЧЕТНОЙ ЗАПИСИ"
+
+#: Plugin\Commerce\View\Elements\customer\menu.ctp:16
+msgid "Dane do logowania"
+msgstr "Данные для входа"
+
+#: Plugin\Commerce\View\Elements\customer\menu.ctp:17
+msgid "Zmiana Hasła"
+msgstr "Смена пароля"
+
+#: Plugin\Commerce\View\Emails\text\order_email.ctp:1
+#: Plugin\Payments\View\Email\html\user_payment_done.ctp:1
+#: Plugin\Payments\View\Email\html\user_payment_nok.ctp:1
+#: Plugin\Payments\View\Email\text\user_payment_done.ctp:1
+#: Plugin\Payments\View\Email\text\user_payment_nok.ctp:1
+msgid "Witaj"
+msgstr "Здравствуйте"
+
+#: Plugin\Commerce\View\Emails\text\order_email.ctp:3
+#: Plugin\Payments\View\Email\html\user_payment_done.ctp:3
+#: Plugin\Payments\View\Email\text\user_payment_done.ctp:3
+msgid "Płatność przebiegła pomyślnie!"
+msgstr "Оплата прошла успешно!"
+
+#: Plugin\Commerce\View\Emails\text\order_email.ctp:5
+#: Plugin\Payments\View\Email\html\user_payment_done.ctp:5
+#: Plugin\Payments\View\Email\html\user_payment_nok.ctp:5
+#: Plugin\Payments\View\Email\text\user_payment_done.ctp:5
+#: Plugin\Payments\View\Email\text\user_payment_nok.ctp:5
+msgid "Kwota płatności: %s zł"
+msgstr "Сумма платежа: %s грн"
+
+#: Plugin\Commerce\View\Emails\text\order_email.ctp:7
+#: Plugin\Payments\View\Email\html\user_payment_done.ctp:7
+#: Plugin\Payments\View\Email\html\user_payment_nok.ctp:7
+#: Plugin\Payments\View\Email\text\user_payment_done.ctp:7
+#: Plugin\Payments\View\Email\text\user_payment_nok.ctp:7
+msgid "Tytuł płatności: %s."
+msgstr "Описание платежа: %s."
+
+#: Plugin\Commerce\View\Emails\text\order_email.ctp:9
+#: Plugin\Payments\View\Email\html\user_payment_done.ctp:9
+#: Plugin\Payments\View\Email\text\user_payment_done.ctp:9
+msgid "Dziękujemy za skorzystanie z naszej oferty"
+msgstr "Благодарим Вас за то, что воспользовались нашим предложением"
+
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:69
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:69
+msgid "Edit Invoice Identity"
+msgstr ""
+
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:70
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:70
+msgid "Delete Invoice Identity"
+msgstr ""
+
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:82
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:82
+msgid "Related Customers"
+msgstr ""
+
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:87
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:87
+msgid "User Id"
+msgstr ""
+
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:88
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:88
+msgid "Contact Person"
+msgstr ""
+
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:91
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:91
+msgid "Address Id"
+msgstr ""
+
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:92
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:92
+msgid "Invoice Identity Id"
+msgstr ""
+
+#: Plugin\Commerce\View\InvoiceIdentities\admin_view.ctp:93
+#: Plugin\Commerce\View\InvoiceIdentities\view.ctp:93
+msgid "Discount"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderItemFiles\admin_view.ctp:2
+#: Plugin\Commerce\View\OrderItemFiles\view.ctp:2
+msgid "Order Item File"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderItemFiles\admin_view.ctp:9
+#: Plugin\Commerce\View\OrderItemFiles\view.ctp:9
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:2
+#: Plugin\Commerce\View\OrderItems\view.ctp:2
+msgid "Order Item"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderItemFiles\admin_view.ctp:34
+#: Plugin\Commerce\View\OrderItemFiles\view.ctp:34
+msgid "Edit Order Item File"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderItemFiles\admin_view.ctp:35
+#: Plugin\Commerce\View\OrderItemFiles\view.ctp:35
+msgid "Delete Order Item File"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderItemFiles\admin_view.ctp:36
+#: Plugin\Commerce\View\OrderItemFiles\view.ctp:36
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:85
+#: Plugin\Commerce\View\OrderItems\view.ctp:85
+msgid "List Order Item Files"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderItemFiles\admin_view.ctp:37
+#: Plugin\Commerce\View\OrderItemFiles\view.ctp:37
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:86;122
+#: Plugin\Commerce\View\OrderItems\view.ctp:86;122
+msgid "New Order Item File"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderItemFiles\admin_view.ctp:38
+#: Plugin\Commerce\View\OrderItemFiles\view.ctp:38
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:81
+#: Plugin\Commerce\View\OrderItems\view.ctp:81
+#: Plugin\Commerce\View\Orders\admin_add.ctp:32
+msgid "List Order Items"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderItemFiles\admin_view.ctp:39
+#: Plugin\Commerce\View\OrderItemFiles\view.ctp:39
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:82
+#: Plugin\Commerce\View\OrderItems\view.ctp:82
+#: Plugin\Commerce\View\Orders\admin_add.ctp:33
+msgid "New Order Item"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:9
+#: Plugin\Commerce\View\OrderItems\view.ctp:9
+msgid "Order"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:79
+#: Plugin\Commerce\View\OrderItems\view.ctp:79
+msgid "Edit Order Item"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:80
+#: Plugin\Commerce\View\OrderItems\view.ctp:80
+msgid "Delete Order Item"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:90
+#: Plugin\Commerce\View\OrderItems\view.ctp:90
+msgid "Related Order Item Files"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:95
+#: Plugin\Commerce\View\OrderItems\view.ctp:95
+msgid "Order Item Id"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:97
+#: Plugin\Commerce\View\OrderItems\view.ctp:97
+msgid "Accepted"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderItems\admin_view.ctp:98
+#: Plugin\Commerce\View\OrderItems\view.ctp:98
+msgid "Desc"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderReferences\admin_view.ctp:2
+#: Plugin\Commerce\View\OrderReferences\view.ctp:2
+msgid "Order Reference"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderReferences\admin_view.ctp:34
+#: Plugin\Commerce\View\OrderReferences\view.ctp:34
+msgid "Edit Order Reference"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderReferences\admin_view.ctp:35
+#: Plugin\Commerce\View\OrderReferences\view.ctp:35
+msgid "Delete Order Reference"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderReferences\admin_view.ctp:36
+#: Plugin\Commerce\View\OrderReferences\view.ctp:36
+msgid "List Order References"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderReferences\admin_view.ctp:37
+#: Plugin\Commerce\View\OrderReferences\view.ctp:37
+msgid "New Order Reference"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderStatuses\admin_view.ctp:2
+#: Plugin\Commerce\View\OrderStatuses\view.ctp:2
+msgid "Order Status"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderStatuses\admin_view.ctp:34
+#: Plugin\Commerce\View\OrderStatuses\view.ctp:34
+msgid "Edit Order Status"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderStatuses\admin_view.ctp:35
+#: Plugin\Commerce\View\OrderStatuses\view.ctp:35
+msgid "Delete Order Status"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderStatuses\admin_view.ctp:36
+#: Plugin\Commerce\View\OrderStatuses\view.ctp:36
+#: Plugin\Commerce\View\Orders\admin_add.ctp:26
+msgid "List Order Statuses"
+msgstr ""
+
+#: Plugin\Commerce\View\OrderStatuses\admin_view.ctp:37
+#: Plugin\Commerce\View\OrderStatuses\view.ctp:37
+#: Plugin\Commerce\View\Orders\admin_add.ctp:27
+msgid "New Order Status"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\admin_add.ctp:4
+msgid "Admin Add Order"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\admin_add.ctp:30
+#: Plugin\Commerce\View\ShipmentMethodConfigs\admin_view.ctp:48
+#: Plugin\Commerce\View\ShipmentMethodConfigs\view.ctp:48
+#: Plugin\Commerce\View\ShipmentMethods\admin_view.ctp:61
+#: Plugin\Commerce\View\ShipmentMethods\view.ctp:61
+msgid "List Shipment Methods"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\admin_add.ctp:31
+#: Plugin\Commerce\View\ShipmentMethodConfigs\admin_view.ctp:49
+#: Plugin\Commerce\View\ShipmentMethodConfigs\view.ctp:49
+#: Plugin\Commerce\View\ShipmentMethods\admin_view.ctp:62
+#: Plugin\Commerce\View\ShipmentMethods\view.ctp:62
+msgid "New Shipment Method"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\admin_edit.ctp:97;135
+msgid "Nazwa"
+msgstr "Название"
+
+#: Plugin\Commerce\View\Orders\admin_edit.ctp:99
+msgid "Telefon"
+msgstr "Телефон"
+
+#: Plugin\Commerce\View\Orders\admin_edit.ctp:121
+msgid "Imię i Nazwisko"
+msgstr "Имя и Фамилия"
+
+#: Plugin\Commerce\View\Orders\admin_edit.ctp:122;136
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:157
+msgid "Adres"
+msgstr "Адрес"
+
+#: Plugin\Commerce\View\Orders\admin_edit.ctp:123;137
+msgid "Nr domu"
+msgstr "№ дома"
+
+#: Plugin\Commerce\View\Orders\admin_edit.ctp:124;138
+msgid "Nr mieszk."
+msgstr "№ квартиры"
+
+#: Plugin\Commerce\View\Orders\admin_edit.ctp:125;140
+msgid "Poczta"
+msgstr "Почтовое отделение"
+
+#: Plugin\Commerce\View\Orders\admin_edit.ctp:126;141
+msgid "Kod Pocztowy"
+msgstr "Почтовый код"
+
+#: Plugin\Commerce\View\Orders\admin_edit.ctp:127;143
+msgid "Kraj"
+msgstr "Страна"
+
+#: Plugin\Commerce\View\Orders\admin_edit.ctp:134
+msgid "Firma"
+msgstr "Фирма"
+
+#: Plugin\Commerce\View\Orders\admin_edit.ctp:139
+msgid "NIP"
+msgstr "ЄДРПОУ"
+
+#: Plugin\Commerce\View\Orders\admin_edit.ctp:175
+msgid "Zapisz i wyślij wiadomość email do klienta"
+msgstr "Записать и выслать e-mail сообщение клиенту"
+
+#: Plugin\Commerce\View\Orders\admin_edit.ctp:176
+msgid "Zapisz"
+msgstr "Записать"
+
+#: Plugin\Commerce\View\Orders\admin_edit.ctp:184
+msgid "Lista Zamówień"
+msgstr "Список заказов"
+
+#: Plugin\Commerce\View\Orders\admin_index.ctp:20
+#: Plugin\Commerce\View\Orders\admin_index_chart.ctp:15
+#: Plugin\Payments\View\Payments\admin_add.ctp:36
+msgid "Lista zamówień - anulowane"
+msgstr "Список заказов - аннулированные"
+
+#: Plugin\Commerce\View\Orders\admin_index.ctp:21
+#: Plugin\Commerce\View\Orders\admin_index_cancel.ctp:17
+#: Plugin\Payments\View\Payments\admin_add.ctp:37
+msgid "Lista zamówień - w koszykach"
+msgstr "Список заказов - в корзинах"
+
+#: Plugin\Commerce\View\Orders\admin_index_cancel.ctp:8
+msgid "Lista zamówień anulowanych"
+msgstr "Список аннулированных заказов"
+
+#: Plugin\Commerce\View\Orders\admin_index_chart.ctp:2
+msgid "Zamówienia w Koszykach"
+msgstr "Заказы в Корзинах"
+
+#: Plugin\Commerce\View\Orders\admin_index_chart.ctp:5
+msgid "Usuń"
+msgstr "Удалить"
+
+#: Plugin\Commerce\View\Orders\admin_report.ctp:7
+msgid "Raporty sprzedaży"
+msgstr "Отчеты продаж"
+
+#: Plugin\Commerce\View\Orders\admin_send_order_email.ctp:30
+msgid "Powiadomienie do klienta (Email)"
+msgstr "Сообщение клиенту (E-mail)"
+
+#: Plugin\Commerce\View\Orders\admin_send_order_email.ctp:37
+msgid "Wyślij"
+msgstr "Выслать"
+
+#: Plugin\Commerce\View\Orders\admin_send_order_email.ctp:38
+msgid "Nie Wysyłaj"
+msgstr "Не высылать"
+
+#: Plugin\Commerce\View\Orders\cart.ctp:45
+msgid "Wybierz poniżej formę płatności i dostawy"
+msgstr "Выбрать способ оплаты и доставки позднее"
+
+#: Plugin\Commerce\View\Orders\cart.ctp:61
+msgid "Wartość przesyłki z rabatem"
+msgstr "Стоимость доставки со скидкой"
+
+#: Plugin\Commerce\View\Orders\cart.ctp:67
+msgid "Razem do zapłaty"
+msgstr "Всего к оплате"
+
+#: Plugin\Commerce\View\Orders\cart.ctp:72
+msgid "wróć do zakupów"
+msgstr "Вернуться к покупкам"
+
+#: Plugin\Commerce\View\Orders\cart.ctp:73
+msgid "Przejdź do zamówienia"
+msgstr "Перейти к заказу"
+
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:7
+msgid "Strona główna"
+msgstr "Главная страница"
+
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:8
+msgid "Koszyk"
+msgstr "Корзина"
+
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:9;21
+#: Plugin\Payments\View\Payments\transfer.ctp:16
+msgid "Składanie zamówienia"
+msgstr "Оформить заказ"
+
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:15
+msgid "NAVIGATION"
+msgstr "НАВИГАЦИЯ"
+
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:21
+#: Plugin\Payments\View\Payments\transfer.ctp:16
+msgid "Twój koszyk"
+msgstr "Ваша Корзина"
+
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:21
+#: Plugin\Payments\View\Payments\transfer.ctp:16
+msgid "Podsumowanie zakupu"
+msgstr "Итоги покупки"
+
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:26
+msgid "Sposób zamówienia"
+msgstr "Способ заказа"
+
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:53
+msgid "Podsumowanie zamówienia"
+msgstr "Итог заказа"
+
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:63
+msgid "Suma"
+msgstr "Сумма"
+
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:64
+msgid "Koszt przesyłki"
+msgstr "Стоимость доставки"
+
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:65
+msgid "Do zapłaty"
+msgstr "К оплате"
+
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:69
+msgid "Zamów"
+msgstr "Заказать"
+
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:156
+msgid "Imię i nazwisko"
+msgstr "Имя и Фамилия"
+
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:199;211
+msgid "Popraw dane adresowe"
+msgstr "Изменить данные адреса"
+
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:229
+msgid "Podaj poprawny adres email"
+msgstr "Укажите верный адрес e-mail"
+
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:230
+msgid "Zaloguj się lub zamów jako gość akceptując warunki"
+msgstr ""
+"Войдите в свой аккаунт либо оформите заказ в статусе Гость, приняв условия"
+
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:259
+msgid "Podany adres email istnieje już w bazie danych"
+msgstr "Данный адрес e-mail уже находится в базе данных"
+
+#: Plugin\Commerce\View\Orders\order_checkout.ctp:260
+msgid "Wystąpił błąd przy sprawdzaniu adresu. Spróbuj ponownie"
+msgstr "Произошла ошибка при проверке адреса. Попробуйте снова"
+
+#: Plugin\Commerce\View\PromotionCodes\admin_view.ctp:2
+#: Plugin\Commerce\View\PromotionCodes\view.ctp:2
+msgid "Promotion Code"
+msgstr ""
+
+#: Plugin\Commerce\View\PromotionCodes\admin_view.ctp:54
+#: Plugin\Commerce\View\PromotionCodes\view.ctp:54
+msgid "Edit Promotion Code"
+msgstr ""
+
+#: Plugin\Commerce\View\PromotionCodes\admin_view.ctp:55
+#: Plugin\Commerce\View\PromotionCodes\view.ctp:55
+msgid "Delete Promotion Code"
+msgstr ""
+
+#: Plugin\Commerce\View\PromotionCodes\admin_view.ctp:56
+#: Plugin\Commerce\View\PromotionCodes\view.ctp:56
+msgid "List Promotion Codes"
+msgstr ""
+
+#: Plugin\Commerce\View\PromotionCodes\admin_view.ctp:57
+#: Plugin\Commerce\View\PromotionCodes\view.ctp:57
+msgid "New Promotion Code"
+msgstr ""
+
+#: Plugin\Commerce\View\ShipmentMethodConfigs\admin_view.ctp:2
+#: Plugin\Commerce\View\ShipmentMethodConfigs\view.ctp:2
+msgid "Shipment Method Config"
+msgstr ""
+
+#: Plugin\Commerce\View\ShipmentMethodConfigs\admin_view.ctp:9
+#: Plugin\Commerce\View\ShipmentMethodConfigs\view.ctp:9
+#: Plugin\Commerce\View\ShipmentMethods\admin_view.ctp:2
+#: Plugin\Commerce\View\ShipmentMethods\view.ctp:2
+msgid "Shipment Method"
+msgstr ""
+
+#: Plugin\Commerce\View\ShipmentMethodConfigs\admin_view.ctp:44
+#: Plugin\Commerce\View\ShipmentMethodConfigs\view.ctp:44
+msgid "Edit Shipment Method Config"
+msgstr ""
+
+#: Plugin\Commerce\View\ShipmentMethodConfigs\admin_view.ctp:45
+#: Plugin\Commerce\View\ShipmentMethodConfigs\view.ctp:45
+msgid "Delete Shipment Method Config"
+msgstr ""
+
+#: Plugin\Commerce\View\ShipmentMethodConfigs\admin_view.ctp:46
+#: Plugin\Commerce\View\ShipmentMethodConfigs\view.ctp:46
+#: Plugin\Commerce\View\ShipmentMethods\admin_view.ctp:63
+#: Plugin\Commerce\View\ShipmentMethods\view.ctp:63
+msgid "List Shipment Method Configs"
+msgstr ""
+
+#: Plugin\Commerce\View\ShipmentMethodConfigs\admin_view.ctp:47
+#: Plugin\Commerce\View\ShipmentMethodConfigs\view.ctp:47
+#: Plugin\Commerce\View\ShipmentMethods\admin_view.ctp:64;104
+#: Plugin\Commerce\View\ShipmentMethods\view.ctp:64;104
+msgid "New Shipment Method Config"
+msgstr ""
+
+#: Plugin\Commerce\View\ShipmentMethods\admin_view.ctp:59
+#: Plugin\Commerce\View\ShipmentMethods\view.ctp:59
+msgid "Edit Shipment Method"
+msgstr ""
+
+#: Plugin\Commerce\View\ShipmentMethods\admin_view.ctp:60
+#: Plugin\Commerce\View\ShipmentMethods\view.ctp:60
+msgid "Delete Shipment Method"
+msgstr ""
+
+#: Plugin\Commerce\View\ShipmentMethods\admin_view.ctp:68
+#: Plugin\Commerce\View\ShipmentMethods\view.ctp:68
+msgid "Related Shipment Method Configs"
+msgstr ""
+
+#: Plugin\Commerce\View\ShipmentMethods\admin_view.ctp:74
+#: Plugin\Commerce\View\ShipmentMethods\view.ctp:74
+msgid "Weight"
+msgstr ""
+
+#: Plugin\Commerce\View\ShipmentMethods\admin_view.ctp:75
+#: Plugin\Commerce\View\ShipmentMethods\view.ctp:75
+msgid "Price"
+msgstr ""
+
+#: Plugin\Commerce\View\ShipmentMethods\admin_view.ctp:76
+#: Plugin\Commerce\View\ShipmentMethods\view.ctp:76
+msgid "Tax Rate"
+msgstr ""
+
+#: Plugin\Info\View\Elements\InfoPages\table_index.ctp:33
+#: Plugin\StaticProduct\View\Elements\Products\table_index.ctp:105
+#: Plugin\StaticProduct\View\Products\admin_edit.ctp:14
+msgid "Zdjęcia"
+msgstr "Фотографии"
+
+#: Plugin\Info\View\InfoCategories\admin_view.ctp:2
+#: Plugin\Info\View\InfoCategories\view.ctp:2
+msgid "Info Category"
+msgstr ""
+
+#: Plugin\Info\View\InfoCategories\admin_view.ctp:29
+#: Plugin\Info\View\InfoCategories\view.ctp:29
+msgid "Edit Info Category"
+msgstr ""
+
+#: Plugin\Info\View\InfoCategories\admin_view.ctp:30
+#: Plugin\Info\View\InfoCategories\view.ctp:30
+msgid "Delete Info Category"
+msgstr ""
+
+#: Plugin\Info\View\InfoCategories\admin_view.ctp:31
+#: Plugin\Info\View\InfoCategories\view.ctp:31
+msgid "List Info Categories"
+msgstr ""
+
+#: Plugin\Info\View\InfoCategories\admin_view.ctp:32
+#: Plugin\Info\View\InfoCategories\view.ctp:32
+msgid "New Info Category"
+msgstr ""
+
+#: Plugin\Info\View\InfoPages\admin_view.ctp:2
+#: Plugin\Info\View\InfoPages\view_old.ctp:2
+msgid "Info Page"
+msgstr ""
+
+#: Plugin\Info\View\InfoPages\admin_view.ctp:49
+#: Plugin\Info\View\InfoPages\view_old.ctp:49
+msgid "Edit Info Page"
+msgstr ""
+
+#: Plugin\Info\View\InfoPages\admin_view.ctp:50
+#: Plugin\Info\View\InfoPages\view_old.ctp:50
+msgid "Delete Info Page"
+msgstr ""
+
+#: Plugin\Info\View\InfoPages\admin_view.ctp:51
+#: Plugin\Info\View\InfoPages\view_old.ctp:51
+msgid "List Info Pages"
+msgstr ""
+
+#: Plugin\Info\View\InfoPages\admin_view.ctp:52
+#: Plugin\Info\View\InfoPages\view_old.ctp:52
+msgid "New Info Page"
+msgstr ""
+
+#: Plugin\Info\View\InfoTags\admin_view.ctp:2
+#: Plugin\Info\View\InfoTags\view.ctp:2
+msgid "Info Tag"
+msgstr ""
+
+#: Plugin\Info\View\InfoTags\admin_view.ctp:34
+#: Plugin\Info\View\InfoTags\view.ctp:34
+msgid "Edit Info Tag"
+msgstr ""
+
+#: Plugin\Info\View\InfoTags\admin_view.ctp:35
+#: Plugin\Info\View\InfoTags\view.ctp:35
+msgid "Delete Info Tag"
+msgstr ""
+
+#: Plugin\Info\View\InfoTags\admin_view.ctp:36
+#: Plugin\Info\View\InfoTags\view.ctp:36
+msgid "List Info Tags"
+msgstr ""
+
+#: Plugin\Info\View\InfoTags\admin_view.ctp:37
+#: Plugin\Info\View\InfoTags\view.ctp:37
+msgid "New Info Tag"
+msgstr ""
+
+#: Plugin\Panel\View\Panel\admin_index_old.ctp:3
+#: Plugin\Panel\View\Panel\admin_simple.ctp:2
+msgid "DASHBOARD"
+msgstr ""
+
+#: Plugin\Panel\View\Panel\admin_index_old.ctp:4
+#: Plugin\Panel\View\Panel\admin_simple.ctp:3
+msgid "Witaj w panelu administracyjnym."
+msgstr "Приветствуем Вас в Административной Панеле."
+
+#: Plugin\Panel\View\Panel\admin_index_old.ctp:5
+msgid "Poniżej zostały zaprezentowane statystyki z ostatniego miesiąca."
+msgstr "Ниже приведена статистика последнего месяца."
+
+#: Plugin\Panel\View\Panel\admin_index_old.ctp:6
+msgid "Z menu na górze strony wybierz odpowiednią opcję."
+msgstr "В Меню сверху страницы выберите нужную опцию."
+
+#: Plugin\Payments\Controller\PaymentsController.php:58
+#: Plugin\Payments\Controller\old\PaymentsController.php:41
+msgid "Próba wykonania płatności nie powiodła się."
+msgstr "Попытка произвести оплату закончилась неудачно."
+
+#: Plugin\Payments\Controller\PaymentsController.php:60
+#: Plugin\Payments\Controller\old\PaymentsController.php:43
+msgid ""
+"Płatność została już rozpoczęta. Aby powtórzyć płatność przejdź do swojego "
+"konta, lub skontatuj się z biurem obsługi klienta."
+msgstr ""
+"Процедура оплаты уже была начата. Чтобы повторить оплату перейдите в свой "
+"аккаунт, либо свяжитесь с бюром обслуживания клиента."
+
+#: Plugin\Payments\Controller\PaymentsController.php:94
+#: Plugin\Payments\Controller\old\PaymentsController.php:82
+msgid "Nieprawidłowe wywołanie"
+msgstr "Неправильный вызов"
+
+#: Plugin\Payments\Controller\PaymentsController.php:369
+#: Plugin\Payments\Controller\old\PaymentsController.php:288
+msgid "Płatność została dodana pomyślnie."
+msgstr "Оплата была успешно добавлена."
+
+#: Plugin\Payments\Controller\PaymentsController.php:372
+#: Plugin\Payments\Controller\old\PaymentsController.php:291
+msgid "Nie dodano płatności. Sprawdź formularz i spróbuj ponnownie."
+msgstr "Оплата не добавлена. Проверьте формуляж и попробуйте снова."
+
+#: Plugin\Payments\Controller\PaymentsController.php:410
+#: Plugin\Payments\Controller\old\PaymentsController.php:330
+msgid "Invalid Payment"
+msgstr ""
+
+#: Plugin\Payments\Controller\PaymentsController.php:415
+#: Plugin\Payments\Controller\old\PaymentsController.php:335
+msgid "The Payment has been saved"
+msgstr ""
+
+#: Plugin\Payments\Controller\PaymentsController.php:418
+#: Plugin\Payments\Controller\old\PaymentsController.php:338
+msgid "The Payment could not be saved. Please, try again."
+msgstr ""
+
+#: Plugin\Payments\Controller\PaymentsController.php:430
+#: Plugin\Payments\Controller\old\PaymentsController.php:350
+msgid "Nieprawidłowy ID płatności"
+msgstr ""
+
+#: Plugin\Payments\Controller\PaymentsController.php:435
+#: Plugin\Payments\Controller\old\PaymentsController.php:355
+msgid "Payment deleted"
+msgstr ""
+
+#: Plugin\Payments\View\Email\html\user_payment_nok.ctp:3
+#: Plugin\Payments\View\Email\text\user_payment_nok.ctp:3
+msgid "O godzinie %s dnia %s została rozpoczęta płatność. Szczegóły:"
+msgstr "Во время %s дня %s была начата процедура оплаты. Детали:"
+
+#: Plugin\Payments\View\Email\html\user_payment_nok.ctp:9
+#: Plugin\Payments\View\Email\text\user_payment_nok.ctp:9
+msgid "Status ustalony przez bramkę płatności:"
+msgstr "Статус, полученный через платежный шлюз:"
+
+#: Plugin\Payments\View\Email\html\user_payment_nok.ctp:13
+msgid ""
+"W razie problemów, prosimy o przesłanie formularzem kontaktowym<br />\n"
+"zgłoszenia zawierającego datę i godzinę transakcji, swoje dane używane "
+"podczas płatności<br />\n"
+"oraz treść powyższego komunikatu."
+msgstr ""
+"В случае возникновения проблем, пожалуйста, воспользуйтесь контактной "
+"формой<br />\n"
+"заявка должна содержать дату и время транзакции, а так же ошибку, полученную "
+"во время оплаты<br />\n"
+"плюс - ваш комментарий."
+
+#: Plugin\Payments\View\Email\text\user_payment_nok.ctp:13
+msgid ""
+"W razie problemów, prosimy o przesłanie formularzem kontaktowym\n"
+"zgłoszenia zawierającego datę i godzinę transakcji, swoje dane używane "
+"podczas płatności\n"
+"oraz treść powyższego komunikatu."
+msgstr ""
+"В случае возникновения проблем, пожалуйста, воспользуйтесь контактной "
+"формой\n"
+"заявка должна содержать дату и время транзакции, а так же ошибку, полученную "
+"во время оплаты\n"
+"плюс - ваш комментарий."
+
+#: Plugin\Payments\View\Payments\admin_view.ctp:2
+#: Plugin\Payments\View\Payments\view.ctp:2
+msgid "Payment"
+msgstr ""
+
+#: Plugin\Payments\View\Payments\admin_view.ctp:124
+#: Plugin\Payments\View\Payments\view.ctp:124
+msgid "Edit Payment"
+msgstr ""
+
+#: Plugin\Payments\View\Payments\admin_view.ctp:125
+#: Plugin\Payments\View\Payments\view.ctp:125
+msgid "Delete Payment"
+msgstr ""
+
+#: Plugin\Payments\View\Payments\admin_view.ctp:126
+#: Plugin\Payments\View\Payments\view.ctp:126
+msgid "List Payments"
+msgstr ""
+
+#: Plugin\Payments\View\Payments\admin_view.ctp:127
+#: Plugin\Payments\View\Payments\view.ctp:127
+msgid "New Payment"
+msgstr ""
+
+#: Plugin\Payments\View\Payments\transfer.ctp:23;26
+msgid "Twoje zamówienie zostało zapisane w systemie i oczekujemy na płatność."
+msgstr "Ваш заказ был записан в системе и ожидает оплаты."
+
+#: Plugin\Payments\View\Payments\transfer.ctp:29
+msgid ""
+"Twoje zamówienie zostało zapisane w systemie i zostanie wysłane za pobraniem."
+msgstr "Ваш заказ был записан в системе и будет отправлен наложенным платежом."
+
+#: Plugin\Payments\View\Payments\transfer.ctp:50
+msgid "Szczegóły zamówienia"
+msgstr "Детали заказа"
+
+#: Plugin\Payments\View\Payments\transfer.ctp:56
+msgid "Lp."
+msgstr ""
+
+#: Plugin\Payments\View\Payments\transfer.ctp:58
+msgid "Produkt"
+msgstr "Товар"
+
+#: Plugin\Payments\View\Payments\transfer.ctp:59
+msgid "Cena netto / szt."
+msgstr "Цена нетто / шт."
+
+#: Plugin\Payments\View\Payments\transfer.ctp:61
+msgid "Suma brutto"
+msgstr "Сумма брутто"
+
+#: Plugin\Payments\View\Payments\transfer.ctp:115
+msgid "Razem"
+msgstr "Всего"
+
+#: Plugin\StaticProduct\Controller\ProductsCategoriesController.php:130
+msgid "Strona nie istnieje."
+msgstr "Данная страница не существует."
+
+#: Plugin\StaticProduct\Controller\ProductsController.php:182
+msgid "Invalid localization"
+msgstr "Данная страница не существует."
+
+#: Plugin\StaticProduct\Controller\ProductsController.php:812
+msgid "Liczba produktów poprawnie zaktualizowanych "
+msgstr "Количество обновленных товаров"
+
+#: Plugin\StaticProduct\Controller\ProductsController.php:873
+msgid "Plik zawiera błędne dane"
+msgstr "Файл содержит неверные данные"
+
+#: Plugin\StaticProduct\View\Elements\Products\table_index.ctp:114
+msgid "Promocje"
+msgstr "Акция"
+
+#: Plugin\StaticProduct\View\Products\admin_view.ctp:2
+msgid "Product"
+msgstr "Товар"
+
+#: Plugin\StaticProduct\View\Products\admin_view.ctp:9
+msgid "Photo"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\admin_view.ctp:14
+#: Plugin\StaticProduct\View\ProductsCategories\admin_view.ctp:2
+msgid "Product Category"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\admin_view.ctp:64
+msgid "Edit Product"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\admin_view.ctp:65
+msgid "Delete Product"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\admin_view.ctp:66
+msgid "List Products"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\admin_view.ctp:67
+msgid "New Product"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\admin_view.ctp:68
+msgid "List Photos"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\admin_view.ctp:69
+msgid "New Photo"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\admin_view.ctp:71
+#: Plugin\StaticProduct\View\ProductsCategories\admin_view.ctp:47
+msgid "New Product Category"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:164
+msgid "Cena:"
+msgstr ""
+
+#: Plugin\StaticProduct\View\ProductsCategories\admin_view.ctp:44
+msgid "Edit Product Category"
+msgstr ""
+
+#: Plugin\StaticProduct\View\ProductsCategories\admin_view.ctp:45
+msgid "Delete Product Category"
+msgstr ""
+
+#: Plugin\Studio\View\StudioMovies\admin_view.ctp:2
+#: Plugin\Studio\View\StudioMovies\view.ctp:2
+msgid "Studio Movie"
+msgstr ""
+
+#: Plugin\Studio\View\StudioMovies\admin_view.ctp:39
+#: Plugin\Studio\View\StudioMovies\view.ctp:39
+msgid "Edit Studio Movie"
+msgstr ""
+
+#: Plugin\Studio\View\StudioMovies\admin_view.ctp:40
+#: Plugin\Studio\View\StudioMovies\view.ctp:40
+msgid "Delete Studio Movie"
+msgstr ""
+
+#: Plugin\Studio\View\StudioMovies\admin_view.ctp:41
+#: Plugin\Studio\View\StudioMovies\view.ctp:41
+msgid "List Studio Movies"
+msgstr ""
+
+#: Plugin\Studio\View\StudioMovies\admin_view.ctp:42
+#: Plugin\Studio\View\StudioMovies\view.ctp:42
+msgid "New Studio Movie"
+msgstr ""
+
+#: View\Elements\Calculators\calculator.ctp:1
+msgid "Kalkulator"
+msgstr "Калькулятор:"
+
+#: View\Elements\Calculators\calculator.ctp:4
+msgid "Podaj cenę w PLN "
+msgstr "Введите цену в PLN:"
+
+#: View\Elements\Calculators\calculator.ctp:8
+msgid "Cena w GRN "
+msgstr "Цена для Украины:"
+
+#: View\Elements\cms\analytics_circlechart.ctp:13
+msgid "Odwiedziny bezpośrednie"
+msgstr "Непосредственные просмотры"
+
+#: View\Elements\cms\analytics_circlechart.ctp:17
+msgid "Witryny odsyłające"
+msgstr "Сайты-источники переходов"
+
+#: View\Elements\cms\analytics_circlechart.ctp:23
+msgid "Wyszukiwarki"
+msgstr "Поисковики"
+
+#: View\Elements\cms\left_menu.ctp:8
+msgid "WYLOGUJ"
+msgstr "ВЫЙТИ"
+
+#: View\Elements\cms\menu.ctp:3
+msgid "ADMINISTRACJA"
+msgstr "АДМИНИСТРАЦИЯ"
+
+#: View\Elements\cms\menu.ctp:12
+msgid "Newsletter"
+msgstr "Подписка на новости"
+
+#: View\Elements\cms\menu.ctp:22
+msgid "Strona"
+msgstr "Страница"
+
+#: View\Elements\cms\menu.ctp:23
+msgid "Znaczniki Meta"
+msgstr "Мета данные"
+
+#: View\Elements\cms\menu.ctp:24
+msgid "Reklamy na stronach głównych"
+msgstr "Реклама на главных страницах"
+
+#: View\Elements\cms\menu.ctp:25
+msgid "Kalkulator konwersji PLN/GRN"
+msgstr "Калькулятор цен PLN/ГРН"
+
+#: View\Elements\cms\menu.ctp:26
+msgid "Kalkulator konwersji PLN/GRN parametry"
+msgstr "Параметры калькулятора PLN/ГРН"
+
+#: View\Elements\cms\menu.ctp:33
+msgid "Lista produktów"
+msgstr "Список товаров"
+
+#: View\Elements\cms\menu.ctp:34
+msgid "Kategorie produktów"
+msgstr "Категория товаров"
+
+#: View\Helper\FebFormHelper.php:112
+msgid "Dodaj pole"
+msgstr "Добавить поле"
+
+#: View\Helper\FebFormHelper.php:125
+msgid "X"
+msgstr ""
+
+#: View\Helper\FebTimeHelper.php:21
+msgid "dzisiaj, %s"
+msgstr "сегодня, %s"
+
+#: View\Helper\FebTimeHelper.php:23
+msgid "wczoraj, %s"
+msgstr "вчера, %s"
+
+#: View\Layouts\Emails\html\default.ctp:31
+#: View\Layouts\Emails\text\default.ctp:7
+msgid ""
+"Wiadomość wygenerowana automatycznie - nie ma potrzeby na nią odpowiadać."
+msgstr "Сообщение было создано автоматически - не отвечайте на него, спасибо."

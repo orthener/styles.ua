@@ -1,0 +1,359 @@
+dl dt {
+    float: none;
+}
+.submit {
+    height: 40px;
+}
+.price {
+    text-align: right;
+}
+form select {
+    width: 105px;
+}
+
+
+#chart-count {
+    font-weight: bold;
+}
+
+.link {
+    margin: 10px;
+    font-weight: normal;
+    padding: 4px 8px;
+    background: #F39F26;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F39F26), to(#CE7A01));
+    background-image: -moz-linear-gradient(top, #F39F26, #CE7A01);
+    color: #333;
+    border: 1px solid #AAAC62;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    min-width: 0;
+    color: white;        
+}
+
+.text label, .password label, .select label, .file label, .textarea labe {
+    font-weight: bold;
+    width: 7%;
+}
+#SavedMailTemat {
+    width: 561px;
+}
+
+
+.button {
+
+    font-weight: bold;
+    padding: 7px 8px;
+    background: #F39F26;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F39F26), to(#CE7A01));
+    background-image: -moz-linear-gradient(top, #F39F26, #CE7A01);
+    color: #333;
+    border: 1px solid #AAAC62;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    min-width: 0;
+    color: white;    
+}
+
+.button:hover {
+    text-decoration: none;
+}
+
+.submit {
+    height: 40px;
+}
+.price {
+    text-align: right;
+}
+form select {
+    width: 105px;
+}
+
+
+#OrderSubject {
+    width: 500px;
+}
+
+#DatePickerContent {
+    float: right;
+}
+
+#chartType label{
+    width: 100%;
+    text-align: left;
+}
+
+#chart_div {
+    margin-top: 10px;
+}
+
+.tooltipChart {
+    float: left;
+}
+.orders{
+    padding: 10px;
+    background: #f5f5f5;
+}
+.orders h1.orange{
+    color: #3c3c3b;
+    font: bold 18px/22px arial, sans-serif;
+}
+.orders .steps{
+    padding: 10px 0;
+    border-bottom: 1px solid #dedede;
+}
+.orders .steps .step{
+    float: left;
+    width: 147px;
+    border-radius: 5px;
+    font: bold 14px/18px arial, sans-serif;
+    padding: 6px 0px 6px 40px;
+    background: url(../img/commerce/step.png) no-repeat left bottom;
+}
+.orders .steps .step + .step{
+    margin-left: 20px;
+}
+.orders .steps .step a{
+    color: #4B4B4B;
+    text-decoration: none;
+}
+ 
+.orders .steps .step.already a,
+.orders .steps .step.active a{
+    color: #fff;
+}
+.orders .steps .step b{
+    font: bold 36px/35px arial, sans-serif;
+    float: left;
+    padding-right: 5px;
+}
+
+.orders .steps .step.active{
+    background: url(../img/commerce/step_active.png) repeat-x left bottom;
+    color: #fff;
+}
+.orders .steps .step.already{
+    background: url(../img/commerce/already.png) repeat-x left bottom;
+    color: #fff;
+} 
+
+.orders table{
+    width: 100%;
+}
+.orders table th{
+    color: #676767;
+    font: bold 12px/16px arial, sans-serif;
+    vertical-align: middle;
+    height: 40px;
+}
+.orders table tbody{
+    border: 1px solid #dedede;
+    border-top: none;
+}
+.orders .numeric input{
+    float: left;
+    margin-right: 5px;
+    padding: 0 5px;
+    line-height: 20px;
+    width: 25px;
+    height: 22px;
+}
+.orders .numeric label{
+    float: left;
+    padding: 5px;
+}
+.orders #quantity + img{
+    margin-top: 7px;
+}
+.orders .deleteFile{
+    background: url(../img/commerce/delete.png) no-repeat left bottom;
+    display: block;
+    text-indent: -400px;
+    overflow: hidden;
+    width: 13px;
+    height: 13px;
+}
+.orders td{
+    border-top: 1px solid #dedede;
+}
+.orders td.photo > img{
+    display: inline;
+    border: 1px solid #BBBBBB;
+    vertical-align: bottom;
+}
+.orders td.photo > div > div {
+    margin: 0 auto;
+}
+.orders td.photo{
+    width: 135px;
+    padding: 4px;
+    vertical-align: middle;
+    text-align: center;
+/*    border-right: 1px solid #dedede; */
+}
+.orders tr.altrow{
+    background: #ebebeb;
+}
+.orders td h2{
+    font: bold 14px/16px arial, sans-serif;
+    color: #3c3c3b;
+    margin: 10px;
+}
+.orders td .desc{
+    margin: 0px;
+    color: #444444;
+    font: italic 11px/13px arial, sans-serif;
+    margin: 0 10px;
+}
+.orders .widthCenter{
+    width: 640px;
+    margin: auto;
+}
+.orders .summaryText{
+    text-align: right;
+    font: bold 14px/16px arial, sans-serif;
+    color: #676767;
+    padding-bottom: 20px;
+}
+.orders .summaryText b{
+    color: #444444;
+}
+#OrderCartForm .summaryText{
+    padding: 20px 0;
+    border-top: 1px solid #dedede;
+}
+#content .orders .widthCenter .halfBox{
+    float: left;
+    width: 300px;
+    padding: 10px;
+}
+.orders h1.blue{
+    background: url(../img/commerce/dark.png) repeat-x center;
+    font: bold 18px/22px arial, sans-serif;
+    color: #fff;
+}
+#tab li.ui-state-active{
+    display: none;
+}
+#tab li.ui-state-default{
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    font: bold 18px/22px arial, sans-serif;
+}
+#tab li.ui-state-default a{
+    color: #3c3c3b;
+}
+#tab li.ui-state-default span{
+    color: #de0e16;
+}
+#tab .ui-tabs-hide{
+    display: none;
+}
+.orders .radioType{
+    padding: 4px 0;
+}
+.orders .radioType input{
+    margin-right: 5px;
+}
+.orders .radioType span{
+    color: #444444;
+    font: bold 14px/16px arial, sans-serif;
+}
+.orders .orangeButton{
+    background: url(../img/commerce/next_red.png) repeat-x center;
+    color: #fff;
+    border: none 0px;
+    border-radius: 5px;
+    padding: 4px 10px;
+    font: bold 12px/14px arial, sans-serif;
+    cursor: pointer;
+}
+.orders .blueButton{
+    background: url(../img/commerce/prev_dark.png) repeat-x center;
+    color: #fff;
+    border: none 0px;
+    border-radius: 5px;
+    padding: 4px 10px;
+    font: bold 12px/14px arial, sans-serif;
+    text-decoration: none;
+}
+.orders fieldset{
+    width: 680px;
+    margin: auto;
+    border-top: 1px solid #dedede;
+    padding: 20px 10px;
+}
+.orders .input{
+    padding: 5px 0;
+}
+
+.orders .input.required label:after {
+    content: ' *';
+}
+
+
+.orders .input.numeric img{
+    margin: 5px;
+}
+.orders .deleteTD {
+    padding-top: 15px;
+}
+.orders .select label,
+.orders .text label,
+.orders .password label{
+    width: 95px;
+    font: normal 12px/14px arial, sans-serif;
+    color: #8b8b8b;
+    display: inline-block;
+    text-align: right;
+    padding-right: 5px;
+}
+.orders .checkbox input{
+    margin-right: 5px;
+}
+.orders .text input,
+.orders .password input{
+    border: 1px solid #b1b1b1;
+    width: 160px;
+    height: 22px;
+    padding: 0 10px;
+}
+.orders .select select{
+    width: 170px;
+    border: 1px solid #b1b1b1;
+    height: 22px;
+    padding-left: 6px;
+}
+.orders .postcode .code{
+    float: left;
+    width: 165px;
+}
+.orders .postcode .code input{
+    width: 40px;
+}
+.orders .postcode .city{
+    position: relative;
+    float: left;
+}
+.orders .postcode .city label{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    
+}
+.orders .postcode .city input{
+    width: 85px;
+}
+.orders .shipmentMethodInfo,
+.orders .paymentTypeInfo{
+    border-bottom: 1px solid #dedede;
+    padding: 10px 35px;
+    background: url(../img/commerce/ok.png) no-repeat 10px 7px;
+}
+

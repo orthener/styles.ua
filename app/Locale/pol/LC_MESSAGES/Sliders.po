@@ -1,0 +1,35 @@
+//Model Sliders 
+
+msgid "Tiny Name"
+msgstr "Krótka nazwa"
+msgid "Text Color"
+msgstr "Kolor tekstu"
+msgid "Button Text"
+msgstr "Tekst przycisku"
+msgid "Button Link"
+msgstr "Link przycisku"
+
+msgid "Sliders"
+msgstr "Slidery"
+
+msgid "New Slider"
+msgstr "Dodaj Slider"
+
+msgid "List Sliders"
+msgstr "Lista Sliderów"
+
+msgid "Edit Sliders"
+msgstr "Edytuj Slider"
+
+msgid "Delete Sliders"
+msgstr "Usuń Slider"
+
+msgid "Admin Add Slider"
+msgstr "Dodawanie Slidera"
+
+msgid "Admin Edit Slider"
+msgstr "Edycja Slidera"
+
+msgid "Slider Data"
+msgstr "Dane Slidera"
+

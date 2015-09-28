@@ -1,0 +1,434 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-01-31 09:24+0100\n"
+"PO-Revision-Date: 2014-01-31 09:24+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: Plugin\Banner\View\Banners\view.ctp:30
+msgid "Sortowanie"
+msgstr ""
+
+#: Plugin\Banner\View\Banners\view.ctp:34
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:23
+msgid "Płeć"
+msgstr ""
+
+#: Plugin\Banner\View\Banners\view.ctp:37
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:26
+#: Plugin\StaticProduct\View\Products\view.ctp:118
+msgid "Rozmiar"
+msgstr ""
+
+#: Plugin\Banner\View\Banners\view.ctp:40
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:29
+msgid "Cena"
+msgstr ""
+
+#: Plugin\Banner\View\Banners\view.ctp:43
+msgid "Kolor"
+msgstr ""
+
+#: Plugin\Banner\View\Banners\view.ctp:46
+msgid "inne"
+msgstr ""
+
+#: Plugin\Banner\View\Banners\view.ctp:46
+msgid "marki"
+msgstr ""
+
+#: Plugin\Banner\View\Banners\view.ctp:88 Plugin\Brand\View\Brands\view.ctp:58
+#: Plugin\StaticProduct\View\Products\index.ctp:23
+#: Plugin\StaticProduct\View\ProductsCategories\view.ctp:30
+msgid "Popularne"
+msgstr ""
+
+#: Plugin\Banner\View\Banners\view.ctp:89 Plugin\Brand\View\Brands\view.ctp:59
+#: Plugin\StaticProduct\View\Products\index.ctp:24
+#: Plugin\StaticProduct\View\ProductsCategories\view.ctp:31
+msgid "Nowości"
+msgstr ""
+
+#: Plugin\Banner\View\Banners\view.ctp:90 Plugin\Brand\View\Brands\view.ctp:60
+#: Plugin\StaticProduct\View\Products\index.ctp:25
+#: Plugin\StaticProduct\View\ProductsCategories\view.ctp:32
+msgid "Wyprzedaż"
+msgstr ""
+
+#: Plugin\Banner\View\Banners\view.ctp:136
+#: Plugin\Brand\View\Brands\view.ctp:104
+#: Plugin\StaticProduct\View\Products\index.ctp:83
+#: Plugin\StaticProduct\View\Products\view.ctp:242
+#: Plugin\StaticProduct\View\ProductsCategories\view.ctp:86
+msgid "Kolejne produkty"
+msgstr ""
+
+#: Plugin\Brand\View\Brands\view.ctp:16
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:16
+#: Plugin\Commerce\View\Customers\my_orders_status_ended.ctp:12
+#: Plugin\Commerce\View\Customers\my_settings.ctp:11
+#: Plugin\Payments\View\Payments\start.ctp:8
+#: Plugin\Payments\View\Payments\transfer.ctp:10
+#: Plugin\StaticProduct\View\Products\index.ctp:15
+#: Plugin\StaticProduct\View\Products\view.ctp:28
+#: Plugin\StaticProduct\View\ProductsCategories\view.ctp:22
+#: View\Calculators\index.ctp:10
+msgid "NAVIGATION"
+msgstr ""
+
+#: Plugin\Brand\View\Brands\view.ctp:33
+msgid "Podziel się"
+msgstr ""
+
+#: Plugin\Brand\View\Brands\view.ctp:111
+#: Plugin\StaticProduct\View\Products\view.ctp:250
+#: Plugin\StaticProduct\View\ProductsCategories\view.ctp:93
+msgid "Ostatnio na blogu"
+msgstr ""
+
+#: Plugin\Commerce\Controller\OrderItemsController.php:161
+msgid "Przekroczono dozwoloną ilość produktu dla tego rozmiaru."
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:3
+#: Plugin\Commerce\View\Customers\my_orders_status_ended.ctp:3
+msgid "Twoje zamówienia"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:4
+msgid "W trakcie realizacji"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:30
+#: Plugin\Commerce\View\Customers\my_orders_status_ended.ctp:26
+msgid "NR ZAMÓWIENIA"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:31
+#: Plugin\Commerce\View\Customers\my_orders_status_ended.ctp:27
+msgid "DATA"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:32
+msgid "STATUS"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:33
+#: Plugin\Commerce\View\Customers\my_orders_status_ended.ctp:28
+msgid "WARTOŚĆ"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:34
+msgid "ZAPŁACONO"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:35
+#: Plugin\Commerce\View\Customers\my_orders_status_ended.ctp:29
+msgid "SZCZEGÓŁY"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_orders_active.ctp:53
+msgid "Szczegóły"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_orders_status_ended.ctp:4
+msgid "Zrealizowane"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:34
+msgid "adres e-mail"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:39
+msgid "nazwa"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:43
+msgid "Zmiana hasła"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:45
+msgid "aktualne hasło"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:48
+msgid "nowe hasło"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:49
+msgid "potwierdź hasło"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:53
+msgid "Edycja Avatara"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:65
+msgid "imię i nazwisko"
+msgstr "Имя и Фамилия"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:66
+msgid "e-mail kontaktowy"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:69;82
+msgid "telefon"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:78;107
+msgid "imię i nazwisko lub nazwa"
+msgstr "Имя и Фамилия, либо Название"
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:79;109
+msgid "ulica"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:80;110
+msgid "nr domu"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:81;111
+msgid "nr mieszkania"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:88;117
+msgid "kod pocztowy"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:89
+msgid "miasto"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:93;122
+msgid "kraj"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:94;94;123;123
+msgid "województwo"
+msgstr ""
+
+#: Plugin\Commerce\View\Customers\my_settings.ctp:108
+msgid "NIP"
+msgstr ""
+
+#: Plugin\Commerce\View\Elements\Orders\order_product.ctp:19
+#: Plugin\Commerce\View\Orders\front_cart_info.ctp:24
+msgid "rozmiar"
+msgstr ""
+
+#: Plugin\Commerce\View\Elements\Orders\order_product.ctp:36;43
+#: Plugin\StaticProduct\View\Products\view.ctp:148;154
+msgid "Maksymalna ilość produktów w tym rozmiarze wynosi "
+msgstr ""
+
+#: Plugin\Commerce\View\Elements\Orders\step6.ctp:2
+msgid "Wpisz dane osoby rekomendującej"
+msgstr ""
+
+#: Plugin\Commerce\View\Elements\Orders\step6.ctp:7
+msgid "Dodaj komentarz do zamówienia"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\front_cart_info.ctp:26
+msgid "sztuki"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\front_cart_info.ctp:42
+msgid "rozwiń"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\front_cart_info.ctp:43
+msgid "zwiń"
+msgstr ""
+
+#: Plugin\Commerce\View\Orders\front_cart_info.ctp:48
+msgid "Przejdź do koszyka"
+msgstr ""
+
+#: Plugin\Payments\View\Payments\start.ctp:2
+msgid "Koszyk"
+msgstr ""
+
+#: Plugin\Payments\View\Payments\start.ctp:3;15
+msgid "Płatność"
+msgstr ""
+
+#: Plugin\Payments\View\Payments\transfer.ctp:16
+msgid "Składanie zamówienia"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:13
+msgid "Filtrowanie"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:32
+msgid "inne marki"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:86
+msgid "Wybierz rozmiar"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:99
+msgid "pokaż"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:116
+msgid "Kobieta"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:124
+msgid "Mężczyzna"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Elements\Products\front_filter.ctp:132
+msgid "Wszystkie"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Elements\Products\product_select.ctp:1
+msgid "wszystkie"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\admin_multi_edit.ctp:14
+msgid "Zaznacz jeśli chcesz zmienić"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\admin_multiselect.ctp:3
+#: View\Elements\default\search.ctp:3;4
+#: View\Elements\default\search_blog.ctp:3;4
+msgid "Szukaj"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\front.ctp:2
+#: Plugin\StaticProduct\View\Products\index.ctp:33
+#: Plugin\StaticProduct\View\ProductsCategories\view.ctp:40
+msgid "Nie znaleziono produktów spełniających kryteria wyszukiwania."
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\front_all.ctp:12
+msgid "Kaufen"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\index.ctp:1;9
+#: Plugin\StaticProduct\View\ProductsCategories\view.ctp:1;16
+msgid "Produkty"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\index.ctp:2
+msgid "Strona główna"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\index.ctp:4
+#: Plugin\StaticProduct\View\ProductsCategories\view.ctp:12
+msgid "Wyszukiwarka"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:66
+msgid "Kliknij w strzałki lub zdjęcie aby zobaczyć więcej!"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:82
+msgid "Pełny opis"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:83
+msgid "Zwiń opis"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:110;125
+msgid "Ilość"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:182
+msgid "Masz problem z wyborem rozmiaru?"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:183
+msgid "Sprawdź jak mierzymy nasze"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:184
+msgid "produkty klikając po prawej"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:193
+msgid "Informacje o wysyłce"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:195
+msgid "Delivery inside Europe within 1-3 Days with UPS!"
+msgstr ""
+
+#: Plugin\StaticProduct\View\Products\view.ctp:196
+msgid "VISA/MC or Paypal secure payments."
+msgstr ""
+
+#: View\Elements\default\bottom_menu.ctp:1
+#: View\Elements\default\top_menu.ctp:1
+msgid "Sklep"
+msgstr ""
+
+#: View\Elements\default\bottom_menu.ctp:2
+msgid "Inspiracja"
+msgstr ""
+
+#: View\Elements\default\bottom_menu.ctp:3
+msgid "Muzyka"
+msgstr ""
+
+#: View\Elements\default\top_menu.ctp:2
+msgid "Blog"
+msgstr ""
+
+#: View\Elements\default\top_menu.ctp:3
+msgid "Studio"
+msgstr ""
+
+#: View\Emails\html\newsletter\newsletter_register.ctp:1
+#: View\Emails\html\newsletter\newsletter_unregister.ctp:1
+#: View\Emails\text\newsletter\newsletter_register.ctp:1
+#: View\Emails\text\newsletter\newsletter_unregister.ctp:1
+msgid "Witaj!"
+msgstr ""
+
+#: View\Emails\html\newsletter\newsletter_register.ctp:4
+#: View\Emails\text\newsletter\newsletter_register.ctp:4
+msgid "Aby zapisać się do newslettera, kliknij w poniższy link:"
+msgstr ""
+
+#: View\Emails\html\newsletter\newsletter_register.ctp:13
+#: View\Emails\text\newsletter\newsletter_register.ctp:13
+msgid "Jeśli nie zapisywałeś się do newslettera, zignoruj tę wiadomość."
+msgstr ""
+
+#: View\Emails\html\newsletter\newsletter_register.ctp:16
+#: View\Emails\text\newsletter\newsletter_register.ctp:16
+msgid "Aby całkowicie usunąć email z listy należy kliknąć w poniższy link:"
+msgstr ""
+
+#: View\Emails\html\newsletter\newsletter_unregister.ctp:4
+#: View\Emails\text\newsletter\newsletter_unregister.ctp:4
+msgid "Aby usunąć się z listy newslettera należy kliknąć w poniższy link:"
+msgstr ""
+
+#: View\Emails\html\newsletter\user_newsletter.ctp:4
+#: View\Emails\text\newsletter\user_newsletter.ctp:5
+msgid "Aby zrezygnować z newslettera należy kliknąć w poniższy link:"
+msgstr ""
+
+#: View\Helper\FebFormHelper.php:67
+msgid "usuń plik"
+msgstr ""
+
+#: View\Layouts\default.ctp:124
+msgid "Wybierz strefę"
+msgstr ""

@@ -1,0 +1,184 @@
+ul#nav{
+    background-color: #5c5c5d;
+    padding-left: 30px;
+    margin: 0;
+    border: 0;
+    clear: both;
+    height: 44px;
+    border-top: 3px solid #f18e00;
+    position: relative;
+    z-index: 1000;
+    margin-bottom: 50px;
+    background: repeat-x left top url('../img/layouts/admin/menu_bg.png') ;
+    
+}
+
+ul#nav li.subNav{
+    background: no-repeat right center url('../img/layouts/admin/submenu_set_bg.png');
+}
+
+ul#nav li{
+    white-space: nowrap;
+    position: relative;
+    display: block;
+    float: left;
+}
+ul#nav li li.subList{
+    color: #FFFFFF;
+    font: bold 12px/16px arial,sans-serif;
+    padding: 3px 5px 3px 12px;
+    background-image: url('../img/layouts/admin/sub_list_bg.png');
+    background-repeat: no-repeat;
+    background-position: 4px 7px;
+    cursor: default;
+}
+ul#nav li li.subList a{
+    font-weight: bold;
+    padding: 0;
+    cursor: pointer;
+}
+ul#nav a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: normal 12px/44px Tahoma, sans-serif;
+    display: block;
+    padding: 0 15px;
+}
+ul#nav li:hover{
+    background-color: #9d9d9d;  
+}
+
+ul#nav li ul{
+    display: none;
+}
+ul#nav li:hover ul{
+    display: block;
+}
+
+ul#nav li ul{
+    position: absolute;
+    left: 0px;
+    top: 44px;
+    padding-left: 0;
+}
+ul#nav li ul{
+    float: none;
+    background-color: #5c5c5d;
+}
+ul#nav li ul li{
+    background-color: #9d9d9d;
+    float: none;
+    display: block;
+    width: auto;
+    border-bottom: 1px solid #868686;
+    border-top: 1px solid #a9a9a9;
+}
+ul#nav li ul li:hover{
+    background-color: #cecece;
+}
+
+ul#nav li ul li:active{
+    background-color: #cecece;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F39F26), to(#CE7A01));
+    background-image: -moz-linear-gradient(top, #F39F26, #CE7A01);
+}
+
+ul#nav li ul li a{
+    font: normal 12px/16px arial, sans-serif;
+    text-transform: lowercase;
+    color: #fff;
+    white-space: nowrap;
+    padding: 3px 10px 3px 15px;
+}
+ul#nav li ul li:hover a{
+    color: #58585a;
+}
+/* menu z lewej strony */
+#content{
+    position: relative;
+}
+#leftMenu{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding-right: 20px;
+    background-color: #d5d5d5;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-image:   url('../img/layouts/admin/rozwin.png');
+}
+.clip #leftMenu,
+.clip #leftMenu:hover{
+    background-image: none;
+}
+#leftMenu:hover{
+    background-image:   url('../img/layouts/admin/zwin.png');
+}
+#leftMenu button{
+    float: right;
+    background: no-repeat center center url('../img/layouts/admin/pinezka.png') transparent;
+    width: 20px;
+    height: 20px;
+    font: normal 0px/0px;
+    border: none 0;
+    margin-right: -20px;
+}
+#leftMenu button.active{
+    background: no-repeat center center url('../img/layouts/admin/pinezka2.png') transparent;
+}
+#leftMenu h2{
+    border-bottom: 1px solid #d5d5d5;
+    padding: 4px 0;
+    color: #58585a;
+    margin: 0;
+}
+#leftMenu h2 span{
+    border-left: 11px solid #f18e00;
+    padding-left: 7px;
+}
+#leftMenu ul{
+    padding: 0 20px 20px 0;
+}
+#leftMenu ul li{
+    list-style-type: square;
+    color: #f18e00;
+    border-bottom: 1px dotted #d5d5d5;
+    margin-left: 20px;
+}
+#leftMenu ul li a{
+    color: #58585a;
+    text-transform: uppercase;
+    font: normal 11px/14px verdana, arial, helvetica, sans-serif;
+}
+#leftMenu #leftMenuContent{
+    width: 0px;
+    overflow: hidden;
+    background-color: #ebebeb;
+    padding: 0;
+}
+
+#leftMenu:hover,
+.clip #leftMenu{
+    width: 19%;
+}
+#leftMenu:hover{
+    border-right: 1px solid #f18e00;
+}
+#leftMenu:hover #leftMenuContent,
+.clip #leftMenu #leftMenuContent{
+    width: auto;
+    padding: 0 15px;
+}
+
+#contentCms{
+    float: left;
+    width: 100%;
+}
+.clip #contentCms{
+    float: right;
+    width: 80%;
+}
+#contentCms .actions h3{
+    display: none;
+}

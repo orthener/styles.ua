@@ -1,0 +1,789 @@
+h1 {
+    padding-left: 50px; 
+    margin-bottom: 25px;
+}
+
+.przybornik_ikona {
+    height:43px;
+    left:0;
+    position:absolute;
+    top:23px;
+    width:44px;
+}
+
+.kalkulator_ikona {
+    background-image: url('/img/layout/default/kalkulator.gif');
+}
+
+.goscie_ikona {
+    background-image: url('/img/layout/default/listagosci.gif');
+}
+
+.prezenty_ikona {
+    background-image: url('/img/layout/default/listaprezentow.gif');
+}
+
+.album_ikona {
+    background: url('../img/header_icons/zdjecie.png') no-repeat right top;
+}
+
+div .kalendarz_ikona {
+    background-image: url('/img/layout/default/kalendarz.gif');
+    top: 45px;
+}
+
+table {
+    width: 100%;
+}
+
+table, table td, table th {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    empty-cells: hide;
+}
+
+
+table td, table th {
+    border: 2px solid #C3EAFF;
+    padding: 3px 5px;
+    text-align: center;
+}
+
+table td.left, table th.left {
+    text-align: left;
+}
+
+table td.empty {
+    border: 0px none;
+}
+
+table td.first-child, table th.first-child {
+    border-left: 0px none;
+}
+
+table td.last-child, table th.last-child {
+    border-right: 0px none;
+}
+
+thead th, tfoot th {
+    background-color: #EBFAFF;
+}
+
+table tbody td {
+  background-color: white;
+  font-size: 10px;
+}
+
+table tbody tr.altrow td{
+  background-color: #F1FCFE;
+}
+
+table tbody tr.over td{
+  background-color: #EFFEED;
+}
+
+table form, form {
+    padding: 0;
+    margin: 0;
+}
+
+div.infobox {
+    /*margin: 5px 0 15px 0;*/
+}
+
+table tbody td select, table tbody td input, table tbody td textarea {
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 10px;
+    margin: 2px 0;
+} 
+
+.medium_font {
+    font-size: 10px;
+}
+
+form input, form textarea {
+    border: 1px solid #C1E9FF;
+    padding: 3px;
+    width: 90%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+form .checkbox {
+    width: auto;
+    border: auto;
+    margin: auto;
+    padding: auto;
+}
+
+form input.checkbox.hover, form input.checkbox:focus {
+    border: auto;
+    padding: auto;
+}
+
+form input.hover, form textarea.hover {
+    border: 2px solid #D1F9FF;
+    padding: 2px;
+}
+
+#viewbox form div.submit input, #viewbox form div.submit input.hover, #viewbox form div.submit input:focus, #viewbox form div input.button, #viewbox form div input.button:focus {
+    border: 0px none;
+    width: auto;
+    height: auto;
+    padding: 0px;
+}
+
+#viewbox .addCal form div.submit input, #viewbox .addCal form div.submit input.hover, #viewbox .addCal form div.submit input.focus {
+    width: 70px;
+    height: 33px;
+}
+
+#viewbox form div input.button.hover {
+    
+}
+
+form input:focus, form textarea:focus {
+    border: 2px solid #B1D9EF;
+    padding: 2px;
+}
+
+.editable, .editable-select, .editable-textarea, .editable-float, .editable-int {
+    cursor: pointer;
+}
+
+form input.ok-button {
+    width: 32px;
+    background-color: #D11804;
+    border: 0 none;
+    color: white;
+    height: 20px;
+    margin: 5px;
+    padding: 0;
+    text-align: center;
+}
+
+form input.cancel-button {
+    background-color: gray;
+    border: 0 none;
+    color: white;
+    height: 20px;
+    padding: 0;
+    text-align: center;
+    margin: 5px;
+    width: 68px;
+}
+
+#ajaxMsg-container {
+    width: 100%;
+    min-height: 40px;
+    padding-bottom: 5px;
+}
+
+#hiddenForm {
+    display:none;
+}
+
+#photo_loader{
+    display:none;
+}
+
+#galleryContainer .loader {
+    //pos/ition: absolute; 
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background-color: #FFF;
+}
+
+#galleryContainer .loader img {
+    position:relative;
+    top: 35%;
+    left:50%;
+    margin-top: -15px;
+    margin-left:-15px;
+}
+
+
+#galleryContainer.galleryeditable img {
+    cursor: move;
+}
+
+#galleryContainer .photoBox {
+/*    background-color: #F4FEFF; /**/
+    position:relative;
+    width: 205px;
+    margin-left:12px;
+    float: left;
+    
+}
+#galleryContainer .PhotoBorder{
+    border: solid #d2effa;
+    border-width: 0 1px 1px 0;
+    float: left;
+    
+}
+#galleryContainer .PhotoWidth{
+    width: 203px;
+    display: block;
+    margin: 0 auto;
+}
+#galleryContainer .controlsComment{
+    font: normal 11px tahoma;
+    color: #a3a3a3;
+    padding: 10px 0 30px;
+}
+#galleryContainer .controlsComment img{
+    padding:2px 5px 2px 0;
+}
+#galleryContainer .controlsComment a{
+    color: #16a2fe;
+    text-decoration: none;
+}
+#galleryContainer .PhotoWidth .PhotoBorder img{
+    margin: 0 auto;
+    display:block;
+    padding: 0;
+    border: 0 none;
+}
+#galleryContainer.galleryeditable .photoBox {
+    height:320px;
+}
+
+#galleryContainer .photoBoxContent {
+    border: solid 1px #c2cfdb;
+    display: block;
+    padding:5px;
+}
+#galleryContainer .controls {
+    display: block;
+    width: 100%;
+    float: left;
+}
+#galleryContainer {
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 11px;
+    margin:0 auto;
+    width:660px;
+}
+#galleryContainer  .root .photoBoxContent{
+    background: #f20587;
+}
+#galleryContainer  .root .setmainlink{
+    display: none;
+}
+#galleryContainer  .root .TitleRoot,#galleryContainer  .TitleRoot{
+    font: bold 12px/20px tahoma;
+    
+    text-align: center;
+    height: 20px;
+}
+#galleryContainer  .root .TitleRoot span{
+    color: #a20060;
+    display: block;
+    text-align:left;
+}
+#galleryContainer  .TitleRoot span{ 
+    color: white;
+    display: none;
+}
+#galleryContainer .root .edit_name{
+    color: white;
+    
+}
+#galleryContainer .edit_name{
+    cursor: pointer;
+    padding: 3px 0;
+}
+#galleryContainer .edit_name_old {
+    background-image: url('/img/icons/edit3_16x16.gif');
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 0 0 7px 20px;
+}
+#galleryContainer .controlsTitle{
+    font: normal 11px tahoma;
+    color: #555555;
+    padding:5px 0;
+}
+#galleryContainer .photoBox2Content a.edit_name {
+    display: block;
+    width:65px;
+    padding: 0 0 2px 20px;
+    margin: 0 0 8px 0;
+}
+
+#galleryContainer .edit_name textarea {
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 11px;
+    height: 30px;
+}
+
+#galleryContainer .deletelink, #galleryContainer .setmainlink {
+    display: block;
+    background-image: url('/img/icons/delete2_16x16.gif');
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 1px 0 7px 20px;
+    text-decoration: none;
+    width: 68px;
+}
+
+#galleryContainer .photoBox2Content .setmainlink {
+    padding: 1px 0 2px 20px;
+    margin: 0 0 8px 0;
+    width: 65px;
+}
+
+#galleryContainer .photoBox2Content .deletelink, #galleryContainer .photoBox2Content .setmainlink {
+    text-decoration: underline;
+}
+
+#galleryContainer .photoBox2Content .deletelink {
+    width: 80px;
+}
+#galleryContainer .photoBox2Content .box_fff strong {
+    color: #0084FF;
+}
+#galleryContainer .photoBox2Content .box_fff {
+    font-size: Tahoma, Verdana, sans-serif;
+    font-size: 12px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-image: url('/img/layout/default/box_fff.gif');
+    position: absolute;
+    top: 150px;
+    right: 12px;
+    width: 104px;
+    height: 27px;
+    padding: 2px 0px 2px 0px;
+    overflow: hidden;
+    line-height: 1.1;
+    text-align: center;
+    z-index: 10;
+}
+#galleryContainer .setmainlink {
+    background-image: url('/img/icons/image2_16x16.gif');
+    width: 125px;
+    display: block;
+    white-space: nowrap;
+    clear: both;
+}
+
+#galleryContainer .photoBox2Content .view_link {
+    clear:both;
+    text-align:center;
+    padding-top:4px;
+}
+
+#galleryContainer .photoBox2Content .view_link img, #galleryContainer .photoBox2Content .view_link a {
+    vertical-align:middle;
+}
+
+
+input.button {
+    width: auto;
+    height: auto;
+    border: 0px none;
+    padding: 0px;
+    vertical-align: top;
+}
+
+input.button.hover, input.button:focus {
+    border: 0px none;
+    padding: 0px;
+}
+
+
+.privategallery label {
+    color: #0084ff;
+}
+
+.linkdiv {
+    background-color: #D7F5FF;
+    border-bottom: 15px solid #D7F5FF;
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+
+.linkdiv .reserlink {
+    padding: 10px 0 0 16px;
+    text-align: left;
+}
+
+
+.linkdiv .reserlink img { 
+    vertical-align: middle;
+}
+
+.linkdiv .reserlink a{
+    text-decoration: underline;
+    color: #0084ff;
+}
+
+#forms input.inputfile {
+    width: 163px;
+    height: 27px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: block;
+    opacity:0;
+    -moz-opacity:0;
+	filter:alpha(opacity: 0); /**/
+	font-size: 20px;
+	/**/
+}
+
+#forms div.file {
+    position: relative;
+    left: 50%;
+    width:97px;
+    margin-left: -55px;
+    height: 22px;
+    text-align: right;
+    overflow: hidden;
+    border: 0px solid;
+}
+
+#forms input.inputfile, #forms input.inputfile.hover, #forms input.inputfile:focus {
+    border: 0px none;
+    padding: 0px;
+}
+
+.photos_toolbox {
+    float: left;
+}
+
+.pt_left {
+    width: 318px;
+}
+
+#nowyalbum .pt_left {
+    width: 344px;
+}
+
+.pt_left_cntnt {
+    width: 312px;
+    padding: 2px 3px;
+}
+
+#nowyalbum .pt_left_cntnt {
+    width: 338px;
+}
+
+.pt_right {
+    padding-left: 6px;
+    width: 212px;
+}
+
+#nowyalbum .pt_right {
+    width: 186px;
+}
+
+.pt_right_cntnt {
+    width: 206px;
+    padding: 2px 3px 2px 9px;
+}
+
+#nowyalbum .pt_right_cntnt {
+    width: 180px;
+}
+
+.galeria .box563 h5, #content-calendar .box403 h5, .addCal .box470 h5 {
+    color: #4A5B5D;
+    font-size: 12px;
+    font-family: Tahoma, Verdana, sans-serif;
+    letter-spacing: 1px;
+    border-bottom: 1px dotted #A2ADB0;
+    margin: 0 0 6px 0;
+}
+
+.galeria .photos_toolbox h6, .galeria h6.info {
+    background-image: url('/img/icons/info.gif');
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+    padding: 2px 2px 3px 24px;
+}
+
+.seealso .cntnt .cntnt2 {
+    background-image: url('/img/layout/default/subbg00.gif');
+    background-repeat: repeat-y;
+    background-position: center;
+    padding-bottom: 3px;
+}
+
+#nowyalbum.seealso .cntnt .cntnt2 {
+    background-image: url('/img/layout/default/subbg01.gif');
+}
+
+#nowyalbum{
+    padding-top: 9px;
+}
+
+#nowyalbum h5 {
+    padding-top: 5px;
+}
+
+.galeria .seealso ul li {
+    background-image: none;
+    line-height: 1.2;
+    padding: 0 3px;
+    min-height: 0px;
+}
+
+#nowyalbum .checkbox input {
+    vertical-align: middle !important;
+}
+
+#jak-korzystac {
+	float: right;
+}
+
+.prevLink, .nextLink {
+    text-align: center;
+    font: normal normal bold 14px Tahoma, Arial, sans-serif;
+}
+
+.prevLink a, .nextLink a {
+    color: #8ed7ff;
+    text-decoration: none;
+}
+
+#content-calendar .prevLink a img, #content-calendar .nextLink a img {
+    background-image:url('/img/layout/default/next03.gif');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+#content-calendar .prevLink a img {
+    background-image:url('/img/layout/default/prev03.gif');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+#content-calendar .unactive a img {
+    background-position: right top !important;
+}
+
+#content-calendar .prevLink a:hover img, #content-calendar .nextLink a:hover img {
+    background-position: left top;
+}
+
+#content-calendar h2{
+    color: #6accff;
+    padding: 35px 10px 3px 10px;
+}
+
+#content-calendar .box580promoted {
+    background-image:url('/img/layout/default/box580Tpromoted.gif');
+}
+
+#content-calendar .box580promoted .bottom {
+    background-image:url('/img/layout/default/box580Bpromoted.gif');
+    padding-bottom: 11px;
+}
+
+#content-calendar .box580promoted .bottom .cntnt {
+    border-color: #f6dafd;
+    background-color: #fff2fd;
+    padding: 0 11px;
+}
+
+#content-calendar .box403 {
+    width: 403px;
+    background-image:url('/img/layout/default/box403T.gif');
+}
+
+#content-calendar .box403 .bottom {
+    background-image:url('/img/layout/default/box403B.gif');
+}
+
+#content-calendar .box403 .block {
+    padding: 6px 10px 10px 10px;
+    background-color: #d7f5ff;
+}
+
+#content-calendar .box580promoted span.editable-textarea {
+    display: block;
+    border: 1px solid #fff2fd;
+    background-color: #f4feff;
+}
+
+#content-calendar .editable-textarea {
+    padding: 4px 10px;
+}
+#content-calendar div .editview {
+    padding: 0px;
+}
+
+form .date select, form .date {
+    vertical-align: middle;
+}
+
+#modal_window_center form .date label {
+    vertical-align: middle;
+}
+
+#content-calendar .box580promoted span.editable-textarea form {
+    background-color: #FFF2FD;
+}
+
+
+#content-calendar .seealso ul li {
+    background-image: none;
+    min-height: 0px;
+    height: auto;
+    clear: none;
+}
+
+#content-calendar span.placeholder{
+    text-align: center;
+    font: normal normal bold 14px Tahoma, Arial, sans-serif;
+    padding: 20px 0;
+}
+
+#monthscontainer {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    top: 0px;
+    left: 0px;
+}
+
+#months {
+    position: absolute;
+}
+
+#calendarEditInputs {
+    line-height: 1;
+}
+
+#calendarEditInputs input {
+    vertical-align: middle;
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+
+#calendarEditInputs div {
+    height: 20px;
+}
+
+/* galleries edit - przybornik */
+.photoBox2Content {
+    width: 267px;
+    height: 207px;
+    padding: 4px 5px;
+    background-image: url('/img/layout/default/object277bg.png');
+    overflow: hidden;
+    position: relative;
+}
+.photoBox2Content h2 {
+    font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.photoBox2Content .imageDiv img { padding: 4px; border: 1px solid #C1E9FF; background-color: white; }
+.photoBox2Content .imageDiv  { float: left; padding: 4px 5px; }
+.photoBox2Content .controls { float: left; border-left: 1px dotted #A2ADB0; padding: 0 10px; width: 90px; margin: 5px 0 0 0; }
+.photoBox2Content h2 a{ text-decoration: none; color: #4A5B5D; }
+
+
+.addCalendar {
+    width: 472px;
+    margin: 0 auto;
+    padding: 32px 0 0 0;
+}
+
+.addCalendar p {
+    font: normal normal bold 12px Tahoma, Verdana, Arial, sans-serif;
+    margin: 0;
+    padding-bottom: 24px;
+    text-align: center;
+    
+}
+
+.addCal .box470 {
+    width: 470px;
+    background-image: url('/img/layout/default/box470T.gif');
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.topCal p {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 2px 0 3px 5px;
+}
+
+div .addCal .cntnt {
+    width: 442px;
+    padding: 0 13px 5px 13px;
+    background-color: #E5FAFF;
+    border: 1px solid #B0EAFF;
+    border-width: 0 1px 0 1px;
+}
+
+div .addCal div.input {
+    clear: left;
+    padding: 2px 0 4px 0;
+}
+
+div .addCal div.input select {
+    margin: 0;
+}
+
+div .addCal .bottom {
+    width: 470px;
+    background-image: url('/img/layout/default/box470B.gif');
+    background-position: bottom;
+    background-repeat: no-repeat;
+   
+}
+
+div .addCal fieldset {
+    border: 0px none;
+    margin: 0;
+    padding: 0;
+}
+
+.addCal .box470 .block {
+    background-color:#D7F5FF;
+    padding:5px 10px 3px 10px;
+}
+
+div .addCal label {
+    font: normal normal 12px Tahoma, Verdana, Arial, sans-serif;
+    display: block;
+    width: 132px;
+    padding: 1px 0 2px 0;
+    float: left;
+    
+}
+
+#addPhotos img{
+	background-color: #EBFAFF;
+	border: none;
+}
+/* galeria view */
+.galeria .GalleriesPhotoTitle{
+    border: none 0;
+    border-top: dotted 1px gray;
+}
+.galeria h1{
+    margin-left: 0px;
+    padding-left: 20px;
+}
+.galeria .GalleriesPhoto425 img.thumbnail{
+    border: none 0;
+}
+.galeria .ilosc{
+    font: bold 20px/15px arial;
+    color: #8C8D8E;
+    float: right;
+}

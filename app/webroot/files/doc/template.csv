@@ -1,0 +1,1 @@
+id [require];title [require];barcode;product code;producer;brand;category;gender (m-man, w-woman);size;weight;quantity [require];realization time;price brutto {*.nn} [require];tax {0.nn};home page (1,0,””);Sale (1,0,””);on blog (1,0,””);img [url];description;Sized (1,0,””)

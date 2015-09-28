@@ -1,0 +1,25 @@
+/* 
+    Document   : footer
+    Created on : 2012-12-13
+    Author     : Piotr Dutko
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#footerLogoFeb {
+    background: url("../img/default/footerLogoFeb.png") no-repeat scroll 100% 0 transparent;
+    color: #D7D7D7;
+    display: block;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 7px 40px 8px 0;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    float: right;
+    width: 100px;
+}
+#footerLogoFeb:hover{
+    color: #aaa;
+    background-position: 100% -35px;
+}

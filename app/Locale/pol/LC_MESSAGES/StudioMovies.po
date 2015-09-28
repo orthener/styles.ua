@@ -1,0 +1,33 @@
+//Model Studio Movies 
+
+msgid "Author"
+msgstr "Author"
+msgid "Media Type"
+msgstr "Media Type"
+msgid "Url"
+msgstr "Url"
+
+msgid "Studio Movies"
+msgstr "Studio Movies"
+
+msgid "New Studio Movie"
+msgstr "Dodaj Studio Movie"
+
+msgid "List Studio Movies"
+msgstr "Lista Studio Movies"
+
+msgid "Edit Studio Movies"
+msgstr "Edycja Studio Movies"
+
+msgid "Delete Studio Movies"
+msgstr "Usuń Studio Movies"
+
+msgid "Admin Add Studio Movie"
+msgstr "Dodawanie Studio Movie"
+
+msgid "Admin Edit Studio Movie"
+msgstr "Edycja Studio Movie"
+
+msgid "Studio Movie Data"
+msgstr "Dane Studio Movie"
+

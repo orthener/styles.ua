@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'SansaSoftPro Normal';
+    src: url('../fonts/sansasoftpro-normal-webfont.eot');
+    src: url('../fonts/sansasoftpro-normal-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sansasoftpro-normal-webfont.woff') format('woff'),
+        url('../fonts/sansasoftpro-normal-webfont.ttf') format('truetype'),
+        url('../fonts/sansasoftpro-normal-webfont.svg#sansasoft_pro_normalregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SansaSoftPro SemiBold';
+    src: url('../fonts/sansasoftpro-semibold-webfont.eot');
+    src: url('../fonts/sansasoftpro-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sansasoftpro-semibold-webfont.woff') format('woff'),
+        url('../fonts/sansasoftpro-semibold-webfont.ttf') format('truetype'),
+        url('../fonts/sansasoftpro-semibold-webfont.svg#sansasoft_pro_semiboldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'pf_square_sans_proregular';
+  src: url('../fonts/pfsquaresanspro-regular.eot');
+  src: url('../fonts/pfsquaresanspro-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/pfsquaresanspro-regular.woff') format('woff'),
+       url('../fonts/pfsquaresanspro-regular.ttf') format('truetype'),
+       url('../fonts/pfsquaresanspro-regular.svg#pf_square_sans_proregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pf_square_sans_promedium';
+  src: url('../fonts/pfsquaresanspro-medium.eot');
+  src: url('../fonts/pfsquaresanspro-medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/pfsquaresanspro-medium.woff') format('woff'),
+       url('../fonts/pfsquaresanspro-medium.ttf') format('truetype'),
+       url('../fonts/pfsquaresanspro-medium.svg#pf_square_sans_promedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}

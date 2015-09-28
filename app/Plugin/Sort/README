@@ -1,0 +1,6 @@
+Wersja 0.1
+
+Instalacja:
+- Pole order: ALTER TABLE  `nazwaTabeli` ADD  `order` INT UNSIGNED NULL
+- W modelu public $order = 'MODEL.order ASC';
+- Na liście: <?php echo $this->Permissions->link(__('Sortowanie'), array('plugin' => 'sort', 'controller' => 'orders', 'action' => 'sort', 'PLUGIN_MODEL')); ?>

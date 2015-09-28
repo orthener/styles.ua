@@ -1,0 +1,82 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-02-05 17:30+0100\n"
+"PO-Revision-Date: 2014-02-07 22:59+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 1.6.3\n"
+
+#: Plugin\Payments\View\Invoices\admin_pdf.ctp:11
+msgid "Faktura VAT nr "
+msgstr "Фактура VAT номер"
+
+#: Plugin\Payments\View\Payments\confirm.ctp:10
+msgid "Płatność jest w trakcie realizacji"
+msgstr "Оплата находится в процессе реализации"
+
+#: Plugin\Payments\View\Payments\confirm.ctp:10
+msgid "Płatność przebiegła pomyślnie"
+msgstr "Оплата прошла успешно!"
+
+#: Plugin\Payments\View\Payments\confirm.ctp:14
+msgid ""
+"Trwa oczekiwanie na potwierdznie ze strony systemu płatności elektroniczych. "
+"Może to potrwać do 48 godzin. <br />\n"
+"                            (Zwykle transakcja jest finalizowana do 15 min "
+"od dokonania płatności)"
+msgstr ""
+"Ожидается подтверждение со стороны системы електронной оплаты. Это может "
+"занять до 48 часов.<br />\n"
+"                            (Обычно, финализация транзакции занимает до 15 "
+"минут от отправки платежа)"
+
+#: Plugin\Payments\View\Payments\confirm.ctp:19
+msgid ""
+"Jeśli płatność nie zostanie potwierdzona w przeciągu 48h od dokonania "
+"płatności, prosimy o przesłanie formularzem\n"
+"         kontaktowym zgłoszenia zawierającego datę i godzinę transakcji, "
+"oraz dane kontaktowe używane podczas transakcji."
+msgstr ""
+"Если оплата не будет подтверждена в течении 48 часов от отправки платежа, "
+"просим Вас прислать нам скан-копию \n"
+"         документа подтверждающего дату и точное время транзакции, а так же "
+"контактные данные, использованные во время транзакции."
+
+#: Plugin\Payments\View\Payments\confirm.ctp:24
+msgid ""
+"Płatność została potwierdzona przez system płatności elektronicznej. <br />\n"
+"         O dalszym przebiegu realizacji zamówienia będziemy informować przez "
+"email."
+msgstr ""
+"Оплата была подтверждена со стороны системы електронной оплаты. <br />\n"
+"         О дальнейшем процессе реализации заказа мы будем информировать Вас "
+"через e-mail."
+
+#: Plugin\Payments\View\Payments\confirm.ctp:32
+msgid "Płatność nie została wykonana"
+msgstr "Оплата не была проведена!"
+
+#: Plugin\Payments\View\Payments\confirm.ctp:35
+msgid ""
+"W razie problemów, prosimy o przesłanie formularzem kontaktowym\n"
+"         zgłoszenia zawierającego datę i godzinę transakcji, dane kontaktowe "
+"używane podczas transakcji, \n"
+"         oraz treść poniższego komunikatu."
+msgstr ""
+"В случае возникновения каких-либо проблем, просим Вас прислать нам скан-"
+"копию\n"
+"         документа подтверждающего дату и точное время транзакции, а так же "
+"контактные данные, использованные во время транзакции, \n"
+"         добавьте так же сообщение, описывающее проблему."
+
+#: Plugin\Payments\View\Payments\confirm.ctp:40
+msgid "Informacja systemu płatności:"
+msgstr "Информация системы оплаты:"

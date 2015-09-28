@@ -1,0 +1,348 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sławomir Jach <s.jach@feb.net.pl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Bookmarks: 5,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
+msgid "Addresses"
+msgstr "Adresy"
+
+msgid "New Address"
+msgstr "Dodaj adres"
+
+msgid "List Addresses"
+msgstr "Lista adresów"
+
+msgid "Edit Addresses"
+msgstr "Edycja adresu"
+
+msgid "Delete Addresses"
+msgstr "Usuń adres"
+
+msgid "Admin Add Address"
+msgstr "Dodawanie adresu"
+
+msgid "Admin Edit Address"
+msgstr "Edycja adresu"
+
+msgid "Minimum"
+msgstr "Minimum"
+
+msgid "Discount"
+msgstr "Rabat"
+
+msgid "Affiliate Programs"
+msgstr "Program partnerski"
+
+msgid "New Affiliate Program"
+msgstr "Dodaj próg prog. part."
+
+msgid "List Affiliate Programs"
+msgstr "Progi porg. part."
+
+msgid "Edit Affiliate Programs"
+msgstr "Edycja porg. part."
+
+msgid "Delete Affiliate Programs"
+msgstr "Usuń próg prog. part."
+
+msgid "Admin Add Affiliate Program"
+msgstr "Dodaj próg prog. part"
+
+msgid "Admin Edit Affiliate Program"
+msgstr "Edycja progu prog. part."
+
+msgid "Customer Id"
+msgstr "Klient"
+
+msgid "Iscompany"
+msgstr "Firma?"
+
+msgid "Nip"
+msgstr "Nip"
+
+msgid "Address"
+msgstr "Adres"
+
+msgid "City"
+msgstr "Miasto"
+
+msgid "Post Code"
+msgstr "Kod pocztowy"
+
+msgid "Region Id"
+msgstr "Woj."
+
+msgid "Country Id"
+msgstr "Kraj"
+
+msgid "Invoice Identities"
+msgstr "Faktura"
+
+msgid "New Invoice Identity"
+msgstr "Dodaj fakturę"
+
+msgid "List Invoice Identities"
+msgstr "Lista faktur"
+
+msgid "Edit Invoice Identities"
+msgstr "Edycja faktury"
+
+msgid "Delete Invoice Identities"
+msgstr "Usuń fakturę"
+
+msgid "Admin Add Invoice Identity"
+msgstr "Dodawanie faktury"
+
+msgid "Admin Edit Invoice Identity"
+msgstr "Edycja faktury"
+
+msgid "User Id"
+msgstr "Użytkownik"
+
+msgid "Contact Person"
+msgstr "Osoba kontaktowa"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Phone"
+msgstr "Tel."
+
+msgid "Address Id"
+msgstr "Adres"
+
+msgid "Invoice Identity Id"
+msgstr "Faktura"
+
+msgid "Customers"
+msgstr "Klient"
+
+msgid "New Customer"
+msgstr "Dodaj klienta"
+
+msgid "List Customers"
+msgstr "Lista klientów"
+
+msgid "Edit Customers"
+msgstr "Edycja klienta"
+
+msgid "Delete Customers"
+msgstr "Usuń klienta"
+
+msgid "Admin Add Customer"
+msgstr "Dodawanie klienta"
+
+msgid "Admin Edit Customer"
+msgstr "Edycja klienta"
+
+msgid "Order Item Id"
+msgstr "Zamówienie"
+
+msgid "Accepted"
+msgstr "Zaakceptowany"
+
+msgid "Desc"
+msgstr "Opis"
+
+msgid "Order Item Files"
+msgstr "Plik zamówienia"
+
+msgid "New Order Item File"
+msgstr "Dodaj plik do zamówienia"
+
+msgid "List Order Item Files"
+msgstr "Lista plików w zamówieniach"
+
+msgid "Edit Order Item Files"
+msgstr "Edycja pliku w zamówieniu"
+
+msgid "Delete Order Item Files"
+msgstr "Usuń plik z zamówienia"
+
+msgid "Admin Add Order Item File"
+msgstr "Dodawanie pliku do zamówienia"
+
+msgid "Admin Edit Order Item File"
+msgstr "Edycja pliku zamówienia"
+
+msgid "Order Id"
+msgstr "Zamówienie"
+
+msgid "Product Id"
+msgstr "Produkt"
+
+msgid "Product"
+msgstr "Produkt"
+
+msgid "Price"
+msgstr "Cena"
+
+msgid "Tax Rate"
+msgstr "VAT"
+
+msgid "Tax Value"
+msgstr "Wartość vat"
+
+msgid "Quantity"
+msgstr "Ilość"
+
+msgid "Weight"
+msgstr "Waga"
+
+msgid "Order Items"
+msgstr "Przedmiot zamówienia"
+
+msgid "New Order Item"
+msgstr "Dodaj przedmiot zamówienia"
+
+msgid "List Order Items"
+msgstr "Lista przedmiotów w zamówieniu"
+
+msgid "Edit Order Items"
+msgstr "Edycja przedmiotów zamówienia"
+
+msgid "Delete Order Items"
+msgstr "Usuń produkt zamówienia"
+
+msgid "Admin Add Order Item"
+msgstr "Dodawanie przedmiotu zamówienia"
+
+msgid "Admin Edit Order Item"
+msgstr "Edycja przedmiotu zamówienia"
+
+msgid "Order Statuses"
+msgstr "Status zamówienia"
+
+msgid "New Order Status"
+msgstr "Dodaj status zamówienia"
+
+msgid "List Order Statuses"
+msgstr "Lista statusów zamówień"
+
+msgid "Edit Order Statuses"
+msgstr "Edycja statusu zamówienia"
+
+msgid "Delete Order Statuses"
+msgstr "Usuń status zamówienia"
+
+msgid "Admin Add Order Status"
+msgstr "Dodawanie statusu zamówienia"
+
+msgid "Admin Edit Order Status"
+msgstr "Edycja statusu zamówienia"
+
+msgid "Hash"
+msgstr "Kod"
+
+msgid "Order Status Id"
+msgstr "Status zamówienia"
+
+msgid "Invoice Identity"
+msgstr "Faktura"
+
+msgid "Shipment Method Id"
+msgstr "Metoda dostawy"
+
+msgid "Shipment Price"
+msgstr "Cena dostawy"
+
+msgid "Shipment Tax Rate"
+msgstr "VAT"
+
+msgid "Shipment Tax Value"
+msgstr "Wartość vat"
+
+msgid "Shipment Discount"
+msgstr "Rabat"
+
+msgid "Total"
+msgstr "Razem"
+
+msgid "Total Tax Value"
+msgstr "Razem vat"
+
+msgid "Track Number"
+msgstr "Numer list. przew."
+
+msgid "Payment Type"
+msgstr "Typ płatności"
+
+msgid "Vat"
+msgstr "VAT"
+
+msgid "Orders"
+msgstr "Zamówienie"
+
+msgid "New Order"
+msgstr "Dodaj zamówienie"
+
+msgid "List Orders"
+msgstr "Lista zamówień"
+
+msgid "Edit Orders"
+msgstr "Edycja zamówienia"
+
+msgid "Delete Orders"
+msgstr "Usuń zamówienie"
+
+msgid "Admin Add Order"
+msgstr "Dodawanie zamówienia"
+
+msgid "Admin Edit Order"
+msgstr "Edycja zamówienia"
+
+msgid "Shipment Method Configs"
+msgstr "Przedziały wagowe przesyłek"
+
+msgid "New Shipment Method Config"
+msgstr "Nowy przed. wagowy przesyłek"
+
+msgid "List Shipment Method Configs"
+msgstr "Lista przed. wagowych przesyłek"
+
+msgid "Edit Shipment Method Configs"
+msgstr "Edycja przed. wagowcyh przesyłek"
+
+msgid "Delete Shipment Method Configs"
+msgstr "Usuń przed. wagowy"
+
+msgid "Admin Add Shipment Method Config"
+msgstr "Dodawanie przedziału wagowego przesyłki"
+
+msgid "Admin Edit Shipment Method Config"
+msgstr "Edycja przedziału wagowego przesyłki"
+
+msgid "Cash On Delivery Price"
+msgstr "Płatność przy odbiorze"
+
+msgid "Track Link"
+msgstr "Link do śledzenia przesyłki"
+
+msgid "Shipment Methods"
+msgstr "Metoda dostawy"
+
+msgid "New Shipment Method"
+msgstr "Nowa metoda dostawy"
+
+msgid "List Shipment Methods"
+msgstr "Lista metod dostaw"
+
+msgid "Edit Shipment Methods"
+msgstr "Edycja metody dostawy"
+
+msgid "Delete Shipment Methods"
+msgstr "Usuń metodę dostawy"
+
+msgid "Admin Add Shipment Method"
+msgstr "Dodawanie metody dostawy"
+
+msgid "Admin Edit Shipment Method"
+msgstr "Edycja metody dostawy"
+

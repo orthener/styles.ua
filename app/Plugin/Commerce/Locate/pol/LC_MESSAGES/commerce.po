@@ -1,0 +1,88 @@
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+msgid "iscompany"
+msgstr "Firma"
+
+msgid "name"
+msgstr "Nazwa"
+
+msgid "address"
+msgstr "Adres"
+
+msgid "nip"
+msgstr "NIP"
+
+msgid "city"
+msgstr "Miejscowość"
+
+msgid "post_code"
+msgstr "Kod Pocztowy"
+
+msgid "region_id"
+msgstr "Województwo"
+
+msgid "country_id"
+msgstr "Kraj"
+
+msgid "post_code"
+msgstr "Kod Pocztowy"
+
+msgid "order_status_id"
+msgstr "Status Zamówienia"
+
+msgid "shipment_method_id"
+msgstr "Sposób Wysyłki"
+
+msgid "shipment_price"
+msgstr "Koszty Wysyłki"
+
+msgid "shipment_tax_rate"
+msgstr "Podatek od Kosztów Wysyłki"
+
+msgid "shipment_tax_value"
+msgstr "Wartość VAT-u"
+
+msgid "shipment_price_type"
+msgstr "Cena Liczona od"
+
+msgid "total"
+msgstr "Cena Razem"
+
+msgid "total_tax_value"
+msgstr "Wartość łączna VAT-u"
+
+msgid "shipment_price_net"
+msgstr "Wartość Netto Kosztów Wysyłki"
+
+msgid "shipment_price_gross"
+msgstr "Wartość Brutto Kosztów Wysyłki"
+
+msgid "quantity"
+msgstr "Ilość"
+
+msgid "price"
+msgstr "Cena"
+
+msgid "price_net"
+msgstr "Cena Netto"
+
+msgid "price_gross"
+msgstr "Cena Brutto"
+
+msgid "payment_type"
+msgstr "Typ Płatności"
+
+msgid "discount_type"
+msgstr "Rabat"
+ 
+msgid "shipment_discount"
+msgstr "Rabat na Wysyłkę"
+
+msgid "discount"
+msgstr "Rabat"
+
+msgid "track_number"
+msgstr "Nr listu przewozowego"
+
+msgid "vat"
+msgstr "Status faktury vat"
