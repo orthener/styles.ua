@@ -1,0 +1,50 @@
+msgid "Baners"
+msgstr "Banery"
+
+msgid "Baner"
+msgstr "Baner"
+
+msgid "New Baner"
+msgstr "Nowy Baner"
+
+msgid "Delete Baner"
+msgstr "Usuń"
+
+msgid "Edit Baner"
+msgstr "Edytuj"
+
+msgid "List Baners"
+msgstr "Lista Banerów"
+
+msgid "Admin Add Baner"
+msgstr "Nowy"
+
+msgid "Admin Edit Baners"
+msgstr "Edycja"
+
+msgid "Baner deleted"
+msgstr "Poprawnie Usunieto"
+
+msgid "Invalid id for baner"
+msgstr "Niewłaściwy wpis"
+
+msgid "The baner could not be saved. Please, try again."
+msgstr "Wystąpiły błędy podczas zapisu, spróbuj ponownie."
+
+msgid "The baner has been saved"
+msgstr "Poprawnie Zapisano"
+
+msgid "Invalid baner"
+msgstr "Niewłaściwy wpis"
+
+msgid "Baner deleted"
+msgstr "Poprawnie Usunięto"
+
+msgid "Chart shows"
+msgstr "Wykres wyświetleń"
+
+msgid "Chart clicks"
+msgstr "Wykres kliknięć"
+
+
+

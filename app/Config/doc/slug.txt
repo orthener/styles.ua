@@ -1,0 +1,17 @@
+controller
+
+//$isSlug = array('slug' => $slug, 'id' => $id, 'error' => (null, 301));
+        if(empty($this->params['catname']) or !($isSlug = $this->WikiArticle->WikiCategory->isSlug($this->params['catname']))){
+            $this->cakeError('error404');
+        }
+        if(!empty($isSlug['error'])){
+            $this->redirect(array('action' => 'category', 'catname' => $isSlug['slug']), 301);
+        }
+        $catid = $isSlug['id'];
+
+
+model
+
+var $displayField = 'title';
+
+var $actsAs = array('Slug');

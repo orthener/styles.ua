@@ -1,0 +1,1 @@
+<?php echo $message['NewsletterMessage']['html_content']; ?>

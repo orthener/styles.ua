@@ -1,0 +1,1 @@
+ALTER TABLE `products` ADD `sized` TINYINT( 1 ) NOT NULL DEFAULT '0' AFTER `size`

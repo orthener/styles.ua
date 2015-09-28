@@ -1,0 +1,1 @@
+Po instalacji plików i bazy dla modu³u uruchom /admin/users/reset, aby ustawiæ has³o administratora.

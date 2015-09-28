@@ -1,0 +1,26 @@
+//http://www.holostek.net/
+var $components = array(
+        'Recaptcha.Captcha'=> array(
+            'private_key' => '6LcOzr0SAAAAAON0wiMcOEroKy_VaD1i6c-ci9qn', 
+            'public_key' => '6LcOzr0SAAAAAENp6qLOs5TgvJ6lxvaereP1d-VH',
+            )
+        );
+
+
+//view    
+echo $captchaTool->show('model'); 
+        
+//model
+var $actsAs = array(
+        'Recaptcha.Captcha'
+    );
+    
+var $validate = array(
+		'recaptcha' => array(
+            'recaptcha'=>array(
+                'rule'=>'RecaptchaValidate',
+                'message' => 'B³ednie podane dane z formularza przepisz poprawnie tekst z obrazka',
+                //'required' => true,
+            )
+        )
+	);

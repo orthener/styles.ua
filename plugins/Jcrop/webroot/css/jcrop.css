@@ -1,0 +1,25 @@
+.actionJcrop,
+.contentJcrop{
+    float: left;
+    padding: 7px;
+    border: 1px dotted #d2d2d2;
+    margin: 7px;
+}
+.actionJcrop{
+    width: 200px;
+}
+
+
+.thumbJcrop{
+    width:100px; 
+    height:100px; 
+    overflow:hidden;
+    margin: auto;
+}
+#JcropForm .text label{
+    width: 185px;
+    text-align: left;
+}
+#JcropForm .text input{
+    width: 185px;
+}

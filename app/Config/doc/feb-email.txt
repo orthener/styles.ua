@@ -1,0 +1,10 @@
+=== Sk³adniki modu³u: ===
+
+  * FebEmail component - rozszerza funkcje komponentu Email CakePHP o:
+      
+      - wysy³kê osadzonej grafiki w wiadomoœciach html
+      - mozliwoœæ skonfigurowania kilku zestawów parametrów do wysy³ki (szczegó³y w bootstrap)
+
+  * zestaw szablonów (layouts) ze stopkami do wysy³ki wiadomoœci
+
+  * testowy email (testowa wysy³ka przez wywo³anie /feb_emails/test)

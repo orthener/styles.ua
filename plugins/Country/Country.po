@@ -1,0 +1,30 @@
+msgid "Printable Name En"
+msgstr "Printable Name En"
+msgid "Printable Name"
+msgstr "Printable Name"
+msgid "Iso3"
+msgstr "Iso3"
+msgid "Numcode"
+msgstr "Numcode"
+
+msgid "Countries"
+msgstr "Countries"
+
+msgid "New Country"
+msgstr "Dodaj Country"
+
+msgid "List Countries"
+msgstr "Lista Countries"
+
+msgid "Edit Countries"
+msgstr "Edycja Countries"
+
+msgid "Delete Countries"
+msgstr "Usuń Countries"
+
+msgid "Admin Add Country"
+msgstr "Dodawanie Country"
+
+msgid "Admin Edit Country"
+msgstr "Edycja Country"
+

@@ -1,0 +1,8 @@
+wymagany jest jquery
+
+aby zaimplemntowac nale¿y dodaæ element z folderu tinymce
+np:
+
+//dodawanie zdjec, rozbudowany
+<?php  echo $this->element('tinymce/adv_img'); ?>
+

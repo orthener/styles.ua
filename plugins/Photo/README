@@ -1,0 +1,29 @@
+Wersja 0.8
+
+Changelog:
+
+0.8
+- Dodanie ikonek i tytułów
+- Alert przy usuwaniu
+
+0.7
+- Linki powrotow w dziale akcji
+
+0.6
+- Wydzielenie konfiguracji do eventu w bootstrapie
+
+0.5
+- rozdzielenie photos category do osobnego pluginu
+
+0.4
+- dodana możliwość sortowania zdjęć
+- zdjecia oraz miniaturki usuwaja sie z dysku
+- zdjecie glowne w powiazaniu zostaje usuniente przy usunienciu fotki
+- poprawa akcji admin_view przy zamienione varable na underscore
+
+0.3
+- poprawa linku do update
+- odseparowanie cssa photo.css do pluginu
+
+
+CakePHP 2.1+

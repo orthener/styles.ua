@@ -1,0 +1,52 @@
+Konfiguracja Połączenia z Facebookiem znajduje się tutaj:
+
+app/config/facebook.php
+
+Wygląda to tak:
+
+$config = array(
+		'Facebook' => array(
+            'appId' => '206367042752737',
+            'apiKey' => '206367042752737',
+            'secret' => '1ae522ec366f7ead2b5c5aa1e32f7037',
+            'cookie' => true,
+            'domain' => $_SERVER['HTTP_HOST'],
+            'locale' => 'pl_PL',
+            'permissions' => 'email,publish_stream'
+		)
+	);
+
+
+Ostatni parametr to typ pozwoleń jakie chcemy uzyskać więcej o pozwoleniach tutaj:
+http://webhelp.pl/artykuly/facebook-tworzenie-aplikacji-zezwolenia-i-korzystanie-z-api/
+
+
+Tutaj masz kod publikujący coś na kogoś tablicy, 
+      
+App::import('Vendor', 'Facebook.facebook/src/facebook');
+Configure::load('Facebook');
+
+$facebookUser = $this->Connect->user();
+$fb = new Facebook(Configure::read('Facebook'));
+
+
+//Sprawdza czy jest otwarta sesja
+if ($fb->getSession()) {
+    try {
+        $params = array(
+            'message' => 'Może bedziesz potrafił mi pomoc?',
+            'link' => 'http://eagle.pl/',
+            'name' => strip_tags('Title'),
+            'caption' => '',
+            'picture' => 'http://eagle.pl/img/default/logo.png',
+            'description' => strip_tags('Title'),
+            'actions' => array('name' => 'Zepsuło się? Naprawisz.to z nami',
+                'link' => 'http://eagle.pl/'),
+            'privacy' => array('value' => 'ALL_FRIENDS'));
+        $post = $fb->api('/me/feed', 'post', $params);
+        debug($post);
+    } catch (FacebookApiException $e) {
+        debug($e);
+    }
+}
+

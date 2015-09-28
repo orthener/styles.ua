@@ -1,0 +1,101 @@
+---
+Ad.Blog_code: |
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- styles 1 -->
+    <ins class="adsbygoogle"
+    style="display:inline-block;width:300px;height:250px"
+    data-ad-client="ca-pub-7379833859269200"
+    data-ad-slot="5593605370"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+Ad.Blog_code2: |
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- styles 1 -->
+    <ins class="adsbygoogle"
+    style="display:inline-block;width:300px;height:250px"
+    data-ad-client="ca-pub-7379833859269200"
+    data-ad-slot="5593605370"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+Ad.disable_banners: 0
+Ad.head_code: |
+    <script ENGINE="text/javascript">
+    // kod w headzie
+    </script>
+Analytics.datasource: google_analytics
+Analytics.email: statystyki@feb.net.pl
+Analytics.passwd: yf6rf23!WESUD
+App.AdminEmail: info@streetstyleshop.com.ua
+App.AppName: Styles
+App.defaultLanguage: pol
+App.WebSenderEmail: info@streetstyleshop.com.ua
+App.WebSenderName: Styles
+Calculator.ExchangeRate: 6.4
+Calculator.FinalConstant: 79
+Calculator.GrnRate: 1.04
+Calculator.PlnFixed: 
+Commerce.company_name: Bonum Domum
+Facebook.appId: 190127107724245
+Facebook.LikeBox: http://www.facebook.com/pages/Klub-Polska/102105043187662
+Facebook.on: 0
+Facebook.secret: aa169487144bf8102eab2e9d12634454
+Google.searchId: 004779266633206791730:fx9f1kx0lqa
+Kex.N_CK: 
+Kex.N_EMAIL: 
+Kex.N_KOD_POCZTOWY: 
+Kex.N_MIEJSCOWOSC: 
+Kex.N_NAZWA: 
+Kex.N_NIP: 
+Kex.N_NR_DOMU: 
+Kex.N_NR_LOK: 
+Kex.N_OS_NADAJACA: 
+Kex.N_OS_PRYW: N
+Kex.N_TEL_GSM: 
+Kex.N_TEL_ST: 
+Kex.N_ULICA: 
+Kex.U_POBRANIE: T
+Kex.U_POD: 
+Kex.U_RACH_POBRANIA: 
+Kex.U_UBEZP: 
+Kex.ZLECENIODAWCA: CK2345678
+Maintenance.password: feb
+Maintenance.status: 0
+Meta.blog.desc: СтритСтайл новости.
+Meta.blog.key: >
+    СтритСтайл новости, новая
+    одежда, новые кроссовки.
+Meta.blog.title: 
+Meta.shop.desc: 'Фирменная одежда, обувь, кепки из Европы и США - StreetstyleSHop.'
+Meta.shop.key: >
+    купить, фирменную, мужскую,
+    женскую, детскую, одежду, обувь,
+    кепки, аксессуары, в, Европе, США,
+    доставка из Европы, доставка из
+    США, streetstyleshop.
+Meta.shop.title: 
+Meta.studio_key: Meta.studio_key
+Meta.studio.desc: Meta.studio.desc
+Meta.studio.title: 
+RollerShutter.price_m2: 100
+SEO.description: Strona CMS-a
+SEO.generator: 'Croogo - Content Management System'
+SEO.keywords: Zarządzanie
+SEO.robots: index, follow
+SEO.tagline: 'Feb CMS - Marketing alternatywny'
+Service.akismet_key: your-key
+Service.akismet_url: http://your-blog.com
+Service.recaptcha_private_key: your-private-key
+Service.recaptcha_public_key: your-public-key
+Shop.disable: 1
+Shop.disable_banners: 1
+Shop.disable_url: http://www.styles.ua/blog
+Shop.enable_admin: 1
+Sizes.pattern: XS,X,S,M,L,XL,XXL,123
+Studio.disable: 1
+Studio.disable_url: http://www.styles.ua/blog
+Studio.enable_admin: 1
+User.failed_login_duration: 301
+User.failed_login_limit: 5
+Window.warm_edge_m2_price: 30

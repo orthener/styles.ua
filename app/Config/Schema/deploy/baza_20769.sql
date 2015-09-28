@@ -1,0 +1,3 @@
+ALTER TABLE `news` ADD `ad_code2` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT 'Reklama nr 2' AFTER `ad_code`; 
+ALTER TABLE `news_categories` ADD `ad_code` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT 'Reklama nr 1' AFTER `metadesc`;
+ALTER TABLE `news_categories` ADD `ad_code2` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT 'Reklama nr 2' AFTER `ad_code`;

@@ -1,0 +1,62 @@
+.photoBox {
+    padding: 10px;
+    float: left; 
+    cursor: move;
+    position: relative;
+    color: #fff;
+}
+
+.photoBox a {
+    color: #fff;
+}
+.photoBox {
+    border: 1px solid transparent;
+}
+
+.photoBox img {
+    width: 200px;
+    height: 200px;
+}
+
+.isParentPhoto {
+    border: 1px solid red;
+}
+.isParentPhoto img {
+    width: 200px;
+    height: 200px;
+}
+
+.imageTollbar {
+    position: absolute;
+    padding: 5px;
+    background-color: black;
+    opacity: 0.5;
+    top: 10px;
+    right: 10px;
+}
+
+.imageTitle {
+    position: absolute;
+    padding: 5px;
+    background-color: black;
+    opacity: 0.5;
+    bottom: 10px;
+    right: 10px;
+    width: 188px;
+}
+
+.imageTollbar li{
+    float: left;
+}
+
+#photoHelp {
+    display: inline;
+    float: right;
+    cursor: pointer;
+}
+
+.photoBox .imageTollbar img {
+    width: 16px;
+    height: 16px;
+    padding: 0 2px;
+}

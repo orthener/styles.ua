@@ -1,0 +1,27 @@
+<?php 
+/**
+ * CakePHP 2.0+ baners Plugin
+ * 
+ * @author Sławomir Jach
+ * @copyright Fabryka E-biznesu Sp.o.o
+ * @version 1.1
+ * 
+ * 
+ * 
+ * Change Log:
+ * 1.1 - Baner należy do użytkownika systemu, można dodać w systemie uprawnień uprawnienie own
+ * 
+ */
+?>
+
+W widoku:
+
+<div id ="baner-a" class="baners view">
+    <script type="text/javascript">
+        <?php
+        echo $this->Js->request(
+                array('controller' => 'baners', 'action' => 'get_baner', 'plugin' => 'baner', '960x141'), array('async' => true, 'update' => '#baner-a')
+        );
+        ?> 
+    </script>
+</div>

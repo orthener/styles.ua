@@ -1,0 +1,23 @@
+msgid "Order"
+msgstr "Order"
+
+msgid "Regions"
+msgstr "Regions"
+
+msgid "New Region"
+msgstr "Dodaj Region"
+
+msgid "List Regions"
+msgstr "Lista Regions"
+
+msgid "Edit Regions"
+msgstr "Edycja Regions"
+
+msgid "Delete Regions"
+msgstr "Usuń Regions"
+
+msgid "Admin Add Region"
+msgstr "Dodawanie Region"
+
+msgid "Admin Edit Region"
+msgstr "Edycja Region"

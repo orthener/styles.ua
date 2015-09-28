@@ -1,0 +1,1 @@
+<?php echo $this->Image->thumb('/files/page/up.jpg', array('width'=>100,'height'=>90,'x'=>100, 'grayscale'=>true), array('url'=>'/'),true); ?>

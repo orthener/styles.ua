@@ -1,0 +1,38 @@
+//Model Modifications 
+
+msgid "User Id"
+msgstr "User Id"
+msgid "Model"
+msgstr "Model"
+msgid "Foreign Key"
+msgstr "Foreign Key"
+msgid "Action"
+msgstr "Action"
+msgid "User Details"
+msgstr "User Details"
+msgid "Content Before"
+msgstr "Content Before"
+msgid "Content After"
+msgstr "Content After"
+
+msgid "Modifications"
+msgstr "Modifications"
+
+msgid "New Modification"
+msgstr "Dodaj Modification"
+
+msgid "List Modifications"
+msgstr "Lista Modifications"
+
+msgid "Edit Modifications"
+msgstr "Edycja Modifications"
+
+msgid "Delete Modifications"
+msgstr "Usuń Modifications"
+
+msgid "Admin Add Modification"
+msgstr "Dodawanie Modification"
+
+msgid "Admin Edit Modification"
+msgstr "Edycja Modification"
+

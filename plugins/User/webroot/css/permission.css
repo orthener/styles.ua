@@ -1,0 +1,46 @@
+#PermissionGroup .permissionGroupBox{
+    min-height: 200px;
+}
+
+#PermissionGroup .fl {
+    float: left;
+    width: 50%;
+}
+
+#PermissionGroup .permissionTree {
+    float: left;
+    width: auto;
+    margin-left: 15px;
+}
+
+#PermissionGroup .addPermissionGroup, 
+#PermissionGroup .deletePermissionGroup{
+    display: inline;
+    margin-left: 2px;
+}
+#PermissionActionInfo {
+    position: relative;
+    border: 2px solid darkgreen;
+    padding: 5px;
+    background-color: yellowgreen;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#PermissionActionInfo .loader {
+    display: none;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+#PermissionActionInfo p {
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+#permissionsWithGroup {
+    
+}

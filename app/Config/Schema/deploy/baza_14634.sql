@@ -1,0 +1,1 @@
+ALTER TABLE  `glass_patterned_types` ADD  `order` INT UNSIGNED NULL;

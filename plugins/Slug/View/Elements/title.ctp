@@ -1,0 +1,1 @@
+    <h2><span><?php echo  __d('cms', 'Sortuj');?></span></h2>

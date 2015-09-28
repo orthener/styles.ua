@@ -1,0 +1,169 @@
+#tree .firstLiTree{
+    display: none;
+}
+#categories {
+    padding: 1em 0.5em;
+    width: 90%;
+}
+#categories .related-div span{
+    font-weight: bold;
+}
+
+#categories ul{
+    margin-right: 0px;
+}
+#categories ul li{
+    margin: 0 0 0 10px;
+}
+#categories ul li .child{
+    padding: .5em 0;
+}
+#categories ul li .child:hover {
+    background-color: #E6E3DE;
+}
+#categories ul li .child span{
+    cursor: move;
+    display: block;
+    width: 60%;
+    float: left;
+    padding-left: 5px;
+}
+#categories ul li .child.droppable-hover{
+    background-color: #D5D5D5;
+}
+
+#categories ul li .child .anulujLink{
+    float: left;
+    margin-top: 15px;
+    color: #F39F26;
+}
+#categories ul li .child div.submit{
+    text-align: center;
+}
+#categories ul li .child img{
+    margin: 0;
+/*    padding: 0 10px 0 6px;*/
+    display: inline;
+}
+#categories ul li div.sort{
+    height: 3px;
+    overflow: hidden;
+}
+#categories ul li div.sort.droppable-hover{
+    background-color: #F18E00;
+}
+#tree #category li .child.droppable-hover{
+    background-color: #F18E00;
+    color: #fff;
+}
+#categories #category {
+    border: 1px solid #000000;
+    margin-top: 1em;
+    padding: 1em;
+    width: 97%;
+}
+#categories #ui-draggable{
+    background-color: #F0F0F0;
+    border: 1px solid #E0E0E0;
+    margin-left: 20px;
+    padding-left: 5px;
+    width: 1000px;
+    color: #979797;
+}
+#categories #ui-draggable span, #ui-draggable span{
+    position: relative;
+    padding: 3px;
+    cursor: pointer;
+    display: block;
+    width: 900px;
+    z-index: 10;
+}
+
+#categories .toggle{
+    border: 1px solid #F18E00;
+    color: #F18E00;
+    display: block;
+    float: left;
+    font-size: 19px;
+    height: 15px;
+    line-height: 11px;
+    margin-left: -30px;
+    margin-top: -25px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 15px;
+    z-index: 10;
+}
+#categories .action{
+    float: right;
+    white-space: normal;
+    padding-right: 5px;
+}
+#categories .action a{
+    margin: 0 4px;
+    text-decoration: none;
+}
+
+/***admin**/
+#leftMenu #tree .child{
+    position: relative;
+}
+#leftMenu #tree .child .action{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    background: #F5F5F5;
+    border: 1px solid #D5D5D5;
+}
+#leftMenu #tree .child .action:hover{
+}
+
+#leftMenu #tree ul{
+    padding: 0 0 0 10px;
+}
+#leftMenu #tree ul li{
+    border: 0px none;
+    list-style-type: none;
+    margin-left: 0px;
+    
+}
+#tree #category{
+    border: none 0 !important;
+}
+#tree #category li .child{
+    background-color: #F5F5F5;
+    border: 1px solid #D5D5D5;
+}
+#tree #categories li .TreeSubmit{
+    display: block;
+    height: 25px;
+    width: auto;
+}
+#tree .button{
+    -webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+    background:#f39f26;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f39f26), to(#ce7a01));
+	background-image: -moz-linear-gradient(top, #f39f26, #ce7a01);
+    border: 1px solid #AAAC62;
+    color: #FFFFFF;
+    font-weight: normal;
+    min-width: 0;
+    padding: 4px 8px;
+    text-decoration: none;
+    float: left;
+}
+#tree #treeElementAdd .radio input{
+    margin: auto 5px;
+    vertical-align: middle;
+}
+#tree #treeElementAdd .radio label{
+   display: inline;
+   margin-right: 15px;
+}

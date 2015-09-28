@@ -1,0 +1,2 @@
+Router::connect('/grayscale/*', array('controller' => 'images', 'action' => 'singleFile', 'plugin'=>'Image'));
+Configure::write('Layout.mourning', false);

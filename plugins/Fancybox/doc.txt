@@ -1,0 +1,4 @@
+/controller
+$this->helpers[] = 'Fancybox.Fancybox';
+//view
+$this->Fancybox->init('jQuery(".gallery a")');

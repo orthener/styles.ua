@@ -1,0 +1,1 @@
+<?php echo json_encode(array('content' => $this->data['Note']['content'])); ?>

@@ -1,0 +1,18 @@
+baza 
+
+CREATE TABLE IF NOT EXISTS `sliders` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) DEFAULT NULL,
+  `tiny_name` varchar(255) DEFAULT NULL,
+  `text_color` varchar(15) NOT NULL DEFAULT '000000',
+  `button_text` varchar(255) DEFAULT NULL,
+  `button_link` varchar(255) DEFAULT NULL,
+  `img` varchar(255) NOT NULL,
+  `active` tinyint(1) NOT NULL DEFAULT '1',
+  `created` datetime NOT NULL,
+  `modified` datetime NOT NULL,
+  `order` int(10) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 ;
+
+ALTER TABLE `sliders` ADD `content` TEXT NULL AFTER `tiny_name` 

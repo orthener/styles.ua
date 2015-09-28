@@ -1,0 +1,30 @@
+copyright: Fabryka e-biznesu
+author: Sławomir Jach
+versja: 0.2
+
+Wymagane:
+Załadowanie pluginu Setting wraz z bootstrap
+
+Settings
+Wersja 0.2
+
+Wymagania:
+CakePHP 2.1+
+
+Changelog:
+
+0.2
+- komunikatów walidacyjncyh
+- zmiana koncepcji konfiguracji na eventy
+
+Migracja z poprzedniej wersji 0.1 ALPHA
+
+ALTER TABLE `settings` DROP `weight`;
+
+ALTER TABLE  `settings` CHANGE  `title`  `title` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL ,
+CHANGE  `description`  `description` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL ,
+CHANGE  `params`  `params` TEXT CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL;
+
+ALTER TABLE  `settings` ADD  `parent_id` INT UNSIGNED NULL AFTER  `params` ,
+ADD  `lft` INT UNSIGNED NULL AFTER  `parent_id` ,
+ADD  `rght` INT UNSIGNED NULL AFTER  `lft`;
