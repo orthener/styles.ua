@@ -1303,8 +1303,10 @@ class OrdersController extends CommerceAppController {
     }
 
     function admin_send_order_email($orderId = null) {
-        if (!$orderId)
+        if (!$orderId) {
             $orderId = $this->request->data['Order']['id'];
+        }
+        
         $this->Order->recursive = 1;
         $order = $this->Order->read(null, $orderId);
 
@@ -1318,7 +1320,7 @@ class OrdersController extends CommerceAppController {
 
         if (!empty($this->request->data)) {
             //wysĹ‚anie mejla do wĹ‚aĹ›ciciela problemu            
-//            $this->FebEmail->layout = 'commerce';
+            //$this->FebEmail->layout = 'commerce';
             $this->Email->to = $order['Customer']['email'];
             $this->Email->from = Configure::read('App.WebSenderName') . ' <' . Configure::read('App.WebSenderEmail') . '>';
             $this->Email->senderName = Configure::read('Commerce.Sender.Name');
@@ -1327,8 +1329,9 @@ class OrdersController extends CommerceAppController {
             $this->Email->sendAs = 'html';
             $this->Email->model = 'Order';
             $this->Email->row_id = $orderId;
-            $this->set('entry', $this->request->data['Order']['content']);
-            if ($this->Email->send()) {
+            $this->set('content', $this->request->data['Order']['content']);
+            Configure::write('debug', 0);
+            if ($this->Email->send('')) {
                 $this->Session->setFlash(__('Wysłano powiadomienie.', true));
                 $this->redirect(array('action' => 'edit', $orderId));
             } else {

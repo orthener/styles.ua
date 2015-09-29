@@ -87,22 +87,23 @@ echo $this->Html->meta('description', $description, array('inline' => false));
                     
                     <?php // echo $this->Html->link($img, array('plugin' => 'brand', 'controller' => 'brands', 'action' => 'view', $product['Brand']['slug']));  ?>
                                         </div>-->
-                    <div class="less"><span class="lesstxt"><?php echo $this->Text->truncate($product['Product']['content'], 300); ?>&nbsp;&nbsp;<a class="full-description"><?php echo __d('front', 'Pełny opis'); ?> <i class="icon-caret-down"></i></a></span></div>
+                    <div class="less">
+                        <span class="lesstxt">
+                            <?php echo $this->Text->truncate($product['Product']['metadesc'], 300); ?>
+                            &nbsp;&nbsp;<a class="full-description"><?php echo __d('front', 'Pełny opis'); ?> <i class="icon-caret-down"></i></a>
+                        </span>
+                    </div>
                     <div class="more dn"><?php echo $product['Product']['content']; ?>&nbsp;&nbsp;<a class="full-description-off"><?php echo __d('front', 'Zwiń opis'); ?> <i class="icon-caret-up"></i></a></div>
                 </div>
                 <script type="text/javascript">
                     //<![CDATA[
                     jQuery('.less .full-description').click(function() {
-                        var h = jQuery(this).parent().height();
-                        jQuery('span.lesstxt').css('display', 'none');
-//                        jQuery(this).parent().parent().css('height', h);
+                        jQuery(this).css('display', 'none');
                         jQuery('div.more.dn').css('display', 'block');
-                        h = h + 10;
-//                        jQuery('div.more.dn').css('margin-top', '-' + h + 'px');
                     });
                     jQuery('.more .full-description-off').click(function() {
                         jQuery('div.more.dn').css('display', 'none');
-                        jQuery('span.lesstxt').css('display', 'block');
+                        jQuery('.less .full-description').css('display', 'block');
                     });
                     //]]>
                 </script>

@@ -639,7 +639,8 @@ class Product extends AppModel implements OrderItemProductModel {
     public function filterParams($data) {
         $params = array();
         if (!empty($data['Product']['title'])) {
-            $words = explode(' ', $data['Product']['title']);
+            $data['Product']['title'] = str_replace('/', '', $data['Product']['title']);
+            $words = array_filter(explode(' ', $data['Product']['title']));
             $params = $this->search($words);
         }
         if (!empty($data['Product']['code'])) {
