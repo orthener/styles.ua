@@ -8,9 +8,6 @@
             $('#more-products a').hide(); 
             return false;
         }
-        if(typeof page_name == 'undefined') {
-            prod_filter = 'null';
-        }
         <?php 
             if (empty($brand_id)) {
                 $url = $this->Html->url(array('controller' => 'products', 'plugin' => 'static_product', 'action' => 'front_filter'));

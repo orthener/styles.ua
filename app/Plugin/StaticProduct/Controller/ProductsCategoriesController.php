@@ -125,14 +125,14 @@ class ProductsCategoriesController extends AppController {
         $slug = $this->ProductsCategory->isSlug($slug);
 
         $sorts = $this->params['named'];
-//        debug($sorts);
+
         if (!$slug) {
             throw new NotFoundException(__('Strona nie istnieje.'));
         }
         if (!empty($slug['error'])) {
             $this->redirect(array($slug['slug']), $slug['error']);
         }
-//        $this->ProductsCategory->id = $slug['id'];
+
         $id = $slug['id'];
         $category_id = $id;
         $this->loadModel('StaticProduct.Product');
@@ -155,9 +155,9 @@ class ProductsCategoriesController extends AppController {
         $params['group'] = "Product.id";
         $params['conditions']['ProductsProductCategory.product_category_id'] = $id;
         if (!empty($sorts)) {
-            $params['order'] = 'Product.'.$sorts['sort'].' '.$sorts['direction'];
+            $params['order'] = 'Product.'.$sorts['sort'].' DESC';
         } else {
-            $params['order'] = 'Product.title ASC';
+            $params['order'] = 'Product.price ASC';
         }
 
         if (!$this->ProductsCategory->exists()) {
