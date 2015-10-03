@@ -8,7 +8,12 @@
         echo $this->Form->input('alias');
         ?>
     </fieldset>
-    <?php echo $this->Form->input('PermissionGroup.PermissionGroup', array('label' => false, 'multiple' => 'checkbox', 'div' => array('class' => 'input select multiple'))); ?>
+    <?php echo $this->Form->input('PermissionGroup.PermissionGroup', 
+        array(
+            'label' => false,
+            'multiple' => 'checkbox',
+            'div' => array('class' => 'input select multiple'))
+        ); ?>
     <?php echo $this->Form->end(__d('cms', 'Zapisz')); ?>
 </div>
 

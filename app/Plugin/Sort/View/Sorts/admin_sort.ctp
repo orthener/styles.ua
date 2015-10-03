@@ -8,7 +8,7 @@
             <?php //debug($data[$model->alias]); ?>
             <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
             <?php echo $data[$model->alias][$model->displayField]; ?> (<?php echo $data[$model->alias]['id']; ?>)<br/>
-            <?php echo ($data[$model->alias]['img']) ? $this->Image->thumb('/files/brand/' . $data[$model->alias]['img'], array('width' => 100, 'height' => 100, 'crop' => false)) : ''; ?>
+            <?php echo ($data[$model->alias]['img']) ? $this->Image->thumb('/files/'. strtolower($model->alias) .'/' . $data[$model->alias]['img'], array('width' => 100, 'height' => 100, 'crop' => false)) : ''; ?>
         </li>
     <?php endforeach; ?>
 </ul>
