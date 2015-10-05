@@ -87,25 +87,34 @@ echo $this->Html->meta('description', $description, array('inline' => false));
                     
                     <?php // echo $this->Html->link($img, array('plugin' => 'brand', 'controller' => 'brands', 'action' => 'view', $product['Brand']['slug']));  ?>
                                         </div>-->
-                    <div class="less">
-                        <span class="lesstxt">
-                            <?php echo $this->Text->truncate($product['Product']['metadesc'], 300); ?>
-                            &nbsp;&nbsp;<a class="full-description"><?php echo __d('front', 'Pełny opis'); ?> <i class="icon-caret-down"></i></a>
-                        </span>
+                    <div id="less">
+                        <?php echo $this->Text->truncate($product['Product']['content'], 150); ?>
                     </div>
-                    <div class="more dn"><?php echo $product['Product']['content']; ?>&nbsp;&nbsp;<a class="full-description-off"><?php echo __d('front', 'Zwiń opis'); ?> <i class="icon-caret-up"></i></a></div>
                 </div>
                 <script type="text/javascript">
-                    //<![CDATA[
-                    jQuery('.less .full-description').click(function() {
-                        jQuery(this).css('display', 'none');
-                        jQuery('div.more.dn').css('display', 'block');
+                    var elem = $('#less');
+                    // Configure/customize these variables.
+                    var ellipsestext = "...";
+                    var moretext = '&nbsp;&nbsp;<a class="full-description-off"><?php echo __d('front', 'Zwiń opis'); ?> <i class="icon-caret-up"></i></a>';
+                    var lesstext = '&nbsp;&nbsp;<a class="full-description"><?php echo __d('front', 'Pełny opis'); ?> <i class="icon-caret-down"></i></a>';
+
+                    var less_content = elem.html();
+                    var full_content = '<?php echo $product['Product']['content']; ?>';
+
+                    if(full_content.length > less_content.length) {
+                        elem.children().append(lesstext);
+                    }
+
+                    jQuery(document).ready(function($) {
+                        $('#less').on('click', '.full-description', function(e){
+                            e.preventDefault();
+                            elem.html(full_content + moretext);
+                        });
+                        $('#less').on('click', '.full-description-off', function(e){
+                            e.preventDefault();
+                            elem.html(less_content).children().append(lesstext);
+                        });
                     });
-                    jQuery('.more .full-description-off').click(function() {
-                        jQuery('div.more.dn').css('display', 'none');
-                        jQuery('.less .full-description').css('display', 'block');
-                    });
-                    //]]>
                 </script>
                 <div class="product-more-info clearfix">
                     <?php echo $product['Product']['producer']; ?><br/>
