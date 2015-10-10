@@ -84,15 +84,21 @@ class ProductsController extends AppController {
 //            $params['limit'] = $limit;
 //        }
 //        $params['order'] = 'Product.created DESC, RAND()';
-        $sorts = $this->params['named'];
-
         $params['order'] = 'Product.title ASC';
-        if (!empty($sorts['sort']) && !empty($sorts['direction'])) {
-            $params['order'] = 'Product.' . $sorts['sort'] . ' ' . $sorts['direction'];
-        } else {
-            $params['order'] = 'Product.title ASC';
+        if(isset($this->request->data['filter'])) {
+            switch ($this->request->data['filter']) {
+                case 'popular': $params['order'] = 'Product.hit_counter DESC';
+                    break;
+                case 'promoted': $params['order'] = 'Product.created DESC';
+                    break;
+                case 'sale': $params['order'] = 'Product.price ASC';
+                    break;
+            }
         }
         $this->Product->bindPromotion(true);
+        if(isset($this->request->data['brand']) && empty($brand)) {
+            $brand = $this->request->data['brand'];
+        }
         if (!empty($brand)) {
             $params['conditions'] = array('Product.brand_id' => $brand);
         }
@@ -149,18 +155,18 @@ class ProductsController extends AppController {
             } else {
                 $params['order'] = 'Product.price ASC';
             }
+        }
             
-            if (!empty($category_id)) {
-                $params['joins'][] = array(
-                    'table' => 'products_product_categories',
-                    'alias' => 'ProductProductsCategory',
-                    'type' => 'INNER',
-                    'conditions' => array(
-                        "ProductProductsCategory.product_category_id = {$category_id}",
-                        'ProductProductsCategory.product_id = Product.id',
-                    )
-                );
-            }
+        if (!empty($category_id)) {
+            $params['joins'][] = array(
+                'table' => 'products_product_categories',
+                'alias' => 'ProductProductsCategory',
+                'type' => 'INNER',
+                'conditions' => array(
+                    "ProductProductsCategory.product_category_id = {$category_id}",
+                    'ProductProductsCategory.product_id = Product.id',
+                )
+            );
         }
         if (!empty($this->params['named']['filterData'])) {
             $filterData = unserialize($this->params['named']['filterData']);

@@ -65,8 +65,13 @@ echo $this->Html->meta('description', $description, array('inline' => false));
     <div class="container">
         <div id="products" class="clearfix">
             <?php
-            echo $this->Html->requestAction(array('admin' => false, 'plugin' => 'static_product', 'controller' => 'products', 'action' => 'front', $brand['Brand']['id'], 'filterData' => serialize($filterData), 'sort' => (!empty($sorts['sort']) ? $sorts['sort'] : 'price'), 'direction' => (!empty($sorts['direction']) ? $sorts['direction'] : 'asc')));
-            ?>  
+            echo $this->Html->requestAction(array(
+                'admin' => false,
+                'plugin' => 'static_product',
+                'controller' => 'products',
+                'action' => 'front', $brand['Brand']['id']
+            ));
+            ?>
         </div>
         <script type="text/javascript">
             //<![CDATA[
@@ -77,19 +82,22 @@ echo $this->Html->meta('description', $description, array('inline' => false));
             $('#products-filter a').click(function() {
                 $('#products-filter a').removeClass('active');
                 var prod_filter = $(this).attr('id');
-                prod_filter = prod_filter.replace('filter-', '');
+                window.prod_filter = prod_filter.replace('filter-', '');
+                window.page = 2;
                 $(this).addClass('active');
                 $.ajax({
-                    url: '<?php echo $this->Html->url(array('controller' => 'products', 'plugin' => 'static_product', 'action' => 'front_filter')); ?>/' + prod_filter,
+                    url: '<?php echo $this->Html->url(array('admin' => false, 'controller' => 'products', 'plugin' => 'static_product', 'action' => 'front')); ?>',
                     dataType: 'html',
                     type: 'POST',
                     data: {
                         data: {
-                            filter: prod_filter
+                            filter: window.prod_filter,
+                            brand: <?php echo $brand['Brand']['id'] ?>
                         }
                     },
                     success: function(data) {
                         $('#products').html(data);
+                        $('#more-products a').show();
                     },
                     error: function(o1, o2, o3, o4) {
 

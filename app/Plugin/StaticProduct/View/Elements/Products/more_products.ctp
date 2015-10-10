@@ -2,14 +2,14 @@
     <?php if (empty($page)) {
         $page = 2; 
     } ?>
-    var page = <?php echo $page; ?>;
+    window.page = <?php echo $page; ?>;
     $('#more-products a').click(function() {
-        if (page>=666) {    
+        if (window.page>=666) {    
             $('#more-products a').hide(); 
             return false;
         }
-        if(typeof prod_filter == 'undefined') {
-            prod_filter = 'null';
+        if(typeof window.prod_filter == 'undefined') {
+            window.prod_filter = 'null';
         }
         <?php 
             if (empty($brand_id)) {
@@ -27,18 +27,18 @@
 //            }
         ?>
         $.ajax({
-            url: '<?php echo $url; ?>/' + prod_filter + '/<?php if (!empty($category_id)) { echo $category_id; } else { echo 0;} ?>/<?php if (!empty($text_name)) { echo $text_name; } ?>/page:'+page,
+            url: '<?php echo $url; ?>/' + window.prod_filter + '/<?php if (!empty($category_id)) { echo $category_id; } else { echo 0;} ?>/<?php if (!empty($text_name)) { echo $text_name; } ?>/page:'+page,
             dataType: 'html',
             type: 'POST',
             data: {
                 data: {
-                    filter: prod_filter
+                    filter: window.prod_filter
                 }
             },
             success: function(data) {
-                page++;
+                window.page++;
                 if (data.length < 90) {
-                    page = 666;
+                    window.page = 666;
                     $('#more-products a').hide();
                 }
                 $('#products').append(data);
