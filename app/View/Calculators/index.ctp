@@ -4,8 +4,7 @@ $this->set('title_for_layout', $page['Page']['name']);
 <?php
 $keywords = Configure::read('Meta.studio.key');
 $keywords .= empty($page['Page']['keywords']) ? " " : " " . $page['Page']['keywords'];
-$description = Configure::read('Meta.studio.desc');
-$description .= empty($page['Page']['description']) ? " " : " " . $page['Page']['description'];
+$description = empty($page['Page']['description']) ? " " : " " . $page['Page']['description'];
 $this->Html->meta('description', $description, array('inline' => false));
 $this->Html->meta('keywords', $keywords, array('inline' => false));
 ?>

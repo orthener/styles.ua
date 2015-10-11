@@ -2,8 +2,7 @@
 <?php
 $keywords = Configure::read('Meta.studio.key');
 $keywords .= empty($strona['Page']['keywords']) ? " " : " " . $strona['Page']['keywords'];
-$description = Configure::read('Meta.studio.desc');
-$description .= empty($strona['Page']['description']) ? " " : " " . $strona['Page']['description'];
+$description = empty($strona['Page']['description']) ? " " : " " . $strona['Page']['description'];
 $this->Html->meta('description', $description, array('inline' => false));
 $this->Html->meta('keywords', $keywords, array('inline' => false));
 ?>

@@ -42,10 +42,13 @@ $this->set('title_for_layout', __d('public', 'Blog'));
         </title>
         <base href="<?php echo $this->Html->url('/', true); ?>"/>
         <?php
-        echo $this->Html->meta('icon', $this->Html->url('/img/layouts/default/icon.png'));
+        echo $this->Html->meta('icon', $this->Html->url('/img/layouts/default/icon.png'))."\n";
         if ($isFront) {
-            echo $this->Html->meta('keywords', Configure::read('Meta.blog_key'));
-            echo $this->Html->meta('description', Configure::read('Meta.blog_desc'));
+            echo $this->Html->meta('keywords', Configure::read('Meta.blog_key'))."\n";
+            echo $this->Html->meta('description', Configure::read('Meta.blog_desc'))."\n";
+        }
+        if(isset($news['News']['title'])) {
+            echo '<meta name="title" content="'.$news['News']['title'].'" />';
         }
         echo $this->fetch('meta');
 
@@ -61,7 +64,7 @@ $this->set('title_for_layout', __d('public', 'Blog'));
         echo $this->Html->script('feb');
         echo $this->Html->script('jquery.blinker.min');
         echo $this->Html->script(array('jquery.selectbox-0.2.min', 'shop'));
-       echo $this->Html->script('jquery.icheck.min');
+        echo $this->Html->script('jquery.icheck.min');
         echo $this->Html->script('jquery.cycle.all');
         echo $this->Html->script('select2/select2.min.js');
         echo $this->fetch('script');
@@ -95,16 +98,24 @@ $this->set('title_for_layout', __d('public', 'Blog'));
             echo "<!-- reklama dla strony -->";
         endif;
         ?>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        <?php
+        // print article meta images for vk.com
+        if(isset($news['Photos'])) {
+            foreach ($news['Photos'] as $img) {
+                echo '<link rel="image_src" href="'.$this->Html->url('/files/photo/'.$img['img'], true).'" />'."\n";
+            }
+        }
+        ?>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-31537681-1', 'streetstyleshop.com.ua');
-  ga('send', 'pageview');
+          ga('create', 'UA-31537681-1', 'streetstyleshop.com.ua');
+          ga('send', 'pageview');
 
-</script>
+        </script>
     </head>
     <body class="<?php echo $isFront ? 'front' : ''; ?> <?php echo $siteType; ?> ">
         <a href="#" class="openRight blue"></a>
