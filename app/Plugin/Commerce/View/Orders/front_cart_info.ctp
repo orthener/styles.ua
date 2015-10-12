@@ -19,17 +19,21 @@
                 <div class="productItem row">
                     <?php $product = json_decode($orderItem['product'], true); ?>
                     <span class="foto"><?php echo!empty($products[$orderItem['product_id']][0]['Photo']['img']) ? $this->Image->thumb('/files/photo/' . $products[$orderItem['product_id']][0]['Photo']['img'], array('width' => 60, 'height' => 60, 'crop' => true)) : ''; ?></span>
-                    <span class="name"><?php echo $orderItem['name']; ?></span>
-                    <?php if (!empty($orderItem['size'])): ?>
-                    <span class="size">
-                        <?php echo __d('front', 'rozmiar'); ?>: <?php echo $orderItem['size']; /*$new_sizes[$orderItem['size']];*/ ?>
-                    </span>
-                    <?php endif; ?>
-                    <span class="quantity">x<?php echo ($orderItem['quantity']) ?> <?php __d('front', 'sztuki'); ?></span>
-                    <span class="price"><?php echo CakeNumber::currency(Currency::exchange($tmpPrice['final_price_gross'], 'PLN'), '₴'); ?></span>
-                    <span class="deleteLink">
-                        <?php echo $this->Html->link('<span>x</span>', array('plugin' => 'commerce', 'controller' => 'orders', 'action' => 'delete', $orderItem['id']), array('class' => 'deleteFile', 'escape' => false)) ?>
-                    </span>
+                    <div class="productItemData">
+                        <div class="name"><?php echo $orderItem['name']; ?></div>
+                        <div class="productItemSubData">
+                            <span class="size">
+                            <?php if (!empty($orderItem['size'])): ?>
+                                <?php echo __d('front', 'rozmiar'); ?>: <?php echo $orderItem['size']; /*$new_sizes[$orderItem['size']];*/ ?>
+                            <?php endif; ?>
+                            </span>
+                            <span class="quantity">x<?php echo ($orderItem['quantity']) ?> <?php __d('front', 'sztuki'); ?></span>
+                            <span class="price"><?php echo CakeNumber::currency(Currency::exchange($tmpPrice['final_price_gross'], 'PLN'), '₴'); ?></span>
+                            <span class="deleteLink">
+                                <?php echo $this->Html->link('<span>x</span>', array('plugin' => 'commerce', 'controller' => 'orders', 'action' => 'delete', $orderItem['id']), array('class' => 'deleteFile', 'escape' => false)) ?>
+                            </span>
+                        </div>
+                    </div>
                 </div>
             <?php } ?>
         <?php endif; ?>

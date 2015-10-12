@@ -2751,7 +2751,7 @@ body.studio #naviFooter .my-row .menu-cms ul li ul li:hover a {
 .mini-cart .productItem {
   padding: 15px 0 20px;
   position: relative;
-  height: 60px;
+  min-height: 60px;
 }
 /* line 1773, C:\xampp\htdocs\feb\sss\app\webroot\css\less\default.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/feb\/sss\/app\/webroot\/css\/less\/default\.less}line{font-family:\000031773}}
@@ -2765,31 +2765,37 @@ body.studio #naviFooter .my-row .menu-cms ul li ul li:hover a {
   position: absolute;
   left: 20px;
 }
+
+
+.mini-cart .productItemData {
+    margin-left: 100px;
+}
+.mini-cart .productItem .price {
+  font-family: "PT Sans Pro Bold";
+  display: inline-block;
+}
+
+
 /* line 1782, C:\xampp\htdocs\feb\sss\app\webroot\css\less\default.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/feb\/sss\/app\/webroot\/css\/less\/default\.less}line{font-family:\000031782}}
 .mini-cart .productItem .size {
   font-family: "PT Sans Pro Extra Bold";
-  left: 100px;
-  position: absolute;
-  top: 40px;
+  display: inline-block;
+  width: 118px;
 }
 /* line 1788, C:\xampp\htdocs\feb\sss\app\webroot\css\less\default.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/feb\/sss\/app\/webroot\/css\/less\/default\.less}line{font-family:\000031788}}
 .mini-cart .productItem .name {
   font-family: "PT Sans Pro Extra Bold";
   font-size: 14px;
-  position: absolute;
-  left: 100px;
-  top: 15px;
+  min-height: 24px;
 }
 /* line 1795, C:\xampp\htdocs\feb\sss\app\webroot\css\less\default.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/feb\/sss\/app\/webroot\/css\/less\/default\.less}line{font-family:\000031795}}
-.mini-cart .productItem .quantity,
-.mini-cart .productItem .price {
-  position: absolute;
+.mini-cart .productItem .quantity {
   font-family: "PT Sans Pro Bold";
-  top: 40px;
-  left: 220px;
+  display: inline-block;
+  width: 50px;
 }
 /* line 1802, C:\xampp\htdocs\feb\sss\app\webroot\css\less\default.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/feb\/sss\/app\/webroot\/css\/less\/default\.less}line{font-family:\000031802}}
@@ -2801,20 +2807,20 @@ body.studio #naviFooter .my-row .menu-cms ul li ul li:hover a {
 .mini-cart .productItem .quantity {
   font-family: "PT Sans Pro Extra Bold";
 }
-/* line 1808, C:\xampp\htdocs\feb\sss\app\webroot\css\less\default.less */
+/* line 1808, C:\xampp\htdocs\feb\sss\app\webroot\css\less\default.less 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/feb\/sss\/app\/webroot\/css\/less\/default\.less}line{font-family:\000031808}}
 .mini-cart .productItem .price {
   margin-left: 40px;
 }
+*/
 /* line 1811, C:\xampp\htdocs\feb\sss\app\webroot\css\less\default.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/feb\/sss\/app\/webroot\/css\/less\/default\.less}line{font-family:\000031811}}
 .mini-cart .productItem .deleteLink a {
-  position: absolute;
-  right: 20px;
+  margin-right: 20px;
   font-size: 15px;
-  top: 29px;
   font-weight: bold;
   color: #fff;
+  float: right;
 }
 /* line 1820, C:\xampp\htdocs\feb\sss\app\webroot\css\less\default.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/feb\/sss\/app\/webroot\/css\/less\/default\.less}line{font-family:\000031820}}
@@ -6965,4 +6971,20 @@ select#shipment_price {
   /*@media (min-width: 1199px){*/
   width: 100% !important;
   /*}*/
+}
+
+/* fix for ₴ */
+#OrderCartForm .summary {font-family: "PT Sans Pro Regular","Open Sans",sans-serif !important}
+#OrderCartForm .shipment {font-family: "PT Sans Pro Regular","Open Sans",sans-serif !important}
+#razem-z-wysylka {font-family: "PT Sans Pro Regular","Open Sans",sans-serif !important}
+#razem-bez-wysylki {font-family: "PT Sans Pro Regular","Open Sans",sans-serif !important}
+#shipmentCost {font-family: "PT Sans Pro Regular","Open Sans",sans-serif !important}
+/* fix for front_cart_info */
+@media (max-width: 1200px) {
+    .mini-cart .productItem .size {width: 75%}
+    .mini-cart .productItem .quantity {width: 20%}
+    .mini-cart .productItem .deleteLink a {margin-right: 19%}
+}
+@media (max-width: 980px) {
+    .mini-cart .productItem .deleteLink a {margin-right: 17%}
 }
