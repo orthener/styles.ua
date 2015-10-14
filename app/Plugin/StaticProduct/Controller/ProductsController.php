@@ -26,7 +26,7 @@ class ProductsController extends AppController {
      */
     function beforeFilter() {
         parent::beforeFilter();
-        $this->Auth->allow(array('front', 'next_products', 'index', 'view', 'rating', 'search', 'front_filter'));
+        $this->Auth->allow(array('front', 'next_products', 'index', 'view', 'rating', 'search', 'front_filter', 'look_more'));
         
         /* fix for products filter in admin panel */
         /*
@@ -189,6 +189,43 @@ class ProductsController extends AppController {
         $this->render('front');
     }
     
+    public function look_more($product_id = null, $page = 1) {
+        $this->layout = false;
+        $this->Product->locale = Configure::read('Config.languages');
+        $this->Product->bindTranslation(array('title' => 'translateDisplay'));
+        $this->Product->recursive = 1;
+
+        $categories_id = $this->Product->ProductsProductCategory->find('list', array(
+            'fields' => array('ProductsProductCategory.product_category_id'),
+            'conditions' => array('ProductsProductCategory.product_id' => $product_id)
+        ));
+        if (!empty($categories_id)) {
+            $params['joins'] = array(
+                array(
+                    'table' => 'products_product_categories',
+                    'alias' => 'ProductsProductCategory',
+                    'type' => 'LEFT',
+                    'conditions' => array(
+                        'ProductsProductCategory.product_id = Product.id',
+                    )
+                )
+            );
+            $params['group'] = "Product.id";
+            $params['conditions']['ProductsProductCategory.product_category_id'] = $categories_id;
+            $params['conditions']['Product.id <>'] = $product_id;
+        }
+        $params['limit'] = 6;
+        $params['order'] = 'Product.promoted DESC';
+        $params['page']  = $page;
+        
+        $this->paginate = $params;
+        $products = $this->paginate();
+        
+        $this->set(compact('products'));
+        $this->render('front');
+    }
+
+
     public function view($slug = null) {
         $this->helpers[] = 'Fancybox.Fancybox';
         $slug = $this->Product->isSlug($slug);
@@ -225,32 +262,20 @@ class ProductsController extends AppController {
         $this->Product->contain(array('Photo', 'Photos', 'ProductsCategory', 'ProductsPromotion', 'Brand'));
         $product = $this->Product->read(null, $id);
         $accessories = $this->Product->getAccesories($product['Product']['id']);
-        $simiarProducts = $this->Product->getSimilarProduct($product['Product']['id']);
         //Uznaję, że pierwszy z brzegu to poprawny
         $activeProductsCategory = @$product['ProductsCategory'][0]['id'];
 
-        foreach($simiarProducts as $simProduct) {
-            if (!empty($simProduct['ProductsCategory'][0])) {
-                $category_id = $this->Product->ProductsCategory->find('first', array(
-                    'conditions' => array('ProductsCategory.id' => $simProduct['ProductsCategory'][0]['id']),
-                    'order' => array('RAND()')
-                ));
-                break;
-            }
-        }
-        if (!empty($category_id)) {
-            $this->set('category_id', $category_id['ProductsCategory']['slug']);
-            $this->set('category_id_int', $category_id['ProductsCategory']['id']);
+        //if product belonge at list one category - shwow "look more products"
+        if(count(@$product['ProductsCategory']) > 0) {
+            $this->set('showMore', true);
         } else {
-            $this->set('category_id', false);
-            $this->set('category_id_int', false);
+            $this->set('showMore', false);
         }
         
         $productCategories = $this->Product->ProductsCategory->find('first', array('conditions' => array('ProductsCategory.id' => $activeProductsCategory)));
-        $this->set(compact('product', 'simiarProducts', 'accessories', 'activeProductsCategory', 'productCategories'));
+        $this->set(compact('product', 'accessories', 'activeProductsCategory', 'productCategories'));
         $LastViewedProductsIds = $this->Cookie->read('LastViewedProductsIds');
 
-//        if (!is_array($LastViewedProductsIds)) {
         if (empty($LastViewedProductsIds)) {
             $LastViewedProductsIds = array();
         }

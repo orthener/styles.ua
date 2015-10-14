@@ -231,7 +231,7 @@ echo $this->Html->meta('description', $description, array('inline' => false));
             </div>
         </div>
     </div>  
-    <?php if (!empty($simiarProducts)): ?>
+    <?php if ($showMore): ?>
         <div id="products" class="productPageFooter">
             <div class="see-more row-fluid">
                 <div class="span4 my-span4 bt-no-margin">
@@ -241,11 +241,6 @@ echo $this->Html->meta('description', $description, array('inline' => false));
                 </div>
             </div>
             <!--<div class="clearfix row-fluid">-->
-            <?php
-            foreach ($simiarProducts as $product) {
-                echo $this->element('StaticProduct.Products/product', compact('product'));
-            }
-            ?>
             <!--</div>-->
         </div>
         <script type="text/javascript">
@@ -259,9 +254,8 @@ echo $this->Html->meta('description', $description, array('inline' => false));
 
 </div>
 <div id="more-products">
-    <?php if ($category_id) : ?>
+    <?php if ($showMore) : ?>
         <?php echo $this->Html->link('<span>' . __d('front', 'Kolejne produkty') . '</span> <i class="icon-caret-down"></i>', '#more', array('escape' => false)); ?>
-        <?php // echo $this->Html->link('<span>Kolejne produkty</span> <i class="icon-caret-down"></i>', array('controller' => 'products_categories', 'action' => 'view', $category_id), array('escape' => false)); ?>
     <?php endif; ?>
 </div>
 <div class="container">
@@ -277,4 +271,4 @@ echo $this->Html->meta('description', $description, array('inline' => false));
 <?php
 $this->Fancybox->init('jQuery(".gallery a")');
 ?>
-<?php echo $this->element('StaticProduct.Products/more_products', array('category_id' => $category_id_int, 'page' => 2)); ?>
+<?php echo $this->element('StaticProduct.Products/look_more'); ?>

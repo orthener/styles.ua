@@ -275,40 +275,6 @@ class Product extends AppModel implements OrderItemProductModel {
         return $this->find('all', $params);
     }
 
-    public function getSimilarProduct($productId = null, $fields = array()) {
-//        $params['joins'][] = array(
-//            'table' => 'products_similar_products',
-//            'alias' => 'ProductsSimilarProduct',
-//            'type' => 'INNER',
-//            'conditions' => array(
-//                "ProductsSimilarProduct.product_id = {$productId}",
-//                "ProductsSimilarProduct.similar_product_id = Product.id"
-//            )
-//        );                      
-        $categories_id = $this->ProductsProductCategory->find('list', array(
-            'fields' => array('ProductsProductCategory.product_category_id'),
-            'conditions' => array('ProductsProductCategory.product_id' => $productId)
-        ));
-        if (!empty($categories_id)) {
-            $params['joins'] = array(
-                array(
-                    'table' => 'products_product_categories',
-                    'alias' => 'ProductsProductCategory',
-                    'type' => 'LEFT',
-                    'conditions' => array(
-                        'ProductsProductCategory.product_id = Product.id',
-                    )
-                )
-            );
-            $params['group'] = "Product.id";
-            $params['ProductsProductCategory.product_category_id'] = $categories_id;
-            $params['conditions']['Product.id <>'] = $productId;
-        }
-        $params['limit'] = 6;
-        $params['order'] = 'Product.promoted DESC,RAND()';
-        return $this->find('all', $params);
-    }
-
     public function getPopularProducts($days = 60, $limit = 6, $status = null) {
         $orderItem = ClassRegistry::init('Commerce.OrderItem');
         $order = ClassRegistry::init('Commerce.Order');
