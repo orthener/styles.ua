@@ -15,10 +15,13 @@ class FilteringComponent extends Component {
             if (!empty($this->controller->params['pass'])) {
                 $params = array_merge($this->controller->params['pass'], $params);
             }
-            
             $redirectUrl = Router::url($params);
             $thisUrl =  (Router::url('/').$this->controller->request->url);
             if($redirectUrl != $thisUrl){
+                // fix for admin/static_product/products/index/ when tytul: eith slash
+                if(isset($params['tytul']) && strpos($params['tytul'], '/') !== false) {
+                    $params['tytul'] = str_replace('/', '', $params['tytul']);
+                }
                 $this->controller->redirect($params);
             }
         } else {

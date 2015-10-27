@@ -27,19 +27,6 @@ class ProductsController extends AppController {
     function beforeFilter() {
         parent::beforeFilter();
         $this->Auth->allow(array('front', 'next_products', 'index', 'view', 'rating', 'search', 'front_filter', 'look_more'));
-        
-        /* fix for products filter in admin panel */
-        /*
-        if(isset($this->request->data['Product']['title']) && strpos($this->request->data['Product']['title'], '/')) {
-            $this->autoRender = false;
-            $request = new CakeRequest(Router::url(array('plugin' => 'static_product', 'controller' => 'products', 'action' => 'view')));
-            $d = new Dispatcher();
-            $d->dispatch(
-                $request
-            );
-        }
-         * 
-         */
     }
 
     /**

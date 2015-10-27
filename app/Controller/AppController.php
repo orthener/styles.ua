@@ -87,7 +87,6 @@ class AppController extends Controller {
         $this->Auth->loginAction = array('plugin' => 'user', 'admin' => false, 'controller' => 'users', 'action' => 'login');
         $this->Auth->loginError = __("Nieprawidłowy email lub hasło");
 
-
         if (Configure::read('Shop.disable') && Configure::read('Shop.disable_url')) { 
             if (!empty($this->request->params['plugin']) && in_array($this->request->params['plugin'], array('user', 'commerce'))) {
                 $this->request->params['type'] = 'blog';
@@ -159,6 +158,7 @@ class AppController extends Controller {
         else {
             $this->set('logged_in', false);
         }
+        
     }
 
     /**
